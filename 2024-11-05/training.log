@@ -7,11 +7,11 @@ Topics Covered :
     pymongo: A Python driver for MongoDB, allowing interaction with MongoDB databases through Python.
     scrapy: A web scraping framework used to extract data from websites using spiders, and features request/response handling, selectors, and more.
             Request: Used to send HTTP requests to web servers.
-        FormRequest: A special request used to simulate submitting forms on websites.
-        Response: Represents the server's response to an HTTP request.
-        Shell, inspect_response: Tools for inspecting and interacting with responses in the Scrapy shell.
-        Selector: Used to extract data from HTML/XML responses using XPath or CSS selectors.
-            selenium: A library for automating web browsers, often used for web scraping, testing, and automating web interactions.
+            FormRequest: A special request used to simulate submitting forms on websites.
+            Response: Represents the server's response to an HTTP request.
+            Shell, inspect_response: Tools for inspecting and interacting with responses in the Scrapy shell.
+            Selector: Used to extract data from HTML/XML responses using XPath or CSS selectors.
+    selenium: A library for automating web browsers, often used for web scraping, testing, and automating web interactions.
     playwright: A Python library to automate web browsers for web scraping, testing, and more, similar to Selenium but with enhanced capabilities.
     pika: A Python library for interacting with RabbitMQ, a messaging broker for building real-time communication systems.
     logging: A module for generating log messages in your Python applications, useful for debugging and tracking application behavior.
