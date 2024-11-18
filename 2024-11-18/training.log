@@ -1,0 +1,108 @@
+Regex for QA Tasks
+
+
+  Regular Expressions (Regex) are incredibly useful for Quality Assurance (QA), especially 
+  in tasks that involve validating, searching, or extracting specific patterns from text data.
+  Regex is used to ensure data consistency, identify anomalies, and validate formats.
+  The re module in Python provides support for working with regular expressions.
+  
+
+  Characters used for matching:
+
+   a) ^ and $:
+
+        ^ ensures that the string starts with the pattern.
+        $ ensures the string ends with the pattern.
+     Together, these guarantee the entire string matches the pattern.
+
+   b) [abc] :  a,b or c .
+
+   c) [^abc] : any character except a,b,c .
+
+   d) [a-z] : a to z. 
+   
+   e) [A-Z] : A to Z.
+
+   f) [a-z A-Z] : a to z,A to Z .
+
+   g) [0-9] : 0 to 9 .
+
+   h) [ ]? : occurs 0 or 1 time
+   
+   i) [  ]+ : occurs 1 or more times.
+
+   j) [  ]* : occurs 0 or more times.
+
+   k) [  ]{n} : occurs n times.
+
+   l) [  ]{n,} : occurs n or more times.
+
+   m) \ d  : [0-9]
+   n) \ D  :[^0-9]
+   o) \w   :[a-zA-Z_0-9]
+   p)\W    :[^\w]
+
+        
+
+Key Functions in the re Module
+
+   1. re.match()  : Matches the pattern at the beginning of the string.
+
+   2. re.search() : Searches the entire string for the first match of the pattern.
+
+   3.re.findall() : Returns a list of all non-overlapping matches in the string.
+
+   4. re.sub()    : Substitutes occurrences of the pattern with a replacement string.
+
+   5.re.split()   : Splits the string by occurrences of the pattern.
+
+   6.re.fullmatch() : Ensures the entire string matches the pattern.
+
+
+  
+  
+Some common regex patterns and their QA use cases:
+
+  1. Email Validation
+         Used for Verify that the email addresses is valid or not
+
+  2. Phone Number Validation
+        Check that the phone numbers are valid by using patterns.
+
+  3. URL Validation
+
+       Validate if a string is a correctly formatted URL.
+  4. Date Validation
+       
+       Verify dates in MM/DD/YYYY format or in any other formats.
+  5. Detect Missing/Empty Values
+
+      Identify empty or null fields in datasets.
+  6. Validate Numbers
+
+     Ensure numeric fields contain valid numbers with valid datatype.
+
+  7. Check for Duplicates
+
+     Identify duplicate lines or entries in a text or in the file.
+
+  8. Remove/Identify Special Characters
+
+     Clean data by removing unwanted special characters.
+  9. Validate Alphanumeric Codes
+
+     Ensure product codes or IDs follow the required format.
+  10.Validate Currency Formats
+
+      Ensure monetary values are properly formatted.
+
+
+
+
+     
+
+
+
+
+
+    
