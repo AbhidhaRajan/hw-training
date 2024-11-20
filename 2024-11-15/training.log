@@ -1,0 +1,81 @@
+Quality Assurance (QA)
+
+   What is QA?
+    
+  1.QA ensures that a product or service meets certain quality standards before it reaches the customer.
+  2.It focuses on preventing problems by planning and testing during development.
+  3.QA involves checking processes, writing test cases, and conducting reviews to ensure things 
+    are done the right way.
+  4.It's like double-checking your work to make sure it’s correct and meets expectations.
+  5.In software, QA tests whether the app or program works without errors and meets user needs.
+  6. Proactive Approach: QA works to identify and fix issues before they happen.
+  7. Focus on Processes: QA checks the methods and workflows used to create the product.
+  8.Continuous Improvement: QA encourages feedback and updates to improve quality over time.
+
+   What are the steps involved
+
+  1. Understanding Data Requirements ( Define what data needs to be extracted and why.)
+      
+      Identify the source(s) of data (e.g., databases, APIs, web pages).
+      Determine the format and structure of the extracted data (e.g., CSV, JSON).
+      Define data quality standards (e.g., completeness, accuracy, relevance).
+
+  2. Planning the Extraction Process  ( Outline the steps for data extraction and QA checks.)
+
+     Choose tools and techniques for extraction (e.g., web scraping, ETL tools).
+     Develop scripts or workflows for automation.
+     Identify potential risks (e.g., broken data sources, incomplete records). 
+
+  3. Data Extraction (Collect data from the source.)  
+
+     Extract data using the planned tools or methods.
+     Save data in a temporary storage location for validation.
+     Handle errors (e.g., failed connections, missing fields) with logs for debugging. 
+
+  4. Data Validation (Verify that the extracted data meets quality standards.)
+
+     Completeness: Ensure no critical data is missing.
+     Accuracy: Verify data matches the source.
+     Consistency: Ensure data adheres to expected formats (e.g., date, numeric values).
+     Duplication: Identify and remove duplicate entries.
+
+  5. Error Logging and Debugging ( Identify and fix issues during the extraction process.)
+
+     Maintain detailed logs of errors and warnings.
+     Revisit the extraction logic for debugging.
+     Communicate with stakeholders if source data is faulty.
+
+  6. Transformations and Standardization (Prepare data for analysis by cleaning and standardizing it.)
+
+    Correct formatting issues (e.g., date formats, currency symbols).
+    Handle missing data (e.g., imputation, removal).
+    Convert data to a uniform structure for consistency.
+
+  7. Testing the Extracted Data (Perform detailed tests to ensure reliability.)
+
+    Sample Testing: Manually compare samples of extracted data with the source.
+    Automation Testing: Write scripts to compare large datasets with the source.
+    Boundary Testing: Test edge cases like unusual formats or rare values.
+
+  8.Documentation  (Record the data extraction and QA process for transparency and future use.)
+
+    Document test results and any issues identified.
+    Maintain a data dictionary explaining fields and formats
+
+  9. Final Review and Approval (Ensure data meets all requirements before use.)
+
+    Conduct a final quality review.
+    Approve the data for use in analysis or reporting.
+
+  10. Post-Extraction Monitoring (Continuously monitor extracted data for ongoing quality.)
+
+    Set up automated checks for new data batches.
+    Monitor changes in data sources that could affect extraction.
+
+
+By implementing these steps, QA in data extraction ensures high-quality data, 
+which is critical for reliable analysis, decision-making, and downstream processes.
+    
+
+
+                                                                                                                                                                                                     
