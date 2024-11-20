@@ -1,0 +1,61 @@
+QA Task: Finding qa tools
+
+ Got one csv file for analysis and performing qa tools.
+ First load the data in jupyter notebook and analyse column wise.
+   The dataset contains 44,060 entries with 19 columns.
+    
+    Columns Overview:
+      URL, Categories, Product Name, Price, Poster Year, Details, Picture:  Fully populated.
+      Brand, Seller Type, Regional Spec, Year, Trim, Km:  Partially populated.
+      Property Age, Usage, Length:  Mostly empty.
+      Type, Validated Information, Tier/Segment:  Completely empty.
+
+
+
+Tool
+
+1.OpenRefine
+
+OpenRefine is a powerful, open-source data cleaning and transformation tool that helps users 
+work with messy data. It’s especially useful for cleaning large datasets,
+transforming data formats, and exploring data relationships.
+
+Key Features of OpenRefine are:
+
+Data Cleaning: Automatically identifies inconsistencies, missing values, and errors in your dataset.
+
+Data Transformation: Allows for complex transformations, like converting data types, merging columns, 
+                    or splitting them.
+Faceted Browsing: Easily filter and explore your data by applying facets (views based on the values 
+                  of particular columns).
+Clustering Algorithms: Can group similar data together based on algorithms like key collision or 
+                       nearest neighbor.
+Undo/Redo History: Keeps a history of every action, making it easy to reverse or redo steps.
+
+Handling Large Datasets: Efficiently handles datasets that might be too large to work with in Excel.
+
+Data Import/Export: Supports a variety of file formats (CSV, TSV, Excel, JSON, XML) and integrates 
+                    with APIs.
+
+2.pytest
+
+  Pytest is a popular testing framework for Python that makes it easy to write simple as well as
+   scalable test cases for your code.
+   It is widely used in Python development for unit testing, integration testing, and functional testing.
+
+   Key Features of Pytest:
+    
+Easy to Use: Write simple tests using plain assert statements.
+
+Automatic Test Discovery: Automatically finds tests in your code by searching for functions 
+                         starting with test_ and classes starting with Test.
+Fixtures: Allows setup and teardown of test environments or data before running tests.
+
+Parameterization: Run the same test with multiple sets of data inputs.
+
+Assertions: Advanced assertion introspection gives detailed reports on why tests fail.
+
+Plugins: Supports a wide range of plugins, making it extendable (e.g., for code coverage, 
+          parallel test execution).
+Integration with CI/CD: Can be integrated into CI/CD pipelines for automated testing.
+
