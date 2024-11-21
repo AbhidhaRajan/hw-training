@@ -1,0 +1,33 @@
+Topic :Finding  QA tools
+
+1. Pandas profiling
+
+       Pandas is a very vast library that offers many functions with the help of which we can understand 
+  our data. Pandas profiling provides a solution to this by generating comprehensive reports for 
+  datasets that have numerous features.These reports can be customized according to specific 
+  requirements.
+
+       Pandas Profiling is a powerful library in Python that automates the process of performing 
+   exploratory data analysis (EDA) on a pandas DataFrame. It generates an interactive,
+   comprehensive, and detailed report on the dataset, which helps you quickly understand 
+   its structure, patterns, and potential issues.
+
+
+   Key Features of Pandas Profiling:
+
+
+   Summary Statistics: It generates a wide range of summary statistics like mean, median, standard deviation,
+                       min/max values, and more for each column in your dataset.
+
+   Data Distribution: Provides histograms, bar charts, and other visualizations to show the distribution 
+                    of numerical and categorical data.
+
+   Missing Values Analysis: Identifies columns with missing or incomplete data, allowing you to easily 
+                           spot and handle such issues.
+   Outlier Detection: Highlights potential outliers using statistical methods, enabling you to decide how 
+                     to handle them.
+
+
+
+Sublime text Code editor Installed:
+
