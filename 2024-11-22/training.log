@@ -1,0 +1,45 @@
+Topic: Finding QA tools
+
+1. Dataprep:
+
+    a)  A broader library that focuses on simplifying data cleaning, data profiling, and EDA.
+    b)  Includes features for automatically generating cleaning reports and performing quick 
+        data validation.
+    c) Offers an easy-to-use interface to perform basic data cleaning tasks like removing missing values, 
+        fixing column names, and handling outliers.
+
+    d) Ideal if you're looking for quick insights, data cleaning, and basic profiling.
+    e) Best for preparing the data for further analysis or model-building.
+    f) Great for automating common data preparation tasks before diving into more complex analyses. 
+
+
+2. Sweetviz  
+      Sweetviz is a Python library designed to perform exploratory data analysis (EDA) in an easy and 
+      visually appealing way. It generates interactive, high-quality visualizations and reports that help 
+      you quickly understand your dataset. The key feature of Sweetviz is its ability to produce visually
+       attractive HTML reports for a quick overview of your data, including feature distributions, 
+       target analysis, and comparisons.
+
+
+3. DataProfiler
+
+     DataProfiler is a Python library designed to perform automated data profiling and data cleaning 
+     tasks. It provides tools for exploring and understanding datasets by generating detailed profiles 
+     that summarize the data’s properties. It also offers capabilities for detecting and 
+     handling issues such as missing values, duplicates, and anomalies.
+
+-------------------------------------------------------------------------------------------------------
+
+Sublime text
+
+    Sublime Text is a popular, lightweight, and fast text editor primarily used for coding and programming.
+
+
+Key Features of Sublime Text:
+
+    Cross-Platform: Available on Windows, macOS, and Linux.
+    Syntax Highlighting: Supports syntax highlighting for a wide range of programming languages (Python, JavaScript, HTML, CSS, and more).
+    Extensibility: Can be extended with packages and plugins available through Package Control.
+
+
+    
