@@ -1,0 +1,19 @@
+QA Task: Learn Mongodb compass
+
+Download and install MongoDB And Mongodb compass
+convert it into .deb file and installed
+
+MongoDB Compass is a free, open-source graphical user interface (GUI) that allows users to query, analyze, and aggregate MongoDB data: 
+Features: Includes schema analysis, index optimization, aggregation pipelines, a built-in query bar, query operators, natural language queries,
+ a visual explain plan, and an embedded MongoDB Shell
+
+ Used for: 
+     
+     Data Exploration: Browse and visualize collections, documents, and fields.
+    Query Building: Create and run queries using a visual interface.
+    Aggregation Pipelines: Build, test, and execute aggregation pipelines.
+    Schema Analysis: Analyze the schema to understand the data structure.
+    Index Management: View and manage database indexes.
+    CRUD Operations: Easily create, read, update, and delete documents.
+    Performance Metrics: Monitor server performance and database health.
+
