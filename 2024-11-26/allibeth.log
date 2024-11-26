@@ -1,0 +1,17 @@
+Load the json file in sublime text.
+
+Issues find in the primary analysis 
+
+  Make it into proper json format by using pretty json.
+
+  Missing values (find by using find option and regular expression(":\s*"")
+    1)In Email field.
+    2) In middle name
+    3)in office name
+    4) In website
+    5)In social urls
+
+  Load it in sublime text for pandas profiling and got html report.
+  report titled as allie_data_report.html.
+
+  
