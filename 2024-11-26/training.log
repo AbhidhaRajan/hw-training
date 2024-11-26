@@ -1,0 +1,13 @@
+QA Task : Finding issues in json files
+
+  1.Extracted two json files from the given zip file.
+     allibeth_2024_10_05.json and century21_us_2024_10_05.json
+
+  2. Open the files in sublime text and check manually.
+     
+  3. Took profile report using y data profiling in sublime text.
+      Analyse the result.
+
+  4. Load the dataset in MongoDB compass and took schema.
+
+  5. Open the files in google colab and check by import libraries

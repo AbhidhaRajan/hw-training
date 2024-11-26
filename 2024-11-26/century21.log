@@ -1,0 +1,18 @@
+Load the json file in sublime text.
+
+Issues find in the primary analysis 
+
+Convert it into csv file by loading in MongoDB compass.
+Also analyse it by using google colab
+
+1.shape of the dataset is(42903, 29)
+2. Email column and title column is completely empty.
+3. Middle name, office name and last_name has missing values.
+4. website is having missing values
+5.profile_url is having unique value
+6.Data types are wrong for many columns such as  
+    title : float64
+    office_phn_number :object
+    agent_phn_number :object
+    email :object
+7. urls are valid and unique.
