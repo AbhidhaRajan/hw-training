@@ -1,0 +1,25 @@
+Topic: edinarealty_2024_10_05.json and harrynorman_2024_10_05.json files analysis
+
+Findings
+
+1. edinarealty_2024_10_05
+
+       Randomly checked 10 data
+       first_name is misssed for https://www.edinarealty.com/arthur-and-roth-team
+       social media urls are missed in json file but present in the website
+       office_number is present in the website but is missed in json file
+       website field is not empty
+       state field contains FL,MN,WI 
+
+2.harrynorman_2024_10_05
+
+      Randomly checked 10 data
+      office_phone_number is present in the profile but not enter in json file.
+            example profile_url is
+             https://www.harrynorman.com/bio/agentdevelopment
+
+      some profile has social_urls but is missing in json file.
+              eg profile_url
+             "https://www.harrynorman.com/bio/gloriamiller"
+
+
