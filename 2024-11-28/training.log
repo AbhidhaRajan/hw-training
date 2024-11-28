@@ -1,0 +1,88 @@
+Topic: QA on kentwood_2024_10_05.json and longandfoster_2024_10_05.json files
+
+Open the files in sublime text and took reports.
+Analyse each field and check whether required criteria matched or not.
+Randomly checked 10 data from each file.
+
+Findings:
+
+1.kentwood_2024_10_05.json
+
+   a)1.Twitter account is in site. But not added in json file. 
+      profile_url is        https://www.kentwood.com/bio/terra
+
+   b).Twitter account is also there in profile.
+      profile_url is https://www.kentwood.com/bio/sdiliberti
+
+   c)Social accounts are present in profile but not found in json file
+     profile_url  https://www.kentwood.com/bio/anna
+
+   d)Twitter and other social pages are found in the profile but not found in json file.
+      profile_url is  https://www.kentwood.com/bio/andrea
+   
+   e)4.Description start with " About me" in  site but is start as "Me As" in json file.
+     profile_url is https://www.kentwood.com/bio/amandare
+
+
+
+2.longandfoster_2024_10_05.json
+
+a).image_url not found. 
+page blocked
+profile_url is
+https://www.longandfoster.com/AgentSearch/CarolinaSpencer-14050090
+
+https://www.longandfoster.com/AgentSearch/MiaSpeller-14109525
+
+https://www.longandfoster.com/AgentSearch/BarrettStarling-14021414
+https://www.longandfoster.com/AgentSearch/HeatherSpadaro-11417006
+https://www.longandfoster.com/AgentSearch/SusanSouder-10731052
+https://www.longandfoster.com/AgentSearch/RameshSood-10451599
+https://www.longandfoster.com/AgentSearch/NitanSoni-13274513
+https://www.longandfoster.com/AgentSearch/KenSnow-11067896
+
+https://www.longandfoster.com/AgentSearch/VictoriaSmith-13312906
+https://www.longandfoster.com/AgentSearch/TiffanySmith1-14070459
+
+b). checked more than 20 profile_urls. But sites are blocked
+
+
+3)reecenichols_2024_10_05.json
+
+1.only first_name and profile_url have complete values. Other fields are
+having missing values
+2.office_phone_number field is completely empty
+3..office_phone_number is 
+present in the site but missing
+in the json file.
+profile_urls are
+https://www.reecenichols.com/bio/aringsdorf
+
+https://www.reecenichols.com/bio/jacquehagale
+
+4.Checked the profile_url and website and found that office_number is present
+  and cant found in json file.
+profile_url is https://www.reecenichols.com/bio/braseteam
+
+
+4)royallepage_2024_10_05.json
+
+1.image_url ,office and agent phone numbers are missing
+
+2.Image is there in the site.
+but not enter in json file
+profile_url is
+https://www.royallepage.ca/en/agent/prince-edward-island/charlottetown/mary-ritchie/89793/
+
+
+3.Phone number entered is not
+matched with the site.
+profile_url is
+https://www.royallepage.ca/en/agent/prince-edward-island/charlottetown/mary-ritchie/89793/
+
+4.Fields are completely mixed. 
+5.Email field is not empty.
+6.One country is wrongly entered as US insted of Canada
+profile_url is
+https://www.royallepage.ca/en/agent/nova-scotia/halifax/meghan-thorne/78000/
+
