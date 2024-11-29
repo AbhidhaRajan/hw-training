@@ -1,0 +1,155 @@
+Topic: kwa checklist
+
+json files are
+bhgre_2024_11_05.json , century21_us_2024_12_05.json  , ewm_2024_12_05.json
+ sutton_2024_12_05.json
+
+
+a)century21_us_2024_12_05.json 
+
+1.Only first_name and profile_url 
+columns are completely filled.
+2.Address,city,state,
+ zipcode and phn numbers
+are present in site,but not
+entered on json file.
+profile_url is
+https://www.century21.com/real-estate-agent/profile/chris-hillard-of-ann-weaver-team-of-ann-weaver-team-P80131679
+
+3.image_url is in site but not
+entered in json file
+profile_url is
+https://www.century21.com/real-estate-agent/profile/the-hills-lfro-P80187102
+
+4..image_url  found in  site not entered in json file.
+
+https://www.century21.com/real-estate-agent/profile/c21ne-pembroke-pines-P80184155
+
+5.image_url found in site
+profile_url is
+https://www.century21.com/real-estate-agent/profile/coe-lewis-of-curt-and-roni-realty-of-curt-and-roni-realty-P80124958
+6.Name is completely entered as first name
+   image_url is present
+profile_url is
+https://www.century21.com/real-estate-agent/profile/claudia-mitre-of-ready-set-sold-team-of-ready-set-sold-team-P25202911
+
+7.phone number found in site not found in json file
+profile_url is
+https://www.century21.com/real-estate-agent/profile/rebecca-neville-P25393885
+
+8.office-number found in site
+profile_url is
+https://www.century21.com/real-estate-agent/profile/sharon-music-P25411346
+
+9.Datacount is 42k
+10. website is not empty
+
+
+b) sutton_2024_12_05.json
+
+1.only first_name and
+profile_url is having full 
+values
+
+2.Error 500 found for 
+profile_url.
+profile_url is
+https://www.sutton.com/ca/agent/sylvie-aguesse-112206
+
+3.Error 500
+https://www.sutton.com/ca/agent/brigitte-harvey-120514
+
+4.Error 500
+https://www.sutton.com/ca/agent/louise-dionne-79231
+
+5.error 500
+https://www.sutton.com/ca/agent/jon-chung-120562
+
+6.error 500
+https://www.sutton.com/ca/agent/angie-zegarra-121003
+
+https://www.sutton.com/ca/agent/richard-chen-103698
+
+7)Description is found in the site. Not found in
+json file.
+Two titles are found in the site
+profile_url is
+https://www.sutton.com/ca/agent/xi-lin-121335
+
+8)Website is having contact informations
+profile_url is
+https://www.sutton.com/ca/agent/sue-leblanc-89108
+
+9)agent_phone_number field is not empty
+10)data count is less than specified.
+
+
+
+c)sutton_2024_12_05.json
+
+1. only first_name and profile_url columns
+are completely filled.
+2.office_phone_number and agent_phone_number
+are same. profile_url is
+https://www.bhgre.com/al/mobile/agents/katelyn-sisk/aid-P00200000GY76pg91O4sDi5oFnmjxXuwsMyHyXMT
+
+3.Address is there in site. not fount in json file
+profile_url is
+https://www.bhgre.com/fl/fort-lauderdale/agents/patricia-pat-glass/aid-P00200000FDdtMRESC8dW9tNOa3JMcaEP1mNsYM2
+ 
+4.Address and zipcode is in site not entered in
+json file . profile_url is 
+https://www.bhgre.com/nj/red-bank/agents/diane-koehler/aid-P00200000FDdrlzD00cNg3OVADkwzwbJU8HmfOsr
+
+5.agent_phone_number not found in site.
+address is found in site but not in json file.
+profile_url is
+
+https://www.bhgre.com/tx/galveston/agents/lynn-winget/aid-P00200000FDdrq7kqV77RyobDWIy7MoTREDVkaJX
+6.Address,zipcode,city are found in site.
+not found in json file.
+profile_url is
+https://www.bhgre.com/nj/kearny/agents/carol-hughes/aid-P00200000FDdsZM4Chm5NnFBSCiTbC6EUAUCQtTv
+
+7.email,website,title fields are not empty.
+
+
+d)ewm_2024_12_05.json
+
+1.agent_phone_number present in 
+site,not found in json file.
+profile_url is
+https://www.ewm.com/agents/1777155/Yordania+Pardo
+
+
+https://www.ewm.com/agents/1776691/Connie+Cabral
+
+2.image_url not found image
+profile_url is
+https://www.ewm.com/agents/1776887/David+Neal+Miller
+
+image_url is
+https://d9la9jrhv6fdd.cloudfront.net/agentimages/nophoto.jpg
+
+3.image_url is wrong. There is no image 
+is in the site but image_url is there in json file.
+profile_url is
+https://www.ewm.com/agents/1801659/Lori+Farber
+image_url is
+https://d9la9jrhv6fdd.cloudfront.net/agentimages/nophoto.jpg
+
+4.country is entered as "United" insted of united states
+profile_url is
+https://www.ewm.com/agents/1777155/Yordania+Pardo
+
+5.image_url is wrong. There is no image 
+is in the site but image_url is there in
+json file.
+profile_url is
+https://www.ewm.com/agents/1776912/Mark+Rousso
+
+image url is
+https://d9la9jrhv6fdd.cloudfront.net/agentimages/nophoto.jpg
+
+
+
