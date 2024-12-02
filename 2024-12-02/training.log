@@ -1,0 +1,38 @@
+Topic : QA on  1520 ebby_2024_12_05.json
+     211 robertsbrothers_2024_12_05.json
+   19517 royallepage_2024_12_05.json files
+
+   Findings
+
+   1.royallepage_2024_12_05.json
+
+   
+1.Email is not found in site. But
+listed in json file. 
+profile_url is
+https://www.royallepage.ca/en/agent/british-columbia/langley/richard-cenaiko/86069/
+
+https://www.royallepage.ca/en/agent/british-columbia/langley/megan-castillo/85672/
+
+
+https://www.royallepage.ca/en/agent/british-columbia/langley/matt-cain/55936/
+
+https://www.royallepage.ca/en/agent/ontario/toronto/cheryl-gibson/26207/
+
+https://www.royallepage.ca/en/agent/ontario/schomberg/shannuna-jordan/21165/
+
+
+
+
+2.agents website is having more details such as mobile number,
+social accounts.
+profile_url is
+https://www.royallepage.ca/en/agent/ontario/alliston/john-mccague/9985/
+
+3.agents website is having correct email. The email entered
+in json file is not found in site.
+profile-url is
+https://www.royallepage.ca/en/agent/ontario/southampton/michelle-hemstock/42850/
+
+4.Email field is not empty.
+
