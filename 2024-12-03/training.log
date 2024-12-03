@@ -1,0 +1,168 @@
+Topic:QA on 
+    6614 longandfoster_2024_12_05.json
+     989 longrealty_2024_12_05.json
+     50180 remax_us_2024_12_05.json
+      24795 compass_2024_12_05.json
+      906 firstweber_2024_12_05.json
+      161 home_realestate_2024_12_05.json
+      419 iowarealty_2024_12_05.json
+
+A) longandfoster_2024_12_05.json
+
+
+1.site blocked.
+profile_url is
+https://www.longandfoster.com/AgentSearch/SophiaAbedellatif-11439407
+
+https://www.longandfoster.com/AgentSearch/StevenArditi-10451561
+
+https://www.longandfoster.com/AgentSearch/MingGuo-14164872
+
+https://www.longandfoster.com/AgentSearch/DaniZeron-14131474
+
+https://www.longandfoster.com/AgentSearch/WilliamZerega-11075439
+
+https://www.longandfoster.com/AgentSearch/MichelleKlacik-13765071
+https://www.longandfoster.com/AgentSearch/BobKiziroglou-10797595
+https://www.longandfoster.com/AgentSearch/DebbieDement-13287564
+
+2.same profile_url found for two sets of data.
+profile_url is
+https://www.longandfoster.com/AgentSearch/MingGuo-14164872
+
+3.image_url is opened but site is blocked
+image_url
+https://longandfosterimages.fnistools.com/images/uploads/agents/13287564/13287564.jpg
+profile_url
+https://www.longandfoster.com/AgentSearch/DebbieDement-13287564
+
+B)989 longrealty_2024_12_05.json
+
+1. found theat profile_url and 
+website are same for each data. 
+eg profile_url is
+https://lizw.longrealty.com
+
+2.same profile repeated 3 times
+https://margieanddottie.longrealty.com
+https://LauraandJoiel.longrealty.com
+
+3.same profile repeated 2 times
+
+https://melindae.longrealty.com
+https://carlosr.longrealty.com
+https://juliof.longrealty.com/
+https://marianuno.longrealty.com
+
+https://leahreeder.longrealty.com
+https://judyu.longrealty.com
+
+
+C)remax_us_2024_12_05.json
+
+1.office_phone_number
+not found in the site.But found in
+json file. profile_url is
+https://www.remax.com/real-estate-agents/frank-borkowski-boca-raton-fl/102388682
+
+https://www.remax.com/real-estate-agents/nathaniel-thomas-pekin-il/102377589
+
+2.found mistake in the office_phone_number
+enter in json file. last phone digits 
+profile_url is
+https://www.remax.com/real-estate-agents/darren-hunt-nashville-tn/102388688
+
+3.description found in the website
+also office_phone_number mistake found
+profile_url is
+https://www.remax.com/real-estate-agents/brittany-kohler-nashville-tn/102388690
+
+4. email id not found in site
+https://www.remax.com/real-estate-agents/narine-khachatryan-burbank-ca/100058196
+
+5.zipcode+specific delivery route present
+in json file
+profile_url is
+https://www.remax.com/real-estate-agents/phillip-legare-ewa-beach-hi/102105500
+
+6.middle_name not found in the site
+profile_url is
+https://www.remax.com/real-estate-agents/liana-lee-palisades-park-nj/102360027
+
+D)compass_2024_12_05.json
+1.cant find the name and details
+by using profile_url
+https://www.compass.com/agents/joy-hopkins/
+
+2.description is wrong,profile is not seems to be
+correct. profile_url is
+https://www.compass.com/agents/test-test1/
+
+3.two more agents number image url found
+profile_url is
+https://www.compass.com/agents/cheryl-foote-av/
+
+4.one more agent number found
+https://www.compass.com/agents/fitzgerald-walker-team/
+
+5.state and zipcode is given as title in json file.
+profile_url is
+https://www.compass.com/agents/saul-brecher/
+
+
+E)firstweber_2024_12_05.json
+
+1.entire name is marked as 
+first name. email is present in the 
+site but not found in file.
+profile_url is
+https://www.firstweber.com/bio/5StarTeam
+
+2.description is wrong. website is 
+having proper description
+https://www.firstweber.com/bio/dawnjenkin
+
+3.website is not working
+https://www.KathleenThayer.com
+
+4.website link is present in the site
+but not found in json file.
+description is found in the website
+
+https://www.firstweber.com/bio/tonytamez
+
+5.Entire name is entered as first_name and
+website is present
+
+https://www.firstweber.com/bio/tonywendorfassociates
+
+6.datacount is less
+7.Title&language are not empty ,email&office_phone_number are empty
+
+
+F)iowarealty_2024_12_05.json
+website and language not empty
+
+email, office_phone_numbers are empty
+
+states are IA and il
+
+G)home_realestate_2024_12_05.json
+1.website and email is not found in website
+
+https://tinasegerstrom.homerealestate.com
+
+2.profile_url and website are same
+https://marionpolivka.homerealestate.com
+
+3.city Lincoln only
+4.Language field is not empty
+5.profile_url is not correct for almost data.
+insted given website as profile_url
+
+
+
+
+
+
+
