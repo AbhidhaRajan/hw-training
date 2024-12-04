@@ -1,0 +1,95 @@
+Topic: QA on
+    446 alliebeth_2024_12_05.json
+    48709 century21global_2024_12_05.json
+    68220 coldwellbanker_us_2024_12_05.json
+    71425 exprealty_2024_12_05.json
+    91291 globalremax_2024_12_05.json
+    
+
+A)exprealty_2024_12_05.json
+1.Middle name is entered along with first_name.
+profile_url is
+https://www.exprealty.com/agents-search/00010a13-93ac-11ee-b751-45ff28c6740d
+
+2.Mistake in entering name
+https://www.exprealty.com/agents-search/0003bd5d-55a3-11ef-967d-93fc6ae61170
+
+3.Office_number and social pages found in website
+but not found in json file.
+https://www.exprealty.com/agents-search/79236eeb-7808-11ed-aea5-83ec906fe6f5
+
+4.other url entered in json file not found in website.
+profile_url is
+https://www.exprealty.com/agents-search/20af7309-a141-11ef-8db9-ab74a1d4c5d
+
+B)globalremax_2024_12_05.json
+
+1.Address found in the site
+profile_url is
+https://global.remax.com/en/agents/ecuador/quito/angel-chamba-llumitasig/891241088",
+
+2.Address found in the site. not found in json file
+profile_url is
+https://global.remax.com/en/agents/canada/saint-leonard/lynda-afonso/1030011090",
+
+3.wrong image_url is found in json file
+profile_url is
+https://global.remax.com/en/agents/canada/mississauga/tasmia-ahmed/1038125423"
+
+4.Full name is entered as first_name and insta_url present in site
+profile_url is
+https://global.remax.com/en/agents/brazil/gramado/antonio-rodrigues-dos-santos/610131009
+
+5.One more office_phone_number and description found in website.
+profile_url is
+https://global.remax.com/en/agents/canada/carleton-place/hal-c-keller/1038562024.
+
+
+C)coldwellbanker_us_2024_12_05.json
+
+1.title given is wrong
+profile_url is
+https://www.coldwellbanker.com/al/dothan/agents/abby-rogers/aid-P00200000FDdtEagC1KtKMquoOOJNVeksFHUd1Ww
+
+2.same number is given as agent and office number
+and mistake in title found.
+profile_url is
+
+https://www.coldwellbanker.com/ca/newport-beach/agents/cora-berkery/aid-P00200000FSk22b5MEIupPwX29mwVGn3uN36z2n2
+
+https://www.coldwellbanker.com/ga/columbus/agents/autumn-haslam/aid-P00200000GZtQfDZDI4BQNsIjwlZ8Y1uyvksel8O
+
+3.agent phone number is given as office phone
+number. profile_url is
+https://www.coldwellbanker.com/ga/columbus/agents/kyle-profitt/aid-P00200000FDdreQLh2bn3dYWvdidqeeFH92fMvi7"
+
+https://www.coldwellbanker.com/ga/columbus/agents/autumn-haslam/aid-P00200000GZtQfDZDI4BQNsIjwlZ8Y1uyvksel8O
+
+4.title,email and website is not empty.
+
+D)century21global_2024_12_05.json
+
+1.full name is given as first_name
+profile_url is
+https://www.century21global.com/en/agents/rl-133580162
+
+https://www.century21global.com/en/agents/rl-133580160
+
+2.profile not found
+https://www.century21global.com/en/agents/rl-134097150
+
+https://www.century21global.com/en/agents/rl-134101451
+
+https://www.century21global.com/en/agents/rl-134101352
+
+https://www.century21global.com/en/agents/rl-134101444
+
+https://www.century21global.com/en/agents/rl-134101411
+
+3.some fields are entered in other than english language
+4.website,email,social and title fields are empty.
+
+
+E)alliebeth_2024_12_05.json
+
+1.social field is not empty
