@@ -1,0 +1,92 @@
+Topic: QA on kw_set_7
+files:1865 intero_realestate_2024_12_05.json
+     16 realliving_realestate_2024_12_05.json
+    728 realtysouth_2024_12_05.json
+
+A)intero_realestate_2024_12_05.json
+
+     1. Wrong image_url. No image found in site.
+but image_url present in json file.
+profile_url 
+https://www.intero.com/directory/agents/alexis-womack
+https://www.intero.com/directory/agents/miguel-solorio
+https://www.intero.com/directory/agents/irene-mallari
+
+2.same office_phone_number for multiple persons
+https://www.intero.com/directory/agents/stefani-fernandez
+https://www.intero.com/directory/agents/sujay-singh
+https://www.intero.com/directory/agents/yu-zhang
+
+3.wrong profile_url
+full name is given a first name
+https://www.intero.com/directory/agents/ranjodh-singh-sra
+
+4.same website for multiple person , wrong website is entered in json file
+
+website:http://lovelesshomes.com
+profile_urls
+https://www.intero.com/directory/agents/nicki-loveless
+https://www.intero.com/directory/agents/alan-b-loveless
+https://www.intero.com/directory/agents/trevor-loveless
+
+5.page not found
+https://www.intero.com/directory/agents/trevor-loveless
+
+6.run time error
+https://www.intero.com/directory/agents/alan-b-loveless
+
+7.wrong profile_url
+https://www.intero.com/directory/agents/alex-sandy-wihtol
+
+8.wrong website
+profile_url is
+https://www.intero.com/directory/agents/laura-rogers
+
+
+  B)realtysouth_2024_12_05.json
+
+1.Same profile_url for 3
+persons
+profile_url is
+https://www.realtysouth.com/roster/agents/19
+
+2.wrong profile_url
+https://www.realtysouth.com/roster/agents/67
+https://www.realtysouth.com/roster/agents/66
+
+https://www.realtysouth.com/roster/agents/58
+https://www.realtysouth.com/roster/agents/8
+
+https://www.realtysouth.com/roster/agents/5
+https://www.realtysouth.com/roster/agents/7
+
+https://www.realtysouth.com/roster/agents/17
+
+3.404 error found
+https://www.realtysouth.com/bio/ashleycurtis
+
+
+  C)realliving_realestate_2024_12_05.json
+
+1.profile_url and website 
+is same. and is not working
+https://www.reallivingresource.com/teamdavies.sold
+
+2.site blocked
+https://www.realliving.com/cheryl.bills
+https://www.realliving.com/lizjennifer.vazquez
+https://www.realliving.com/steven.tsukamoto
+https://www.realliving.com/ladd.tsukamoto"
+https://www.realliving.com/kristin-tsukamoto-real-estate-agent
+https://www.realliving.com/meredith.timulty"
+https://www.realliving.com/lynn.roeder
+https://www.realliving.com/tony.marino
+https://www.realliving.com/michael.litchin
+https://www.realliving.com/jeralia.kolb
+https://www.realliving.com/pat.espinosa
+https://www.realliving.com/david.devore
+https://www.realliving.com/chelsea.calabrese
+https://www.reallivingrealestatesolutions.com/bill.kolb
+https://www.reallivingrealestatesolutions.com/douglas.clement
+
+3.for all data profile_url and website is same
