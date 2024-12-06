@@ -1,0 +1,39 @@
+Topic:QA on kw_set_8
+
+464 huff_realty_2024_12_06.json
+175 rector_hayden_2024_12_06.json
+2657 reecenichols_2024_12_06.json
+162 woodsbros_2024_12_06.json
+
+    2657 reecenichols_2024_12_06.json
+  ----------------------------------------
+
+"profile_url" --All urls present. no mistakes found
+  
+"first_name" --issue: full name is enter as first_name.      eg:line 2324 Phillips & Associates
+"middle_name" -- null values present. no other issues found.
+"last_name"-- null values present. no other issues found.
+"image_url"-- one url is repeated 3 times and 22 fields are null
+              eg:line 1989 https://content.mediastg.net/dyna_images/ImageLibrary/f/5/a/e/f5aebceb-c28d-4e77-9597-1b56228c8b05.jpg
+"office_name" -- 170 fields are missing. no other issues found
+"address" -- 11 fields are missing . no other issues             
+"description" -- null values present.
+                testimonial is added along with description. line 2657
+"language" -- null values present.no other issues
+"socila" -- wrong facebook url found. eg: line 1486 facebook_url":"http://Https://www/facebook.com/pandora/"
+            null values present
+ "website"-- found http insted of https for some fields . eg line  2420   "http://leahbeck.reecenichols.com"      
+ "email " -- empty
+ "title" -- found some abbrevations as title  eg:"CRS, ABR, LRS, CRNC" line 2367
+                       line 1996  
+            found extra lines with title . eg:REALTOR Specializing in the Kansas City Metropolitan Area" line 1748
+"country" -- unique.
+"city" -- null values present
+"zipcode" -- null values present         
+"state" -- MO and KS . NULL values present
+"agent_phone_number" -- mistake found in agent phone number 
+                        eg:line 2167  ["816-645-SELL"],
+                        phn numbers are having different formats eg: "9133133490","(479) 214-2898"
+                        816-251-1486.
+                        null values are present
+"office_phone_number" -- null
