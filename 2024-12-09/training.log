@@ -19,7 +19,7 @@ Findings
 file_name_structure : mistake found.  huff_realty_2024_12_06.json ,06 insted of 05 in DD
 
 "description" : description starting is misssing ,insted start with is. line 347
-                (is a local real estate company offering ..)(HUFF Realty is a local real  estate           company offering ..)
+                (is a local real estate company offering ..)(HUFF Realty is a local real  estate company offering ..)
                 
 "agent_phone_number" : 11 digits found. insted of 10. eg line 284 (1-859-802-6111)
                        also incorrect formating found.
