@@ -1,0 +1,144 @@
+Topic:QA on kw_set_8
+
+
+
+Create another python file and named it as QA7.py
+Run it in terminal by using streamlit run QA7.py
+My streamlit app is opened in the browser
+Add json file in it and check
+Found missing values in mandatory fields,url errors,spelling of fields,
+   phone_numbers error,email error,unique values in state and country and also is 
+   null values replace with empty strings.
+checked the app by using 464 huff_realty_2024_12_06.json
+
+Findings
+
+    464 huff_realty_2024_12_06.json
+  ------------------------------------
+ 1."agent_phone_number" : 11 digits found. insted of 10.
+ eg line 284 (1-859-802-6111). check the profile_url and mismatch found.
+
+ 2. "description" : description starting is misssing ,insted start with is. line 347
+                (is a local real estate company offering ..)
+(HUFF Realty is a local real  estate           company offering ..)
+ 3. language and email not found in site. line 31
+
+
+
+   175 rector_hayden_2024_12_06.json
+--------------------------------------------
+
+1.email is found wrong
+ line 1,2,3,4 etc
+eg(/cdn-cgi/l/email-protection#2f4e434a57014d4a4c474a436f5d475d014c4042)
+
+2.agent_phone_number format is not same as found in the site
+line 1, eg (8594024782) in data  (859) 402-4782 in site
+
+3.title is wrong. eg:(Team website) line 142,164
+
+4.description found in site. not in data
+eg line 170
+
+
+     162 woodsbros_2024_12_06.json
+--------------------------------------------------
+
+1. Email is wrong in data
+eg:cdn-cgi/l/email-protection#e1838e83cf8393808f8289809485a1968e8e859283938e92cf828e8c
+
+line 1,2,3 etc
+
+2.invalid agent_phone_number
+line 78,123 eg:"402- 432-3089"
+
+3.url not found
+https://www.LincolnRealEstate.com
+
+4.In line 156 office_phone_number field is empty
+but marked as
+"office_phone_numbers": [ "" ]
+
+5.office_phone_numbers found in site
+not found in data
+eg line:98,74
+
+
+
+
+
+
+
+
+
+
+Quality Assurance (QA)
+========================
+Topic:QA on kw_set_8
+
+
+
+Create another python file and named it as QA7.py
+Run it in terminal by using streamlit run QA7.py
+My streamlit app is opened in the browser
+Add json file in it and check
+Found missing values in mandatory fields,url errors,spelling of fields,
+   phone_numbers error,email error,unique values in state and country and also is 
+   null values replace with empty strings.
+checked the app by using 464 huff_realty_2024_12_06.json
+
+Findings
+
+    464 huff_realty_2024_12_06.json
+  ------------------------------------
+ 1."agent_phone_number" : 11 digits found. insted of 10.
+ eg line 284 (1-859-802-6111). check the profile_url and mismatch found.
+
+ 2. "description" : description starting is misssing ,insted start with is. line 347
+                (is a local real estate company offering ..)
+(HUFF Realty is a local real  estate           company offering ..)
+ 3. language and email not found in site. line 31
+
+
+
+   175 rector_hayden_2024_12_06.json
+--------------------------------------------
+
+1.email is found wrong
+ line 1,2,3,4 etc
+eg(/cdn-cgi/l/email-protection#2f4e434a57014d4a4c474a436f5d475d014c4042)
+
+2.agent_phone_number format is not same as found in the site
+line 1, eg (8594024782) in data  (859) 402-4782 in site
+
+3.title is wrong. eg:(Team website) line 142,164
+
+4.description found in site. not in data
+eg line 170
+
+
+     162 woodsbros_2024_12_06.json
+--------------------------------------------------
+
+1. Email is wrong in data
+eg:cdn-cgi/l/email-protection#e1838e83cf8393808f8289809485a1968e8e859283938e92cf828e8c
+
+line 1,2,3 etc
+
+2.invalid agent_phone_number
+line 78,123 eg:"402- 432-3089"
+
+3.url not found
+https://www.LincolnRealEstate.com
+
+4.In line 156 office_phone_number field is empty
+but marked as
+"office_phone_numbers": [ "" ]
+
+5.office_phone_numbers found in site
+not found in data
+eg line:98,74
+
+6. language field is not empty
+
+----------------------- 
