@@ -1,0 +1,24 @@
+Doing qa on ewm_2024_12_05.json
+
+Using stramlit
+findings
+  title field contains errors. eg line 14, "S"" insted of "Sales Associate"
+
+  no image found in site, line 534
+  one more office_number found in site ,line 506,184,74
+
+
+
+Try to use another qa tool Knime
+
+Download and install using terminal
+
+wget https://download.knime.org/analytics-platform/linux/knime_4.7.0.linux.gtk.x86_64.tar.gz
+# Extract the downloaded tarball
+tar -xvzf knime_4.7.0.linux.gtk.x86_64.tar.gz
+change the directory
+cd knime_4.7.0
+
+Start KNIME
+./knime
+Try to load file and exploration
