@@ -1,0 +1,17 @@
+   QA on dari_ae_2024_12_02.json
+------------------------------------
+
+Number of fields :15 in which 3 are phone_number fields,
+                  Company_employees field  is a dictionary containing a list in which 3 fields are there.
+                  ("id","name","profession")
+
+
+Took profiling report by using pandas profiling 
+Got an idea about the file given
+
+Findings:
+
+1.Company_employees in line 30 is empty. But is found as string insted of empty list.
+
+
+
