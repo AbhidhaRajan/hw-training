@@ -1,0 +1,15 @@
+Topic : nawy_egp_2024_12_02.json
+
+18 fields are present in this data
+"url","title","location","price","max_price","type","property_type","details"
+"reference_number","bedrooms" ,"bathrooms","delivery_in","compound","sale_type"
+"finishing","ready_by","iteration_number","date"
+
+ready_by column is completely empty
+
+
+Tried to do qa on knime and also searching for other tools to do qa.
+
+
+
+
