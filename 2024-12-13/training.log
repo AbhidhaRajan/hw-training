@@ -1,0 +1,23 @@
+Topic: bayut_egp_2024_01_05.json
+       bayut_uae_2024_12_02.json
+
+Split the data into 6 parts in terminal by using commant
+ split -l 40000 bayut_uae_2024_12_02.json
+
+Findings
+
+ 1. "category_url" not found eg line 1 "/en/egypt/properties-for-sale/",
+ 2."listing_availability" found not available in site and one phone number not found,line 1
+ 3."sub_category_2","user_id" is empty
+ 4."depth" is not found in site
+ 5."agent_name" found wrong in data. eg line 69268 (Ne7ro in data Mohamed El Nehrawye in site)
+ 
+ 
+Doing
+bayut_uae_2024_12_02.json
+1."category_url": "/for-sale/property/uae/", not found insted "/for-sale/property/dubai/" found
+ line 1
+
+
+
+ 
