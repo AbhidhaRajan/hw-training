@@ -1,0 +1,29 @@
+   dubizzle_uae_2024_12_03.json
+----------------------------------
+Found
+
+1. Extra characters found in description.
+eg:⁠ <0x2060> line 1
+line 9984
+
+⁠2. agent_name found in site.
+line 2980
+ "url": "https://sharjah.dubizzle.com/property-for-rent/short-term/apartmentflat/2024/11/23/no-commission-1bhk-monthly-rent-in-sharjah-12-662/"
+
+3.page not found. line 2638. 
+"url": "https://dubai.dubizzle.com/property-for-rent/short-term/apartmentflat/2024/12/3/city-view-furnished-flexible-terms-2-712/"
+
+4.listed_by field Is empty
+
+
+  bayut_egp_2024_12_03.json
+---------------------------------
+
+Findings
+
+1.depth,broker_display_name and broker fileds are not empty.
+2.the value in "id" field is not reference_number with out Bayut - ID.
+3.newly added fields are "completion_status" and  "ownership".
+
+
+
