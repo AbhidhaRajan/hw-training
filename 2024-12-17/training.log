@@ -1,7 +1,7 @@
 Give xml data for checking
   indeed_2024_12_12.xlsx
 --------------------------
-
+columns are
 "ad_url","position","company_name","address","emails","payment"posted_date",
   "original_job_url","imprint_url","phone_numbers",zipcode","website_domain","register_number","vat_number"
   are the columns.
