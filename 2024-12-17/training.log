@@ -1,0 +1,19 @@
+Give xml data for checking
+  indeed_2024_12_12.xlsx
+--------------------------
+
+"ad_url","position","company_name","address","emails","payment"posted_date",
+  "original_job_url","imprint_url","phone_numbers",zipcode","website_domain","register_number","vat_number"
+  are the columns.
+
+ 1.mistake found in phone number eg: line 36179 (0176 – 466 077 56 found in site. 0176 - 466 found in data)
+   line 36800 (added the payment value as phone number)
+   line 35802,31414,10461 (added time as phone number)
+
+2.some address column is having zipcode along with it. eg:line 10453,10456
+
+3.position includes payment value too. eg: line 23245(Kundenberater Reiseversicherungen (m/w/d) ab 17,00€/h + Zuschuss HVV- Deutschland Ticket)
+
+4.vat_number felt as wrong eg:line 22270,8924 (DE15 3702 0500 0004 4444 02")
+
+5.register_number and vat-number not found
