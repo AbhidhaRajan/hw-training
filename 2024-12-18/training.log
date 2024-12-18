@@ -1,0 +1,84 @@
+
+http://192.81.217.205:8000/QA_DATA/propertyfinder-weekly/aqarmap_egp_2024_12_03.json.zip
+http://192.81.217.205:8000/QA_DATA/propertyfinder-weekly/dubizzle_egp_2024_12_03.json.zip
+http://192.81.217.205:8000/QA_DATA/propertyfinder-weekly/bayut_uae_2024_12_03.json.zip
+
+
+
+
+Topic : pf_weekly/bayut_uae_2024_12_03.json
+        pf_weekly/dubizzle_egp_2024_12_03.json
+        pf_weekly/aqarmap_egp_2024_12_03.json
+
+
+  pf_weekly/bayut_uae_2024_12_03.json
+------------------------------------------
+
+1. found extra characters in title
+field. eg:<0xa0> in line 139712,388664
+<0x200b><0x200b> in line 139660,139720
+2."brn_registration_number" entered wrong
+eg:0000 in line 130983,132082
+
+3.brn number found in site. not found in data
+url https://www.bayut.com/property/details-10230593.html
+
+4.brn number along with "brn". line 377829
+
+5.agent name entered as brn number  . line 379234
+url https://www.bayut.com/property/details-9511381.html
+
+line 277888
+url  https://www.bayut.com/property/details-10369715.html
+
+6.phone_number is entered as brn number
+line:277404 
+url https://www.bayut.com/property/details-10391277.html
+
+
+
+
+    pf_weekly/dubizzle_egp_2024_12_03.json
+-------------------------------------------------
+1. Extra characters found in
+description field.
+eg: <0xa0>
+line 53870.,21755
+url https://www.dubizzle.com.eg/en/ad/للبيع-تاون-هاوس-ميدل-208م-هايد-بارك-بالتقسيط-باقل-سعر-فى-السوق-باميز-لوكيشن-ID501238331.html
+
+2. ad no longer available. eg line:52871
+url :https://www.dubizzle.com.eg/en/ad/شالية-بخصم-كاش-27-112-متر-للبيع-في-تلال-الساحل-الشمالي-chalet-with-27-cash-discount-for-sale-112m-at-telal-north-coast-ID500855337.html
+
+3.phone_number found in site. not found in data
+url
+ https://www.dubizzle.com.eg/en/ad/شقة-للايجار-بكمبوند-تاج-سيتي-بالمطبخ-والتكييفات-ID501317250.html
+
+url 
+https://www.dubizzle.com.eg/en/ad/شاليه-دور-ارضي-117م-للبيع-في-قرية-بلو-بلو-العين-السخنة-برايم-لوكيشن-وفيو-مباشر-على-البحر-بالتقسيط-على-اطول-فترة-سداد-وخصم-كبير-على-الكاش-blue-blue-ID501156005.html"
+
+4.mistake in phone_number found
+line 39953
+url https://www.dubizzle.com.eg/en/ad/حرق-سعر-في-زيد-ويست-لنجيب-سويرس-واستلام-مش-بعيد-شقه-3غرف-وتيرراس-متشطبه-سوبر-لوكس-في-قلب-زايد-باقل-مقدم-واطول-فتره-سداد-ID501235821.html".
+
+
+
+     aqarmap_egp_2024_12_03.json.
+---------------------------------------
+
+1.seller_role ,depth and listing_type are empty.
+2.description contains extra
+characters.
+line 387997
+url: https://aqarmap.com.eg/en/listing/5093598-projects-cairo-capital-center/
+
+3.site unreachable
+url :https://aqarmap.com.eg/en/listing/5010557-undefined/
+
+https://aqarmap.com.eg/en/listing/5093598-projects-cairo-capital-center/
+
+
+https://aqarmap.com.eg/en/listing/5042321-for-sale-alexandria-el-hanouvel/"
+
+https://aqarmap.com.eg/en/listing/5125014-for-sale-cairo-new-cairo-compounds-sarai-elan-sarai-compound/
+
+https://aqarmap.com.eg/en/listing/5208265-for-rent-cairo-new-cairo-compounds-district-5-the-plateau-district-5/
