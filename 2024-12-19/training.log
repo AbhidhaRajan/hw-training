@@ -1,0 +1,66 @@
+Topic :DataHut_AT_Dm_PriceExtractions_20241218.CSV
+
+Findings
+
+1.breadcrumb missing
+line 903,486,863,766,705,625,636,637,4049,4058,16819,
+16824,16830,16832,16368,16318,15711,15720,16496,16497
+
+2.price_valid_from not found
+
+https://www.dm.at/nuk-schnuller-signature-night-weiss-rot-0-6-monate-p4008600427179.html
+https://www.dm.at/nuk-schnuller-signature-night-0-6-monate-sortiert-p4008600378846.html
+https://www.dm.at/nuk-schnuller-signature-night-weiss-blau-0-6-monate-p4008600427186.html
+
+3.details of only one colour product is taken.(only night cream is taken)
+url of day cream
+https://www.dm.at/royal-skin-anti-aging-tagescreme-cbd-p732023048966.html
+
+
+
+Topic:datahut_at_mueller_priceextractions_20241218.csv
+
+Findings
+
+1.LINE 68970
+ Sie sparen % change 
+41% in data 50% in site
+(percentage_discount,promotion_price)
+URL
+https://www.mueller.at/p/grundig-2-in-1-akku-und-handstaubsauger-vch-9929-l-IPN2960483/?itemId=2960483"
+
+
+
+Topic:datahut_at_billa_priceextractions_20241218.csv
+
+Findings
+
+1.No AKTION tag found in site. found in data and sinble value present.
+url 
+https://shop.billa.at/produkte/ariel-fruehlingsfrische-fluessig-waschmittel-00926944
+line 11775
+
+
+line 11769
+https://shop.billa.at/produkte/bensdorp-erdbeer-rahm-003883
+
+
+
+Topic:datahut_at_bipa_priceextractions_20241218.csv
+
+
+1.other colour variations found in site.not found in data
+url found in data
+https://www.bipa.at/p/maybelline-color-sensational-shaping-lipliner-x/B3-336721.
+
+other urls
+https://www.bipa.at/p/maybelline-color-sensational-shaping-lipliner-90/B3-250568
+https://www.bipa.at/p/maybelline-color-sensational-shaping-lipliner-92/B3-277795
+https://www.bipa.at/p/maybelline-color-sensational-shaping-lipliner-80/B3-250561
+https://www.bipa.at/p/maybelline-color-sensational-shaping-lipliner-56/B3-939497
+https://www.bipa.at/p/maybelline-color-sensational-shaping-lipliner-18/B3-277793
+https://www.bipa.at/p/maybelline-color-sensational-shaping-lipliner-50/B3-250511
+https://www.bipa.at/p/maybelline-color-sensational-shaping-lipliner-110/B3-250621
+
+
+
