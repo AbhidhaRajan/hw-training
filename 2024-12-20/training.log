@@ -1,0 +1,46 @@
+  datahut_at_interspar_priceextractions_20241218.csv
+--------------------------------------------------------
+price_valid_from and promotion_valid_from
+not found in site
+url https://www.interspar.at/shop/lebensmittel/rot-weiss-zahnpasta-125-ml/p/7743153
+line 15344
+
+
+           DataHut_AT_Mpreis_PriceExtractions_20241220.CSV.zip
+--------------------------------------------------------------------------------
+site cant be reached. so random check pending
+no issue found in data
+
+
+                  DataHut_AT_Bipa_PriceExtractions_20241220.CSV.zip
+---------------------------------------------------------------------------------------
+
+no issues found
+
+
+                  DataHut_AT_Fressnapf_PriceExtractions_20241220.CSV.zip
+----------------------------------------------------------------------------------------------
+
+variation in discount
+percentage found and other varieties of item found
+line 7467
+url https://www.fressnapf.at/p/hills-science-plan-sterilised-mature-adult-7-mit-huhn-3-kg-1322221/
+
+
+
+
+    DataHut_AT_Mueller_PriceExtractions_20241220.CSV.zip
+---------------------------------------------------------------
+no issues found
+
+     DataHut_AT_Dm_PriceExtractions_20241220.CSV.zip
+  -------------------------------------------------------
+
+product_name is entered as site shown uom
+lines 417,1038,1488,3271,4311,5441,5647,5662,5651,7761,7746,7879,8152,8356,8358,8623,13235,
+15973,16077,16217
+
+
+    DataHut_AT_Billa_PriceExtractions_20241220.CSV.
+-----------------------------------------------------------
+no issues found
