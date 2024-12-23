@@ -1,0 +1,59 @@
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Mueller_PriceExtractions_20241223.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Bipa_PriceExtractions_20241223.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Interspar_PriceExtractions_20241223.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Fressnapf_PriceExtractions_20241223.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Billa_PriceExtractions_20241223.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Mpreis_PriceExtractions_20241223.CSV.zip
+
+
+
+  DataHut_AT_Mueller_PriceExtractions_20241223.CSV
+----------------------------------------------------
+
+1. AKTION tag not found in site 
+line 2588
+url https://www.mueller.at/p/power-up-2687434/?itemId=2687434
+line 2590
+url https://www.mueller.at/p/power-up-2687433/?itemId=2687433
+line 3666
+url https://www.mueller.at/p/wardour-street-IPN3071351/?itemId=3071351
+
+
+  DataHut_AT_Bipa_PriceExtractions_20241223.CSV
+---------------------------------------------------
+
+1.AKTION tag present in site not in data
+line 4558
+url https://www.bipa.at/p/B3-553616
+
+
+  DataHut_AT_Interspar_PriceExtractions_20241223.CSV
+--------------------------------------------------------
+
+1.product name is taken as uom ,line 4,11,13,16,etc
+2."," found line 2,5,8,17 etc
+
+   
+  DataHut_AT_Fressnapf_PriceExtractions_20241223.CSV
+ -----------------------------------------------------
+no issues found
+
+
+  DataHut_AT_Billa_PriceExtractions_20241223.CSV
+-------------------------------------------------------
+no issues found
+
+  DataHut_AT_Mpreis_PriceExtractions_20241223.CSV
+-------------------------------------------------------
+site cant be reached. so random check pending
+no other issues found
+
+
+
+
+
+
+
+
+
+
