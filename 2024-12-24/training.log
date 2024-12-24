@@ -1,0 +1,52 @@
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Mpreis_PriceExtractions_20241224.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Billa_PriceExtractions_20241224.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Dm_PriceExtractions_20241224.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Interspar_PriceExtractions_20241224.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Fressnapf_PriceExtractions_20241224.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Bipa_PriceExtractions_20241224.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Mueller_PriceExtractions_20241224.CSV.zip
+
+
+
+   DataHut_AT_Mpreis_PriceExtractions_20241224.CSV
+------------------------------------------------------
+ no issues found
+
+
+  DataHut_AT_Billa_PriceExtractions_20241224.CSV
+-----------------------------------------------------
+No price is available for a data
+line 11786
+
+
+  DataHut_AT_Dm_PriceExtractions_20241224.CSV
+------------------------------------------------------
+product_name is entered as site shown uom
+eg line : 5234,5239,5241 etc
+
+ 
+  DataHut_AT_Interspar_PriceExtractions_20241224.CSV
+-------------------------------------------------------
+1. product_name is entered as site_shown_uom
+eg lines :2,4,5,7,9,11,12 etc
+2. found comma insted of dot in values eg:1,5KG in line 20710
+
+
+   DataHut_AT_Fressnapf_PriceExtractions_20241224.CSV
+----------------------------------------------------------
+no issues found
+
+  DataHut_AT_Bipa_PriceExtractions_20241224.CSV
+-----------------------------------------------------
+no issues found
+
+  DataHut_AT_Mueller_PriceExtractions_20241224.CSV
+-------------------------------------------------------
+ no issues found
+
+
+
+
+
+
+
