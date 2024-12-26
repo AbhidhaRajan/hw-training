@@ -1,0 +1,17 @@
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria-weekly/DataHut_AT_Fressnapf_FullDump_20241226.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria-weekly/DataHut_AT_Billa_FullDump_20241226.CSV.zip
+
+ DataHut_AT_Fressnapf_FullDump_20241226.CSV
+==============================================
+
+Total 131 fields and out of which 79 fields are null and 53 fields are occupied.
+Explore the data with site and found the place from where each values are taken.
+randomly check some data
+no error found
+
+   DataHut_AT_Billa_FullDump_20241226.CSV
+==============================================
+mistake found in grammage_quantity
+"20 Teebeutel Packung" in site. "1 stuck" in data
+line 5905
+url https://shop.billa.at/produkte/teekanne-organics-sweet-apple-00242361
