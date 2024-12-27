@@ -1,0 +1,53 @@
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria-weekly/DataHut_AT_Dm_FullDump_20241226.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria-weekly/DataHut_AT_Interspar_FullDump_20241226.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria-weekly/DataHut_AT_Mpreis_FullDump_20241226.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria-weekly/DataHut_AT_Bipa_FullDump_20241226.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria-weekly/DataHut_AT_Mueller_FullDump_20241226.CSV.zip
+
+
+
+  DataHut_AT_Dm_FullDump_20241226.CSV
+-----------------------------------------
+
+1.product_name is entered as sites
+shown uom
+line 16265,16055,16027,13153,8406,
+8293,7939,7740,7713,5529,5305,5281,
+5282,3064,1540,1145,512
+
+
+  DataHut_AT_Interspar_FullDump_20241226.CSV
+---------------------------------------------
+
+1.product name is entered as 
+site shown uom in Most of fields.
+
+2.grammage_quantity is "stuck" in data 
+"18 sheets" in site. line :1398
+
+ 
+  DataHut_AT_Mpreis_FullDump_20241226.CSV
+---------------------------------------------
+
+1.promotion_description 
+found "ab 2 billiger" in 
+site. -47% in data.
+line 8
+url https://www.mpreis.at/shop/p/ahoj-brause-ahoj-brause-cola-mix-kaubonbons-176388
+line 6
+https://www.mpreis.at/shop/p/ahoj-brause-ahoj-brause-kaubonbons-164643
+
+  DataHut_AT_Bipa_FullDump_20241226.CSV.
+----------------------------------------------
+1.product name is taken as site shown uom .
+2. instock field contains true and false.
+
+  
+  DataHut_AT_Mueller_FullDump_20241226.CSV
+--------------------------------------------
+1 stk in site a stuck in data
+line 64815
+url https://www.mueller.at/p/ritzenhoff-breker-mueslischale-afrikatiere-16-5cm-IPN3006114/?itemId=3006114
+2. rating, review, retail_limit is not  empty
+
+
