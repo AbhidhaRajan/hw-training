@@ -1,0 +1,81 @@
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Mueller_PriceExtractions_20241230.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Billa_PriceExtractions_20241230.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Mpreis_PriceExtractions_20241230.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Fressnapf_PriceExtractions_20241230.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Interspar_PriceExtractions_20241230.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Bipa_PriceExtractions_20241230.CSV.zip
+
+
+
+DataHut_AT_Mueller_PriceExtractions_20241230.CSV
+-----------------------------------------------
+1.promotion_price is 2,00 in site 2 in data
+line 51513
+url https://www.mueller.at/p/bolsius-rustikkerze-shine-naturwax-13-6-8cm-IPN523320/?itemId=906815
+
+2.Aktion tag not found in site
+line 221
+url https://www.mueller.at/p/der-noch-groessere-schleim-film-IPN2963600/?itemId=2963600
+
+line 51553
+url https://www.mueller.at/p/bolsius-rustikkerze-shine-naturwax-13-6-8cm-IPN523320/?itemId=523320
+
+line 51545
+url https://www.mueller.at/p/bolsius-rustikkerze-shine-naturwax-13-6-8cm-IPN523320/?itemId=2815612
+
+line 55630 
+url https://www.mueller.at/p/wacken-witch-eau-de-parfum-IPN3014857/?itemId=3014857
+
+
+DataHut_AT_Billa_PriceExtractions_20241230.CSV
+-------------------------------------------------
+
+mistake in grammage_quantity and grammage_unit
+1 stuck in data,115g in site.
+line 11781
+url https://shop.billa.at/produkte/lindt-weihnachtsmarkt-tischadventkalender-00739315
+
+DataHut_AT_Mpreis_PriceExtractions_20241230.CSV
+------------------------------------------------
+
+1.promotion_description not found in site,
+in data ab 2 billiger
+
+line 72
+url https://www.mpreis.at/shop/p/bens-original-10-minuten-spitzen-langkorn-reis-297103
+
+
+2.AKTION tag not found in site. found in data
+
+line 8255
+url https://www.mpreis.at/shop/p/sprite-original-tray-4x-20-liter-802764
+
+
+ DataHut_AT_Fressnapf_PriceExtractions_20241230.CSV
+-----------------------------------------------------
+
+ No error found
+
+
+  DataHut_AT_Interspar_PriceExtractions_20241230.CSV
+ -----------------------------------------------------
+ 1. grammage_quantity and unit cant found in site but found in data
+    line 21760
+    url https://www.interspar.at/shop/haushalt/barbecue-holzbriketts/p/7413421SG
+
+ 2.product_name is entered as site_shown_uom
+         eg lines :2,14,16 etc
+
+
+
+  DataHut_AT_Bipa_PriceExtractions_20241230.CSV
+--------------------------------------------------------
+
+
+
+
+
+
+
+
+
