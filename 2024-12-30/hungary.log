@@ -1,0 +1,25 @@
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_hungary:price-daily/DataHut_HU_Tesco_PriceExtractions_20241230.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_hungary:price-daily/DataHut_HU_Auchan_PriceExtractions_20241230.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_hungary:price-daily/DataHut_HU_Spar_PriceExtractions_20241230.CSV.zip
+
+
+  DataHut_HU_Tesco_PriceExtractions_20241230.CSV
+--------------------------------------------------
+
+Empty fields : price_valid_from,promotion_valid_from,region	,pack_size
+
+Total rows :21926 rows
+
+issues:
+product name is entered as site_shown_uom , eg line 5892,14670,14671 etc 
+
+
+
+  DataHut_HU_Auchan_PriceExtractions_20241230.CSV
+----------------------------------------------------
+Empty fields : region	pack_size
+Total rows : 52663
+ issues:
+1.product name is entered as site_shown_uom for all data
+2. cant found the percentage discount in site. line 7
+url https://auchan.hu/shop/sencor-srv-1000sl-robotporszívó.p-340122
