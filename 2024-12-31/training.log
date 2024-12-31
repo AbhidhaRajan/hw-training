@@ -1,0 +1,121 @@
+ TOPICS
+---------   
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_hungary:price-daily/DataHut_HU_Spar_PriceExtractions_20241230.CSV.zip
+445 alliebeth_2025_01_05.json
+41224 berkshirehathaways_2025_01_05.json
+48795 century21global_2025_01_05.json
+5479 coldwellbankerinternational_2025_01_05.json
+90902 globalremax_2025_01_05.json
+6500 longandfoster_2025_01_05.json
+227 robertsbrothers_2025_01_05.json
+
+
+DataHut_HU_Spar_PriceExtractions_20241230.CSV
+------------------------------------------
+1.15391 rows.
+2.Empty fields: price_valid_from,percentage_discount,promotion_valid_from,region,pack_size
+
+
+issues found
+-----------
+In most cases Product name is entered as site shown uom.
+
+
+
+     445 alliebeth_2025_01_05.json
+---------------------------------------------------
+
+ Social field is not empty
+
+
+      41224 berkshirehathaways_2025_01_05.json
+---------------------------------------------------
+
+1.office_phone_number found in site. not in data
+  line 46
+  url:https://www.bhhsalaska.com/anchorage/michelle-crismore/cid-3064648
+
+
+   48795 century21global_2025_01_05.json
+--------------------------------------------------
+
+ 1.No image in site. image url found in 
+data(gif url)
+line 48762
+url https://www.century21global.com/en/agents/rl-134081532
+
+same issue
+line 48771
+url https://www.century21global.com/en/agents/rl-134081529
+
+
+2.first name and middle name entered as first name
+line 17293
+url https://www.century21global.com/en/agents/rl-135070476
+
+
+3.profile_url is not working
+line 17563
+url https://www.century21global.com/en/agents/rl-134988117
+
+same issue
+line 9410
+url https://www.century21global.com/en/agents/rl-135056608
+
+
+  coldwellbankerinternational_2025_01_05.json
+------------------------------------------------
+
+1.no image is in site but
+image_url is in data
+line 275
+url https://www.coldwellbankerinternational.com/agent/lt8oKfMGyj
+
+same issue
+line 1054
+url https://www.coldwellbankerinternational.com/agent/s5l1oKqK
+also same phone number is given as agent and office phone number.
+
+
+  6500 longandfoster_2025_01_05.json
+-----------------------------------------
+1.Same phone number is 
+given as office and agent phone
+number
+line 9
+profile_url
+https://www.longandfoster.com/AgentSearch/PeteDelgaone-11007286
+
+
+line 4379
+url https://www.longandfoster.com/AgentSearch/ShaliniGidwani-10758649
+
+
+  227 robertsbrothers_2025_01_05.json
+--------------------------------------------
+
+NO ISSUES
+
+
+  90902 globalremax_2025_01_05.json
+-------------------------------------------
+
+1.No image found in site but
+image_url found in data.
+  and
+address is in the site but adress
+field is empty in data
+line 1784
+url https://global.remax.com/en/agents/thailand/pathum-wan/commercial-admin/920271003
+
+line 51400
+https://global.remax.com/en/agents/argentina/caballito/gustavo-angel-acrogliano/422451033"
+
+
+
+
+
+
+
+
+
