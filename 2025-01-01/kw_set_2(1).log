@@ -1,0 +1,30 @@
+    10616 bhgre_2025_01_05.json
+    77495 coldwellbanker_us_2025_01_05.json
+    31145 compass_2025_01_05.json
+     1509 ebby_2025_01_05.json
+     2422 edinarealty_2025_01_05.json
+    70179 exprealty_2025_01_05.json
+      813 harrynorman_2025_01_05.json
+     5643 sutton_2025_01_05.json
+
+
+   10616 bhgre_2025_01_05.json
+------------------------------------
+
+1.same number is entered as office and agent phone number.
+line 5340
+url https://www.bhgre.com/hi/honolulu/agents/daniel-bae-lee/aid-P00200000FPddXEXhJHpjLwc5DukZVabzLOihAqa"
+
+
+2.agent phone number is entered as office phone number.
+  office phone number found in site
+  line 8760
+  url https://www.bhgre.com/nc/charlotte/agents/zamir-ramos/aid-P00200000GEhQ0uznzrkucNIO2nrDkD2aofSWx6d
+
+
+    42555 century21_us_2025_01_05.json
+  ----------------------------------------
+  Other Awards & Recognition is 
+taken as description.
+line 8603
+url https://www.century21.com/real-estate-agent/profile/sharla-boyd-P25322515"
