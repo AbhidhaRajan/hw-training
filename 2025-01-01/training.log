@@ -1,0 +1,80 @@
+587 ewm_2025_01_05.json
+1367 houlihanlawrence_2025_01_05.json
+453 huff_realty_2025_01_05.json
+227 kentwood_2025_01_05.json
+48328 remax_us_2025_01_05.json
+19850 royallepage_2025_01_05.json
+
+  587 ewm_2025_01_05.json
+---------------------------
+1. Image is not present
+in site but image_url is
+found in data.
+eg lines 8,10,15,16,18 etc
+
+2.One more phone number
+found in site as agent number.
+not found in data.
+ line 93
+url https://www.ewm.com/agents/1777294/David+Dajani+P.A
+
+
+same issue
+line 105
+url https://www.ewm.com/agents/1777262/Denise+Sicuso
+
+same issue
+line 426
+url https://www.ewm.com/agents/1777310/RJ+%22Pip%22+Delange
+
+3. description found in site. not in data
+line 426
+url https://www.ewm.com/agents/1777310/RJ+%22Pip%22+Delange
+
+
+  1367 houlihanlawrence_2025_01_05.json
+---------------------------------------------
+1.image_url wrong
+line 1
+profile_url
+https://www.houlihanlawrence.com/bio/JaneAbbate
+
+2.language field is empty
+
+
+  453 huff_realty_2025_01_05.json
+--------------------------------------------
+1.website is entered as
+profile_url.
+
+2.two address found in
+site
+line 320
+url https://www.reesesells.com"
+
+
+  227 kentwood_2025_01_05.json
+------------------------------------
+
+Office name not found in site
+line 6,68,107
+
+
+
+    48328 remax_us_2025_01_05.json
+----------------------------------------
+1.Only one phone number found in 
+site as agent number. found two number in data
+line 7280
+url https://www.remax.com/real-estate-agents/lisa-caldwell-walnut-creek-ca/100025439
+
+
+2.office_phone number is entered as agent phone number 
+(already agent phone number is entered)
+line 36375
+url https://www.remax.com/real-estate-agents/kenneth-b-duncan-brick-nj/102207013
+
+
+  19850 royallepage_2025_01_05.json
+---------------------------------------
+no issues found
