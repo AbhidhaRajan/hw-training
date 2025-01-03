@@ -1,0 +1,54 @@
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Mpreis_PriceExtractions_20250103.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Bipa_PriceExtractions_20250103.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Fressnapf_PriceExtractions_20250103.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Dm_PriceExtractions_20250103.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Mueller_PriceExtractions_20250103.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Billa_PriceExtractions_20250103.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Interspar_PriceExtractions_20250103.CSV.zip
+
+
+DataHut_AT_Mpreis_PriceExtractions_20250103.CSV
+-----------------------------------------------
+no issues
+
+
+DataHut_AT_Bipa_PriceExtractions_20250103.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Fressnapf_PriceExtractions_20250103.CSV
+---------------------------------------------------
+
+1.grammage_quantity and unit  not found in site.
+1 stuck in data.
+line 9005
+url https://www.fressnapf.at/p/nobleza----professionelle-2in1-hundebuerste---tierhaarbuerste-1862746/
+
+DataHut_AT_Dm_PriceExtractions_20250103.CSV
+-------------------------------------------
+product_name is entered as site shown uom
+eg line 1109,3263,4268 etc
+
+
+DataHut_AT_Mueller_PriceExtractions_20250103.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Billa_PriceExtractions_20250103.CSV
+------------------------------------------------
+1.site showing grammage unit and quantity as
+15g stuck. in data 15g
+line 11745
+url https://shop.billa.at/produkte/milka-nikolo-und-krampus-00286816
+
+2.no price is available for 
+two rows in data (no price
+is available in site too)
+line 11744,11745
+
+
+DataHut_AT_Interspar_PriceExtractions_20250103.CSV
+--------------------------------------------------
+1.product name entered as
+site_shown_uom
+eg line 4,11,89etc
