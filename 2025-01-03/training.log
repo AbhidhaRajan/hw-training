@@ -1,0 +1,64 @@
+  KW_SET_5
+------------
+1054 longrealty_2025_01_05.json
+--------------------------------
+
+
+1.city,state,zipcode
+is entered as address.
+entire address is found in site.
+line 126
+url https://www.homesintucson.com
+also profile url and website fields have same value.
+
+2.title found "REALTOR®" in site. "" in site.
+line 878
+url https://rateam.longrealty.com.
+
+3.values in profile_url and website fields are same
+
+ kw_set_5(1)
+---------------
+2630 reecenichols_2025_01_05.json
+----------------------------------
+1.value in city and state found
+wrong in data.
+("city": "6", "state": "1" in data
+Olathe KS in site)
+line 2649
+url https://www.reecenichols.com/bio/theharrisgroup
+
+
+2. agent_phone_number  found "816-645-SELL"
+in data and same found in site.
+
+
+
+164 woodsbros_2025_01_05.json
+-------------------------------
+
+1.office_phn number found
+in site.[ ] in data
+line 1
+url https://dianelewis.woodsbros.com
+same issue
+line 90
+url https://bradcarter.woodsbros.com
+
+2.wrong profile_url
+line 16
+url https://www.woodsbros.com/roster/agents/0
+
+3.description found in site not in data.
+image found in data not in site.
+
+website and profile_url are same.
+line 67
+url https://miatillemans.woodsbros.com"
+
+4.image not found in site found in data,
+ and also description is wrong. discription found in site.
+line 147
+url https://tafesupbergo.woodsbros.com
+5.languages is no empty
+
