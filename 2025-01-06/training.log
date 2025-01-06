@@ -1,0 +1,48 @@
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_hungary:price-daily/DataHut_HU_Tesco_PriceExtractions_20250106.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_hungary:price-daily/DataHut_HU_Auchan_PriceExtractions_20250106.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_hungary:price-daily/DataHut_HU_Spar_PriceExtractions_20250106.CSV.zip
+
+
+DataHut_HU_Spar_PriceExtractions_20250106.CSV
+--------------------------------------------
+1.price_per_unit,selling_price and promotion_price
+are having wrong value.
+line 20
+https://www.spar.hu/onlineshop/angelli-bianco-szololebol-keszult-izesitett-bor-145-075-l/p/601615009
+
+same issue
+line 12539
+url
+https://www.spar.hu/onlineshop/nutella-biscuit-kakaos-mogyorokremmel-toltott-keksz-193-g/p/523850007
+
+2.in most of the cases product name is entered
+as site shown uom.
+
+DataHut_HU_Auchan_PriceExtractions_20250106.CSV
+---------------------------------------------
+1.percentage discount value
+not found in site.
+line 7
+url https://auchan.hu/shop/sencor-srv-1000sl-robotporszívó.p-340122
+
+
+2.site_shown_uom has same values as product_name
+
+
+DataHut_HU_Tesco_PriceExtractions_20250106.CSV
+-----------------------------------------------
+product_name is entered as
+site shown uom
+
+
+
+beinex-daily/luluhypermarket.ae_2025_01_06.csv
+-------------------------------------------
+checked 10 data randomly
+no error found
+
+
+
+pending
+========
+http://192.81.217.205:8000/QA_DATA/beinex-daily/carrefouruae.ae_2025_01_06.csv.zip
