@@ -1,0 +1,83 @@
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Bipa_PriceExtractions_20250106.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Billa_PriceExtractions_20250106.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Mpreis_PriceExtractions_20250106.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Fressnapf_PriceExtractions_20250106.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Mueller_PriceExtractions_20250106.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Dm_PriceExtractions_20250106.CSV.zip
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Interspar_PriceExtractions_20250106.CSV.zip
+
+
+DataHut_AT_Bipa_PriceExtractions_20250106.CSV
+-------------------------------------------
+1.Regular price is found in site
+but in data,selling price is taken as 
+regular price.
+line 8,14,17
+urls
+https://www.bipa.at/p/B3-707074
+
+https://www.bipa.at/p/B3-632800
+
+https://www.bipa.at/p/B3-106113
+
+DataHut_AT_Billa_PriceExtractions_20250106.CSV
+---------------------------------------------
+1.aktion tag found
+in site. not in data
+line 134
+url https://shop.billa.at/produkte/rauch-happy-day-apfelsaft-0010351
+
+same issue
+line 396
+url https://shop.billa.at/produkte/rauch-happy-day-multivitaminsaft-0010827
+
+
+DataHut_AT_Mpreis_PriceExtractions_20250106.CSV
+-----------------------------------------------
+No issues found
+
+DataHut_AT_Fressnapf_PriceExtractions_20250106.CSV
+---------------------------------------------------
+No isssues found
+
+DataHut_AT_Mueller_PriceExtractions_20250106.CSV
+-----------------------------------------------
+aktion tag not found in site
+found in data.
+line 10
+url https://www.mueller.at/p/die-nacht-des-jaegers-IPN3008952/?itemId=3008952
+same issue
+line 108 
+url https://www.mueller.at/p/senior-moment-IPN3008910/?itemId=3008910
+line 38121
+url https://www.mueller.at/p/faber-castell-tuschestift-pitt-artist-pen-c-farbe-175-2458299/?itemId=2458299
+line 56810
+url https://www.mueller.at/p/kalahari-hunting-grounds-IPN3029561/?itemId=3029561
+
+
+DataHut_AT_Dm_PriceExtractions_20250106.CSV
+------------------------------------------
+
+1.In some lines product_name is
+ entered as site shown uom
+
+eg lines 142,636 etc
+
+
+DataHut_AT_Interspar_PriceExtractions_20250106.CSV
+----------------------------------------------------
+1..product name entered as
+site_shown_uom
+line 8,18 etc
+
+
+
+
+
+
+
+
+
+
+
+
