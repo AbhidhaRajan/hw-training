@@ -1,0 +1,42 @@
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/propertyfinder-weekly/bayut_uae_2025_01_01.json.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/propertyfinder-weekly/bayut_egp_2025_01_01.json.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/propertyfinder-weekly/dari_ae_2025_01_01.json.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/propertyfinder-weekly/dubizzle_egp_2025_01_01.json.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/propertyfinder-weekly/nawy_egp_2025_01_01.json.zip
+
+
+
+propertyfinder-weekly/dari_ae_2025_01_01.json.zip
+----------------------------------------------
+phone_number_1 and phone_number_3
+field having same phone numbers.
+
+
+propertyfinder-weekly/nawy_egp_2025_01_01.json.
+------------------------------------------------
+No issues found
+
+
+
+propertyfinder-weekly/bayut_egp_2025_01_01.json.
+----------------------------------------------
+
+1.scraped_ts and "date" is  having two dates
+"2025-01-06",
+"2025-01-07"
+
+2.depth,broker_display_name,broker fields are not empty
+
+3.price_per field have "",Daily,Monthly, Yearly as values.
+
+4.id is the number found in url.  Not reference_number with out Bayut - ID
+
+
+
+pending
+------------
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/propertyfinder-weekly/bayut_uae_2025_01_01.json.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/propertyfinder-weekly/dubizzle_egp_2025_01_01.json.zip
+
+
+
