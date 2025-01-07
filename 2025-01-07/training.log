@@ -1,0 +1,56 @@
+http://192.81.217.205:8000/QA_DATA/beinex-daily/carrefouruae.ae_2025_01_06.csv.zip
+
+beinex-daily/carrefouruae.ae_2025_01_06.csv
+------------------------------------------
+1.price change found. 6.57 in data 10.95 in site
+line 76
+url https://www.carrefouruae.com/mafuae/en/mango/mango-keitt/p/900349
+
+no other issues found
+
+
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Dm_PriceExtractions_20250107.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Mueller_PriceExtractions_20250107.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Bipa_PriceExtractions_20250107.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Fressnapf_PriceExtractions_20250107.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Billa_PriceExtractions_20250107.CSV.zip
+ZIP Data_URL :http://192.81.217.205:8000/QA_DATA/tcs:aldi_austria:price-daily/DataHut_AT_Mpreis_PriceExtractions_20250107.CSV.zip
+
+
+DataHut_AT_Dm_PriceExtractions_20250107.CSV
+------------------------------------------
+1.site_shown_uom is "8 st"
+in site,8 stuck in data.
+line 10206
+url https://www.dm.at/andmetics-kaltwachsstreifen-oberlippe-p9120064111281.html
+2.product_name is 
+entered as site_shown_uom
+line 1223,3332
+
+DataHut_AT_Mueller_PriceExtractions_20250107.CSV.
+-------------------------------------------------
+no issues found
+
+DataHut_AT_Bipa_PriceExtractions_20250107.CSV
+--------------------------------------------
+
+mo issues found
+
+
+DataHut_AT_Fressnapf_PriceExtractions_20250107.CSV
+----------------------------------------------------
+
+no issues found
+
+
+DataHut_AT_Billa_PriceExtractions_20250107.CSV.
+------------------------------------------------
+no issues found
+
+DataHut_AT_Mpreis_PriceExtractions_20250107.CSV
+-----------------------------------------------
+no issues 
+
+
+
+
