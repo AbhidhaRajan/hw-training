@@ -1,0 +1,71 @@
+tcs:aldi_slovenia-monthly/DataHut_SI_Hitrinakup_FullDump_20250109.CSV.zip
+tcs:aldi_slovenia-monthly/DataHut_SI_Trgovinejager_FullDump_20250109.CSV.zip
+
+
+tcs:aldi_slovenia-monthly/DataHut_SI_Trgovinejager_FullDump_20250109.CSV
+--------------------------------------------------------------------
+1.file_name_1,image_url_1,
+file_name_2,image_url_2,
+file_name_3,image_url_3,
+file_name_4,image_url_4,
+file_name_5,image_url_5,
+file_name_6 , image_url_6,
+warning
+
+these fields are also empty.(image found in site not in data)
+
+2.product_name is entered as site_shown_uom
+
+tcs:aldi_austria-weekly/DataHut_AT_Bipa_FullDump_20250109.CSV.zip
+tcs:aldi_austria-weekly/DataHut_AT_Mueller_FullDump_20250109.CSV.zip
+tcs:aldi_austria-weekly/DataHut_AT_Interspar_FullDump_20250109.CSV.zip
+tcs:aldi_austria-weekly/DataHut_AT_Fressnapf_FullDump_20250109.CSV.zip
+
+
+full data testing
+-----------------
+tcs:aldi_austria-weekly/DataHut_AT_Bipa_FullDump_20250109.CSV
+--------------------------------------------------------------
+no issues found
+
+tcs:aldi_austria-weekly/DataHut_AT_Mueller_FullDump_20250109.CSV
+---------------------------------------------------------------
+1. 'rating' is 3.5 in site
+3.4685 in data.
+line 16
+url https://www.mueller.at/p/colgate-whitening-serum-max-white-overnight-IPN3033922/?itemId=3033922
+
+2."rating" is 4.5 in site. 4.4217 in data.
+line 12759
+url https://www.mueller.at/p/john-frieda-go-blonder-aufhellendes-shampoo-250ml-2005065/?itemId=2005065
+3. 'rating" is 3.3 in site , 3.3333 in data
+line 15889
+url https://www.mueller.at/p/duchesse-ultra-binden-extra-lang-mit-fluegeln-2571957/?itemId=2571957
+
+
+tcs:aldi_austria-weekly/DataHut_AT_Interspar_FullDump_20250109.CSV
+-------------------------------------------------------------------
+price per unit is 59.80 €/kg,and 
+grammage_unit and quantity is
+1 stuck.
+line 8230
+url https://www.interspar.at/shop/lebensmittel/bergkraeuter-bio-gewuerzzubereitung-wuerzig-fuer-hendl/p/6087593
+
+
+tcs:aldi_austria-weekly/DataHut_AT_Fressnapf_FullDump_20250109.CSV
+------------------------------------------------------------------
+
+1.grammage_quantity
+is 11x6x5 in site. 6x5 in data.
+line 507
+url https://www.fressnapf.at/p/miamor-cat-snack-lachs-cream-11x6x15g-1265855/
+
+2.grammage_quantity is 2 stuckx2 in site. 1 stuck in data
+line 2928
+url https://www.fressnapf.at/p/catsan-smart-pack-2-stueckx2-1102156/
+
+
+
+
+
+
