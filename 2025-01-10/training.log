@@ -1,0 +1,36 @@
+tcs:aldi_slovenia-weekly/DataHut_SI_Spar_FullDump_20250109.CSV.zip
+tcs:aldi_slovenia-weekly/DataHut_SI_Dm_FullDump_20250109.CSV.zip
+tcs:aldi_slovenia-monthly/DataHut_SI_Mercator_FullDump_20250109.CSV.zip
+
+tcs:aldi_slovenia-weekly/DataHut_SI_Spar_FullDump_20250109.CSV.zip
+-----------------------------------------------------------------
+
+1.producthierarchy_level7 is  empty
+2.product_name is entered as site_shown_uom
+
+tcs:aldi_slovenia-weekly/DataHut_SI_Dm_FullDump_20250109.CSV.zip
+---------------------------------------------------------------
+no issues
+
+
+
+tcs:aldi_slovenia-monthly/DataHut_SI_Mercator_FullDump_20250109.CSV.zip
+------------------------------------------------------------------------
+
+1. along with the other mentioned fields file_name_1,image_url_1,
+        file_name_2        image_url_2        
+        file_name_3        image_url_3        
+        file_name_4        image_url_4        
+        file_name_5        image_url_5        
+        file_name_6        image_url_6
+   are empty.
+
+   (image present in site)
+2. in some fields product_name is entered as site_shown_uom
+
+
+
+
+beinex-daily/luluhypermarket.ae_2025_01_10.csv.zip
+--------------------------------------------------
+no issues found
