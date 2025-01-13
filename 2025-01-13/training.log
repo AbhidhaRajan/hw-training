@@ -1,0 +1,66 @@
+tcs:aldi_austria:price-daily/DataHut_AT_Mpreis_PriceExtractions_20250113.CSV.zip
+tcs:aldi_austria:price-daily/DataHut_AT_Billa_PriceExtractions_20250113.CSV.zip
+tcs:aldi_austria:price-daily/DataHut_AT_Interspar_PriceExtractions_20250113.CSV.zip
+tcs:aldi_austria:price-daily/DataHut_AT_Fressnapf_PriceExtractions_20250113.CSV.zip
+tcs:aldi_austria:price-daily/DataHut_AT_Bipa_PriceExtractions_20250113.CSV.zip
+tcs:aldi_austria:price-daily/DataHut_AT_Mueller_PriceExtractions_20250113.CSV.zip
+tcs:aldi_austria:price-daily/DataHut_AT_Dm_PriceExtractions_20250113.CSV.zip
+
+
+tcs:aldi_austria:price-daily/DataHut_AT_Mpreis_PriceExtractions_20250113.CSV
+---------------------------------------------------------------------------
+1+1 gratis not found 
+in site.
+line 7053,7057,7062
+
+https://www.mpreis.at/shop/p/thomy-mayonnaise-25-fett-275-gr-tube-199460
+
+https://www.mpreis.at/shop/p/thomy-mayonnaise-50-fett-265-gr-tube-199450
+
+https://www.mpreis.at/shop/p/thomy-mayonnaise-80-199441
+
+
+tcs:aldi_austria:price-daily/DataHut_AT_Billa_PriceExtractions_20250113.CSV.
+--------------------------------------------------------------------------
+no issues found
+
+tcs:aldi_austria:price-daily/DataHut_AT_Interspar_PriceExtractions_20250113.CSV.zip
+----------------------------------------------------------------------------------
+
+1.found mistake in
+price ,grammage_unit
+and grammage_quantity.
+line 23591
+url https://www.interspar.at/shop/lebensmittel/vici-msc-meeres-snacks/p/7559662
+ (200 G in site, 1 Kg in data. selling_price is 16.95 in data, 3.39 in site)
+
+2.product name entered as
+site_shown_uom
+line 8,19 etc
+
+tcs:aldi_austria:price-daily/DataHut_AT_Fressnapf_PriceExtractions_20250113.CSV.zip
+---------------------------------------------------------------------------------
+No issues found
+
+
+tcs:aldi_austria:price-daily/DataHut_AT_Bipa_PriceExtractions_20250113.CSV.zip
+------------------------------------------------------------------------------
+
+No issues found
+
+
+
+
+tcs:aldi_austria:price-daily/DataHut_AT_Mueller_PriceExtractions_20250113.CSV.zip
+---------------------------------------------------------------------------------
+1. AKTION tag not found
+in site,found in data.
+line 61
+url https://www.mueller.at/p/max-factor-kohl-kajal-6377399056/?itemId=597287
+
+
+tcs:aldi_austria:price-daily/DataHut_AT_Dm_PriceExtractions_20250113.CSV.zip
+-----------------------------------------------------------------------------
+some product_name  which is not showing grammage is entered 
+as site_shown_uom.
+eg line 16102
