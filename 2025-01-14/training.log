@@ -1,0 +1,79 @@
+propertyfinder-weekly/nawy_egp_2025_01_02.json.zip
+propertyfinder-weekly/bayut_egp_2025_01_02.json.zip
+propertyfinder-weekly/dubizzle_egp_2025_01_02.json.zip
+propertyfinder-weekly/dari_ae_2025_01_02.json.zip
+
+propertyfinder-weekly/bayut_uae_2025_01_02.json.zip
+propertyfinder-weekly/aqarmap_egp_2025_01_02.json.zip
+
+beinex-daily/luluhypermarket.ae_2025_01_14.csv.zip
+
+
+propertyfinder-weekly/nawy_egp_2025_01_02.json.zip
+--------------------------------------------------
+No issues found
+
+propertyfinder-weekly/bayut_egp_2025_01_02.json.zip
+--------------------------------------------------
+1.1.only one  phone_number found
+in site. two in data.
+line 30397
+url https://www.bayut.eg/en/property/details-501394356.html
+same issue
+line 38219
+url https://www.bayut.eg/en/property/details-501318773.html"
+
+
+2.depth,broker_display_name,broker fields are not empty
+
+
+propertyfinder-weekly/dubizzle_egp_2025_01_02.json.zip
+-----------------------------------------------------
+1.page not found
+line 37725
+url https://www.dubizzle.com.eg/en/ad/شقة-140م-للبيع-بالتقسيط-في-ماونتن-فيو-اكستنشن-11-بالقاهرة-الجديدة-ID501346555.html
+
+2.wrong phone_number found. +201029070474 in site
++201116158303 in data.
+line 23687
+url https://www.dubizzle.com.eg/en/ad/توين-هاوس-للبيع443مجاردن-اســـتلام-فوري-بقلب-العاصمه-في-ال-r7-بفيو-مساحات-خضراء-وبالتقسيط-ID501331600.html
+
+3."scraped_ts":"2025-01-11",
+"scraped_ts":"2025-01-13",
+
+"date":"2025-01-11",
+"date":"2025-01-13",
+
+
+propertyfinder-weekly/dari_ae_2025_01_02.json.zip
+---------------------------------------------------
+no issues found
+
+
+
+propertyfinder-weekly/aqarmap_egp_2025_01_02.json.zip
+------------------------------------------------
+1."scraped_ts":"2025-01-10",
+"scraped_ts":"2025-01-11",
+"scraped_ts":"2025-01-13",
+"date":"2025-01-10",
+"date":"2025-01-11",
+"date":"2025-01-13"
+
+2.depth, listing_type are empty
+3.seller_role is empty
+
+
+
+beinex-daily/luluhypermarket.ae_2025_01_14.csv.zip
+-------------------------------------------------
+1.brand name found "L'Oreal Paris" in site
+LOREAL-ELVIVE in data
+row 18018
+url https://gcc.luluhypermarket.com/en-ae/l-oreal-paris-elvive-extraordinary-oil-shampoo-400-ml-conditioner-360-ml/p/2167120/
+
+
+doing
+-------
+
+propertyfinder-weekly/bayut_uae_2025_01_02.json.zip
