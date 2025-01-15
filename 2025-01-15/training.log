@@ -1,0 +1,86 @@
+tcs:aldi_austria-weekly/DataHut_AT_Bipa_FullDump_20250116.CSV.zip
+
+tcs:aldi_slovenia-weekly/DataHut_SI_Trgovinejager_FullDump_20250116.CSV.zip
+
+tcs:aldi_hungary-weekly/DataHut_HU_Auchan_FullDump_20250116.CSV.zip
+tcs:aldi_hungary-weekly/DataHut_HU_Tesco_FullDump_20250116.CSV.zip
+
+tcs:aldi_switzerland:price-daily/DataHut_CH_Lidl_PriceExtractions_20250115.CSV.zip
+
+
+
+propertyfinder-weekly/bayut_uae_2025_01_02.json.zip
+--------------------------------------------------
+1.2 phone_number found in site
+one in data.
+line 240002
+  "url": "https://www.bayut.com/property/details-9103000.html",
+
+ 2."orn_number",
+    "bln_number" ,
+    "adm_number" ,
+    "3d_live",
+    "3d_image" ,
+    "2d_image"  are newly added fields.
+
+
+tcs:aldi_austria-weekly/DataHut_AT_Bipa_FullDump_20250116.CSV.zip
+---------------------------------------------------------------
+
+1.retail_limit is 25 in site,26 in data
+line 3847
+url https://www.bipa.at/p/B3-436363
+
+
+tcs:aldi_slovenia-weekly/DataHut_SI_Trgovinejager_FullDump_20250116.CSV.zip
+-----------------------------------------------------------------------
+extraction_date
+2025-01-09
+2025-01-15
+
+
+tcs:aldi_hungary-weekly/DataHut_HU_Auchan_FullDump_20250116.CSV.zip
+------------------------------------------------------------------
+1.showing category unavailable message.
+line 21897
+url https://auchan.hu/shop/lajver-premium-sauvignon-blanc-díszdobozban-075-l.p-746503
+
+2.image fields are completely empty
+
+
+
+tcs:aldi_hungary-weekly/DataHut_HU_Tesco_FullDump_20250116.CSV.zip
+-------------------------------------------------------------------
+1. file_name_1        image_url_1        file_name_2        image_url_2        file_name_3        image_url_3
+file_name_4        image_url_4        are also empty
+
+2.instock true in data
+outofstock in site.
+line 4
+url https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004003262784
+
+
+same issue
+line 143
+url https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004009798683
+
+
+line 1796
+url https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004009883730
+
+line 2951
+url https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004010843549
+
+
+
+tcs:aldi_switzerland:price-daily/DataHut_CH_Lidl_PriceExtractions_20250115.CSV.zip
+----------------------------------------------------------------------------------
+1.grammage_quantity is 100g,70g in site.
+in data 100g is taken and price of 70g is taken as price.
+ line 1160
+url https://sortiment.lidl.ch/de/bio-pfeffer-ganz-0151095
+2.date found in price_valid_upto is 15.1.2024
+line 1776
+url https://sortiment.lidl.ch/de/pommes-frites-feinschnitt-5105769
+(other year in this data is also 2024)
+2.Year in date is 2024
