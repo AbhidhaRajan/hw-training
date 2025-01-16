@@ -1,0 +1,50 @@
+tcs:aldi_slovenia-weekly/DataHut_SI_Trgovinejager_FullDump_20250116.CSV.zip
+tcs:aldi_slovenia-weekly/DataHut_SI_Hitrinakup_FullDump_20250116.CSV.zip
+tcs:aldi_slovenia-weekly/DataHut_SI_Dm_FullDump_20250116.CSV.zip
+tcs:aldi_slovenia-weekly/DataHut_SI_Spar_FullDump_20250116.CSV.zip
+tcs:aldi_slovenia-weekly/DataHut_SI_Mercator_FullDump_20250116.CSV.zip
+
+tcs:aldi_hungary-weekly/DataHut_HU_Spar_FullDump_20250116.CSV.zip
+tcs:aldi_hungary-weekly/DataHut_HU_Tesco_FullDump_20250116.CSV.zip
+tcs:aldi_hungary-weekly/DataHut_HU_Auchan_FullDump_20250116.CSV.zip
+
+
+tcs:aldi_slovenia-weekly/DataHut_SI_Trgovinejager_FullDump_20250116.CSV.zip
+--------------------------------------------------------------------------
+no issues found
+
+tcs:aldi_slovenia-weekly/DataHut_SI_Hitrinakup_FullDump_20250116.CSV.zip
+------------------------------------------------------------------------
+no issues
+
+tcs:aldi_slovenia-weekly/DataHut_SI_Dm_FullDump_20250116.CSV.zip
+-----------------------------------------------------------------
+1.retail limit is 24 in site. 27 in data
+line 4
+url https://www.dm.si/babylove-premium-hlacne-plenice-5-junior-13-20-kg-p4066447352986.html
+
+2.reviews found 10 in site,9 in data
+line 67
+url https://www.dm.si/dmbio-bio-sadni-sok-p4067796087376.html
+
+3.vitamins are also empty
+
+
+tcs:aldi_slovenia-weekly/DataHut_SI_Spar_FullDump_20250116.CSV.zip
+--------------------------------------------------------------------
+producthierarchy_level7
+is also empty
+
+tcs:aldi_slovenia-weekly/DataHut_SI_Mercator_FullDump_20250116.CSV.zip
+-----------------------------------------------------------------------
+no issues found
+
+tcs:aldi_hungary-weekly/DataHut_HU_Spar_FullDump_20250116.CSV.zip
+----------------------------------------------------------
+Random data check pending
+
+pending
+---------
+tcs:aldi_hungary-weekly/DataHut_HU_Tesco_FullDump_20250116.CSV.zip
+tcs:aldi_hungary-weekly/DataHut_HU_Auchan_FullDump_20250116.CSV.zip
+---------------------------------
