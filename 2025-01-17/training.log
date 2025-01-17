@@ -1,0 +1,89 @@
+pending
+-----------
+tcs:aldi_hungary-weekly/DataHut_HU_Spar_FullDump_20250116.CSV.zip
+-----------------------------------------------------------------
+Random data check completed,no issues
+
+tcs:aldi_hungary-weekly/DataHut_HU_Tesco_FullDump_20250116.CSV.zip
+------------------------------------------------------------------
+1.site seems updated.
+instoke found true in data
+false in site
+line 8
+url https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004003262395
+
+
+tcs:aldi_hungary-weekly/DataHut_HU_Auchan_FullDump_20250116.CSV.zip
+------------------------------------------------------------------
+no issues
+
+
+tasks
+------
+beinex-daily/luluhypermarket.ae_2025_01_17.csv.zip
+tcs:aldi_austria:price-daily/DataHut_AT_Bipa_PriceExtractions_20250117.CSV.zip
+tcs:aldi_austria:price-daily/DataHut_AT_Billa_PriceExtractions_20250117.CSV.zip
+
+
+tcs:aldi_switzerland:price-daily/DataHut_CH_Lidl_PriceExtractions_20250117.CSV.zip
+
+tcs:aldi_slovenia:price-daily/DataHut_SI_Spar_PriceExtractions_20250117.CSV.zip
+tcs:aldi_slovenia:price-daily/DataHut_SI_Hitrinakup_PriceExtractions_20250117.CSV.zip
+
+tcs:aldi_hungary:price-daily/DataHut_HU_Spar_PriceExtractions_20250117.CSV.zip
+tcs:aldi_hungary:price-daily/DataHut_HU_Tesco_PriceExtractions_20250117.CSV.zip
+tcs:aldi_hungary:price-daily/DataHut_HU_Auchan_PriceExtractions_20250117.CSV.zip
+
+
+price-daily/DataHut_HU_Auchan_PriceExtractions_20250117.CSV.zip
+----------------------------------------------------
+no issues
+
+price-daily/DataHut_HU_Tesco_PriceExtractions_20250117.CSV.zip
+--------------------------------------------------
+no issues
+
+
+price-daily/DataHut_HU_Spar_PriceExtractions_20250117.CSV.zip
+------------------------------------------------
+no issues
+
+
+price-daily/DataHut_SI_Hitrinakup_PriceExtractions_20250117.CSV.zip
+------------------------------------------------------
+
+no issues
+
+price-daily/DataHut_SI_Spar_PriceExtractions_20250117.CSV.zip
+------------------------------------------------------------
+no issues
+
+price-daily/DataHut_CH_Lidl_PriceExtractions_20250117.CSV.zip
+------------------------------------------------------------
+1.year in all date is 2024
+2.in site promotion_valid_upto
+found as 22.1 in data 22.1.2024
+same mistake in price_valid_from
+ promotion_valid_upto.
+
+line 70
+url https://sortiment.lidl.ch/de/chardonne-lavaux-5110413
+
+
+DataHut_AT_Billa_PriceExtractions_20250117.CSV.zip
+-------------------------------------------------
+1.AKTION tag not found
+in site,change in price 
+found.
+line 12
+url https://shop.billa.at/produkte/ja-natuerlich-karotten-0089591
+
+
+DataHut_AT_Bipa_PriceExtractions_20250117.CSV.zip
+---------------------------------------------------
+no issues
+
+
+beinex-daily/luluhypermarket.ae_2025_01_17.csv.zip
+--------------------------------------------------
+no issues
