@@ -1,0 +1,90 @@
+tcs:aldi_austria:price-daily/DataHut_AT_Bipa_PriceExtractions_20250120.CSV.zip
+tcs:aldi_austria:price-daily/DataHut_AT_Mueller_PriceExtractions_20250120.CSV.zip
+tcs:aldi_austria:price-daily/DataHut_AT_Interspar_PriceExtractions_20250120.CSV.zip
+tcs:aldi_austria:price-daily/DataHut_AT_Mpreis_PriceExtractions_20250120.CSV.zip
+tcs:aldi_austria:price-daily/DataHut_AT_Billa_PriceExtractions_20250120.CSV.zip
+beinex-daily/luluhypermarket.ae_2025_01_20.csv.zip
+
+beinex-daily/carrefouruae.ae_2025_01_20.csv.zip
+tcs:aldi_austria:price-daily/DataHut_AT_Dm_PriceExtractions_20250120.CSV.zip
+tcs:aldi_austria:price-daily/DataHut_AT_Fressnapf_PriceExtractions_20250120.CSV.zip
+
+propertyfinder-weekly/dari_ae_2025_01_03.json.zip
+propertyfinder-weekly/nawy_egp_2025_01_03.json.zip
+
+propertyfinder-weekly/dubizzle_egp_2025_01_03.json.zip
+propertyfinder-weekly/bayut_egp_2025_01_03.json.zip
+propertyfinder-weekly/dubizzle_uae_2025_01_03.json.zip
+
+
+
+
+tcs:aldi_austria:price-daily/DataHut_AT_Bipa_PriceExtractions_20250120.CSV.zip
+------------------------------------------------------------------------------
+
+No issues found
+
+tcs:aldi_austria:price-daily/DataHut_AT_Mueller_PriceExtractions_20250120.CSV.zip
+-------------------------------------------------------------------------------
+
+No issues found
+
+tcs:aldi_austria:price-daily/DataHut_AT_Interspar_PriceExtractions_20250120.CSV.zip
+-------------------------------------------------------------------------------
+1.found year in promotion_valid_upto as 9999. site also has the 
+same value "30.12.9999"
+line 9795
+
+tcs:aldi_austria:price-daily/DataHut_AT_Mpreis_PriceExtractions_20250120.CSV.zip
+--------------------------------------------------------------------------------
+no issues
+
+tcs:aldi_austria:price-daily/DataHut_AT_Billa_PriceExtractions_20250120.CSV.zip
+-------------------------------------------------------------------------------
+1.grammage quantity 
+found Ab 0,25 kg in site
+1kg in data.
+line 11295
+url https://shop.billa.at/produkte/aumaerk-duke-leg-entenkeule-00749416
+
+
+same issue ,grammage quantity 
+found Ab 0,8 kg in site. 1kg in data
+line 11291
+url https://shop.billa.at/produkte/aumaerk-great-peak-kalbstafelspitz-00749391
+
+
+beinex-daily/luluhypermarket.ae_2025_01_20.csv.zip
+--------------------------------------------------
+no issues
+
+
+beinex-daily/carrefouruae.ae_2025_01_20.csv.zip
+----------------------------------------------
+price change found.
+AED 78.75 in data,
+173 in data.
+line 56152
+url https://www.carrefouruae.com/mafuae/en/dog-bed/memory-foam-xl-dog-bed-with-bolsters-for-all-sized-dogs-perfect-comfort-orthopedic-sofa-bed-with-removable-washable-cover-nonskid-bottom-80-cm-l-khaki-/p/733241712431
+
+
+tcs:aldi_austria:price-daily/DataHut_AT_Dm_PriceExtractions_20250120.CSV
+---------------------------------------------------------------------------
+grammage_quantity is
+100st in site,1 stuck in data
+line 22
+url https://www.dm.at/soft-und-sicher-taschentuecher-box-4-lagig-sortiert-p4058172286643.html
+
+tcs:aldi_austria:price-daily/DataHut_AT_Fressnapf_PriceExtractions_20250120.CSV.zip
+-------------------------------------------------------
+no issues
+
+propertyfinder-weekly/dari_ae_2025_01_03.json.zip
+------------------------------------------------
+no issues
+
+propertyfinder-weekly/nawy_egp_2025_01_03.json.zip
+--------------------------------------------------
+no issues
+
+
