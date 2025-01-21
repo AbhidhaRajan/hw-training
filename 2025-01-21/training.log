@@ -1,0 +1,52 @@
+pending
+---------
+propertyfinder-weekly/bayut_egp_2025_01_03.json.zip
+propertyfinder-weekly/dubizzle_egp_2025_01_03.json.zip
+propertyfinder-weekly/dubizzle_uae_2025_01_03.json.zip
+
+propertyfinder-weekly/bayut_egp_2025_01_03.json.zip
+------------------------------------------------------
+
+1.depth,broker_display_name,broker fields are not empty
+2.Two new fields
+"completion_status", "ownership"
+
+
+propertyfinder-weekly/dubizzle_egp_2025_01_03.json.zip
+------------------------------------------------------
+
+1.Mistake found in phone_number
+"+201002566159" in data
+"+201028340299" in site.
+line 1
+"url": "https://www.dubizzle.com.eg/en/ad/شقة-78م-للإيجار-في-مدينتي-b12-فيو-مفتوح-اول-سكن-ID203679736.html",
+
+same issue
+line 34676
+    "url": "https://www.dubizzle.com.eg/en/ad/للبيع-شقه-240-م-فى-كمبوند-المصراويه-التجمع-الخامس-دور-اول-واجهه-سوبر-لوكس-ID501312938.html",
+
+
+
+2.page not found error
+line 21778
+url https://www.dubizzle.com.eg/en/ad/بأرخص-سعر-محل-للبيع-بالتقسيط-يصلح-لكافه-الانشطه-وبمقدم-40-يتقسم-ع-3دفعات-واول-قسط-بعد-الاستلام-يعني-قسطك-بقي-من-ايجار-محل-عرض-لقطه-ID500763165.html
+
+
+3."scraped_ts":"2025-01-18",
+"scraped_ts":"2025-01-20",
+
+"date":"2025-01-18",
+"date":"2025-01-20",
+
+
+propertyfinder-weekly/dubizzle_uae_2025_01_03.json.zip
+-----------------------------------------------------
+1."price_per":"Yearly",
+"price_per":"",
+"price_per":"Monthly",
+"price_per":"Quarterly",
+"price_per":"Bi-Yearly",
+"price_per":"سنويا",
+"price_per":"ربع سنوي",
+
+2.listed_by is empty
