@@ -1,0 +1,161 @@
+beinex-weekly/naukrigulf.ae_2025_01_20_03.csv.
+beinex-weekly/dubizzle_vehicles.ae_2025_01_20_03.csv
+beinex-weekly/dubizzle_real_estate.ae_2025_01_20_03.csv
+beinex-weekly/propertyfinder.ae_2025_01_20_03.csv.
+
+beinex-weekly/bayut.ae_2025_01_20_03.csv
+
+
+
+
+beinex-weekly/naukrigulf.ae_2025_01_20_03.csv.
+---------------------------------------------
+1.17120 rows
+2.delimiter comma,
+3. columns
+   Url ,Position	,Company Name,	Experience,	Job Location ,Job Geolocation,	Salary	,Education	,Nationality,	Gender ,Vacancy	,Job/Employement Type,	Company Industry ,Job Description	,Department/Functional Area	,Registration mode	,Employee Status
+4.Empty fields. 
+ Job Geolocation,Registration mode,Employee Status
+
+5.Job/Employement Type
+Full Time
+Contract
+Part Time
+Internship
+
+
+6. Random check completed
+
+Salary not found in site.
+line 1 
+url https://www.naukrigulf.com/ssheq-superintendent-jobs-in-dubai-uae-in-aquachemie-middle-east-fze-8-to-15-years-n-cd-109156-jid-170125000152
+
+
+beinex-weekly/dubizzle_vehicles.ae_2025_01_20_03.csv
+----------------------------------------------------
+1.40528 rows
+2.delimiter comma,
+3. columns
+
+URL ,Categories,  Product Name,   Brand, Price, Seller Type, Poster Year, Type , Property Age  , Validated Information ,  Tier/Segment ,  Usage, Regional Spec , Year , Trim,  Km, Length,   Details,  Picture
+
+4.Empty fields.
+
+Type
+Validated Information
+Tier/Segment
+
+
+
+5.{} found in empty fields of Details column
+6.Random checking
+
+  >> product name found in site as "55111",not found in data.
+  line 66
+  url https://uae.dubizzle.com/motors/number-plates/umm-al-quwain-plate/private-car/2025/1/16/i55111-and-i55011-for-sale-together-2-697---464ffc2d66974a0cafbbd017f0981b99/
+
+  >> site updated. date in poster year changed."2025-01-05" in data, "21st January 2025" in site.
+     line 14293
+     url https://uae.dubizzle.com/motors/used-cars/toyota/alphard/2024/11/4/toyota-alphard-vip-seat-2022-model-very-ne-2-636---8cd8f3e7531c422db9016cdd1a1ea728/
+
+
+
+beinex-weekly/dubizzle_real_estate.ae_2025_01_20_03.csv
+------------------------------------------------------
+1.286605 rows
+2.columns 
+Url   Categories  Product Name   Brand Price Location Seller Type Poster Year Furnishing  Purpose  Amenities   Type  Property Age   Validated Information   Floor Size  No.of Beds  No.of Bathroom Property History  Completion  Tier/Segment   Usage Geolocation Property Type  Unit Type   District Name  AddressLocality   AddressRegion  Property/Item ID  ExtractionDate AvailabilityDate  Property Description Currency
+3.Empty fields
+     Brand,Seller Type,Property History,Tier/Segment,District Name,AddressLocality,AddressRegion,
+     AvailabilityDate
+4.Categories
+Rent
+Sale
+
+5.Purpose
+Rent
+Sale
+Monthly Rent
+Daily Rent
+
+6.Furnishing
+  Unfurnished,Furnished
+
+7.Type
+Rent
+Sale
+
+8.Completion
+
+Off-Plan
+Ready
+
+9.Usage
+
+Other
+Residential
+Commercial
+
+10.Property Type
+Residential
+Commercial
+
+11.Currency
+AED
+
+12.Random checking
+
+   no issues
+
+
+beinex-weekly/propertyfinder.ae_2025_01_20_03.csv.
+-------------------------------------------------
+1. 289398 rows
+2.columns 
+
+  Url Category Product Name   Property Agent Name  Location Price Geolocation Property Type  Unit Type   District Name  AddressLocality   AddressRegion  Type  Property/Item ID  ExtractionDate AvailabilityDate  Property Name  Property Description Amenities   No.of Bedrooms No.of Bathroom Residential Insights Property Size  Currency
+3.Category
+Sale,rent
+
+4.Property Type
+  Residential
+Commercial
+
+5.Type
+Sale,Rent
+
+6.Currency
+AED
+
+
+7. Empty fields
+   
+District Name
+Residential Insights
+
+
+8.Random check
+
+ >> error in url. line 110(details in data not found)
+ url https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-mohammed-bin-rashid-city-sobha-hartland-crest-grande-12793206.html
+
+
+
+beinex-weekly/bayut.ae_2025_01_20_03.csv
+----------------------------------------
+1.380784 rows
+2.columns 
+  Url Location Price Geolocation Property Type  Unit Type   District Name  AddressLocality   AddressRegion  Type  Property/Item ID  ExtractionDate AvailabilityDate  Purpose  Agent Name  Agency Name Furnishing  Amenities   Property Description No.of Bedrooms No.of Bathroom Area  Floor Plans Reference No.
+3.Property Type
+ residential
+ commercial
+
+4.Type
+  Sale,Rent
+
+5.Purpose
+  For Rent
+  For Sale
+
+6.no empty fields
+7.Random check complete. No issues found
