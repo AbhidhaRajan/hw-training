@@ -1,0 +1,190 @@
+acc/auto5be_2025_01_17
+=======================
+
+date found 17
+
+
+acc/auto5be_2025_01_17/auto5be_bike_carriers_2025_01_17.csv
+-----------------------------------
+site blocked
+
+acc/auto5be_2025_01_17/auto5be_crossbar_2025_01_17.csv
+-----------------------------
+With Lock is not empty.
+
+1.Input Brand,Input Model,
+Model Selected        
+is empty
+
+2.found instoke. out of  stoke
+in data.
+line 12
+url https://www.auto5.be/nl/p/compleet-pakket-2-met-bevestigingen-mont-blanc-xplore-ready-fit-aluminium-2631218.html
+
+same issue
+line 100
+url https://www.auto5.be/nl/p/compleet-pakket-2-met-bevestigingen-thule-slidebar-aluminium-2275803.html
+
+acc/auto5be_2025_01_17/auto5be_floormats_2025_01_17.csv
+--------------------------------
+1.found instoke. out of  stoke
+in data.
+line 510
+url https://www.auto5.be/nl/p/set-van-4-norauto-zwarte-op-maat-gemaakte-automatten-van-tapijt-2330165.html
+
+2.change in price. 37.95 in site,41.95 in data
+line 570
+url https://www.auto5.be/nl/p/set-van-4-op-maat-gemaakte-tapijten-tapijt-550-zwart-norauto-2542289.html
+
+same issue price change
+line 730
+url https://www.auto5.be/nl/p/set-van-4-op-maat-gemaakte-tapijten-tapijt-550-zwart-norauto-2542504.html
+
+
+line 780
+url https://www.auto5.be/nl/p/norauto-op-maat-gemaakte-rubber-mattenset-zwart-2329022.html
+
+acc/auto5be_2025_01_17/auto5be_skiboxes_2025_01_17.csv
+---------------------------------
+1.price change found
+line 154
+url https://www.auto5.be/nl/p/lage-dakkoffer-xl-maat-thule-motion-3-titanium-glanzend-400-l-2763124.html
+
+2.in stoke in site, out of stoke in data
+line 178
+url https://www.auto5.be/nl/p/dakkoffer-thule-motion-xt-m-silver-grey-400l-2098026.html
+
+
+acc/auto5be_2025_01_17/auto5be_towing_hitches_2025_01_17.csv
+------------------------------------------
+1.only 2742 urls are 
+unique
+
+2.Catalogue price is not empty
+
+acc/auto5be_2025_01_17/auto5be_trunkliners_2025_01_17.csv
+----------------------------------
+1.only 20 urls are unique
+
+
+acc/autoonderdelen24_2025_01_17
+================================
+autoonderdelen24_bike_carriers_2025_01_17.csv
+--------------------------------------------
+1.only 125 urls are unique
+
+(Input Category,Input Brand,Input Model,Model Selected,Engine
+)
+2.instoke in site,out of stoke in data
+line 100
+url https://www.autoonderdelen24.be/thule-13657436.html
+
+same issue
+line 200
+url https://www.autoonderdelen24.be/bosal-oris-14288314.html
+
+
+
+
+autoonderdelen24_crossbar_2025_01_17.csv
+---------------------------------------
+1.only 157 urls are unique
+
+2.mistake in net price
+122.24 in data, 127.24 in site
+line 2
+url https://www.autoonderdelen24.be/ridex-18236890.html
+
+2.price change found. 134.72 in data,170.96 in site. and in stock 
+in data, out of stock in site.
+line 300
+url https://www.autoonderdelen24.be/twinny-load-16412067.html
+
+
+autoonderdelen24_floormats_2025_01_17.csv
+----------------------------------------
+1.only 1519 urls are unique
+
+2.price change found.
+20,96 in site,21.24 in data
+line 9
+url https://www.autoonderdelen24.be/ridex-20248328.html
+
+
+autoonderdelen24_towing_hitches_2025_01_17.csv
+---------------------------------------------
+1.only 693 urls are 
+unique 
+2.price change 262,24 in site
+261.24 in data.
+line 4
+url https://www.autoonderdelen24.be/steinhof-13650830.html
+
+same mistake
+line 1407
+url https://www.autoonderdelen24.be/carpoint-17357224.html
+
+
+
+autoonderdelen24_skiboxes_2025_01_17.csv
+------------------------------------------
+1.only 131 urls are unique
+2.price change 130.72 in site
+132.72 in data.
+line 31
+url https://www.autoonderdelen24.be/start-20465074.html
+
+
+
+
+
+autoonderdelen24_trunkliners_2025_01_17.csv
+-----------------------------------------
+only 552 urls are unique
+
+
+
+
+bol_2025_01_17
+==============
+bol_bike_carriers_2025_01_17.csv
+--------------------------------
+1.only 232 urls are unique
+2.mistake in net price.
+577 in site,465.08 in date
+line 7950
+url https://www.bol.com/nl/nl/p/pro-user-diamant-fg2-fietsendrager/9300000161637961/
+
+
+bol_crossbar_2025_01_17.csv
+--------------------------
+8111 unique urls
+
+
+bol_floormats_2025_01_17.csv
+-----------------------------
+2388 urls are unique
+
+bol_skiboxes_2025_01_17.csv
+-----------------------------
+1.only 197 urls are unique
+2.product not available in site
+line 1720
+url https://www.bol.com/nl/nl/p/15-kubieke-voet-autodakkoffer-met-antislipmat-waterdichte-daktas-bagagebox-opvouwbare-dakkoffer-geschikt-voor-alle-voertuigen-met-of-zonder-bagagerek/9300000181279566/
+
+
+bol_towing_hitches_2025_01_17.csv
+--------------------------------
+1.only 200 urls are unique
+2.net price change found
+26.35 in site,25.95 in data
+line 2
+url https://www.bol.com/nl/nl/p/proplus-trekhaakkogel-haaks-autotoebehoren-staal-zwart/9200000077118945/
+3.catelogue price not found, and change in net price(39.19 in site,37.69 in data)
+line 5575
+url https://www.bol.com/nl/nl/p/proplus-spiraalkabel-staal-pvc-7-polig-4-5-m-zilver-zwart/9200000094053949/
+
+
+bol_trunkliners_2025_01_17.csv
+------------------------------
+1018 urls are unique
