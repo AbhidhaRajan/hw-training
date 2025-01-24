@@ -1,0 +1,121 @@
+dakkofferstore_2025_01_17
+=========================
+
+dakkofferstore_crossbar_2025_01_17.csv
+----------------------------------------
+no issues found
+
+dakkofferstore_skiboxes_2025_01_17.csv
+-------------------------------------
+no issues found
+
+
+rameder_2025_01_17
+==================
+rameder_bike_carriers_2025_01_17.csv
+-----------------------------------
+no issues
+
+rameder_crossbar_2025_01_17.csv
+------------------------------
+1.206 unique urls
+2.found in stock in site. out of stock in data
+line 2
+url https://www.rameder.be/dakdrager-menabo-203310-10126-1.html
+ 
+same issue
+line 50
+url https://www.rameder.be/dakdrager-menabo-203448-10734-1.html
+
+line 111
+url https://www.rameder.be/dakdrager-menabo-203448-10734-1.html
+
+rameder_floormats_2025_01_17.csv
+--------------------------------
+no issues
+
+
+rameder_towing_hitches_2025_01_17.csv
+------------------------------------
+1.290 urls are unique
+
+2.found in stock in site. out of stock in data
+line 2
+url https://www.rameder.be/bosstow-trekhaak-stijf-incl-trail-tec-elektrische-set-7polig-specifiek-185565-10126-1.html
+
+
+same issue
+line 95
+url https://www.rameder.be/bosstow-trekhaak-stijf-incl-trail-tec-elektrische-set-7polig-universeel-194073-14302-1.html
+
+line 576
+url https://www.rameder.be/aragon-trekhaak-afneembaar-incl-trail-tec-elektrische-set-7polig-universeel-195129-37842-1.html
+
+
+
+rameder_trunkliners_2025_01_17.csv
+-----------------------------------
+no issues
+
+
+parts
+=====
+
+autodoc_2025_01_15
+-------------------
+1.Total 11 fields
+2. datacount 22688 
+3.no empty fields
+4. issues
+
+>> change in net price found. 5.76 in data,6.12 in site,line 2,url https://www.autodoc.be/febi-bilstein/1870348
+>> same issue
+   line 7760,url https://www.autodoc.be/bosch/1194236
+
+
+ autoonderdelen24_2025_01_15
+ ---------------------------
+ 1.Total 11 fields
+2. datacount 20921 
+3.Catalogue price field is empty 
+4.issues
+
+>> price change found , net price is 287.24 in site 281.96 in data. line 2 url https://www.autoonderdelen24.be/hella-19775651.html
+
+
+>> same issue, line 3653 url https://www.autoonderdelen24.be/gates-12175601.html
+
+>> same issue and found in stock in site , out of stock in data. line 6784 url https://www.autoonderdelen24.be/van-wezel-1296799.html
+
+
+autoteiledirekt_2025_01_15
+---------------------------
+ 1.Total 11 fields
+2. datacount 22717
+3.Catalogue price field is empty
+4.issues 
+ >> change in net price found. 205.72 in data,201.72 in site,line 2 url https://www.autoteiledirekt.de/febi-bilstein-23477002.html
+
+ >> same issue ,line 5100 url https://www.autoteiledirekt.de/sachs-1221931.html
+ also found in stock in site
+
+
+
+mister_auto_2025_01_15
+-----------------------
+
+ 1.Total 11 fields
+2. datacount 20468
+3.Catalogue price field is empty
+4.issues 
+
+>>>> change in net price found. 256.9 in data,226.90 in site,line 12690
+url   https://www.mister-auto.be/fr/phare-avant-van-wezel-036-5854962h-p/
+
+
+winparts_2025_01_15
+-------------------
+1.Total 11 fields
+2. datacount 19147
+3.no empty fields
+4.no issues
