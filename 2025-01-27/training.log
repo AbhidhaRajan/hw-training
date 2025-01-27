@@ -1,0 +1,112 @@
+luluhypermarket.ae_2025_01_27.csv
+DataHut_AT_Billa_PriceExtractions_20250127.CSV
+DataHut_AT_Dm_PriceExtractions_20250127.CSV
+DataHut_AT_Mueller_PriceExtractions_20250127.CSV
+DataHut_AT_Bipa_PriceExtractions_20250127.CSV
+DataHut_AT_Mpreis_PriceExtractions_20250127.CSV
+
+DataHut_SI_Hitrinakup_PriceExtractions_20250127.CSV 
+DataHut_SI_Mercator_PriceExtractions_20250127.CSV
+DataHut_SI_Trgovinejager_PriceExtractions_20250127.CSV
+DataHut_SI_Dm_PriceExtractions_20250127.CSV
+
+beinex-weekly/indeed.ae_2025_01_27_04.csv.zip
+beinex-weekly/propertyfinder.ae_2025_01_27_04.csv.zip
+beinex-weekly/dubizzle_real_estate.ae_2025_01_27_04.csv.zip
+beinex-weekly/naukrigulf.ae_2025_01_27_04.csv.zip
+propertyfinder-weekly/dubizzle_uae_2025_01_04.json
+propertyfinder-weekly/dubizzle_egp_2025_01_04.json.zip
+
+
+DataHut_AT_Mpreis_PriceExtractions_20250127.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250127.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Mueller_PriceExtractions_20250127.CSV
+-------------------------------------------------
+1.AKTION tag not found in site.
+line 52243
+url https://www.mueller.at/p/a-la-sala-IPN2999090/?itemId=2999090
+
+DataHut_AT_Dm_PriceExtractions_20250127.CSV
+------------------------------------------
+no issues
+
+DataHut_AT_Billa_PriceExtractions_20250127.CSV
+---------------------------------------------
+no issues
+
+luluhypermarket.ae_2025_01_27.csv
+---------------------------------
+no issues
+
+
+DataHut_SI_Dm_PriceExtractions_20250127.CSV
+------------------------------------------
+1.empty fields are marked as
+PDP Mandatory fields 
+
+DataHut_SI_Trgovinejager_PriceExtractions_20250127.CSV
+------------------------------------------------------
+no issues
+
+DataHut_SI_Mercator_PriceExtractions_20250127.CSV
+-------------------------------------------------
+no issues
+
+DataHut_SI_Hitrinakup_PriceExtractions_20250127.CSV 
+--------------------------------------------------
+no issues
+
+===========================================================
+
+propertyfinder-weekly/dubizzle_egp_2025_01_04.json
+--------------------------------------------------
+1.phone number change found.
+"201111232974" in data "+201153088882"
+
+line 10
+"url": "https://www.dubizzle.com.eg/en/ad/شقة-استوديو-67م-للايجار-المفروش-بفرش-فندقي-وتشطيبات-سوبر-لوكس-في-مدينتي-madinaty-b12-ID501442383.html",
+ same issue
+line 15936
+
+2."scraped_ts":"2025-01-25",
+"scraped_ts":"2025-01-27",
+
+"date":"2025-01-25",
+"date":"2025-01-27",
+
+propertyfinder-weekly/dubizzle_uae_2025_01_04.json
+--------------------------------------------------
+1.listed_by is empty
+2."scraped_ts":"2025-01-24",
+"scraped_ts":"2025-01-25",
+"scraped_ts":"2025-01-26",
+"date":"2025-01-24",
+"date":"2025-01-25",
+"date":"2025-01-26",
+
+beinex-weekly/indeed.ae_2025_01_27_04.csv.zip
+--------------------------------------------
+no issues
+
+beinex-weekly/dubizzle_real_estate.ae_2025_01_27_04.csv
+------------------------------------------------------
+1. Extraction date : 2025-01-25,2025-01-26
+
+
+beinex-weekly/propertyfinder.ae_2025_01_27_04.csv.zip
+-----------------------------------------------------
+no issues
+
+
+beinex-weekly/naukrigulf.ae_2025_01_27_04.csv.zip
+---------------------------------------------------
+1.in salary other than AED ,found
+SAR 15,000-18,000
+SAR 7,000-10,000
+₹30,000-₹40,000
