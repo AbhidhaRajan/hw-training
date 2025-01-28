@@ -1,0 +1,110 @@
+beinex-weekly/naukrigulf.ae_2025_01_27_04.csv
+DataHut_AT_Bipa_FullDump_20250130.CSV.zip
+DataHut_AT_Mpreis_FullDump_20250130.CSV
+dubizzle_uae_2025_01_04.json.zip
+dubizzle_egp_2025_01_04.json.zip
+nawy_egp_2025_01_04.json.zip
+dari_ae_2025_01_04.json.zip
+bayut_uae_project_2025_01_04.json.zip
+
+
+pf_weekly_bayut_uae_2025_01_04.json.zip
+pf_weekly_aqarmap_egp_2025_01_04.json.zip
+pf_weekly_bayut_egp_2025_01_04.json.zip
+
+
+
+beinex-weekly/naukrigulf.ae_2025_01_27_04.csv
+--------------------------------------------
+random check completed, no issues found.
+
+
+DataHut_AT_Bipa_FullDump_20250130.CSV.zip
+----------------------------------------
+1.value error found
+in fields
+promotion_valid_from        ,promotion_valid_upto
+insted if dates found price.
+
+
+2.value in  promotion_description is wrong.
+price value found.
+
+3. promotion description values found in package_sizeof_sellingprice 
+field.
+
+4.price_valid_from field contains other values insted of dates.
+
+5.mistake found in currency field. price found
+
+6.currency found in breadcrumb field
+
+7.brand_type found in grammage_quantity
+
+8.grammage_quantity found in grammage_unit
+
+
+9.almost column values is having mistakes .
+
+
+DataHut_AT_Mpreis_FullDump_20250130.CSV
+---------------------------------------
+1.grammage_quantity
+grammage_unit
+field contains other values
+
+2.almost all fields having 
+wrong values
+
+
+
+pf_weekly_nawy_egp_2025_01_04.json.zip
+-------------------------------
+1.price not found in site. sold out found
+line 1 
+url https://www.nawy.com/compound/223-badya-palm-hills/property/74127-apartment-for-sale-in-badya-with-2-bedrooms-in-6th-of-october-city-by-palm-hills-developments
+
+no other issues found
+
+
+pf_weekly_dari_ae_2025_01_04.json
+----------------------------------
+no issues
+
+bayut_uae_project_2025_01_04.json.zip
+------------------------------------
+1."handover": "Q4 2021" in data
+Q3 2024 in site
+line 1
+url https://www.bayut.com/for-sale/off-plan/property/dubai/jumeirah-golf-estates/jasmine-lane
+
+
+
+pf_weekly_bayut_egp_2025_01_04.json.zip
+------------------------------------------
+1."published_at": "14 December 2024",in
+data "15 December 2024" in site
+line 32812
+"url": "https://www.bayut.eg/en/property/details-500762754.html",
+
+2."scraped_ts":"2025-01-27",
+"scraped_ts":"2025-01-28",
+"date":"2025-01-27",
+"date":"2025-01-28",
+
+3.depth,broker_display_name,broker fields are not empty
+4.Two new fields
+"completion_status", "ownership"
+
+
+pf_weekly_aqarmap_egp_2025_01_04.json.zip
+----------------------------------------
+1.depth, listing_type are empty
+2."scraped_ts":"2025-01-24",
+"scraped_ts":"2025-01-27",
+"scraped_ts":"2025-01-28",
+"date":"2025-01-24",
+"date":"2025-01-27",
+"date":"2025-01-28",
+3.seller_role is empty
+4.site unreachable 
