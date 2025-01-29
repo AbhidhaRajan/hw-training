@@ -1,0 +1,84 @@
+pf_weekly_bayut_uae_2025_01_04.json.zip
+propertyfinder-monthly/hepsiemlak_tur_2025_02.json
+propertyfinder-monthly/aqar_ksa_2025_02.json.zip
+propertyfinder-monthly/ajmanded_uae_2025_02.json.zip
+propertyfinder-monthly/servicesbahrain_bah_2025_02.json.zip
+
+KW_SET_1/ewm_2025_02_05.json
+KW_SET_1/longandfoster_2025_02_05.json
+
+
+
+
+pf_weekly_bayut_uae_2025_01_04.json.zip
+----------------------------------------------
+
+1."This property is no longer available"
+found in site.
+line 186321 
+"url": "https://www.bayut.com/property/details-10487916.html",
+
+propertyfinder-monthly/aqar_ksa_2025_02.json.zip
+-------------------------------------------
+
+1.two new fields"advertising_license",
+    "advertiser"
+
+2."iteration_number":"2025_02",
+
+
+
+propertyfinder-monthly/servicesbahrain_bah_2025_02.json.zip
+----------------------------------------------------------
+1.642 rows,28 fields
+2."license_type": "Permanent",
+3."iteration_number": "2025_02"
+4."url": "https://services.bahrain.bh/wps/portal/RERA_en#toggle-id-1",
+  one url for all data.
+
+5.Empty fields :"unique_id","license_expiry_date","the_unified_number_of_the_establishment","broker_licenses","street","city","region","district","building_number","additional_number",
+
+
+propertyfinder-monthly/ajmanded_uae_2025_02.json.zip
+----------------------------------------------------
+1.1042 rows,19 fields.
+2.Empty fields 
+"broker_type","mobile_number","email_address","the_unified_number_of_the_establishment","street","city","district",
+3.random check is done
+
+
+propertyfinder-monthly/hepsiemlak_tur_2025_02.json
+--------------------------------------------------
+1.no.of photos is 33 in data,34 in site
+also mistake found in phone_number
+"0532 647 06 77" in site
+"+905385530765" in data.
+line 1 
+url https://www.hepsiemlak.com/en/istanbul-besiktas-dikilitas-kiralik/daire/19873-7533
+
+2."category": "Kiralık",
+"category": "Satılık",
+"category": "For Rent",
+"category": "For Sale",
+"category": "Seasonal Rental",
+
+
+KW_SET_1/ewm_2025_02_05.json
+----------------------------
+1. Image is not present
+in site but image_url is
+found in data.
+line 13
+"profile_url": "https://www.ewm.com/agents/1852241/Ava-Kathryn+Cassano",
+
+same issue
+line 300
+"profile_url": "https://www.ewm.com/agents/1811448/Margaret+Van+Puffelen",
+
+
+KW_SET_1/longandfoster_2025_02_05.json
+--------------------------------------
+1.description not found 
+in site.found in data
+line 1
+    "profile_url": "https://www.longandfoster.com/AgentSearch/YasminAbadian-10480733",
