@@ -1,0 +1,76 @@
+bayut_ksa_2025_02.json
+KW_SET_2/alliebeth_2025_02_05.json
+KW_SET_2/coldwellbanker_us_2025_02_05.json
+KW_SET_2/home_realestate_2025_02_05.json
+KW_SET_2/remax_us_2025_02_05.json
+KW_SET_2/semonin_realtors_2025_02_05.json
+KW_SET_2/sutton_2025_02_05.json
+
+
+bayut_ksa_2025_02.json
+-----------------------
+
+1.price change found. "price": "1,050,000"
+in data "1,125,000" in site.
+line 1
+    "url": "https://www.bayut.sa/en/property/details-87592749.html",
+
+2."reference_number" and 
+"advertiser_designation" is empty
+
+3.depth field is not empty
+
+4.Four new fields .
+
+completion_status,
+ advertiser_designation,
+ ad_license_number,
+fal_license_number.
+
+
+KW_SET_2/alliebeth_2025_02_05.json
+----------------------------------
+Social field is not empty
+
+
+KW_SET_2/coldwellbanker_us_2025_02_05.json
+---------------------------------------------
+1.Title,email,website is not empty
+
+
+KW_SET_2/home_realestate_2025_02_05.json
+----------------------------------------
+1.languages not empty
+"email" is empty
+
+2.image not found in site
+found in data
+line 106
+"profile_url": "https://karabaxter.homerealestate.com",
+
+KW_SET_2/remax_us_2025_02_05.json
+-----------------------------------
+1.middle name not found in site
+found in data
+line 9837
+"profile_url": "https://www.remax.com/real-estate-agents/jay-goodman-coralville-ia/100036490",
+
+
+
+
+KW_SET_2/semonin_realtors_2025_02_05.json
+-----------------------------------------
+language field is not empty
+email field is empty
+
+
+
+KW_SET_2/sutton_2025_02_05.json
+------------------------------
+1.agent_phone_numbers field is not empty
+
+2.image not found in site
+image_url found in data
+line 5566
+    "profile_url": "https://www.sutton.com/ca/agent/gagan-puri-121157",
+
