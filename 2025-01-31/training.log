@@ -1,0 +1,33 @@
+1. 
+Tried Tableau online
+checked both json and csv files
+
+
+Advantages
+------------
+Drag-and-Drop files
+Connects to Multiple Data Sources 
+Easy visualization
+Secure
+Collaboration and sharing of data
+Mobile Friendly
+
+
+Disadvantages
+-------------
+Tableau Desktop is Not Supported on Ubuntu
+Expensive(License)
+Limited Data Cleaning
+
+2.
+Tried Knime in ubuntu.
+Installed knime,
+check by using csv file
+can easily detect total data count,empty fields,data type,unique   
+  values
+
+checked by using json file(bayut_ksa_2025_02.json)
+convert it to csv
+can easily check column fileds,unique values,empty fields by taking 
+  statistics of data
+
