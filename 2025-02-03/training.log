@@ -1,0 +1,126 @@
+     KW_SET_3
+     ========
+bhgre_2025_02_05.json
+----------------------
+1.title found "Real Estate Salesperson"
+in site "Sales Associate" in data.
+line 300
+"profile_url": "https://www.bhgre.com/az/mesa/agents/shelley-lewis/aid-P00200000GaEZPCXSjzGuM7qRGJV6dMbE11Gett5"
+2.email,website.title not empty
+
+
+century21_us_2025_02_05.json
+----------------------------
+no issues
+
+compass_2025_02_05.json
+-----------------------
+1.city is not empty
+
+
+firstweber_2025_02_05.json
+--------------------------
+1."description" contains the words
+about us. 
+line 1
+"profile_url": "https://www.firstweber.com/bio/5StarTeam"
+
+2.agent_phone_number found wrong
+line 660
+    "profile_url": "https://www.firstweber.com/bio/randyhess"
+
+
+
+
+houlihanlawrence_2025_02_05.json
+--------------------------------
+1.website is not empty
+language is empty
+
+huff_realty_2025_02_05.json
+---------------------------
+1.details not found in site.
+line 290
+    "profile_url": "https://robertobermeyer.huff.com"
+
+2.languages not empty
+
+
+intero_realestate_2025_02_05.json
+---------------------------------
+1.out of 1801 image_urls
+only 1647 image_urls are unique.
+
+2.out of 1801 urls only
+1797 profile_urls are unique
+
+3.wrong profile url
+line 250
+"profile_url": "https://www.intero.com/directory/agents/jorge-saldana",
+
+4. 404 error found
+line 1158
+    "profile_url": "https://www.intero.com/directory/agents/kent-flinn",
+
+5.Runtime Error
+ line 1700
+    "profile_url": "https://www.intero.com/directory/agents/cathy-kyles",
+
+
+
+robertsbrothers_2025_02_05.json
+-------------------------------
+no issues
+
+
+royallepage_2025_02_05.json
+---------------------------
+no issues
+
+
+   KW_SET_4
+   =========
+
+berkshirehathaways_2025_02_05.json
+---------------------------------
+1.office_phone_numbers not empty
+
+2.office_phone_number is taken as
+agent_phone_number.
+line 28080
+    "profile_url": "https://www.bhhsthepreferredrealty.com/moon-township/majda-saverice/cid-3048052"
+
+
+
+
+exprealty_2025_02_05.json
+--------------------------
+no issues
+
+
+
+realliving_realestate_2025_02_05.json
+---------------------------------------
+1.same data repeated
+line 8 and 9
+2.languages not found in site.
+found in data
+line 6
+"profile_url": "https://www.realliving.com/meredith.timulty"
+
+
+      KW_SET_5(1)
+    ==========
+
+globalremax_2025_02_05.json
+---------------------------
+no issues
+
+
+
+
+iowarealty_2025_02_05.json
+--------------------------
+1.website not empty
+email, office_phone_numbers are empty
+2.states IA,IL
