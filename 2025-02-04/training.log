@@ -1,0 +1,95 @@
+     kw_set_6
+     ===========
+century21global_2025_02_05.json
+harrynorman_2025_02_05.json
+realtysouth_2025_02_05.json
+
+
+century21global_2025_02_05.json
+-------------------------------
+1."office_phone_numbers" is empty
+
+
+harrynorman_2025_02_05.json
+--------------------------
+1."email" is empty
+2.office_phone_number not found in site,found in website
+   "profile_url": "https://www.harrynorman.com/bio/christinaabunassar"
+
+
+realtysouth_2025_02_05.json
+--------------------------
+no issues
+
+
+DataHut_SI_Spar_PriceExtractions_20250204.CSV
+---------------------------------------------
+1.only values in unique_id,competitor_name,
+extraction_date,product_name fields are correct.
+other column values are misplaced.
+
+
+
+
+
+DataHut_SI_Trgovinejager_PriceExtractions_20250204.CSV
+------------------------------------------------------
+1. product_name,grammage_quantity,grammage_unit        regular_price        selling_price        price_valid_from        price_per_unit        percentage_discount        promotion_price        promotion_valid_from        promotion_valid_upto        promotion_description        currency        breadcrumb        pdp_url        region        pack_size        site_shown_uom
+ values in these fields are misplaced
+
+2.grammage quantity contains extra characters
+eg : 9L LIKE A DIAMOND
+
+grammage_unit contains grammage_quantity
+
+price contains grammage_unit
+
+
+
+DataHut_HU_Tesco_PriceExtractions_20250204.CSV
+---------------------------------------------
+product_name        grammage_quantity        grammage_unit        regular_price        selling_price        price_valid_from        price_per_unit        percentage_discount        promotion_price        promotion_valid_from        promotion_valid_upto        promotion_description        currency        breadcrumb        pdp_url        region        pack_size        site_shown_uom
+values in these fields are misplaced
+
+
+
+DataHut_HU_Auchan_PriceExtractions_20250204.CSV
+----------------------------------------------
+product_name        grammage_quantity        grammage_unit        regular_price        selling_price        price_valid_from        price_per_unit        percentage_discount        promotion_price        promotion_valid_from        promotion_valid_upto        promotion_description        currency        breadcrumb        pdp_url        region        pack_size        site_shown_uom
+values in these fields are misplaced
+
+
+
+DataHut_CH_Lidl_PriceExtractions_20250204.CSV
+--------------------------------------------
+1. product_name        grammage_quantity        grammage_unit        regular_price        selling_price        price_valid_from        price_per_unit        percentage_discount        promotion_price        promotion_valid_from        promotion_valid_upto        promotion_description        currency        breadcrumb        pdp_url        region        pack_size        site_shown_uom
+values in these fields are misplaced
+
+2.promotion_description not found in site and only one 
+price is found in site.
+line 11
+url : https://sortiment.lidl.ch/de/branches-classic-5112010
+
+3.page not found
+line 1440
+url https://sortiment.lidl.ch/de/quarkburek-7300481
+
+
+bayut_egp_2025_02_01.json 
+------------------------
+1.Two new fields
+"completion_status", "ownership"
+2.depth,broker_display_name,broker is not empty
+
+3."price_per":"",
+"price_per":"Monthly",
+"price_per":"Daily",
+"price_per":"Yearly",
+
+
+aqarmap_egp_2025_02_01.json.zip
+-------------------------------
+1.depth, listing_type,seller_role fields are empty
+2.site unreachable
+
+
