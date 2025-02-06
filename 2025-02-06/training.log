@@ -1,0 +1,37 @@
+DataHut_AT_Mpreis_FullDump_20250206.CSV.zip
+------------------------------------------
+no issues
+
+DataHut_AT_Billa_FullDump_20250206.CSV.zip
+------------------------------------------
+no issues
+
+DataHut_AT_Fressnapf_FullDump_20250206.CSV.zip
+-----------------------------------------------
+dimensions is not empty
+
+
+DataHut_AT_Bipa_FullDump_20250206.CSV.zip
+-----------------------------------------
+1.review found 709 in site
+711 in data
+also retail limit found 16 in site,
+10 in data
+line 15
+url https://www.bipa.at/p/B3-384176
+
+2.review and rating is zero in site,values
+in data
+line 16975
+url https://www.bipa.at/p/B3-314607
+
+3.instock contains both true and false
+
+
+DataHut_AT_Dm_FullDump_20250206.CSV.zip
+---------------------------------------
+no issues
+
+DataHut_AT_Mueller_FullDump_20250206.CSV.zip
+-------------------------------------------
+no issues
