@@ -1,0 +1,40 @@
+
+
+DataHut_HU_Tesco_FullDump_20250206.CSV.zip
+------------------------------------------
+1.brand,producthierarchy_level4, is not empty
+
+  instock is empty
+
+DataHut_HU_Auchan_FullDump_20250206.CSV.zip
+-------------------------------------------
+1. price found 199Ft in site,200Ft in data
+line 10
+https://auchan.hu/shop/a4-csiszolóvászon-p60-/-1.-o.p-142835
+
+
+DataHut_SI_Spar_FullDump_20250206.CSV.zip
+-----------------------------------------
+producthierarchy_level7 is
+also empty
+
+
+DataHut_SI_Hitrinakup_FullDump_20250206.CSV.zip
+----------------------------------------------
+no issues
+
+
+DataHut_SI_Dm_FullDump_20250206.CSV.zip
+---------------------------------------
+1.retail limit is 4 in site
+1 in data
+line 10869
+url https://www.dm.si/subrina-demi-permanentni-toner-za-lase-saten-8-10-ledeno-blond-p3838980608728.html
+
+
+DataHut_CH_Migros_FullDump_20250206.CSV.zip
+-------------------------------------------
+1.review found 305 in site
+304 in data
+line 11623
+url https://www.migros.ch/de/product/107060500000
