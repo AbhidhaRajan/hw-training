@@ -1,0 +1,79 @@
+beinex-monthly/matalanme.ae_2025_02_12.csv.zip
+----------------------------------------------
+1.model number found wrong B36945100002 in data B36945100001 in site
+line 1774
+url https://www.matalanme.com/ae_en/boys-check-sweatshirt-jogging-bottoms-set
+
+2.product name,size,model name found wrong
+line 2990
+url https://www.matalanme.com/ae_en/baby-dinosaur-leggings
+
+3.price and price before discount is integer type.
+
+
+
+
+beinex-monthly/hm.ae_2025_02_12.csv.zip
+---------------------------------------
+no issues
+
+
+
+beinex-monthly/maxfashion.ae_2025_02_10.csv.zip
+----------------------------------------------
+no issues
+
+
+beinex-monthly/jarir.ae_2025_02_12.csv.zip
+------------------------------------------
+
+no additional fields
+
+
+beinex-monthly/homecentre.ae_2025_02_12.csv.zip
+-----------------------------------------------
+1.price change found.
+site is having discounted price and 
+original price. only one price in data
+line 18619
+url https://www.homecentre.com/ae/en/Household/Storage/Storage-Solutions/Storage-Boxes-%26-Baskets/HALAI-TRADING-Strata-Storage-Box-with-Wheels---77x42x40-cm/p/166576903
+
+
+
+beinex-weekly/indeed.ae_2025_02_10_02.csv
+-----------------------------------------
+1.Job has expaired 
+line 15240
+url https://ae.indeed.com/viewjob?jk=2eae6dfb8e24a8e8&from=serp&vjs=3
+
+
+same issue
+line 27579
+url https://ae.indeed.com/viewjob?jk=c758eaec3e93ca19&from=serp&vjs=3
+
+
+
+beinex-weekly/dubizzle_vehicles.ae_2025_02_10_02.csv
+---------------------------------------------------
+1.detail field contains
+empty dict({})
+
+
+beinex-weekly/naukrigulf.ae_2025_02_10_02.csv
+--------------------------------------------
+1.salary not found in site,found
+in data 
+line 51
+url 
+https://www.naukrigulf.com/business-consultant-executive-jobs-in-dubai-uae-in-amanzi-management-consultancy-llp-2-to-4-years-n-cd-264320-jid-070225000067
+
+beinex-weekly/propertyfinder.ae_2025_02_10_02.csv
+-------------------------------------------------
+no issues
+
+propertyfinder-weekly/dubizzle_egp_2025_02_02.json
+--------------------------------------------------
+
+
+propertyfinder-weekly/dari_ae_2025_02_02.json
+propertyfinder-weekly/bayut_egp_2025_02_02.json
