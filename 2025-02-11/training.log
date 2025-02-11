@@ -1,0 +1,120 @@
+propertyfinder-weekly/dubizzle_egp_2025_02_02.json
+--------------------------------------------------
+1.ad is no longer available
+line 20623
+    "url": "https://www.dubizzle.com.eg/en/ad/شقة-للبيع-3-غرف-نوم-تشطيب-كامل-الدور-2-ID501191328.html",
+2.
+"scraped_ts":"2025-02-08",
+"scraped_ts":"2025-02-10",
+"date":"2025-02-08",
+"date":"2025-02-10",
+
+
+propertyfinder-weekly/dari_ae_2025_02_02.json
+---------------------------------------------
+no issues found
+
+
+
+propertyfinder-weekly/bayut_egp_2025_02_02.json
+-----------------------------------------------
+1.agent_name found in site
+not in data
+line 1
+"url": "https://www.bayut.eg/en/property/details-501712981.html",
+same issue
+line 45517
+  "url": "https://www.bayut.eg/en/property/details-501457674.html",
+
+2.depth,broker_display_name,broker fields are not empty
+
+3."price_per":"",
+"price_per":"Monthly",
+"price_per":"Daily",
+"price_per":"Yearly",
+
+4.Two new fields
+"completion_status", "ownership"
+
+5.currency field contains "EGP" and ""
+
+6.category have values rent,sale and ""
+
+
+Austria daily
+
+DataHut_AT_Fressnapf_PriceExtractions_20250211.CSV.zip
+------------------------------------------------------
+no issues
+
+
+DataHut_AT_Mpreis_PriceExtractions_20250211.CSV.zip
+---------------------------------------------------
+no issues
+
+
+
+DataHut_AT_Interspar_PriceExtractions_20250211.CSV.zip
+----------------------------------------------------
+
+no issues
+
+
+
+DataHut_AT_Mueller_PriceExtractions_20250211.CSV.zip
+----------------------------------------------------
+no issues
+
+
+DataHut_AT_Dm_PriceExtractions_20250211.CSV.zip
+-----------------------------------------------
+no issues
+
+
+
+DataHut_AT_Billa_PriceExtractions_20250211.CSV.zip
+-------------------------------------------------
+no issues
+
+
+
+DataHut_AT_Bipa_PriceExtractions_20250211.CSV.zip
+-------------------------------------------------
+no issues
+
+Hungary daily
+-------------
+DataHut_HU_Tesco_PriceExtractions_20250211.CSV.zip
+--------------------------------------------------
+no issues
+
+DataHut_HU_Auchan_PriceExtractions_20250211.CSV.zip
+--------------------------------------------------
+no issues
+
+DataHut_HU_Spar_PriceExtractions_20250211.CSV.zip
+-------------------------------------------------
+no issues
+
+slovenia daily
+--------------
+DataHut_SI_Trgovinejager_PriceExtractions_20250211.CSV
+------------------------------------------------------
+product_name is taken as
+site shown uom
+
+
+DataHut_SI_Hitrinakup_PriceExtractions_20250211.CSV
+----------------------------------------------------
+
+no issues
+
+
+DataHut_SI_Dm_PriceExtractions_20250211.CSV
+-------------------------------------------
+no issues
+
+
+DataHut_SI_Spar_PriceExtractions_20250211.CSV
+---------------------------------------------
+no issues
