@@ -1,0 +1,58 @@
+DataHut_AT_Mueller_FullDump_20250213.CSV.zip
+--------------------------------------------
+1.rating,review,
+retail_limit is also empty
+
+DataHut_AT_Bipa_FullDump_20250213.CSV.zip
+-----------------------------------------
+1.instock contains both True and False
+
+DataHut_AT_Mpreis_FullDump_20250213.CSV.zip
+-------------------------------------------
+no issues
+
+
+DataHut_AT_Interspar_FullDump_20250213.CSV.zip
+------------------------------------------------
+1.age_recommendations
+is not empty
+2.retail_limit found
+wrong. 
+line 18855
+url https://www.interspar.at/shop/lebensmittel/s-budget-aufschnitt-3-fach-gemischt-per-packung/p/2020005290686
+
+DataHut_CH_Lidl_FullDump_20250213.CSV
+-------------------------------------
+1.file_name_1 , image_url_1    ,
+file_name_2, image_url_2  ,
+file_name_3, image_url_3,
+ file_name_4 ,image_url_4, 
+file_name_5,image_url_5 ,
+file_name_6,
+image_url_6        
+is also empty
+
+
+
+DataHut_HU_Spar_FullDump_20250213.CSV
+-------------------------------------
+1..distributor_address
+incomplete
+line 779
+url https://www.spar.hu/onlineshop/johnsons-babakremtusfurdo-500-ml/p/491326009
+
+2.file_name_1        image_url_1        file_name_2        image_url_2        file_name_3        image_url_3        file_name_4        image_url_4        file_name_5        image_url_5        file_name_6        image_url_6        also empty
+
+
+DataHut_HU_Auchan_FullDump_20250213.CSV
+---------------------------------------
+1.file_name_1        image_url_1        file_name_2        image_url_2        file_name_3        image_url_3        file_name_4        image_url_4        file_name_5        image_url_5        file_name_6        image_url_6        also empty
+
+
+
+
+
+DataHut_SI_Trgovinejager_FullDump_20250213.CSV
+---------------------------------------------
+file_name_1        image_url_1        file_name_2        image_url_2        file_name_3        image_url_3        file_name_4        image_url_4        file_name_5        image_url_5        file_name_6        image_url_6
+is also empty
