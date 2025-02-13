@@ -1,0 +1,40 @@
+DataHut_AT_Billa_FullDump_20250213.CSV.zip
+DataHut_AT_Dm_FullDump_20250213.CSV.zip
+DataHut_AT_Fressnapf_FullDump_20250213.CSV.zip
+DataHut_AT_Mpreis_FullDump_20250213.CSV.zip
+DataHut_AT_Bipa_FullDump_20250213.CSV.zip
+
+DataHut_AT_Billa_FullDump_20250213.CSV.zip
+------------------------------------------
+1.retail limit is also empty
+
+DataHut_AT_Dm_FullDump_20250213.CSV.zip
+--------------------------------------
+1.rating and review
+found wrong.
+rating found 4.7 in data,4.5 in site
+review found 19 in data,20 in site
+line 13420
+url https://www.dm.at/kruut-kraeuter-shot-kraft-p4260703370558.html
+
+DataHut_AT_Fressnapf_FullDump_20250213.CSV.zip
+----------------------------------------------
+dimensions is not empty
+
+DataHut_AT_Mpreis_FullDump_20250213.CSV.zip
+------------------------------------------
+no issues
+
+DataHut_AT_Bipa_FullDump_20250213.CSV.zip
+-----------------------------------------
+no issues
+
+
+
+                                                                
+
+
+
+
+                                                        
+
