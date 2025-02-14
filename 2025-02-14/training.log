@@ -1,0 +1,79 @@
+DataHut_CH_Lidl_PriceExtractions_20250214.CSV.zip
+-------------------------------------------------
+no issues
+
+DataHut_HU_Auchan_PriceExtractions_20250214.CSV.zip
+---------------------------------------------------
+no issues
+
+
+DataHut_HU_Spar_PriceExtractions_20250214.CSV.zip
+-------------------------------------------------
+no issues
+
+
+
+DataHut_SI_Trgovinejager_PriceExtractions_20250214.CSV.zip
+--------------------------------------------------
+no issues
+
+
+DataHut_SI_Hitrinakup_PriceExtractions_20250214.CSV.zip
+---------------------------------------------------
+no issues
+
+
+autoonderdelen24_2025_02_15.csv.zip
+-----------------------------------
+1.URL	 Catalogueprice	Net price	Brand	Part number	Date	Time	Stock	Website 	Ref_no_space	Description
+
+2.20634 rows
+
+3. autoonderdelen24.be (Website)
+
+4.Catalogue price is empty.
+
+
+autotelidirekt_2025_02_15.csv.zip
+---------------------------------
+
+1. URL	Catelogue price 	Net price	Brand	Part number	Date	Time	Stock	Website	Ref_no_space	Description
+
+2.Catelogue price is empty
+
+3. 22388 rows
+4.Website
+autoteiledirekt.de
+
+
+winparts_2025_02_14.csv.zip
+--------------------------
+1.URL	Catalogue price 	Net price	Brand	Part number	Date	Time	Stock	Website	 Ref_no_space	Description
+2.19398 rows
+
+3.Website
+winparts.be
+
+4.>>  Catalogue not found in site
+  line 20
+  url https://www.winparts.be/motordelen-toebehoren/autobatterij/c52/varta-accu-black-dynamic-a16-40-ah/p471090.html
+
+  >> price change found(Catalogue price 373.12	,Net price 331.68 in data ,328.85 in site(only single price is found in site))
+  line 5490
+  url https://www.winparts.be/onderstel-aandrijving/vliegwiel/c1678/vliegwiel-2295-001-781-sachs/p1231493.html
+
+
+
+
+autodoc_2025_02_15.csv.zip
+--------------------------
+1.URL	Catalogue price	Net price	Brand	Part number	Date	Time	Stock	Website	Ref_no_space	Description
+
+
+2.22451 rows
+3.Website
+   autodoc.be
+
+4. >> Net price found wrong (892.3 in data,1372,26 in site), line 8440,
+      url https://www.autodoc.be/hella/7016993
+
