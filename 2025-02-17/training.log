@@ -1,0 +1,109 @@
+DataHut_SI_Hitrinakup_PriceExtractions_20250217.CSV.zip
+------------------------------------------------------
+1.product_name along with
+site shown uom added
+
+
+DataHut_SI_Trgovinejager_PriceExtractions_20250217.CSV.zip
+---------------------------------------------------
+no issues
+
+
+DataHut_HU_Auchan_PriceExtractions_20250217.CSV.zip
+--------------------------------------------------
+no issues
+
+DataHut_HU_Tesco_PriceExtractions_20250217.CSV
+----------------------------------------------
+no issues
+
+DataHut_CH_Lidl_PriceExtractions_20250217.CSV.zip
+-------------------------------------------------
+1. 404 error
+line 460
+url https://sortiment.lidl.ch/de/mulino-bianco-gran-cereale-0001688
+
+
+DataHut_AT_Fressnapf_PriceExtractions_20250217.CSV.zip
+-------------------------------------------------
+no issues
+
+DataHut_AT_Dm_PriceExtractions_20250217.CSV.zip
+-----------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_PriceExtractions_20250217.CSV
+-----------------------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250217.CSV
+---------------------------------------------
+no issues
+
+
+DataHut_AT_Interspar_PriceExtractions_20250217.CSV
+--------------------------------------------------
+no issues
+
+
+beinex-weekly/naukrigulf.ae_2025_02_17_03.csv.zip
+--------------------------------------------------
+
+1.salary found AED 8,000-10,000
+in data,Competitive salary in site.
+line 70
+url https://www.naukrigulf.com/ivf-nurse-jobs-in-al-ain-uae-in-confidential-3-to-8-years-n-jid-200125000060
+
+
+2.salary not found in site,found in data
+line 210
+url https://www.naukrigulf.com/floor-maintenance-supervisor-jobs-in-abu-dhabi-uae-in-green-mountains-1-to-2-years-n-cd-115245-jid-130225000349
+
+3.
+Department/Functional Area, found Teaching / Education in data
+Teaching / Education / Languages / Faculty in site
+line 15263
+url https://www.naukrigulf.com/faculty-jobs-in-uae-in-skyline-university-college-10-to-15-years-n-cd-20010005-jid-110225500631
+
+
+beinex-weekly/bayut.ae_2025_02_17_03.csv.zip
+---------------------------------------------
+
+no issues
+
+
+
+beinex-weekly/dubizzle_real_estate.ae_2025_02_17_03.csv.zip
+---------------------------------------------
+1.ExtractionDate
+2025-02-15
+2025-02-16
+2025-02-17
+
+2.Unit Type
+------------------
+Bulk Unit
+Industrial
+Factory
+Apartment
+Retail
+Office
+Staff Accomm
+Shop
+Warehouse
+Commercial Floor
+Other
+Commercial Villa
+Showroom
+Commercial Building
+Commercial Plot
+Industrial Land
+Villa
+Penthouse
+Townhouse
+Villa Compound
+Residential Floor
+Residential Building
+Land
+Multiple Units
+
