@@ -1,0 +1,160 @@
+DataHut_SI_Hitrinakup_PriceExtractions_20250218.CSV
+--------------------------------------------------
+1.price_per_unit not found in site
+line 18290
+url https://hitrinakup.com/izdelki/152948
+
+DataHut_SI_Trgovinejager_PriceExtractions_20250218.CSV
+-----------------------------------------------------
+1.only single price found in site
+but data have both selling and regular 
+price
+line 6930
+url https://www.trgovinejager.com/vino/PENINA-SREBRNA-STAJERKA-075L/
+
+
+DataHut_HU_Spar_PriceExtractions_20250218.CSV
+---------------------------------------------
+no issues
+
+DataHut_CH_Lidl_PriceExtractions_20250218.CSV
+---------------------------------------------
+no issues
+
+
+auto5be_bike_carriers_2025_02_18.csv
+------------------------------------
+1.found instock in site
+out of stock in data
+line 253
+url https://www.auto5.be/nl/p/fietsendrager-trekhaakmontage-thule-euroride-941-7-polig-2-fietsen-882099.html
+
+
+auto5be_crossbar_2025_02_18.csv
+--------------------------------
+1.Input Brand,        
+Input Model,        
+Model Selected
+are also empty
+
+2.found instock in site
+out of stock in data
+line 90
+url
+ https://www.auto5.be/nl/p/compleet-pakket-2-dakdragers-met-bevestigingen-thule-wingbar-edge-evo-aluminium-2398406.html
+
+same issue
+line 120
+url https://www.auto5.be/nl/p/compleet-pakket-2-met-bevestigingen-thule-probar-aluminium-2275931.html
+
+
+same isssue line 185
+url
+https://www.auto5.be/nl/p/compleet-pakket-2-met-bevestigingen-thule-wingbar-evo-aluminium-2392666.html
+
+
+
+
+
+
+
+auto5be_floormats_2025_02_18.csv
+--------------------------------
+1.found instock in site
+out of stock in data
+line 287
+url
+https://www.auto5.be/nl/p/set-van-4-norauto-zwarte-op-maat-gemaakte-automatten-van-tapijt-2330081.html
+
+
+same issue
+line 720
+url https://www.auto5.be/nl/p/set-norauto-zwarte-rubberen-matten-op-maat-2362755.html
+
+line 1070
+url
+https://www.auto5.be/nl/p/set-van-4-op-maat-gemaakte-tapijten-tapijt-550-zwart-norauto-2542282.html
+
+
+auto5be_skiboxes_2025_02_18.csv
+-------------------------------
+
+1.found instock in site
+out of stock in data
+
+line 80
+url
+https://www.auto5.be/nl/p/dakkoffer-thule-motion-xt-l-black-glossy-450l-2177068.html
+
+line 197
+url
+https://www.auto5.be/nl/p/dakkoffer-thule-motion-xt-sport-black-glossy-300l-2098025.html
+
+line 248
+url
+https://www.auto5.be/nl/p/beschermhoes-voor-thule-t4-dakkoffer-2188868.html
+
+
+auto5be_towing_hitches_2025_02_18.csv
+------------------------------------
+1.found instock in site
+out of stock in data
+line 50
+url
+https://www.auto5.be/nl/p/complete-trekhaak-set-montage-afneembare-kogelstang-zonder-gereedschap-13-polige-kabelset-aanbevolen-voor-voertuigen-met-achteruitrijradar-O8398.html
+
+
+
+
+
+auto5be_trunkliners_2025_02_18.csv
+---------------------------------
+1.found instock in site
+out of stock in data
+line 75
+url
+https://www.auto5.be/nl/p/uitgesneden-pvc-koffertapijt-customagic-t2-120-x-80-cm-2085533.html
+
+
+dakkofferstore_crossbar_2025_02_18.csv
+--------------------------------------
+no issues
+
+dakkofferstore_skiboxes_2025_02_18.csv
+--------------------------------------
+1.Volume found 450L in site
+450L Liter in data
+line 145
+url
+https://www.dakkofferstore.com/dakkoffer-thule-motion-3-l-titan-glossy
+(same for line 126 to 149 )
+
+
+
+autoonderdelen24_bike_carriers_2025_02_18.csv
+-------------------------------------------
+no issues
+
+
+
+autoonderdelen24_crossbar_2025_02_18.csv
+------------------------------------
+
+no issues
+
+autoonderdelen24_floormats_2025_02_18.csv
+-----------------------------------
+no issues
+
+autoonderdelen24_skiboxes_2025_02_18.csv
+-----------------------------------
+no issues
+
+autoonderdelen24_towing_hitches_2025_02_18.csv
+-----------------------------------
+
+
+autoonderdelen24_trunkliners_2025_02_18.csv
+-----------------------------------
+no issues
+
