@@ -1,0 +1,151 @@
+accessories_02
+--------------
+bike_carriers_2025_02_18.xlsx
+-----------------------------
+1.total 15443 urls,539 unique urls.
+2.website 
+  auto5.be
+  autoonderdelen24.be
+  bol.com
+  rameder.be
+
+3.Input_Keyword
+fietsrek
+draagrek achter
+trekhaakfietsdragers
+fietsendrager
+
+
+issues:
+1)load capacity found 60kg in site 60.00 kg in data,
+line 2040
+url https://www.bol.com/nl/nl/p/uebler-i21-60-kantelbaar-met-parkeersensoren/9200000130000423/
+
+
+
+
+
+
+crossbar_2025_02_18.xlsx
+------------------------
+1.11767 urls,9473 unique
+2.Website
+auto5.be
+autoonderdelen24.be
+bol.com
+rameder.be
+dakkofferstore.com
+
+3.Input_Keyword
+dakdragers
+dakrails
+dakdrager
+
+4.issues:
+   >> found instock out of stock in   data
+     line 110
+     url https://www.auto5.be/nl/p/compleet-pakket-2-met-bevestigingen-thule-squarebar-staal-2536378.html
+
+
+
+
+
+floormats_2025_02_18.xlsx
+-------------------------
+1.17804 urls .,4441 are unique
+2.Website
+autoonderdelen24.be
+bol.com
+auto5.be
+rameder.be
+
+3.Input_Keyword
+vloermatten
+voetmatten
+specifieke voetmatten
+
+
+
+
+skiboxes_2025_02_18.xlsx
+------------------------
+1.13542 urls ,463 unique
+
+2.Website
+auto5.be
+dakkofferstore.com
+bol.com
+autoonderdelen24.be
+
+3.Input_Keyword
+dakkoffers
+
+4.issues:
+
+  >>found instock in site
+    line 210
+    url https://www.auto5.be/nl/p/dekselhoes-dakkoffer-thule-box-lidcover-6983-659843.html
+
+
+towing_hitches_2025_02_18.xlsx
+-----------------------------
+1.21142 urls ,4025 unique urls
+
+2.Input_Keyword
+trekhaken
+
+3.empty fields:
+    kit,Articulation
+
+4.Website
+rameder.be
+bol.com
+auto5.be
+autoonderdelen24.be
+
+
+
+
+trunkliners_2025_02_18.xlsx
+--------------------------
+1.4202 urls ,1620 unique
+2.Website
+bol.com
+rameder.be
+autoonderdelen24.be
+auto5.be
+
+3.Input_Keyword
+koffertapijt
+specifieke kofferbakkuipen
+kofferbakschaal
+
+4.Empty 
+
+  Format
+
+5.issues:
+
+  >>price change found. 29.72 in data 30.96 in site
+  line 2130
+  url https://www.autoonderdelen24.be/walser-14754231.html
+
+  >>same issue 
+  line 3540
+  url https://www.autoonderdelen24.be/matgum-16156644.html
+
+
+DataHut_AT_Dm_FullDump_20250220.CSV
+----------------------------------
+no issues found  
+
+
+DataHut_AT_Mueller_FullDump_20250220.CSV
+----------------------------------------
+no issues found
+
+
+
+
+
+DataHut_AT_Bipa_FullDump_20250220.CSV
