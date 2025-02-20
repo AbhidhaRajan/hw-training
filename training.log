@@ -1,0 +1,94 @@
+DataHut_AT_Dm_FullDump_20250220.CSV.zip
+---------------------------------------
+1.grammage_unit and 
+quantity found wrong
+1 stuck in data
+35g(20 Btl)in site.
+
+line 14803
+url
+https://www.dm.at/teekanne-gruener-tee-bio-hochland-p9001475032252.html
+2..found 4st in product name
+and 3st in product_details
+line 11980
+url
+https://www.dm.at/wilkinson-sword-rasierklingen-sword-intuition-complete-p4027800006465.html
+
+
+
+DataHut_AT_Billa_FullDump_20250220.CSV.zip
+------------------------------------------
+
+1.retail limit is also empty
+
+
+
+DataHut_AT_Fressnapf_FullDump_20250220.CSV.zip
+---------------------------------------------
+1.review found 
+wrong,(476 in data,
+479 in site)
+line 1040
+url
+https://www.fressnapf.at/p/select-gold-sensitive-adult-medium-lachs--kartoffel-12-kg-1081889004/
+
+same issue
+line 3808
+url
+https://www.fressnapf.at/p/anione-kleintierheim-blau-m-1238255/
+
+
+
+
+
+
+DataHut_AT_Bipa_FullDump_20250220.CSV.zip
+-----------------------------------------
+1.instock is having both true and false
+
+
+DataHut_SI_Spar_FullDump_20250220.CSV
+------------------------------------
+1.1.grammage_quantity wrong
+0.63 in data 625 in site
+line 10930
+url
+https://www.spar.si/online/sampon-infinitely-long-pantene-625ml/p/655275
+2.producthierarchy_level7
+is also 
+empty
+
+
+
+DataHut_SI_Dm_FullDump_20250220.CSV
+-----------------------------------
+no issues
+
+DataHut_SI_Hitrinakup_FullDump_20250220.CSV
+---------------------------------------------
+found 5,7kg in site
+5.7 kg in data
+line 16080
+url 
+https://hitrinakup.com/izdelki/686377
+
+
+DataHut_SI_Mercator_FullDump_20250220.CSV
+-----------------------------------------
+no issues
+
+
+
+
+DataHut_SI_Trgovinejager_FullDump_20250220.CSV
+---------------------------------------------
+1.value error in brand column
+brand found as \(same in site )
+line 4108
+url https://www.trgovinejager.com/elektro-material/LED-zatemnilno-stikalo-Mikro-SB-230-V-IP20-615294/
+
+2.price_was not found in site
+eg line
+line 5617,4108 etc
+
+
