@@ -1,0 +1,62 @@
+beinex-daily/luluhypermarket.ae_2025_02_21.csv.zip
+-------------------------------------------------
+1.Quantity found 6 in site
+1 in data
+line 290
+url 
+https://gcc.luluhypermarket.com/en-ae/p/1110184-ch1/
+2. Quantity not found in site
+line 8000
+url 
+https://gcc.luluhypermarket.com/en-ae/smucker-s-sundae-butterscotch-syrup-567-g/p/814011/
+
+line 31480
+url
+https://gcc.luluhypermarket.com/en-ae/sony-playstation-vr2-cfizvr1wm/p/2057877/
+
+3. In some fields Brand is in capital letters(FILLI), and in some other fields the brand is in normal format(Filli)
+in data. But in site Brand is in same format
+eg lines 44444,44445
+urls https://gcc.luluhypermarket.com/en-ae/filli-zafran-tea-premium-signature-blend-25-teabags/p/2347400/
+https://gcc.luluhypermarket.com/en-ae/filli-masala-chai-platinum-blend-300-g/p/2347399/
+
+
+DataHut_AT_Dm_PriceExtractions_20250221.CSV.zip
+-----------------------------------------------
+
+1.grammage_quantity
+in some fields is in float type
+and in some fields it is in int type
+(eg: 40.0,40)
+
+
+
+
+DataHut_AT_Billa_PriceExtractions_20250221.CSV.zip
+---------------------------------------------
+no issues
+
+
+DataHut_HU_Auchan_PriceExtractions_20250221.CSV.zip
+---------------------------------------------------
+1.grammage quantity found as
+"970766801"
+line 21147
+url https://auchan.hu/shop/easycut-970766801-l-ágvágó-olló--+-metszőolló.p-914556
+
+
+
+
+DataHut_HU_Tesco_PriceExtractions_20250221.CSV.zip
+--------------------------------------------------
+no issues
+
+
+DataHut_HU_Spar_PriceExtractions_20250221.CSV.zip
+-----------------------------------------------
+1.breadcrumbs is empty
+
+
+DataHut_SI_Trgovinejager_PriceExtractions_20250221.CSV.zip
+------------------------------------------------------------
+no issues
