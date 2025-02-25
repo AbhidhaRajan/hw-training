@@ -1,0 +1,76 @@
+DataHut_CH_Lidl_PriceExtractions_20250225.CSV
+---------------------------------------------
+1.logical error
+grammage_quantity and unit found as 1 stuck,price_per_unit is 100 Stk = 0.26 CHF
+and price(both sp and rp)found as 4.65.
+line 2830
+url https://sortiment.lidl.ch/de/toilettenpapier-4lagig-0181463
+
+
+DataHut_HU_Tesco_PriceExtractions_20250225.CSV
+----------------------------------------------
+no issues
+
+DataHut_HU_Auchan_PriceExtractions_20250225.CSV
+--------------------------------------
+
+no issues 
+
+DataHut_SI_Hitrinakup_PriceExtractions_20250225.CSV
+--------------------------------
+no issues
+
+DataHut_SI_Trgovinejager_PriceExtractions_20250225.CSV
+-----------------------------------
+1.regular price not found 
+in site,found in data
+
+line 5650
+url https://www.trgovinejager.com/milo-sampon-regen.-kopeli/NIVEA-ROLL-ON-FRESH-50ML-ZENSKI-NATURAL/
+
+
+nawy_egp_2025_02_04.json
+-------------------------
+no issues
+
+dari_ae_2025_02_04.json
+-----------------------
+no issues
+
+bayut_uae_project_2025_02_04.json
+--------------------------------
+1."unit_size" found 
+1,2,3 bed in site
+1,2 in data. also max_area_in_sqft
+is 2035
+line 240
+    "url": "https://www.bayut.com/for-sale/off-plan/property/dubai/arjan/divine-living",
+2."handover": "Q3 2027" in data, "Q4 2027" in site
+line 906
+    "url": "https://www.bayut.com/for-sale/off-plan/property/dubai/dubai-studio-city/arisha-terraces",
+
+dubizzle_uae_2025_02_04.json
+-----------------------------
+no issues
+
+dubizzle_egp_2025_02_04.json
+---------------------------
+1."scraped_ts and date":"2025-02-22",
+  :"2025-02-24",
+
+aqar_ksa_2025_03.json
+---------------------
+two new fields"advertising_license",
+    "advertiser"
+
+
+wasalt_ksa_2025_03.json
+------------------------
+1.3 more fields
+    "project"
+    "rega_ad_license_no"
+    "fal_license_number"
+
+2.wasalt_ksa_2025_03.json
+
+
