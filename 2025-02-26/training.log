@@ -1,0 +1,49 @@
+DataHut_AT_Interspar_PriceExtractions_20250226.CSV
+-------------------------------------------------
+'price_valid_from',
+ 'promotion_valid_from', 
+'promotion_valid_upto'
+date is in dd.mm.yyyy format
+eg:26.02.2025
+
+
+
+DataHut_AT_Bipa_PriceExtractions_20250226.CSV
+---------------------------------------------
+no issues
+
+
+DataHut_AT_Dm_PriceExtractions_20250226.CSV
+---------------------------------------------
+'price_valid_from',
+ 'promotion_valid_from', 
+date is in dd.mm.yyyy format
+eg:04.09.2024
+
+
+
+
+DataHut_AT_Mpreis_PriceExtractions_20250226.CSV
+-------------------------------------
+no issues
+
+
+
+
+
+DataHut_AT_Billa_PriceExtractions_20250226.CSV
+-----------------------------------
+no issues
+
+
+
+
+DataHut_AT_Bipa_FullDump_20250227.CSV
+-------------------------------------
+no issues
+
+
+
+DataHut_AT_Mpreis_FullDump_20250227.CSV
+-----------------------------------
+no issues
