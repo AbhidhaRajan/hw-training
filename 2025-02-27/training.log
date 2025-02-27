@@ -1,0 +1,34 @@
+DataHut_AT_Mueller_FullDump_20250227.CSV
+-----------------------------------------
+no issues
+
+
+DataHut_AT_Billa_FullDump_20250227.CSV
+--------------------------------------
+1.retail_limit is empty
+
+
+
+DataHut_AT_Bipa_FullDump_20250227.CSV
+-------------------------------------
+1.instock True and False
+2.1. price_per unit,
+promotion_description,
+selling-price and promotion_price wrong.
+single price found in site,2 in data
+line 294
+url https://www.bipa.at/p/B3-690139
+
+
+DataHut_AT_Fressnapf_FullDump_20250227.CSV
+------------------------------------------
+1.rating and review 
+changed.
+line 223
+url https://www.fressnapf.at/p/select-gold-pure-adult-pat-ente-6x400-g-1246885/
+2.review changed
+line 1723
+url https://www.fressnapf.at/p/royal-canin-veterinary-hypoallergenic-400-g-1320966/
+
+
+

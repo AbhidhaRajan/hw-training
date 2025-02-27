@@ -1,0 +1,20 @@
+Watched some videos of Great_expections
+---------------------------------------
+Data Validation: Allows defining expectations (rules) for data quality, ensuring data meets specific conditions.
+Expectation Suites: Organizes expectations into suites that can be reused across different datasets or data sources.
+Integration with Data Sources: Supports integration with various data sources like Pandas, Spark, SQL, etc.
+Customizable Expectations: Users can define custom expectations for specific use cases, such as uniqueness, range checks, or data types.
+Batch Processing: Can process data in batches, validating each batch against defined expectations.
+Real-time Monitoring: Provides functionality to track data quality over time, offering real-time monitoring in data pipelines.
+Data Profiling: Supports generating data profiling reports for quick insights into the quality of the data.
+Automation: Facilitates the automation of data validation as part of ETL pipelines or CI/CD workflows.
+Error Reporting: Generates detailed error reports, highlighting where and why data fails expectations.
+Open-Source & Extensible: Being open-source, it's highly extensible and can be integrated with other tools for custom solutions.
+Documentation: Helps in auto-generating data documentation based on defined expectations.
+
+
+Installed gx, tried with codebut failed.
+while watching code i understood that the pipeline model can used for checking data.
+
+
+
