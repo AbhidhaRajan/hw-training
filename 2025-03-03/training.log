@@ -1,0 +1,170 @@
+DataHut_SI_Mercator_PriceExtractions_20250303.CSV
+------------------------------------------------
+no issues
+
+DataHut_SI_Hitrinakup_PriceExtractions_20250303.CSV
+---------------------------------------------------
+no issues
+
+DataHut_SI_Trgovinejager_PriceExtractions_20250303.CSV
+-----------------------------------------------
+1..regular price not found 
+in site,found in data
+
+line 6630
+url 
+https://www.trgovinejager.com/konzerve-mesne-ribje-pastete/RIBE-SARDINE-90G-MEDITERAN-OLJU..delamaris/
+
+
+DataHut_HU_Spar_PriceExtractions_20250303.CSV
+--------------------------------------------
+no issues
+
+DataHut_HU_Tesco_PriceExtractions_20250303.CSV
+---------------------------------------------
+no issues
+
+DataHut_HU_Auchan_PriceExtractions_20250303.CSV
+----------------------------------------------
+1.mistake found
+item is lenavo tablet
+but grammage_unit and quantity 
+is 700g.
+line 6528
+url https://auchan.hu/shop/lenovo-tab-m9-(tb310fu)-9-hd-mediatek-g80t-8c-3gb-32gb-emmc-android-artic-grey-clear-case+film.p-720691
+
+
+
+
+DataHut_CH_Lidl_PriceExtractions_20250303.CSV
+----------------------------------------------
+1.logical mistake found
+in product ",promotion_valid_upto"
+date.
+"promotion_valid_from" :27.2.2025
+
+"promotion_valid_upto":5.3.2025
+product is milk power
+
+line 370
+url https://sortiment.lidl.ch/de/aptamil-pronutra-2-folgemilch-1800547
+
+2.not in proper format
+eg: 27.2.2025
+
+
+
+
+
+
+kw_set_3
+--------
+bhgre_2025_03_05.json
+---------------------
+no issues
+
+century21_us_2025_03_05.json
+----------------------------
+no issues
+
+compass_2025_03_05.json
+-----------------------
+no issues
+
+edinarealty_2025_03_05.json
+---------------------------
+1.last name not found in
+data.
+line 1
+ "profile_url": "https://www.edinarealty.com/stephanie-adams-realtor"
+
+same issue
+ "profile_url": "https://www.edinarealty.com/brian-severts-realtor"
+
+same issue
+line 1260
+      "profile_url": "https://www.edinarealty.com/bailey-krolnik-realtor"
+
+
+intero_realestate_2025_03_05.json
+---------------------------------
+1.Description found wrong
+line 10
+"profile_url": "https://www.intero.com/directory/agents/daniel-ciscomani"
+
+same issue
+line 270
+ "profile_url": "https://www.intero.com/directory/agents/eugene-hong"
+
+same issue
+line 1590
+    "profile_url": "https://www.intero.com/directory/agents/kumar-talluri"
+
+
+2.run time error
+line 1230
+    "profile_url": "https://www.intero.com/directory/agents/eugenio-vargas"
+
+
+reecenichols_2025_03_05.json
+----------------------------
+1."email" is also empty
+
+2."state":"66224",
+"state":"64063",
+"state":"64112",
+"state":"66061",
+"state":"66211",
+"state":"66208",
+"state":"64155",
+"state":"66213",
+"state":"64014",
+"state":"64506",
+"state":"64062",
+"state":"65807",
+"state":"64024",
+"state":"66720",
+"state":"65686",
+"state":"67501",
+"state":"67205",
+"state":"65355",
+"state":"64151",
+"state":"65737",
+"state":"67206",
+"state":"66049",
+"state":"66007",
+"state":"65616",
+"state":"65065",
+"state":"65203",
+"state":"66604",
+"state":"65079",
+"state":"64701",
+"state":"KS",
+"state":"MO",
+"state":"65712",
+"state":"64080",
+"state":"66748",
+"state":"64850",
+"state":"66067",
+"state":"64012",
+"state":"66762",
+"state":"64098",
+"state":"",
+"state":"65251",
+"state":"67110",
+"state":"64114",
+"state":"64085",
+"state":"67010",
+"state":"64093",
+"state":"65240",
+"state":"2",
+"state":"64804",
+
+3.1.zipcode is entered as state
+line 1159
+    "profile_url": "https://www.reecenichols.com/bio/jessicak"
+
+
+semonin_realtors_2025_03_05.json
+--------------------------------
+no issues
