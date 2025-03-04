@@ -1,0 +1,75 @@
+kw_set_4
+----------
+coldwellbankerinternational_2025_03_05.json
+-------------------------------------------
+1.Extra character in address
+"address": "Nuñez 2476 , 7B ,",
+in data. 
+Nuñez 2476 , 7B , in site
+
+line 70
+"profile_url": "https://www.coldwellbankerinternational.com/agent/WQ7bVJfxKi"
+
+
+ebby_2025_03_05.json
+--------------------
+no issues
+
+
+kentwood_2025_03_05.json
+------------------------
+"city":"Ft Collins",
+"city":"Denver",
+"city":"",
+"city":"Boulder",
+
+realliving_realestate_2025_03_05.json
+-------------------------------------
+profile_url not 
+working
+    "profile_url": "https://www.reallivingrealestatesolutions.com/bill.kolb"
+
+    "profile_url": "https://www.reallivingrealestatesolutions.com/douglas.clement"
+
+
+
+realtysouth_2025_03_05.json
+---------------------------
+1.office_name not found in site
+
+2.profile_url found wrong
+line 690
+"profile_url": "https://www.realtysouth.com/roster/agents/56"
+
+
+royallepage_2025_03_05.json
+---------------------------
+1.address found wrong
+"address": "1654 LAKESHORE ROAD",
+ "city": "Mississauga",
+ "state": "ON", in data
+
+"400-231 OAK PARK BLVD
+OAKVILLE, ON
+L6H 7S8" in site
+line 10068
+"profile_url": "https://www.royallepage.ca/en/agent/ontario/mississauga/chris-wong/89729/"
+
+bayut_uae_2025_03_01.json
+------------------------
+1.new fields 
+
+ "orn_number",
+    "bln_number" ,
+    "adm_number" ,
+    "3d_live",
+    "3d_image" ,
+    "2d_image" ,
+"ded_number_2",
+"ded_number_3",
+"ded_number_4",
+
+aqarmap_egp_2025_03_01.json
+---------------------------
+1.depth, listing_type ,seller_role are empty
+2.site unreachable
