@@ -1,0 +1,50 @@
+kw_set_5
+--------
+longrealty_2025_03_05.json
+--------------------------
+1."1.office_name found wrong,
+Irvington and I-19 - Tucson in site,
+""office_name"": ""Foothills - Tucson""
+in data
+line 390
+"profile_url"": ""https://rosea.longrealty.com"
+2.State AZ,""
+
+rector_hayden_2025_03_05.json
+------------------------------
+1."email" is empty
+2."state":"KY",
+"state":""
+
+
+woodsbros_2025_03_05.json
+-------------------------
+1.office_phone_number not found
+in data. found in site
+line 1
+    "profile_url": "https://trishjarvis.woodsbros.com"
+2.same issue and also image_url found in data
+but no image is in site
+line 73
+    "profile_url": "https://austinyurth.woodsbros.com"
+3.wrong profile url
+line 161
+    "profile_url": "https://www.woodsbros.com/roster/agents/10"
+4."email" is empty
+languages is not empty
+
+DataHut_AT_Mpreis_FullDump_20250306.CSV
+---------------------------------------
+extraction date : ['2025-03-06']
+
+DataHut_AT_Bipa_FullDump_20250306.CSV
+-------------------------------------
+extraction date : ['2025-03-06']
+instock True and False
+
+DataHut_AT_Fressnapf_FullDump_20250306.CSV
+------------------------------------------
+1.review updated
+https://www.fressnapf.at/p/multifit-weiden-heuball-mit-ringelblume-2x80-g-1314456/
+
+2.Dimensions is not empty
