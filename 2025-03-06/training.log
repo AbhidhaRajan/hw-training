@@ -1,0 +1,56 @@
+DataHut_CH_Lidl_FullDump_20250306.CSV
+-------------------------------------
+1.404 error
+https://sortiment.lidl.ch/de/sprite-24er-pack-5109948
+
+https://sortiment.lidl.ch/de/durgol-swiss-espresso-5105497
+
+https://sortiment.lidl.ch/de/fever-tree-sicilian-lemonade-5108154
+
+2.date format
+
+"27.2.2025" doesn't match format "%m.%d.%Y"
+
+3.instock true only
+4.image fields are empty
+
+DataHut_AT_Bipa_FullDump_20250306.CSV
+------------------------------------
+
+1.updation in review
+344 in data 354 in site
+https://www.bipa.at/p/B3-403287
+
+
+DataHut_AT_Dm_FullDump_20250306.CSV
+----------------------------------
+1.grammage_unit 
+and quantity found 100st
+in site, 1 st in data
+https://www.dm.at/soft-und-sicher-taschentuecher-box-4-lagig-sortiert-p4058172286643.html
+
+
+2.grammage_quantity is 240 st in site,
+240.0 st in data.
+also huge difference in review found
+23 in data,2026 in site. rating is 4.7 in data,4.9 in site.
+https://www.dm.at/babylove-reinigungs-wattepads-vorteilspack-4x60-st-p4066447750843.html
+
+DataHut_AT_Billa_FullDump_20250306.CSV
+-------------------------------------
+1.grammage_quantity
+and unit is 3kg in data
+3 kg stuck in site.
+https://shop.billa.at/produkte/breze-kaesevariation-lauge-00891130
+2.retail_limit is empty
+
+DataHut_AT_Fressnapf_FullDump_20250306.CSV
+------------------------------------------
+Dimensions is not empty
+
+
+costplusdrugs_2025_03_05.csv
+----------------------------
+1.strength is  115-21 mcg/act in site, 12gm in data.
+https://www.costplusdrugs.com/medications/fluticasone-salmeterol-115-21-mcg-act-aerosol-inhalation-12gm
+
