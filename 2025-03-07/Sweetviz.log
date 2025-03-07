@@ -1,0 +1,20 @@
+Sweetviz: An Automated Data Visualization and EDA Tool
+------------------------------------------------------
+Sweetviz is a Python library used for exploratory data analysis (EDA) by generating detailed and interactive reports. It provides a quick comparison between datasets, helping in data cleaning, feature selection, and anomaly detection.
+
+Key Features
+------------
+Automatic Data Profiling: Generates visualizations and statistics for numerical, categorical, and text-based features.
+Dataset Comparison: Compares two datasets  to identify differences and similarities.
+Feature Analysis: Highlights missing values, correlations, and distributions.
+Target Variable Analysis: Displays the impact of features on the target variable.
+HTML Report Generation: Creates an interactive HTML report for easy interpretation.
+
+steps:
+-----
+1.installed sweetviz by using, pip install sweetviz.
+2.write a small code(sweet.py) to check what will be the output.
+3.Got  html report which explains each field of the data with graphs.
+4.Then try to rewrite the code which includes some features of daily qa(daily_sweet),
+it also got the output.
+5.Checking for to confirm the tool is suitable for each kind of data.
