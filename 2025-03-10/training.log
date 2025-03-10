@@ -1,0 +1,52 @@
+DataHut_CH_Lidl_PriceExtractions_20250310.CSV
+---------------------------------------------
+1.promotion_valid_upto
+is not correct,product
+is soy sauce.
+https://sortiment.lidl.ch/de/kikkoman-sojasauce-0182509
+
+2.dates are in "12.03.2025" format
+
+DataHut_HU_Spar_PriceExtractions_20250310.CSV
+---------------------------------------------
+no issues
+
+DataHut_HU_Tesco_PriceExtractions_20250310.CSV
+---------------------------------------------
+no issues
+
+
+DataHut_HU_Auchan_PriceExtractions_20250310.CSV
+-----------------------------------------------
+no issues
+
+DataHut_SI_Mercator_PriceExtractions_20250310.CSV
+-------------------------------------------------
+no issues
+
+
+bayut_uae_project_2025_03_02.json
+---------------------------------
+no issues
+
+dubizzle_egp_2025_03_02.json
+----------------------------
+1.this ad no longer available
+line 3875
+    "url": "https://www.dubizzle.com.eg/en/ad/شاليه-فيو-عالبحر-متشطب-بالكامل-للبيع-في-ذا-جروف-العين-السخنة-ID501141313.html",
+
+same issue
+line 20063
+    "url": "https://www.dubizzle.com.eg/en/ad/شقة-للبيع-176-متر-بانوراما-بالحي-الخامس-بيت-الوطن-التجمع-الخامس-beit-al-watan-new-cairo-ID501683393.html",
+
+2.phone_number found in site not in data
+line 60176
+    "url": "https://www.dubizzle.com.eg/en/ad/شقة-للبيع-138-م-سموحة-ش-النصر-ID501837629.html",
+
+nawy_egp_2025_03_02.json
+------------------------
+no issues
+
+dubizzle_uae_2025_03_02.json
+----------------------------
+"listed_by" is also empty
