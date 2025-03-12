@@ -1,0 +1,48 @@
+DataHut_CH_Lidl_PriceExtractions_20250312.CSV
+----------------------------------------------
+no issues
+
+DataHut_HU_Tesco_PriceExtractions_20250312.CSV
+----------------------------------------------
+no issues
+
+DataHut_SI_Trgovinejager_PriceExtractions_20250312.CSV
+-------------------------------------------------------
+1.regular price not found
+in site,found in data
+https://www.trgovinejager.com/kava-kavovine-kapucini/NESCAFE-CAPPUCCINO-112G-GOLD/
+
+
+
+same issue
+https://www.trgovinejager.com/hrana-in-sredstva-za-zivali/HRANA-ZA-MACKE-GOURMET-TUNA-85G/
+
+DataHut_AT_Fressnapf_PriceExtractions_20250312.CSV
+--------------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_PriceExtractions_20250312.CSV
+-----------------------------------------------
+no issues
+
+DataHut_AT_Dm_PriceExtractions_20250312.CSV
+-------------------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250312.CSV
+----------------------------------------------
+no issues
+
+DataHut_AT_Mueller_PriceExtractions_20250312.CSV
+------------------------------------------------
+no issues
+
+DataHut_SI_Spar_FullDump_20250313.CSV
+------------------------------------
+"producthierarchy_level7'
+is empty"
+instock : true only
+
+DataHut_SI_Dm_FullDump_20250313.CSV
+----------------------------------
+no issues
