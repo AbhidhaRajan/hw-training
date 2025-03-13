@@ -1,0 +1,47 @@
+DataHut_AT_Bipa_FullDump_20250313.CSV
+------------------------------------
+1.out of stock in site,
+rating,review not
+found.
+https://www.bipa.at/p/B3-402738
+
+DataHut_AT_Fressnapf_FullDump_20250313.CSV
+------------------------------------------
+dimensions is not empty
+
+DataHut_AT_Dm_FullDump_20250313.CSV
+-----------------------------------
+no issues
+
+DataHut_AT_Billa_FullDump_20250313.CSV
+---------------------------------------
+1. 2+1 aktion tag found
+in site,not in data.
+https://shop.billa.at/produkte/always-ultra-binden-normal-00498667
+
+
+same issue
+https://shop.billa.at/produkte/nescafe-farmers-origins-brazil-lungo-kaffeekapseln-00747930
+
+
+DataHut_AT_Interspar_FullDump_20250313.CSV
+------------------------------------------
+"age_recommendations
+is not empty"
+
+DataHut_AT_Mueller_FullDump_20250313.CSV
+----------------------------------------
+no issues
+
+DataHut_HU_Tesco_PriceExtractions_20250313.CSV
+----------------------------------------------
+1.datacount:927
+  previous count : 23450
+
+2.Empty field: 
+  'percentage_discount', 
+  'promotion_price', 
+  'promotion_valid_upto',
+  'promotion_description', "
+
+
