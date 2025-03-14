@@ -1,0 +1,63 @@
+DataHut_SI_Mercator_PriceExtractions_20250314.CSV
+----------------------------------------------------
+no issues
+
+DataHut_SI_Hitrinakup_PriceExtractions_20250314.CSV
+--------------------------------------------------
+no issues
+
+DataHut_HU_Auchan_PriceExtractions_20250314.CSV
+----------------------------------------------
+1.previous data count:50208
+  todays data count : 51171
+
+machinerytrader_2025_03_14.csv
+------------------------------
+delimiter ,
+1.8665 rows
+2.currency
+  USD,CAD
+
+3.found comma in price field. eg:1,445,000
+4.extra characters in company phone : +1 905-857-6200 ext. 1
+5.hour field contains comma and dot.
+6.Empty Columns 
+['pcid']
+
+mister_auto_2025_03_14.csv 
+--------------------------
+1.Date
+2025-03-13
+2025-03-14
+2.price not found in site.
+line 6153
+https://www.mister-auto.be/fr/phare-avant-van-wezel-036-4917968v-p/
+
+
+autoonderdelen24_2025_03_14.csv
+-------------------------------
+"Ref_no_space is 
+1J1614019 in data
+1J1 614 019 A in site
+row 6010
+https://www.autoonderdelen24.be/febi-bilstein-1887801.html
+"
+
+
+autodoc_2025_03_14.csv
+----------------------
+1."instock in site,out of stock
+in data,line 13130.
+https://www.autodoc.be/dayco/18105619
+same issue
+line 16610
+https://www.autodoc.be/bosch/1161547
+
+
+2.price change in net price field.
+found 250.74 in data,248.61 in site
+line 16384
+https://www.autodoc.be/valeo/20265269
+"
+
+
