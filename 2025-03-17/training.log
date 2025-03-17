@@ -1,0 +1,91 @@
+DataHut_AT_Mueller_PriceExtractions_20250317.CSV
+-----------------------------------------------
+no issues
+
+DataHut_AT_Dm_PriceExtractions_20250317.CSV
+-------------------------------------------
+1.grammage_quantity is in float and integer 
+  eg:29.0 stuck,29 stuck
+
+DataHut_AT_Mpreis_PriceExtractions_20250317.CSV
+-----------------------------------------------
+1.site_shown_uom is 6-7 sti, price_per_unit is  2,99€ /Stk,
+  grammage_quantity and unit found as 1 stuck and
+  price as 2.99.
+  line 10289
+  https://www.mpreis.at/shop/p/regioblum-gmbh-spraynelken-schnittblumen-701701
+
+2.site_shown_uom is 20, price_per_unit is  9.99€ /Stk,
+  grammage_quantity and unit found as 1 stuck and
+  price as 9.99.
+  line 10336
+  https://www.mpreis.at/shop/p/-starterset-cards-em-2024-presse1-808003
+3.site_shown-uom "missing for 1 field
+line 9317
+url 
+https://www.mpreis.at/shop/p/rote-bananen-512819
+"
+
+
+DataHut_AT_Fressnapf_PriceExtractions_20250317.CSV
+-------------------------------------------------
+no issues
+
+
+DataHut_CH_Lidl_PriceExtractions_20250317.CSV
+---------------------------------------------
+no issues
+
+DataHut_HU_Auchan_PriceExtractions_20250317.CSV
+-----------------------------------------------
+no issues
+
+DataHut_HU_Tesco_PriceExtractions_20250317.CSV
+---------------------------------------------
+no issues
+
+DataHut_HU_Spar_PriceExtractions_20250317.CSV
+---------------------------------------------
+no issues
+
+DataHut_SI_Hitrinakup_PriceExtractions_20250317.CSV
+---------------------------------------------------
+"1.logical error
+price_per_unit found as
+0.13€/KOS, grammahe_quantity
+and unit is 1 kos, regular and selling price is
+1.00
+line:6975
+https://hitrinakup.com/izdelki/157867
+
+2.price_per_unit not found in site
+line 16441
+https://hitrinakup.com/izdelki/125193
+"
+DataHut_SI_Trgovinejager_PriceExtractions_20250317.CSV
+-----------------------------------------------------
+"1.regular price not found in site,
+found in data.
+line 5021
+https://www.trgovinejager.com/cistila-loscila-osvezilci/BREF-BLUE-AKTIV-F.FLOWER-2X50G/
+
+
+same issue
+https://www.trgovinejager.com/zacimbe-disave-dodatki-jedem/VEGETA-VRECKA-75G-PODRAVKA/
+"
+
+DataHut_SI_Mercator_PriceExtractions_20250317.CSV
+------------------------------------------------
+no issues
+
+DataHut_SI_Spar_PriceExtractions_20250317.CSV
+--------------------------------------------
+no issues
+
+DataHut_SI_Dm_PriceExtractions_20250317.CSV
+------------------------------------------
+no issues
+
+DataHut_AT_Bipa_FullDump_20250320.CSV
+-------------------------------------
+instock : true and flase
