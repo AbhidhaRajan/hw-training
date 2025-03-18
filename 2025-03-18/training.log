@@ -1,0 +1,153 @@
+DataHut_AT_Fressnapf_PriceExtractions_20250318.CSV
+--------------------------------------------------
+1.mistake in price_per unit field
+€ 1.490,00/kg in site
+€1.49000/kg in data.
+https://www.fressnapf.at/p/wolfsbacher-natur-bachblueten-angst-1678090/
+
+
+DataHut_AT_Mpreis_PriceExtractions_20250318.CSV
+-----------------------------------------------
+site_shown_uom missing for one row
+
+DataHut_AT_Billa_PriceExtractions_20250318.CSV
+----------------------------------------------
+1. 2+1 aktion tag and je 3 Schachteln
+present in site, only je 3 Schachteln is in data.
+https://shop.billa.at/produkte/iglo-ideenkueche-broccoli-buchweizen-00242928
+
+same issue
+je 3 Packungen and 2+1 aktion tag found in site, only je 3 Packungen in data
+https://shop.billa.at/produkte/dr-oetker-ristorante-pizza-prosciutto-00421234
+
+DataHut_AT_Mueller_PriceExtractions_20250318.CSV
+------------------------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250318.CSV
+---------------------------------------------
+1. 2+1 aktion tag and 
+je 3 Packungen is in site, only 
+je 3 Packungen in data
+
+https://shop.billa.at/produkte/dr-oetker-ristorante-pizza-speciale-00791777
+
+
+2. je 3 Dosen and 2+1 aktion tag is found
+in site. only je 3 Dosen is in data
+
+https://shop.billa.at/produkte/delamaris-makrelenfilets-in-olivenoel-00477575
+
+DataHut_AT_Dm_PriceExtractions_20250318.CSV
+-------------------------------------------
+no issues
+
+autoonderdelen24_2025_03_18
+---------------------------
+autoonderdelen24_bike_carriers_2025_03_18.csv
+--------------------------------------------
+no issues
+
+autoonderdelen24_crossbar_2025_03_18.csv
+----------------------------------------
+no issues
+
+autoonderdelen24_floormats_2025_03_18.csv
+----------------------------------------
+no issues
+
+autoonderdelen24_skiboxes_2025_03_18.csv
+----------------------------------------
+no issues
+
+autoonderdelen24_towing_hitches_2025_03_18.csv
+---------------------------------------------
+previous count 1551
+currant count 936
+
+autoonderdelen24_trunkliners_2025_03_18.csv
+----------------------------------------
+no issues
+
+dakkofferstore_2025_03_18
+---------------------------
+
+dakkofferstore_crossbar_2025_03_18.csv
+-------------------------------------
+no issues
+
+dakkofferstore_skiboxes_2025_03_18.csv
+--------------------------------------
+1.price change ,
+net_price is 790.95 in data
+691.95 in site.
+line 153
+https://www.dakkofferstore.com/dakkoffer-hapro-trivor-560-supermatt-anthracite
+
+rameder_2025_03_18
+------------------
+rameder_bike_carriers_2025_03_18.csv
+------------------------------------
+no issues
+
+rameder_crossbar_2025_03_18.csv
+-------------------------------
+previous data count : 269
+currant count : 412
+
+rameder_floormats_2025_03_18.csv
+--------------------------------
+no issues
+
+rameder_towing_hitches_2025_03_18.csv
+------------------------------------
+previous data count : 698
+currant count : 1161
+
+rameder_trunkliners_2025_03_18.csv
+--------------------------------------
+no issues
+
+auto5be_2025_03_18
+------------------
+auto5be_bike_carriers_2025_03_18.csv
+-----------------------------------
+"1.extra character
+in net price column.
+159.96s in data,
+159.96 in site.
+line 124
+https://www.auto5.be/nl/p/fietsendrager-voor-trekhaakmontage-thule-hangon-972-247169.html
+
+"
+
+auto5be_crossbar_2025_03_18.csv
+-------------------------------
+1. empty columns
+Catalogue price', 'Input Brand', 'Input Model', 'Model Selected', 'Engine', 'Universel vs Specific'
+2.found in stock in site
+out of stock in data.
+line 9
+https://www.auto5.be/nl/p/compleet-pakket-2-dakdragers-met-bevestigingen-thule-wingbar-edge-evo-aluminium-2276802.html
+
+https://www.auto5.be/nl/p/compleet-pakket-2-dakdragers-met-bevestigingen-thule-wingbar-edge-evo-aluminium-2398528.html
+
+
+
+auto5be_floormats_2025_03_18.csv
+--------------------------------
+no issues
+
+auto5be_skiboxes_2025_03_18.csv
+-------------------------------
+no issues
+
+auto5be_towing_hitches_2025_03_18.csv
+-------------------------------------
+no issues
+
+auto5be_trunkliners_2025_03_18.csv
+-----------------------------------
+1."Catalogue price'
+is also empty"
+
