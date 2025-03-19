@@ -1,0 +1,47 @@
+DataHut_HU_Auchan_PriceExtractions_20250319.CSV
+-----------------------------------------------
+"1.record not found
+in field wise checking
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs:aldi_hungary:price-daily:auchan&fieldname=pdp_url&fieldvalue=https://auchan.hu/shop/glade-sensual-sandalwood-&-jasmine-automata-l%C3%A9gfriss%C3%ADt%C5%91-k%C3%A9sz%C3%BCl%C3%A9k-269-ml.p-755100
+
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs:aldi_hungary:price-daily:auchan&fieldname=pdp_url&fieldvalue=https://auchan.hu/shop/motorola-moto-g55-5g-8+256gb-ds-sz%C3%BCrke.p-895439
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs:aldi_hungary:price-daily:auchan&fieldname=pdp_url&fieldvalue=https://auchan.hu/shop/hot-50-pro+-ds-8/256gb-sz%C3%BCrke.p-926044"
+
+DataHut_AT_Interspar_FullDump_20250320.CSV
+------------------------------------------
+1."age_recommendations
+is not empty"
+2.instock true and false
+
+DataHut_AT_Fressnapf_FullDump_20250320.CSV
+-----------------------------------------
+"1.product_description
+contains distributors
+details too.
+https://www.fressnapf.at/p/wild-hazel---schmutzbeutel-1796045/
+
+2.review is 602 in data,620 in site
+https://www.fressnapf.at/p/hills-science-plan-adult-lamm--reis-2x10-kg-1331597/
+
+same issue
+review 419 in data,443 in site
+https://www.fressnapf.at/p/hills-science-plan-sterilised-adult-huhn-2x10-kg-1338026/"
+
+3.Dimensions is not empty
+DataHut_AT_Dm_FullDump_20250320.CSV
+
+
+DataHut_AT_Dm_FullDump_20250320.CSV
+----------------------------------
+1.retail_limit is empty
+2."grammage_quantity 
+is in float for some field
+integer for other field.
+eg: 30.0, 60"
+
+DataHut_CH_Lidl_PriceExtractions_20250319.CSV
+---------------------------------------------
+date format 17.3.2025	
+
