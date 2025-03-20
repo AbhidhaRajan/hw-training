@@ -1,0 +1,65 @@
+DataHut_CH_Lidl_FullDump_20250320.CSV
+-------------------------------------
+"1.mistake in price_per_unit
+1L = 7.14 CHF in data,
+1L = 9.54 CHF in site
+https://sortiment.lidl.ch/de/eve-litchi-5105970"
+
+
+DataHut_HU_Spar_FullDump_20250320.CSV
+-------------------------------------
+"1.brand found ????
+in data, PACO in site
+https://www.spar.hu/onlineshop/paco-etkezesi-lencse-500-g/p/327137007
+
+
+2.site only have one price(6499.00), data have regular(9399.00)
+ and selling price(6499.00)
+
+https://www.spar.hu/onlineshop/ariel-allin1-podsntsign-mosokapszula-44-mosashoz/p/547546009
+"
+
+DataHut_HU_Tesco_FullDump_20250320.CSV
+--------------------------------------
+1."brand', 'producthierarchy_level4', 'file_name_5', 'image_url_5'
+is not empty"
+2.single price found in site266 Ft.
+in data regular price is 439,selling price 
+200, also price per unit is 1111Ft/kg in data,
+1 478 Ft/kg in site.
+percentageP_discount and promotion_description not found.
+https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004020339858"
+
+3.promotion valid upto
+  "expired
+https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004007681635
+
+changed to 2025-03-21
+https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004006338189"
+
+4.percentage_discount "not found in site, in data 10 {-10% 339 Ft (korábbi ár: 379 Ft)}
+https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004020343514"
+
+5.price_per_unit
+  "mistake found
+111 Ft/db in site
+102Ft/db in data
+https://bevasarlas.tesco.hu/groceries/hu-HU/products/2005105027657"
+
+DataHut_SI_Trgovinejager_FullDump_20250320.CSV
+----------------------------------------------
+no issues
+
+DataHut_CH_Migros_FullDump_20250320.CSV
+--------------------------------------
+1."producthierarchy_level5'
+is not empty
+
+2.site_shown_uom missing for 9751 fields
+3.price not found in site,found in data(3.00)
+https://www.migros.ch/de/product/204500600000"
+
+DataHut_CH_Coop_FullDump_20250320.CSV
+-------------------------------------
+1.site_shown_uom missing for 4139 rows
+
