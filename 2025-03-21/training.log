@@ -1,0 +1,133 @@
+DataHut_SI_Spar_PriceExtractions_20250321.CSV
+---------------------------------------------
+"grammage_unit and quantity wrong.
+45 ml in site,0.04 in data
+https://www.spar.si/online/krema-s-karitejevim-maslom-makadamijo-in-jojoba-oljem-kozmetika-kahne-45-ml/p/367645"
+
+DataHut_HU_Spar_PriceExtractions_20250321.CSV
+--------------------------------------------
+no issues
+
+DataHut_HU_Tesco_PriceExtractions_20250321.CSV
+----------------------------------------------
+no issues 
+
+DataHut_HU_Auchan_PriceExtractions_20250321.CSV
+-----------------------------------------------
+no issues
+
+DataHut_SI_Dm_PriceExtractions_20250321.CSV
+--------------------------------------------
+"grammage_quantity 
+is in float type in data,
+int typre in site
+eg:2.0 st in data, 2 st in site"
+
+
+DataHut_SI_Mercator_PriceExtractions_20250321.CSV
+-------------------------------------------------
+no issues
+
+DataHut_SI_Hitrinakup_PriceExtractions_20250321.CSV
+---------------------------------------------------
+no issues
+
+DataHut_SI_Trgovinejager_PriceExtractions_20250321.CSV
+------------------------------------------------------
+"regular price not found
+in site,found in data
+https://www.trgovinejager.com/sadje-suho-strocnice-arasidi/MESANICA-ARASIDIORESCKI-200G-JAGER/
+
+
+https://www.trgovinejager.com/namazi-sadni-in-coko.-med/LINO-LADA-PODRAVKA-400G-PODRAVKA/"
+
+DataHut_AT_Dm_PriceExtractions_20250321.CSV
+-------------------------------------------
+no isues
+
+DataHut_AT_Fressnapf_PriceExtractions_20250321.CSV
+-------------------------------------------------
+grammage quantity 
+wrong, 12+3.5 in data,3.5kg in site.
+age is taken along with 
+grammage quantity.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs:aldi_austria:price-daily:fressnapf&fieldname=pdp_url&fieldvalue=https://www.fressnapf.at/p/royal-canin-mini-ageing-12-35-kg-1002985008/
+
+DataHut_AT_Bipa_PriceExtractions_20250321.CSV
+---------------------------------------------
+no issues 
+
+DataHut_AT_Mpreis_PriceExtractions_20250321.CSV
+-----------------------------------------------
+no issues
+
+DataHut_AT_Interspar_PriceExtractions_20250321.CSV
+--------------------------------------------------
+
+1.logical error
+grammage_quantity 
+and unit is 2 Stück,
+price_per_unit is 4,99 €/Stück
+selling and regular price is 
+4.99.
+https://www.interspar.at/shop/lebensmittel/stabilo-kugelschreiber-pointball-blau-2-stueck/p/2060194
+
+
+2.logical error
+grammage_quantity 
+and unit is 3 Stück,
+price_per_unit is 7,49 €/Stück
+selling and regular price is 
+7.49.
+
+https://www.interspar.at/shop/lebensmittel/pilot-frixion-minen-schwarz-07mm-3-stueck/p/7980381
+
+
+same issue
+https://www.interspar.at/shop/lebensmittel/stabilo-bleistift-mit-radierer-pencil-160-hb-4-stueck/p/2020001546145
+
+https://www.interspar.at/shop/lebensmittel/stabilo-nachfuellminen-easy-original-blau-6-stueck/p/5145256
+
+DataHut_AT_Billa_PriceExtractions_20250321.CSV
+----------------------------------------------
+"1.mistake in regular 
+and selling price.
+2.02 in data,1.49 in site.
+(price_per_unit is 1 kg 1.49 €
+and grammage_unit and quantity
+is 1kg)
+https://shop.billa.at/produkte/da-komm-ich-her-zwiebel-gelb-00429100"
+
+
+amazon_2025_03_21_sample.csv
+-----------------------------
+
+"found 1,293.47 in site
+1290.62 in data
+row 2
+https://www.amazon.com/ASUS-Display-NVIDIA%C2%AE-i7-13650HX-G614JV-AS74/dp/B0CRDCXRK2/ref=sr_1_6?dib=eyJ2IjoiMSJ9.a8AETqORFR8ArY2Rnk_sDOfZZ_9Y8OmtFoNbw-7jYSxvMleeftYAMHtYUURNHnEOvjhXhT8Sh6EK5v4YiRl-fMeS-HJ7DPzjBh0UNMoBMYCRK3HQG4Y5p2bmwORH0_20HVmgbbs6gv_YsHWYp3Cu9JZ9PFIiPwFd8xGpP_O1Ptr4E8cv-1oaBNbFyNgB9Is-k1-IKFwmpBm3tv4dD7k7WZ1AmjJLVRhI5a6QtD9lQntqEoTjPeb7iEdp-aQBLBMcsZ3oVHoDztVqyGKiYsuzH0jccorM5lwUYUj3TKFVlYmbdinM0vDU0lXNzcUvQYy66_-BEWeO3mlkKmv5_B9C9w5a63iytF_Y28H9t9tsoy0.4oqHudkpPRkPxpGwRJACE_4z85UGQPqmKKRdUZtq1tg&dib_tag=se&qid=1742529939&s=pc&sr=1-6&th=1
+"
+
+walmart_2025_03_21_sample.csv
+-----------------------------
+1."Equipment Type',
+ 'Condition Type',
+ 'Model Launch Year'
+not empty"
+
+2."416.56 in data 416.98
+in site
+https://www.walmart.com/ip/HP-15-6-inch-Windows-Laptop-intel-Core-i5-1334U-8GB-RAM-256GB-SSD-Natural-Silver/13687612951
+
+
+372.99 in data $371.64 in site
+https://www.walmart.com/ip/HP-Newest-15-15-6-HD-Touchscreen-Laptop-Home-Student-12th-Gen-Intel-Core-i3-1215U-16GB-RAM-1TB-PCIe-SSD-Long-Battery-Life-Wi-Fi-5-Bluetooth-Windows-1/5273367367?classType=REGULAR
+
+269 in data, 264 in site
+https://www.walmart.com/ip/Lenovo-IdeaPad-Slim-3i-15-Intel-Core-i3-N305-8GB-RAM-256-GB-SSD-Arctic-Grey-Windows-11-in-S-Mode-82XB008LUS/5526976684?classType=REGULAR"
+
+bestbuy_2025_03_21_sample.csv
+----------------------------
+"Equipment Type',
+ 'Model Launch Year'
+not empty"
