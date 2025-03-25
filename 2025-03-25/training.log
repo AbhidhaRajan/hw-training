@@ -1,0 +1,42 @@
+propertyfinder-weekly/nawy_egp_2025_03_04.json
+----------------------------------------------
+no issues 
+
+propertyfinder-weekly/dubizzle_egp_2025_03_04.json
+--------------------------------------------------
+data count difference(3382)
+
+propertyfinder-weekly/bayut_uae_project_2025_03_04.json
+-------------------------------------------------------
+no issues
+
+propertyfinder-weekly/bayut_egp_2025_03_04.json
+-----------------------------------------------
+1.data count difference(6033)
+2.depth,broker_display_name,broker not empty
+3.listing_availability true only
+4."Two new fields
+  "completion_status", "ownership"
+
+
+DataHut_AT_Bipa_FullDump_20250327.CSV
+-------------------------------------
+no issues
+
+propertyfinder-monthly/haraj_ksa_2025_04.json
+---------------------------------------------
+no issues
+
+
+propertyfinder-monthly/aqar_ksa_2025_04.json
+--------------------------------------------
+1.two new fields "advertising_license"",
+    "advertiser".
+
+2.data count difference(9723 higher than previous month)
+
+kw-monthly/exprealty_2025_03_05.json
+-----------------------------------
+1.office_phone_number empty,but found as empty list
+2.one new field"input_meta"
+
