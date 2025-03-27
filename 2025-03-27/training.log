@@ -1,0 +1,58 @@
+DataHut_HU_Tesco_FullDump_20250327.CSV
+--------------------------------------
+1."brand', 'producthierarchy_level4', 'file_name_5', 'image_url_5'
+is not empty"
+2."promotion_valid_upto is 
+
+2025. 03. 26 (count:46)
+https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004020346849
+https://bevasarlas.tesco.hu/groceries/hu-HU/products/2005105009170
+https://bevasarlas.tesco.hu/groceries/hu-HU/products/2005105031236"
+
+3."price_per_unit found wrong.  103 452 Ft/kg in site
+103452 Ft/kg in data
+
+
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs:aldi_hungary-weekly:tesco&fieldname=pdp_url&fieldvalue=https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004020263694"
+
+
+DataHut_CH_Denner_FullDump_20250327.CSV
+---------------------------------------
+1.promotion valid upto expired
+page content expired
+https://www.denner.ch/de/aktionen/article/zweifel-original-chips-salt-vinegar-3/
+
+https://www.denner.ch/de/aktionen/article/pringles-chips-original-3/
+
+https://www.denner.ch/de/aktionen/article/pringles-chips-sour-cream-onion-3/
+
+
+DataHut_CH_Coop_FullDump_20250327.CSV
+-------------------------------------
+1.site shown uom missing for 4167 rows
+2."promotion_description not found in site
+https://www.coop.ch/de/lebensmittel/vorraete/salatsaucen-kalte-saucen/mayonnaise/thomy-bio-mayonnaise/p/7050379"
+
+
+DataHut_SI_Mercator_FullDump_20250327.CSV
+----------------------------------------
+no issues
+
+propertyfinder-monthly/qatarliving_qat_2025_04.json
+---------------------------------------------------
+1.depth is not empty
+
+propertyfinder-monthly/baity_bah_2025_04.json
+--------------------------------------------
+no issues
+
+propertyfinder-monthly/bahrainfinder_bah_2025_04.json
+-----------------------------------------------------
+1.depth and furnished is not empty
+
+
+propertyfinder-monthly/wasalt_ksa_2025_04.json
+-----------------------------------------------
+1.3 more fields ,project",rega_ad_license_no",fal_license_number"
+2.amenities,is  empty
