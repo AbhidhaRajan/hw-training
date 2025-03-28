@@ -23,19 +23,7 @@ elif file_extension == ".json":
         # 🔹 Replace None and empty strings with NaN
         df.replace({None: np.nan, "": np.nan}, inplace=True)
 
-        # 🔹 Function to convert empty lists and dictionaries to NaN
-        def replace_empty(x):
-            if isinstance(x, list) and len(x) == 0:
-                return np.nan
-            if isinstance(x, dict) and len(x) == 0:
-                return np.nan
-            if isinstance(x, (list, dict)):
-                return str(x)  # Convert lists/dicts to strings for compatibility
-            return x
-
-        # Apply function to each column
-        df = df.applymap(replace_empty)
-
+               
     except ValueError as e:
         print(f"Error reading JSON file: {e}")
         exit()
@@ -53,8 +41,6 @@ pd.DataFrame(empty_columns, columns=["Empty Columns"]).to_csv(empty_columns_file
 
 print(f"Completely empty fields saved to: {empty_columns_file}")
 print(f"Empty Columns: {empty_columns}")
-
-df["grammage_quantity"] = df["grammage_quantity"].astype(str)
 
 
 # 🔹 **Generate Sweetviz analysis report**
