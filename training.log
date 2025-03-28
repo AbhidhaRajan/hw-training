@@ -1,0 +1,18 @@
+Quality Assurance (QA)
+========================
+FINDING QA TOOL
+---------------
+Days back I Found Sweetviz tool,write some codes to print html report of data.
+First I run the csv file with the code and got the output,
+but was not suitable for json file. Then i create a code to run json file and is 
+little bit difficult becz it had dictionaries. Then i fix the error.
+After that i merged the codes and run the files. There exist another error that some csv file
+shows some error.
+Today i merged the code with fulldump code which i made to check full dump data and named it as newjc.py
+and also check the code by running monthly and weekly json files.
+Then i checked it with the csv file and understand the cause of error.
+i fixed the error and run with so many files. got Sweetviz report as an html file.
+And also got a csv file which only includes the empty columns.
+
+
+---------------------------
