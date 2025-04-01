@@ -1,0 +1,67 @@
+propertyfinder-weekly/nawy_egp_2025_04_01.json
+----------------------------------------------
+no issues
+
+propertyfinder-weekly/dari_ae_2025_04_01.json
+--------------------------------------------
+no issues
+
+propertyfinder-weekly/dubizzle_egp_2025_04_01.json
+--------------------------------------------------
+1.previous data count,69156
+todays count,66381. difference 2775
+
+2.ad no longer available
+https://www.dubizzle.com.eg/en/ad/%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%85%D8%A8%D9%86%D9%8A-%D9%83%D8%A7%D9%85%D9%84-%D9%81%D9%8A-%D8%A3%D8%B1%D9%82%D9%89-%D9%85%D9%86%D8%A7%D8%B7%D9%82-%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%85%D8%B9-%D8%A5%D9%85%D8%A7%D9%83%D9%86%D9%8A%D8%A9-%D9%87%D8%AF%D9%85%D9%87%D8%AA%D9%82%D8%B3%D9%8A%D9%85%D9%87-ID200599522.html
+
+
+same issue 
+https://www.dubizzle.com.eg/en/ad/%D9%85%D8%AD%D8%B7%D8%A9-%D8%AE%D8%AF%D9%85%D8%A9-%D9%88%D8%AA%D9%85%D9%88%D9%8A%D9%86-%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-ID203392674.html"
+
+
+propertyfinder-weekly/dubizzle_uae_2025_04_01.json
+--------------------------------------------------
+1. listed_by is empty
+2.  error
+https://dubai.dubizzle.com/property-for-sale/commercial/warehouse/2025/1/28/commercial-2-982/
+
+same issue
+
+https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/1/17/luxury-living-i-high-roi-i-1-payment-plan--2-788/
+
+propertyfinder-weekly/bayut_uae_project_2025_04_01.json
+-------------------------------------------------------
+no issues
+
+aldi_nl_20250401_sample.csv
+--------------------------
+1.Total number of columns: 50
+2. Empty Columns 
+['brand_type', 'producthierarchy_level4', 'producthierarchy_level5', 'percentage_discount', 'promotion_description', 'beadcrumb', 'fat_%', 'variants', 'instructions', 'storage_instructions', 'country_of_origin', 'allergens', 'nutritional_score', 'organictype', 'upc', 'ingredients', 'servings_per_pack']
+3.173 rows
+4.currency
+EUR
+
+issue
+-----
+1.flag and emblom images are taken as product image
+  Eg line 4,5,6
+  https://s7g10.scene7.com/is/image/aldinord/product_1226881_main_cms_1_nl_nl_magere_vruchtenyoghurt_aardbei_cw01_2024
+2.first image is taken as file_name_3 and image_url_3. and file_name 1 and 2 is empty
+  eg :https://www.aldi.nl/product/kookroom-1212089.html
+
+
+DataHut_UK_Johnlewis_FullDump_20250401.CSV
+-----------------------------------------
+1.price change found.
+£99.00 in site,84.15 in data.
+https://www.johnlewis.com/whistles-anna-a-line-midi-dress/brown/p111963396?size=16
+"
+DataHut_UK_Next_FullDump_20250401.CSV
+-------------------------------------
+no issues
+
+pending
+-------
+DataHut_UK_Hm_FullDump_20250401.CSV
+DataHut_UK_Marksandspencer_FullDump_20250401.CSV
