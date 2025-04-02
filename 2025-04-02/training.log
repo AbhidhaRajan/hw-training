@@ -1,0 +1,84 @@
+DataHut_UK_Hm_FullDump_20250401.CSV
+-----------------------------------
+no issues
+
+DataHut_UK_Marksandspencer_FullDump_20250401.CSV
+------------------------------------------------
+1.Review and rating found in site
+not in data.
+line 35
+https://www.marksandspencer.com/high-waisted-tailored-wide-leg-jeans/p/clp60712402?color=ECRU&image=SD_01_T57_7138_NZ_X_EC_90
+
+same issue 
+line 112588
+https://www.marksandspencer.com/zarla-mesh-wired-bra-e-k/p/hbp22607618?color=TEAL&image=MS_10_T13_3101_NT_X_EC_90
+
+KW_SET_1
+--------
+ alliebeth_2025_04_05.json
+ -------------------------
+ no issue
+ 
+ ewm_2025_04_05.json
+ -------------------
+ no issues
+
+ firstweber_2025_04_05.json
+ --------------------------
+ no issues
+
+ iowarealty_2025_04_05.json
+ --------------------------
+ no issues
+
+ robertsbrothers_2025_04_05.json
+ ------------------------------
+ no issues
+
+ sutton_2025_04_05.json
+ ---------------------
+ "1.phone_number found in site
+not in data.
+line 26
+""profile_url"": ""https://www.sutton.com/ca/agent/jamie-chasles-121340""
+"
+
+KW_SET_2 
+--------
+bhgre_2025_04_05.json
+---------------------
+"1.502 error
+line 9477
+""profile_url"": ""https://www.bhgre.com/tx/houston/agents/susan-henn/aid-P00200000FSxULYhlSdVLSNn4J0MiF8G0TuUp3Uo""
+"
+century21_us_2025_04_05.json
+----------------------------
+no issues
+
+compass_2025_04_05.json
+-----------------------
+city is not empty
+
+longandfoster_2025_04_05.json
+----------------------------
+no issues
+
+longrealty_2025_04_05.json
+-------------------------
+1.address found in site
+is "4051 E Sunrise Dr, Ste 101
+Tucson, AZ 85718" and in data
+address": "Tucson, AZ 85718",
+line 127
+ "profile_url": "https://www.homesintucson.com"
+
+remax_us_2025_04_05.json
+------------------------
+"1.middle name not found in site
+found in data.
+line 15432
+""profile_url"": ""https://www.remax.com/real-estate-agents/tracy-james-roseville-ca/100074175""
+"
+royallepage_2025_04_05.json
+---------------------------
+no issues
