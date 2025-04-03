@@ -1,0 +1,112 @@
+kw_set_4
+--------
+harrynorman_2025_04_05.json
+---------------------------
+"email"  is empty
+
+huff_realty_2025_04_05.json
+--------------------------
+"email"  is empty
+
+intero_realestate_2025_04_05.json
+--------------------------------
+"1.wrong description
+""description"": ""Nicki and Alan both grew up in Palo Alto .... in data
+In today’s real estate market, you need to work with ..... in site
+line 180
+    ""profile_url"": ""https://www.intero.com/directory/agents/nicki-loveless""
+
+2.run time error for url
+line 1246
+    ""profile_url"": ""https://www.intero.com/directory/agents/kosi-ukwu""
+"
+
+kw_set_3
+--------
+century21global_2025_04_05.json
+-------------------------------
+no issues
+
+coldwellbanker_us_2025_04_05.json
+---------------------------------
+no issues
+
+ebby_2025_04_05.json
+--------------------
+no issues
+
+edinarealty_2025_04_05.json
+---------------------------
+1.last name found in site
+not in data.
+full name is "Derek Butcher" in site
+only "Derek" in data
+line 2110
+    "profile_url": "https://www.edinarealty.com/derek-butcher-realtor"
+
+
+globalremax_2025_04_05.json
+---------------------------
+no issues
+
+home_realestate_2025_04_05.json
+-------------------------------
+1."1.office_phone_number contains
+the word office
+""office_phone_numbers"":
+    [
+        ""Office: (402) 436-4663""
+    ],
+
+line 33
+    ""profile_url"": ""https://garytharnish.homerealestate.com""
+
+2.email is also empty
+3."""city"": ""Lincoln "",
+""city"": ""Lincoln"",
+
+semonin_realtors_2025_04_05.json"
+--------------------------------
+email is not empty
+
+indeed_2025_04_03.xlsx
+-----------------------
+1.31709 rows
+2.14 columns
+3.no empty columns
+
+no issues
+
+kw_set_5
+---------
+coldwellbankerinternational_2025_04_05.json
+-------------------------------------------
+no issues
+
+kentwood_2025_04_05.json
+------------------------
+no issues
+
+realliving_realestate_2025_04_05.json
+-------------------------------------
+1.site cant be reached
+    "profile_url": "https://www.reallivingrealestatesolutions.com/douglas.clement"
+
+2.same issue 
+    "profile_url": "https://www.reallivingrealestatesolutions.com/bill.kolb"
+
+realtysouth_2025_04_05.json
+---------------------------
+1.wrong profile_url   
+line 551
+ "profile_url": "https://www.realtysouth.com/roster/agents/56"
+
+rector_hayden_2025_04_05.json
+----------------------------
+"email" is empty
+
+woodsbros_2025_04_05.json
+-------------------------
+1."email" is empty
+languages is not empty
+
