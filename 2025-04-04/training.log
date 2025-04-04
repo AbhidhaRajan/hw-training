@@ -1,0 +1,64 @@
+DataHut_HU_Tesco_PriceExtractions_20250404.CSV
+----------------------------------------------
+no issues
+
+DataHut_AT_Billa_PriceExtractions_20250404.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Fressnapf_PriceExtractions_20250404.CSV
+--------------------------------------------------
+no issues
+
+DataHut_AT_Dm_PriceExtractions_20250404.CSV
+------------------------------------------
+no issues
+
+DataHut_CH_Lidl_PriceExtractions_20250404.CSV
+--------------------------------------------
+site shown uom empty for 281 fields
+
+DataHut_AT_Interspar_PriceExtractions_20250404.CSV
+-------------------------------------------------
+"1.both teebeutel and gram
+in data. 
+https://www.interspar.at/shop/lebensmittel/holle-bio-kraeutermischung-baby-tee-20-teebeutel/p/2020005601482"
+
+DataHut_AT_Mueller_PriceExtractions_20250404.CSV
+-----------------------------------------------
+"grammage_quantity
+found as
+0.029999999999999999
+https://www.mueller.at/p/noch-09361-profi-schotter-kalkstein-beigebraun-2193568/?itemId=2193568"
+
+
+DataHut_AT_Mpreis_PriceExtractions_20250404.CSV
+-----------------------------------------------
+no issues
+
+
+berkshirehathaways_2025_04_05.json
+--------------------------------
+no issues
+
+exprealty_2025_04_05.json
+-------------------------
+no issues
+
+reecenichols_2025_04_05.json
+----------------------------
+1.email is  empty
+office_phone_numbers is not empty
+
+houlihanlawrence_2025_04_05.json
+--------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250404.CSV
+----------------------------------------------
+no issue
+
+DataHut_HU_Auchan_PriceExtractions_20250404.CSV
+-----------------------------------------------
+no issues
+
