@@ -1,0 +1,32 @@
+
+DataHut_UK_Johnlewis_Menswear_Womenswear_FullDump_20250408.CSV
+--------------------------------------------------------------
+1.previous count:299802,currant count : 427257
+2.extraction_date 
+   ['2025-04-06'] 
+
+DataHut_UK_Hm_Menswear_Womenswear_FullDump_20250408.CSV
+-------------------------------------------------------
+1.extraction_date 
+  ['2025-04-06']
+
+2.gender:
+  ['Women','Men'] 
+
+
+DataHut_AT_Mueller_FullDump_20250410.CSV
+----------------------------------------
+1."1.grammage_quantity
+0.10000000000000001 kg
+https://www.mueller.at/p/gourmet-berner-dankeschoen-fruechtetee-2276043/?itemId=2276043"
+
+
+DataHut_AT_Interspar_FullDump_20250410.CSV
+------------------------------------------
+1."age_recommendations
+is not empty".
+
+2."1.promotion valid upto 
+over (7-04-2025)
+https://www.interspar.at/shop/haushalt/spar-rindenmulch-60-liter/p/2020005528017
+"
