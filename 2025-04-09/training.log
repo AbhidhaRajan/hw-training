@@ -1,0 +1,44 @@
+DataHut_AT_Dm_FullDump_20250410.CSV
+----------------------------------
+1.retail_limit is empty
+
+DataHut_AT_Fressnapf_FullDump_20250410.CSV
+-----------------------------------------
+1.Dimensions is not empty
+2.grammage_quantity 
+and unit found wrong.
+50kg in data,
+60 capsules in site.
+(the capsule is prescribed for dog with 35-50kg weight)
+https://www.fressnapf.at/p/aniforte-zecken-schild-35-bis-50kg-fuer-grosse-hunde-60-kapseln-1444358/"
+
+
+DataHut_IT_Easycoop_PriceExtractions_20250409.CSV
+------------------------------------------------
+"1.promotion_valid_upto
+expaired
+https://www.easycoop.com/activia-activia-fibre-bianco-cereali-4-x-125-g-6487789.html
+
+expaire today
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs:aldi_italy-weekly:easycoop&fieldname=pdp_url&fieldvalue=https://www.easycoop.com/coop-vellutata-con-tartufo-300-g-3150623.html
+
+"
+
+DataHut_IT_Conad_PriceExtractions_20250409.CSV
+----------------------------------------------
+1.149223
+(missing for 138 fields)"
+2.change in price per unit
+0,60 € / Kg in site
+0.59 € / Kg in data.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs:aldi_italy-weekly:conad&fieldname=pdp_url&fieldvalue=https://spesaonline.conad.it/p/farina-di-grano-tenero-tipo-00-kg-5-conad--400386"
+3."price not found in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs:aldi_italy-weekly:conad&fieldname=pdp_url&fieldvalue=https://spesaonline.conad.it/p/calypso-spugna-viso-demaquillage-x2--10832362
+
+4.404 error
+https://spesaonline.conad.it/p/edam-a-fette-bayernland--11122486"
+
+DataHut_AT_Billa_FullDump_20250410.CSV
+-------------------------------------
+retail_limit is empty
