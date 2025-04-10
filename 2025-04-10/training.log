@@ -1,0 +1,56 @@
+DataHut_AT_Mpreis_FullDump_20250410.CSV
+----------------------------------------
+no issues
+
+DataHut_AT_Bipa_FullDump_20250410.CSV
+-------------------------------------
+instoke contains both true and false
+
+
+DataHut_AT_Mueller_FullDump_20250410.CSV
+---------------------------------------
+NO ISSUES
+
+DataHut_SI_Spar_FullDump_20250410.CSV
+-------------------------------------
+1."mistake in grammage_quantity
+1.000g in data, 
+actually it is 1000g(1kg).
+https://www.dm.si/schar-brezglutenska-mesanica-za-peko-mix-b-p8008698004845.html"
+
+
+DataHut_SI_Dm_FullDump_20250410.CSV
+-----------------------------------
+1.multiple dot in price_per_unit
+column
+1.650.00 € za 100 g
+https://www.dm.si/sonnentor-bio-zafran-p9004145003842.html
+
+2."grammage_quantity contains comma. 
+eg:  0,5
+https://www.dm.si/sonnentor-bio-zafran-p9004145003842.html
+
+"
+DataHut_SI_Mercator_FullDump_20250410.CSV
+-----------------------------------------
+no issues
+
+
+DataHut_SI_Hitrinakup_FullDump_20250410.CSV
+-------------------------------------------
+"grammage_quantity wrong
+500.1 kg in data, 1kg in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs:aldi_slovenia-weekly:hitrinakup&fieldname=pdp_url&fieldvalue=https://hitrinakup.com/izdelki/444793"
+
+
+indeed_2025_04_10.xlsx
+----------------------
+1.29490 rows
+2.original_job_url -- missing for 12 rows
+
+
+DataHut_CH_Denner_FullDump_20250410.CSV
+----------------------------------------
+1."producthierarchy_level7'
+is not empty"
+2.site shown uom  field missing for 2 fields
