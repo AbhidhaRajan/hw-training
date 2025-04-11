@@ -1,0 +1,40 @@
+DataHut_SI_Mercator_PriceExtractions_20250411.CSV
+-------------------------------------------------
+no issues
+
+DataHut_SI_Hitrinakup_PriceExtractions_20250411.CSV
+---------------------------------------------------
+no issues 
+
+DataHut_HU_Tesco_PriceExtractions_20250411.CSV
+----------------------------------------------
+no issues
+
+DataHut_HU_Auchan_PriceExtractions_20250411.CSV
+----------------------------------------------
+no issues
+
+
+DataHut_CH_Migros_FullDump_20250410.CSV
+---------------------------------------
+1."producthierarchy_level5'
+is not empty"
+
+2.missing for 8773 fields
+
+DataHut_CH_Lidl_FullDump_20250410.CSV
+-------------------------------------
+no issues
+
+DataHut_HU_Tesco_FullDump_20250410.CSV
+--------------------------------------
+
+"brand', 'producthierarchy_level4', 'file_name_5', 'image_url_5'
+is not empty"
+
+samsclub_2025_04_11.csv
+-----------------------
+1.Empty Columns
+    unavailable
+
+2.1081 ROWS
