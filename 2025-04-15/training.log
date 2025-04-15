@@ -1,0 +1,60 @@
+DataHut_UK_Marksandspencer_Menswear_Womenswear_FullDump_20250415.CSV
+--------------------------------------------------------------------
+1.Gender [Women' ,'Men']
+
+DataHut_UK_Hm_Menswear_Womenswear_FullDump_20250415.CSV
+-------------------------------------------------------
+1.Gender [Women' ,'Men']
+2."price_change , promotion
+found in site(15%), 
+not found in data
+https://www2.hm.com/en_gb/productpage.1267317001.html
+
+
+
+same issue
+https://www2.hm.com/en_gb/productpage.1256906001.html
+
+
+https://www2.hm.com/en_gb/productpage.1256902001.html"
+
+
+DataHut_UK_Johnlewis_Menswear_Womenswear_FullDump_20250415.CSV
+-------------------------------------------------------------
+no issues
+
+DataHut_UK_Next_Menswear_Womenswear_FullDump_20250415.CSV
+-------------------------------------------------------
+1.Gender [Women' ,'Men']
+
+winparts_2025_04_15.csv
+-----------------------
+no issues
+
+autodoc_2025_04_15.csv
+----------------------
+no issues
+
+autoteiledirekt_2025_04_15.csv
+------------------------------
+"1.price_change found(line 4070)
+14,96 € in site,15.24 in data
+https://www.autoteiledirekt.de/gates-20472458.html
+
+
+autoonderdelen24_2025_04_15.csv
+------------------------------
+price_change(line 11800)
+69,43 € in site,96.96 in data
+https://www.autoonderdelen24.be/bosch-8462912.html
+
+
+mister_auto_2025_04_15.csv
+--------------------------
+1.price not found
+line 1178
+https://www.mister-auto.be/fr/joint-spi-de-vilebrequin-febi-bilstein-101-107208-p/
+
+2.price_change(line 3006)
+5.90 in data,5,51 € in site
+https://www.mister-auto.be/fr/silent-bloc-d-echappement-febi-bilstein-101-22888-p/
