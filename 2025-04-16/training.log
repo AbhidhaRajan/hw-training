@@ -1,0 +1,51 @@
+DataHut_AT_Mueller_FullDump_20250417.CSV
+----------------------------------------
+no issues
+
+DataHut_AT_Interspar_FullDump_20250417.CSV
+-----------------------------------------
+1."age_recommendations
+is not empty"
+2.instock [ True False] 
+3."promotion vali upto
+15.04.2025 (count:16)
+16.04.2025 (count:174)"
+
+DataHut_AT_Dm_FullDump_20250417.CSV
+-----------------------------------
+retail_limit is empty
+
+DataHut_AT_Mpreis_FullDump_20250417.CSV
+--------------------------------------
+no issues
+
+DataHut_AT_Bipa_FullDump_20250417.CSV
+-------------------------------------
+instock [ True False] 
+
+DataHut_IT_Conad_FullDump_20250416.CSV
+-------------------------------------
+no issues
+
+DataHut_AU_Coles_FullDump_20250416.CSV
+--------------------------------------
+no issues
+
+DataHut_IT_Easycoop_FullDump_20250416.CSV
+----------------------------------------
+"promotion_valid_upto
+expaired.
+2025-04-14 (count:407)
+2025-04-15 (count:407)"
+
+DataHut_IT_Esselunga_FullDump_20250325.CSV
+-----------------------------------------
+"promotion_valid_upto
+expired
+14/04/2025 (count:6)
+15/04/2025 (count:20)
+
+will expire today
+16/04/2025 (count:286)"
+
+
