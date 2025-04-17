@@ -1,0 +1,59 @@
+DataHut_AT_Billa_FullDump_20250417.CSV
+--------------------------------------
+retail_limit is empty
+
+DataHut_HU_Tesco_FullDump_20250417.CSV
+-------------------------------------
+"brand', 'producthierarchy_level4', 'file_name_5', 'image_url_5'
+is not empty"
+
+DataHut_SI_Mercator_FullDump_20250417.CSV
+----------------------------------------
+no issues
+
+DataHut_SI_Dm_FullDump_20250417.CSV
+------------------------------------
+1."multiple dot in price_per_unit
+column
+1.650.00 € za 100 g
+
+https://www.dm.si/sonnentor-bio-zafran-p9004145003842.html
+
+DataHut_HU_Auchan_FullDump_20250417.CSV
+--------------------------------------
+1."grammage_quantity
+found as
+970766801
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Aauchan&fieldname=pdp_url&fieldvalue=https%3A//auchan.hu/shop/easycut-970766801-l-%C3%A1gv%C3%A1g%C3%B3-oll%C3%B3--%2B-metsz%C5%91oll%C3%B3.p-914556"
+2.price_change
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Aauchan&fieldname=pdp_url&fieldvalue=https%3A//auchan.hu/shop/persil-color-mos%C3%B3g%C3%A9l-33-mos%C3%A1s-1485-l.p-802218
+(promotion found in site, not in data, which is valid from 17-04-2025)"
+
+
+DataHut_AT_Billa_FullDump_20250417.CSV
+--------------------------------------
+no issues
+
+DataHut_AT_Mueller_FullDump_20250417.CSV
+----------------------------------------
+NO ISSUES
+
+DataHut_AT_Interspar_FullDump_20250417.CSV
+-----------------------------------------
+"age_recommendations
+is not empty"
+
+
+DataHut_SI_Spar_FullDump_20250417.CSV
+---------------------------------------
+1."producthierarchy_level7
+is also  empty
+
+2."promotion valid upto
+17.04.2025
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia-weekly%3Aspar&fieldname=pdp_url&fieldvalue=https%3A//www.spar.si/online/torta-lesnik-vanilija-pekarna-spar-14kg/p/596429"
+
+DataHut_SI_Hitrinakup_FullDump_20250417.CSV
+-------------------------------------------
+no issues
