@@ -1,0 +1,101 @@
+autoonderdelen24
+----------------
+autoonderdelen24_bike_carriers_2025_04_18.csv
+--------------------------------------------
+no issues
+
+autoonderdelen24_crossbar_2025_04_18.csv
+---------------------------------------
+no issues
+autoonderdelen24_floormats_2025_04_18.csv
+-----------------------------------------
+no issues
+
+autoonderdelen24_skiboxes_2025_04_18.csv
+----------------------------------------
+no issues
+
+autoonderdelen24_towing_hitches_2025_04_18.csv
+----------------------------------------
+no issues
+
+autoonderdelen24_trunkliners_2025_04_18.csv
+----------------------------------------
+no issues
+
+
+dakkofferstore_2025_04_18
+---------------------------
+dakkofferstore_crossbar_2025_04_18.csv
+----------------------------------------
+no issues
+
+dakkofferstore_skiboxes_2025_04_18.csv
+----------------------------------------
+no issues
+
+
+rameder_2025_04_18
+------------------
+rameder_bike_carriers_2025_04_18.csv
+----------------------------------------
+no issues
+rameder_crossbar_2025_04_18.csv
+----------------------------------------
+no issues
+rameder_floormats_2025_04_18.csv
+----------------------------------------
+no issues
+rameder_towing_hitches_2025_04_18.csv
+----------------------------------------
+no issues
+rameder_trunkliners_2025_04_18.csv
+----------------------------------------
+no issues
+
+DataHut_AT_Dm_PriceExtractions_20250421.CSV
+------------------------------------------
+no issues
+
+DataHut_AT_Fressnapf_PriceExtractions_20250421.CSV
+--------------------------------------------------
+"grammage quantity wrong.
+age and quantity taken as grammage_quantity.
+eg:10+3 kg(where 10+ is age)
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/royal-canin-medium-ageing-10-3-kg-1002985009/"
+
+DataHut_AT_Mueller_PriceExtractions_20250421.CSV
+-----------------------------------------------
+no issues 
+
+DataHut_AT_Billa_PriceExtractions_20250421.CSV
+----------------------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250421.CSV
+---------------------------------------------
+no issues
+
+DataHut_HU_Tesco_PriceExtractions_20250421.CSV
+----------------------------------------------
+1. price_valid upto will expire today
+2025. 04. 21 (count:246)
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005105006465"
+2."wrong grammage_quantity
+and unit.
+found 11kg in data.
+6-11kg is the weight of the child
+who can use that product(diaper)
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004020314232"
+
+DataHut_HU_Auchan_PriceExtractions_20250421.CSV
+-----------------------------------------------
+no issues
+
+DataHut_SI_Mercator_PriceExtractions_20250421.CSV
+------------------------------------------------
+no issues
+
+dubizzle_egp_2025_04_04.json 
+----------------------------
+no issues
