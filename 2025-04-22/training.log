@@ -1,0 +1,59 @@
+DataHut_AT_Mpreis_FullDump_20250424.CSV
+--------------------------------------
+no issues
+
+DataHut_AT_Bipa_FullDump_20250424.CSV
+-------------------------------------
+no issues
+
+bayut_egp_2025_04_04.json
+-----------------------
+1. price_per Monthly,daily,weekly,yearly 
+2.broker_display_name,broker,depth is not empty
+3."Two new fields
+""completion_status"", ""ownership"""
+dari_ae_2025_04_04.json
+------------------------
+no issues
+
+bayut_uae_project_2025_04_04.json
+---------------------------------
+no issues
+
+DataHut_AT_Interspar_PriceExtractions_20250422.CSV
+-------------------------------------------------
+no issues
+
+DataHut_AT_Billa_PriceExtractions_20250422.CSV
+----------------------------------------------
+no issues
+
+DataHut_AT_Mueller_PriceExtractions_20250422.CSV
+-----------------------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250422.CSV
+--------------------------------------------
+no issues
+
+DataHut_AT_Dm_PriceExtractions_20250422.CSV
+-------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_PriceExtractions_20250422.CSV
+----------------------------------------------
+no issues
+
+DataHut_AT_Fressnapf_PriceExtractions_20250422.CSV
+----------------------------------------------
+no issues
+
+DataHut_AU_Coles_FullDump_20250423.CSV
+--------------------------------------
+"currantly unavailable
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_australia-weekly%3Acoles%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.coles.com.au/product/arth-rice-khichdi-spinach-and-brown-rice-khichdi-250g-1019671
+
+same issue
+https://www.coles.com.au/product/beerfarm-beerfarm-milk-stout-can-3-3865133"
+
+site shown uom missing for 328 fields
