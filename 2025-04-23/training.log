@@ -1,0 +1,104 @@
+DataHut_HU_Auchan_PriceExtractions_20250423.CSV
+------------------------------------------------
+no issues
+
+DataHut_HU_Tesco_PriceExtractions_20250423.CSV
+---------------------------------------------
+no issues
+
+DataHut_SI_Hitrinakup_FullDump_20250424.CSV
+-----------------------------------------
+no issues
+
+DataHut_SI_Dm_FullDump_20250424.CSV
+-----------------------------------
+no issues
+
+DataHut_SI_Spar_FullDump_20250424.CSV
+-----------------------------------
+"producthierarchy_level7
+is also empty
+"
+DataHut_IT_Esselunga_PriceExtractions_20250423.CSV
+--------------------------------------------------
+promotion_valid_upto 
+expired
+21/04/2025 (count:606)
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aesselunga&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/755547/olive-denocciolate-verdi-piccanti-250-g
+
+22/04/2025 (count:21142)
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aesselunga&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/676507/chanteclair-detergente-liquido-muschio-bianco-lavatrice-38-lavaggi
+
+DataHut_IT_Easycoop_PriceExtractions_20250423.CSV
+------------------------------------------------
+"1.promotion_valid_upto
+expired
+2025-04-22 (count:8283)
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aeasycoop&fieldname=pdp_url&fieldvalue=https%3A//www.easycoop.com/coop-tagliata-di-bovino-adulto-300-g-ca-7580651.html
+
+2.promotion_valid_upto found as 2025-04-23 in data, 24-04 in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aeasycoop&fieldname=pdp_url&fieldvalue=https%3A//www.easycoop.com/coop-tagliata-di-bovino-adulto-300-g-ca-7580651.html"
+
+
+DataHut_IT_Conad_PriceExtractions_20250423.CSV
+---------------------------------------------
+
+"1.price_change
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aconad&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.conad.it/p/sole-detersivo-lavatrice-bianco-splendente-29-lavaggi-1305-l--11424377"
+
+
+bayut_bah_2025_04_23.xlsx
+-------------------------\
+1.category
+rent
+sale
+2.price_per
+Monthly
+3.currency
+BHD
+4.furnished
+unfurnished
+5.package_type
+premium
+free
+6.sub_category_1
+Commercial
+Residential
+7.listing_availability
+True
+False
+
+8. empty fields
+   ------------
+   rera_permit_number
+dtcm_licence
+user_id
+rera_registration_number   
+ded_license_number
+completion_status 
+ad_type  
+verified
+sub_category_2
+depth
+brn_registration_number 
+orn_number  
+bln_number  
+adm_number
+ded_number_2   
+ded_number_3   
+ded_number_4   
+trucheck_on 
+email
+rating   
+no_of_reviews
+
+9.property no longer available
+  https://www.bayut.bh/en/property/details-500002194.html
+
+  
+
+
+
+
+
+
