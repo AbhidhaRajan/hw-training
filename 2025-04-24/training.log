@@ -1,0 +1,58 @@
+DataHut_AT_Mueller_FullDump_20250424.CSV
+----------------------------------------
+no issues
+
+DataHut_AT_Bipa_FullDump_20250424.CSV
+------------------------------------
+no issues
+
+DataHut_AT_Fressnapf_FullDump_20250424.CSV
+-----------------------------------------
+Dimensions is not empty
+
+DataHut_AT_Mpreis_FullDump_20250424.CSV
+---------------------------------------
+no issues
+
+DataHut_SI_Mercator_FullDump_20250424.CSV
+----------------------------------------
+no issues
+
+DataHut_HU_Tesco_FullDump_20250424.CSV
+--------------------------------------
+"brand', 'producthierarchy_level4', 'file_name_5', 'image_url_5'
+is not empty"
+
+DataHut_SI_Dm_FullDump_20250424.CSV
+-----------------------------------
+1."multiple dot in price_per_unit
+column
+1.650.00 € za 100 g
+
+https://www.dm.si/sonnentor-bio-zafran-p9004145003842.html
+
+indeed_2025_04_24.CSV
+---------------------
+1.23336 ROWS
+2.issues
+---------
+a)position contains price value
+ eg:Projektleiter Akquise Hochbau \u002F Ingenieurbau (m\u002Fw\u002Fd) | 90.000 - 120.000€ p.a.
+    line 9960
+    https://de.indeed.com/Zeige-Job?jk=977bdc25a9604f0d&from=serp&vjs=3
+
+    same issue , line 15076
+
+b)phone number contains other numbers
+
+  eg:000 - 120.000; +49 30 549 059 736
+  line 9960
+    https://de.indeed.com/Zeige-Job?jk=977bdc25a9604f0d&from=serp&vjs=3
+
+    same issue , line 15076,15079,1253 etc
+c)job posting expired
+  https://de.indeed.com/Zeige-Job?jk=d764a7495fc8a210&from=serp&vjs=3
+  line 14630
+
+
+
