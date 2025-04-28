@@ -1,0 +1,48 @@
+servicesbahrain_bah_2025_05.json
+-------------------------------
+no issues
+
+haraj_ksa_2025_05.json
+----------------------
+1.phone_number is empty
+2.description contains numbers
+
+wasalt_ksa_2025_05.json
+-----------------------
+1."3 more fields
+""project""
+    ""rega_ad_license_no""
+    ""fal_license_number"""
+
+2.amenities,is  empty
+
+aqar_ksa_2025_05.json
+---------------------
+1."two new fields
+""advertising_license"",
+    ""advertiser"
+
+
+DataHut_UK_Next_Menswear_Womenswear_FullDump_20250429.CSV
+---------------------------------------------------------
+no issues
+
+DataHut_UK_Hm_Menswear_Womenswear_FullDump_20250429.CSV
+-------------------------------------------------------
+no issues
+
+DataHut_UK_Johnlewis_Menswear_Womenswear_FullDump_20250429.CSV
+--------------------------------------------------------------
+no issues
+
+DataHut_UK_Marksandspencer_Menswear_Womenswear_FullDump_20250429.CSV
+--------------------------------------------------------------------
+"extraction_date 
+['2025-04-29'] "
+
+bayut_egp_2025_04_05.json
+--------------------------
+1.depth,broker_display_name,broker not empty
+2.price_per - Monthly,daily,weekly,yearly
+3."Two new fields
+""completion_status"", ""ownership"""
