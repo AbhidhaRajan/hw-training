@@ -1,0 +1,72 @@
+DataHut_AT_Mpreis_FullDump_20250501.CSV
+--------------------------------------
+no issues
+
+DataHut_AT_Bipa_FullDump_20250501.CSV
+------------------------------------
+no issues
+
+bayut_ksa_2025_05.json
+----------------------
+1."Four new fields .
+
+completion_status,
+ advertiser_designation,
+ ad_license_number,
+fal_license_number."
+
+2."""reference_number"" and 
+""advertiser_designation"" is empty"
+
+3.depth is not empty
+
+
+
+baity_bah_2025_05.json
+-----------------------
+no issues
+
+bahrainfinder_bah_2025_05.json
+------------------------------
+1.depth,furshnished are not empty
+
+qatarliving_qat_2025_05.json
+----------------------------
+1.depth not empty
+
+ajmanded_uae_2025_05.json
+------------------------
+no issues
+
+kw_set_1
+---------
+coldwellbanker_us_2025_05_05.json
+---------------------------------------
+"1.""title"": ""Independent Contractor""in data
+Sales Associate in site
+line 21641
+    ""profile_url"": ""https://www.coldwellbanker.com/fl/niceville/agents/sharlyn-barger/aid-P00200000G8XClAu0SwymrsTeluI2jSqDZixnQXO""
+"
+ewm_2025_05_05.json
+-------------------
+no issues
+
+iowarealty_2025_05_05.json
+ -------------------------
+ """state"": ""IA"",
+""state"": ""IL""," only
+
+
+ realtysouth_2025_05_05.json
+ ---------------------------
+ no issues
+
+ royallepage_2025_05_05.json
+ --------------------------
+ "office_phone_number
+is taken as agent phone_number 
+and office_phn number field is empty 
+in data
+line 7464
+ profile_url"": ""https://www.royallepage.ca/en/agent/ontario/kitchener/andrew-shackleton/44775/""
+"
