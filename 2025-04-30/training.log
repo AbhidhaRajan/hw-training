@@ -1,0 +1,101 @@
+hepsiemlak_tur_2025_05.json
+---------------------------
+"sale completed
+https://www.hepsiemlak.com/en/proje/mugla-bodrum/iasos-dreams-bodrum-projesi-5896"
+
+emlakjet_tur_2025_05.json
+-------------------------
+no issues
+
+kentwood_2025_05_05.json
+------------------------
+no issues
+
+
+
+DataHut_AT_Mueller_PriceExtractions_20250430.CSV
+------------------------------------------------
+no issues
+
+DataHut_AT_Dm_PriceExtractions_20250430.CSV
+-------------------------------------------
+no issues
+
+DataHut_AT_Fressnapf_PriceExtractions_20250430.CSV
+--------------------------------------------------
+no issues
+
+
+kw_set_2(1)
+--------
+century21global_2025_05_05.json
+-------------------------------
+1."social and office_phone_numbers
+are not empty"
+ 2. zipcode found as 1
+    line 6246
+
+    "profile_url": "https://www.century21global.com/en/agents/rl-132695207"
+
+compass_2025_05_05.json
+-----------------------
+no issues
+
+firstweber_2025_05_05.json
+--------------------------
+no issues
+
+home_realestate_2025_05_05.json
+-------------------------------
+1.email is also empty
+2.state"": ""NE"",
+""state"": ""O"",
+""state"": ""Circle"",
+
+3.Lincoln only
+
+4."""zipcode"": ""Street"",
+""zipcode"": ""of"","
+
+semonin_realtors_2025_05_05.json
+--------------------------------
+no issues
+
+sutton_2025_05_05.json
+----------------------
+no issues
+
+DataHut_AT_Mpreis_PriceExtractions_20250430.CSV
+----------------------------------------------
+1.site shown uom  missing for 523 fields
+
+
+DataHut_AT_Mueller_FullDump_20250501.CSV
+---------------------------------------
+no issues
+
+DataHut_AT_Dm_FullDump_20250501.CSV
+-----------------------------------
+no issues
+
+DataHut_AT_Fressnapf_FullDump_20250501.CSV
+------------------------------------------
+Dimensions is not empty
+
+DataHut_AT_Interspar_FullDump_20250501.CSV
+------------------------------------------
+1."age_recommendations
+is not empty"
+
+2."promotion valid upto repired
+28.04.2025 (count:78)
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ainterspar%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/haushalt/wenzel-kerze-rustik/p/2020005048393
+
+29.04.2025 (count:461)
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ainterspar%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/haushalt/air-up-trinkflasche-lavender-600ml/p/2020005700949
+
+will expire today
+30.04.2025 (count:196)
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ainterspar%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/haushalt/celaflor-wespenschaum-2in1-500ml/p/2020002376079
+"
+
