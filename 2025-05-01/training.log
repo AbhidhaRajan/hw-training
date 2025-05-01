@@ -1,0 +1,85 @@
+DataHut_SI_Mercator_FullDump_20250501.CSV
+-----------------------------------------
+no issues
+
+DataHut_SI_Hitrinakup_FullDump_20250501.CSV
+------------------------------------------
+no issues
+
+DataHut_SI_Dm_FullDump_20250501.CSV
+----------------------------------
+1."multiple dot in price_per_unit
+column
+1.650.00 € za 100 g
+
+https://www.dm.si/sonnentor-bio-zafran-p9004145003842.html
+
+DataHut_CH_Lidl_FullDump_20250501.CSV
+-------------------------------------
+1.site shown uom missing for 61 fields
+2."LP 1Stk. = 0.13 CHF (count:1)
+one dot found after stk in price_per_unit.
+https://sortiment.lidl.ch/de/catalog/product/view/id/16206/s/kompostbeutel-0160705/category/54/
+"
+DataHut_CH_Denner_FullDump_20250501.CSV
+--------------------------------------
+1."producthierarchy_level7'
+is not empty
+
+'file_name_4', 'image_url_4'
+are empty"
+
+2.site shown uom missing for 1 fields
+
+DataHut_CH_Coop_FullDump_20250501.CSV
+-------------------------------------
+1.missing for 4165 rows
+2."difference in promotion description
+found, 50% in data,75% in site
+https://www.coop.ch/de/lebensmittel/suesses-snacks/schokolade-suessigkeiten/schokoladen-riegel-snacks/schokoladensnacks/naturaplan-bio-schokoladenhase-noir-70-honduras/p/6728684
+
+
+price change found
+https://www.coop.ch/de/lebensmittel/fleisch-fisch/paniertes-pfannenfertiges/fleisch-fisch/naturaplan-bio-schweins-cordon-bleu-huft-2-stueck/p/6288259"
+
+3.site shown uom missing for 4165 rows
+
+
+DataHut_SI_Spar_FullDump_20250501.CSV
+-------------------------------------
+1."producthierarchy_level7
+is also 
+empty
+"
+2.instock -- true only
+
+
+DataHut_HU_Auchan_FullDump_20250501.CSV
+---------------------------------------
+
+no issues
+
+
+
+
+sedd_uae_2025_05.xlsx
+---------------------
+1.Empty Columns
+----------------
+mobile_number
+email_address
+the_unified_number_of_the_establishment
+street
+city
+region
+district
+building_number
+additional_number
+
+2.broker_type
+-----------
+Trading
+Professional
+Industrial
+
+
