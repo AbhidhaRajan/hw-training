@@ -1,0 +1,87 @@
+DataHut_AT_Mueller_PriceExtractions_20250502.CSV
+-----------------------------------------------
+no issues
+
+DataHut_AT_Dm_PriceExtractions_20250502.CSV
+-----------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_PriceExtractions_20250502.CSV
+-----------------------------------------------
+1.site shown uom is missing for 519 fields
+
+DataHut_SI_Dm_PriceExtractions_20250502.CSV
+-----------------------------------------------
+no issues
+
+DataHut_SI_Hitrinakup_PriceExtractions_20250502.CSV
+--------------------------------------------------
+"1. grammage quantity wrong 
+1kg in site, 500.1 kg in data.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Ahitrinakup&fieldname=pdp_url&fieldvalue=https%3A//hitrinakup.com/izdelki/444793"
+
+DataHut_HU_Tesco_PriceExtractions_20250502.CSV
+---------------------------------------------
+no issues
+
+DataHut_HU_Auchan_PriceExtractions_20250502.CSV
+---------------------------------------------
+no issues
+
+
+DataHut_SI_Spar_PriceExtractions_20250502.CSV
+---------------------------------------------
+no issues
+
+DataHut_SI_Mercator_PriceExtractions_20250502.CSV
+------------------------------------------------
+no issues
+
+AUT_2025-05-02.csv
+-------------------
+no issues
+
+berkshirehathaways_2025_05_05.json
+----------------------------------
+no issues
+
+rector_hayden_2025_05_05.json
+----------------------------
+1."email" is empty
+2."agent_phone_number 
+['859'] in data, complete number found in site
+
+https://emilybelcher.rhr.com
+https://rickscott.rhr.com"
+
+harrynorman_2025_05_05.json
+--------------------------
+no issues
+
+reecenichols_2025_05_05.json
+---------------------------
+1."""email"" is  empty
+office_phone_numbers
+  is not empty"
+
+
+kentwood_2025_05_05.json
+------------------------
+no issues
+
+realliving_realestate_2025_05_05.json
+------------------------------------
+1.fields are not in order
+2."site cant be reached
+
+https://www.reallivingrealestatesolutions.com/bill.kolb
+
+https://www.reallivingrealestatesolutions.com/douglas.clement"
+
+alliebeth_2025_05_05.json
+-------------------------
+1.fields are not in order
+2."title contains extra word
+eg:Executive Vice President, Relocation
+	https://www.alliebeth.com/bio/DebBorrell"
