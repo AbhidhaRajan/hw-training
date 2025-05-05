@@ -1,0 +1,89 @@
+SET3
+-----------------
+century21_us_2025_05_05.json
+----------------------------
+no issues
+
+ebby_2025_05_05.json
+---------------------
+"""country"": ""United States"",
+""country"": ""United states"",
+""country"": ""75028"",
+"
+
+longandfoster_2025_05_05.json
+-----------------------------
+no issues
+
+longrealty_2025_05_05.json
+--------------------------
+no issues
+
+robertsbrothers_2025_05_05.json
+-------------------------------
+no issues
+
+SET4
+---------------
+coldwellbankerinternational_2025_05_05.json
+------------------------------------------
+no issues
+
+remax_us_2025_05_05.json
+------------------------
+"1.middle_name not found in site
+found in data.
+line 18107
+    ""profile_url"": ""https://www.remax.com/real-estate-agents/chris-mathes-cape-girardeau-mo/100105811""
+"
+
+SET5
+-----
+
+bhgre_2025_05_05.json
+---------------------
+no issues
+
+globalremax_2025_05_05.json
+---------------------------
+no issues
+
+set-6
+------
+edinarealty_2025_05_05.json
+---------------------------
+1.fields are not in order
+2.site cant be reached
+
+exprealty_2025_05_05.json
+------------------------
+no issues
+
+houlihanlawrence_2025_05_05.json
+--------------------------------
+no issues
+
+huff_realty_2025_05_05.json
+--------------------------
+"email"  is empty
+
+intero_realestate_2025_05_05.json
+ ---------------------------------
+ 1.fields are not in order
+ 2."1.run time error
+    ""profile_url"": ""https://www.intero.com/directory/agents/andy-wong"",
+
+woodsbros_2025_05_05.json
+--------------------------
+1."""email"" is empty
+languages is not empty"
+2."1.description incomplete
+line 117
+    ""profile_url"": ""https://davidderun.woodsbros.com""
+"
+
+nawy_egp_2025_05_01.json
+------------------------
+no issues
+
+
