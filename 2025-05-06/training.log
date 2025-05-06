@@ -1,0 +1,97 @@
+bayut_egp_2025_05_01.json
+-------------------------
+1.price_per Monthly,daily,weekly,yearly
+2.broker_display_name,broker,depth are not empty
+3."Two new fields
+""completion_status"", ""ownership"""
+
+bayut_uae_project_2025_05_01.json
+---------------------------------
+no issues
+
+dubizzle_egp_2025_05_01.json
+---------------------------
+no issues
+
+
+DataHut_AT_Mpreis_PriceExtractions_20250506.CSV
+-----------------------------------------------
+1."site shown uom missing
+for 482 fields"
+
+DataHut_AT_Interspar_PriceExtractions_20250506.CSV
+--------------------------------------------------
+no issues
+
+DataHut_AT_Mueller_PriceExtractions_20250506.CSV
+-------------------------------------------------
+no issues
+
+DataHut_AT_Dm_PriceExtractions_20250506.CSV
+-------------------------------------------
+1."in site_shown_uom fields
+some values contains dot 
+and others contains comma.
+eg: 1,9 kg , 1.04 g "
+
+2."product_name is
+Feuchte Brillenputztücher, 52 St,
+but grammage_quantity and unit is 1st
+in data.
+https://www.dm.at/visiomax-feuchte-brillenputztuecher-p4066447372113.html
+"
+DataHut_AT_Bipa_PriceExtractions_20250506.CSV
+-------------------------------------------------
+no issues
+
+DataHut_AT_Fressnapf_PriceExtractions_20250506.CSV
+--------------------------------------------------
+1."site shown uom contains
+beutel,but grammage_unit
+is stuck.
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/8in1-delights-kauknochen-haehnchenfleisch-im-beutel-xs-21-stueck-1002056/"
+
+2."grammage_quantity wrong.
+age is included with quantity.
+eg:
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/purina-one-bifensis-senior-11-750-g-1396862/"
+
+
+DataHut_AT_Dm_FullDump_20250508.CSV
+-----------------------------------
+no issues 
+
+bayut_uae_2025_05_01.json
+-------------------------
+new fields
+---------
+"""orn_number","bln_number"" ,""adm_number"" ,""3d_live"",""3d_image"" ,
+ ""2d_image"" ,""ded_number_2"",""ded_number_3"",""ded_number_4"",
+""trucheck_on"",""emal"",""truboker"",""rating"",""no_of_reviews"",""property_of_the_week"""
+
+aqarmap_egp_2025_05_01.json
+--------------------------
+1.depth, listing_type,seller_role are empty
+
+dari_ae_2025_05_01.json
+-----------------------
+no issues
+
+DataHut_SI_Spar_PriceExtractions_20250506.CSV
+---------------------------------------------
+no issues
+
+DataHut_SI_Dm_PriceExtractions_20250506.CSV
+---------------------------------------------
+no issues
+
+DataHut_SI_Mercator_PriceExtractions_20250506.CSV
+-------------------------------------------------
+no issues
+
+DataHut_SI_Hitrinakup_PriceExtractions_20250506.CSV
+--------------------------------------------------
+"1. grammage quantity wrong 
+1kg in site, 500.1 kg in data.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Ahitrinakup&fieldname=pdp_url&fieldvalue=https%3A//hitrinakup.com/izdelki/444793"
