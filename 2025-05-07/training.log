@@ -1,0 +1,94 @@
+DataHut_AT_Mueller_FullDump_20250508.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Dm_PriceExtractions_20250507.CSV
+------------------------------------------
+"in site_shown_uom fields
+some values contains dot 
+and others contains comma.
+eg: 0,125 kg , 7.2 ml"
+
+DataHut_AT_Bipa_PriceExtractions_20250507.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_PriceExtractions_20250507.CSV
+----------------------------------------------
+"site shown uom missing
+for 488 fields"
+
+DataHut_AT_Fressnapf_PriceExtractions_20250507.CSV
+-------------------------------------------------
+"grammage_quantity wrong.
+age is included with quantity.
+
+https://www.fressnapf.at/p/royal-canin-senior-ageing-12-4-kg-1050850/"
+
+DataHut_AT_Billa_PriceExtractions_20250507.CSV
+----------------------------------------------
+"site shown uom 
+contains
+""0.25 kg Beutel""
+but grammage quantity and unit is
+0.25 kg 
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Abilla&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/lien-ying-reisnudelbandnudeln-00937492"
+
+DataHut_IT_Conad_PriceExtractions_20250507.CSV
+---------------------------------------------
+1."1.price change
+in data 8.90,in site 9.90
+https://spesaonline.conad.it/p/maybelline-new-york-the-falsies-mascara-effetto-allungante--10968377"
+
+DataHut_AU_Coles_FullDump_20250507.CSV
+--------------------------------------
+1."currantly unavailable
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_australia-weekly%3Acoles&fieldname=pdp_url&fieldvalue=https%3A//www.coles.com.au/product/johnnie-walker-johnnie-walker-red-scotch-1125ml-%3A-ea-1.125l-8592720"
+
+2.grammage_unit unique values
+"kg' 'g' 'pack' 'ml' 'l' 'each' 'm' 'pair' 'carton' 'mg' 'piece' 'bunch'
+ 'cm'"
+
+DataHut_IT_Esselunga_PriceExtractions_20250507.CSV
+-------------------------------------------------
+"promotion_valid_upto
+expired
+06/05/2025 (count:24163)
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aesselunga&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/676371/dixan-liquido-color-3x1957-lavaggi
+
+will expire today
+07/05/2025 (count:570)
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aesselunga&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/761436/melone-confezionato
+
+
+price change found
+3.77 in data,4.19 in site
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/161156/enervit-multi-vitamine-b-c-e-20-compresse-effervescenti-76-g"
+
+DataHut_IT_Easycoop_PriceExtractions_20250507.CSV
+------------------------------------------------
+"1.promotion valid upto
+expired
+2025-05-06 (count:453)
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aeasycoop&fieldname=pdp_url&fieldvalue=https%3A//www.easycoop.com/coop-pomodori-datterino-giallo-g-300-4073716.html
+
+will expire today
+2025-05-07 (count:8821)
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aeasycoop&fieldname=pdp_url&fieldvalue=https%3A//www.easycoop.com/tigella-montanara-lavorata-a-mano-bio-la-zoca-220-g-4446987.html"
+
+DataHut_AT_Interspar_PriceExtraction_2025_05_08.CSV
+---------------------------------------------------
+1.filename wrong.
+DataHut_AT_Interspar_PriceExtraction_2025_05_08.CSV"
+
+2."grammage_unit contains 
+'wg' 'WG'"
+
+3."1.logical mistake.
+price_per_unit is 
+1,29 €/Stück, price
+is 1.29,but grammage_quantity and unit 
+is 45 stuck.
+line 293
+https://www.interspar.at/shop/lebensmittel/pamina-slipeinlagen-normal-45-stueck/p/8202321
+"
