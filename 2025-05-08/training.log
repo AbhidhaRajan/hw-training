@@ -1,0 +1,73 @@
+DataHut_SI_Mercator_FullDump_20250508.CSV
+----------------------------------------
+no issues
+
+DataHut_SI_Hitrinakup_FullDump_20250508.CSV
+---------------------------------------
+no issues
+
+DataHut_SI_Dm_FullDump_20250508.CSV
+------------------------------------
+1."multiple dot in price_per_unit
+column
+1.650.00 € za 100 g
+
+https://www.dm.si/sonnentor-bio-zafran-p9004145003842.html
+
+"
+
+DataHut_CH_Denner_FullDump_20250508.CSV
+---------------------------------------
+1."producthierarchy_level7'
+is not empty
+
+'file_name_4', 'image_url_4'
+are empty"
+
+DataHut_CH_Migros_FullDump_20250508.CSV
+--------------------------------------
+1."producthierarchy_level5'
+is not empty"
+2.breadcrumbs empty for 13 fields
+
+DataHut_CH_Coop_FullDump_20250508.CSV
+---------------------------------------
+1.site shown uom missing for 4229 rows
+
+
+DataHut_HU_Auchan_FullDump_20250508.CSV
+---------------------------------------
+1."grammage_quantity
+found as
+970766801
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Aauchan&fieldname=pdp_url&fieldvalue=https%3A//auchan.hu/shop/easycut-970766801-l-%C3%A1gv%C3%A1g%C3%B3-oll%C3%B3--%2B-metsz%C5%91oll%C3%B3.p-914556"
+
+
+DataHut_HU_Tesco_FullDump_20250508.CSV
+-------------------------------------
+1."brand', 'producthierarchy_level4', 'file_name_5', 'image_url_5'
+is not empty"
+2.description found
+wrong.
+line 8329
+https://bevasarlas.tesco.hu/groceries/hu-HU/products/2005105010290
+
+"
+
+DataHut_AT_Interspar_FullDump_20250508.CSV
+-----------------------------------------
+1.age_recommendations is not empty 
+2.instock True and False
+3."promotion valid
+upto expired.
+07.05.2025
+eg:https://www.interspar.at/shop/haushalt/barbecue-tisch-grill-chef/p/2020004993342
+
+06-05-2025
+eg:line 7421
+https://www.interspar.at/shop/lebensmittel/3bears-bluey-bio-riegel-banane-6x23g/p/2020005673861
+
+05-05-2025
+eg line 8670
+https://www.interspar.at/shop/lebensmittel/caf-royal-caramel-10-kapseln/p/5008254
+"
