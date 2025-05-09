@@ -1,0 +1,86 @@
+frt-r&d
+-------
+plus_nl_20250509.csv
+-------------------
+1."image_url_5
+file_name_6
+image_url_6" are empty.
+
+2."in line 941, regular price
+found as 10.20 and price_was
+found as 10.2. 
+https://www.plus.nl/product/lipton-ice-tea-peach-zero-set-3000-ml-360925
+"
+
+dirk_nl_20250509.csv
+-------------------
+no issues
+
+aldi_nl_20250509.csv
+--------------------
+1.producthierarchy_level4,
+promotion_description, is not empty
+file_name_6
+image_url_6
+nutritional_values_information are empty"
+
+
+delhaize_nl_20250509.csv
+-----------------------
+no issues
+
+jumbo_nl_20250509.csv
+---------------------
+grammage_quantity and unit is 25 cl
+in site, but 25 stuks in data
+line 1704.
+https://www.jumbo.com/producten/royal-club-gin-tonic-0-25-cl-584017BLK
+
+ah_nl_20250509.csv
+------------------
+no issues
+
+
+
+
+DataHut_AT_Mueller_PriceExtactions_20250509.CSV
+----------------------------------------------
+extraction_date (2 unique values):
+['2025-05-09' '2025-04-09'] 
+
+DataHut_AT_Interspar_PriceExtraction_20250509.CSV
+-------------------------------------------------
+1.competitor_name (2 unique values):
+['interspar' 'intrspar'] 
+
+2.grammage_unit (8 unique values):
+['g' 'kg' 'stück' 'ml' 'l' 'btl' 'wg' 'll'] l and ll found
+
+3."promortion valid upto found as
+09.10.2204(same found in site)
+line 2743
+https://www.interspar.at/shop/haushalt/nabo-soundbar-sbw-100/p/2020004139573
+"
+
+"promortion valid upto found as
+09.10.2204(same found in site)
+line 2743
+https://www.interspar.at/shop/haushalt/nabo-soundbar-sbw-100/p/2020004139573
+
+
+promotion valid upto not found in site
+21.05.2025 in data
+line 32394
+https://www.interspar.at/shop/lebensmittel/spar-apfeltasche/p/2020000407720
+"
+
+
+Datahut_AT_Billa_PriceExtractions_20250509.csv
+---------------------------------------------
+currency (2 unique values):
+['EUR' 'eur'] 
+
+
+samsclub_2025_05_09.csv
+----------------------
+no issues
