@@ -1,0 +1,108 @@
+DataHut_SI_Hitrinakup_PriceExtractions_20250512.CSV
+--------------------------------------------------
+"1. grammage quantity wrong 
+1kg in site, 500.1 kg in data.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Ahitrinakup&fieldname=pdp_url&fieldvalue=https%3A//hitrinakup.com/izdelki/444793"
+
+DataHut_SI_Mercator_PriceExtractions_20250512.CSV
+-----------------------------------------------
+no issues
+
+DataHut_HU_Tesco_PriceExtractions_20250512.CSV
+----------------------------------------------
+no issues
+
+
+DataHut_AT_Billa_PriceExtractions_20250512.CSV
+----------------------------------------------
+"site shown uom 
+contains beutel
+(400 g Beutel)
+but grammage unit is g.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Abilla&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/billa-gyoza-mit-gemuese-00720044 
+
+
+site shown uom 
+contains beutel
+(18 g Beutel) but grammage unit is g
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Abilla&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/vegavita-pflanzliches-geliermittel-00737268
+
+site shown uom 
+contains beutel
+(180 g Beutel) but grammage unit is g
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Abilla&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/storck-knoppers-goodies-00737623"
+
+
+DataHut_AT_Mueller_PriceExtractions_20250512.CSV
+------------------------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250512.CSV
+------------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_PriceExtractions_20250512.CSV
+-----------------------------------------------
+site_shown_uom is missing for 479 fields
+
+DataHut_AT_Fressnapf_PriceExtractions_20250512.CSV
+-------------------------------------------------
+"age and quantity taken as grammage_quantity
+ eg:12+3.5 
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/royal-canin-mini-ageing-12-35-kg-1002985008/"
+
+DataHut_AT_Dm_PriceExtractions_20250512.CSV
+-------------------------------------------
+"in site_shown_uom fields
+some values contains dot 
+and others contains comma.
+eg: 0,19 kg , 1.04 g "
+
+DataHut_SI_Spar_PriceExtractions_20250512.CSV
+------------------------------------------------
+no issues
+
+DataHut_SI_Dm_PriceExtractions_20250512.CSV
+------------------------------------------------
+no issues
+
+dubizzl_egp_2025_05_02.json
+----------------------------
+1."dubizzl_egp_2025_05_02.json
+
+""e"" missing "
+2."scraped_ts format wrong
+2025/05/10
+
+published_at"":""2025/05/10"",
+line 372"
+3."broker name is missing for one field 
+where broker_display_name exist
+line 44
+""broker_display_name"":""Abrag Four"",""broker"":"""","
+
+4.currency is "missing for 1 field
+line 85122
+    ""url"": ""https://www.dubizzle.com.eg/en/ad/شقتك-استلام-فوري-تشطيب-الترا-سوبر-لوكس-كمبوند-دجله-بالمز-ID204465553.html"",
+"
+
+5."""sub_category_1"":""Residential"",
+""sub_category_1"":""Commercial"",
+""sub_category_1"":""residentiel"","
+
+6."""price"":""lll"",in site "" 13,445,000""
+ line 90995
+    ""url"": ""https://www.dubizzle.com.eg/en/ad/تاون-هاوس-بمساحه-ارض-ضخمه-300-متر-بدون-اي-تهدير-فيو-رائع-علي-مجري-السيل-اقساط-مدينتي-madinaty-ID501979566.html"",
+"
+
+
+bayut_egp_2025_05_02.json
+-------------------------
+1."Two new fields
+""completion_status"", ""ownership"""
+2.broker_display_name,broker and depth are not empty
+3.price_per Monthly,daily,weekly,yearly
+
+
+aqarmap_egp_2025_05_02.json
