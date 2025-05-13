@@ -1,0 +1,102 @@
+aqarmap_egp_2025_05_02.json
+--------------------------
+"depth
+seller_role
+listing_type
+are empty"
+
+DataHut_AT_Bipa_FullDump_20250515.CSV
+-------------------------------------
+instock true and false
+
+DataHut_AT_Mpreis_FullDump_20250515.CSV
+--------------------------------------
+site shown uom "missing for 459
+rows"
+
+DataHut_AT_Fressnapf_PriceExtractions_20250513.CSV
+--------------------------------------------------
+1."grammage_quantity
+contains comma
+eg:2,8 kg
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/beneful-purina-kleine-geniesser-mit-rind-und-gartengemuese-28-kg-beutel-1373941/
+
+
+wrong quantity
+eg:11+750 is found as quantity,actual quantity is 750
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/purina-one-bifensis-senior-11-750-g-1396862/"
+
+2."Beutel is in site_shown_uom. But grammage_unit is kg
+eg:
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/beneful-purina-kleine-geniesser-mit-rind-und-gartengemuese-28-kg-beutel-1373941/"
+
+DataHut_AT_Dm_PriceExtractions_20250513.CSV
+--------------------------------------------
+"in site_shown_uom fields
+some values contains dot 
+and others contains comma.
+eg: 1,5 l  , 1.04 g "
+
+DataHut_AT_Mpreis_PriceExtractions_20250513.CSV
+----------------------------------------------
+1.site_shown_uom is missing for 496 fields
+2.site shown uom found as 1.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ampreis&fieldname=pdp_url&fieldvalue=https%3A//www.mpreis.at/shop/p/tv-media-705800
+
+DataHut_AT_Bipa_PriceExtractions_20250513.CSV
+--------------------------------------------
+no issues
+
+DataHut_AT_Mueller_PriceExtractions_20250513.CSV
+-----------------------------------------------
+"logical error found.
+price_per_unit is
+1,24 € / 10 Stk,grammage quantity and unit is 
+8 stuck, regular price is 1.25
+
+https://www.mueller.at/p/pet-bistro-hundesnack-knabbersticks-mit-rind-und-gefluegel-2193733/?itemId=2193733
+"
+DataHut_AT_Billa_PriceExtractions_20250513.CSV
+-----------------------------------------------
+1."site shown uom contains 
+2 grammage quantity.
+eg:200 g Stück,400 g Beutel"
+
+2."site_shown uom contains
+100 Waschgang Packung (count:1)
+but grammage_quantity and unit is
+1 stuck.
+
+125 Waschgang Packung
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Abilla&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/somat-xxl-pulver-00739237"
+
+DataHut_AT_Interspar_PriceExtractions_20250513.CSV
+--------------------------------------------------
+no issues
+
+DataHut_AT_Fressnapf_FullDump_20250515.CSV
+------------------------------------------
+1."site shown uom
+contain beutel,but grammage quantity and unit is
+2.8 kg
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/beneful-purina-kleine-geniesser-mit-rind-und-gartengemuese-28-kg-beutel-1373941/
+
+same issue
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/leo-loewenkatz-matatabi-fruechte-silvervine-fruechte-20-gramm-beutel-1729604/"
+
+2.Dimensions is not empty
+
+DataHut_AT_Interspar_FullDump_20250515.CSV
+-------------------------------------------
+1."promotion_valid_upto
+expired
+12.05.2025 (count:26)
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ainterspar%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/gerard-bertrand-cte-des-roses-2024/p/2020002514709
+will expire today
+
+13.05.2025 (count:10)
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ainterspar%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/brizza-brezel-pizza-salami/p/2020005500464"
+
+2.age_recommendations is not empty 
+
