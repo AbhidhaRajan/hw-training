@@ -1,0 +1,64 @@
+DataHut_AT_Mueller_FullDump_20250515.CSV
+--------------------------------------
+no issues
+
+DataHut_AT_Dm_FullDump_20250515.CSV
+---------------------------------
+"mistake in grammage
+quantity.
+product name is ""Feuchtes Toilettenpapier Deluxe Cashmere, 10 St""
+grammage quantity and price per unit in site is
+""10 Bl (7,50 € je 100 Bl)""
+but grammage quantity and unit in data is ""1 stück""
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Adm%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.dm.at/sanft-und-sicher-feuchtes-toilettenpapier-deluxe-cashmere-p4066447375039.html"
+
+DataHut_AU_Coles_FullDump_20250514.CSV
+----------------------------------------
+1."unavailable
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_australia-weekly%3Acoles&fieldname=pdp_url&fieldvalue=https%3A//www.coles.com.au/product/johnnie-walker-johnnie-walker-red-scotch-1125ml-%3A-ea-1.125l-8592720"
+
+2.grammage_unit (13 unique values):
+['g' 'pack' 'ml' 'kg' 'l' 'each' 'm' 'pair' 'carton' 'mg' 'piece' 'bunch'
+ 'cm']
+
+3.site shown uom "missing for 2114
+fields"
+
+
+DataHut_IT_Easycoop_PriceExtractions_20250514.CSV
+----------------------------------------------- 
+"1.promotion valid upto
+expired
+2025-05-13 (count:385)
+
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aeasycoop&fieldname=pdp_url&fieldvalue=https%3A//www.easycoop.com/sorbissimo-sorbissimo-sorbetto-al-limone-di-sicilia-750-g-3729750.html"
+
+DataHut_IT_Conad_PriceExtractions_20250514.CSV
+--------------------------------------------
+1."1.price change
+price_per unit is 1.88 € / conf in data,
+1,90 € / conf in site.
+also price is  1.88 in data, 1,90€ in site
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aconad&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.conad.it/p/10-siringhe-dr-marcus-5-ml--2111632-1_N"
+
+2.breadcrumbs missing for 41 rows
+
+DataHut_IT_Esselunga_PriceExtractions_20250514.CSV
+---------------------------------------------------
+"promotion_valid_upto
+expired
+12/05/2025
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aesselunga&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/321052/aqua-food-salmone-affumicato-fetta-lunga-100-g"
+
+DataHut_SI_Spar_PriceExtractions_20250514.CSV
+--------------------------------------------
+no issues
+
+DataHut_SI_Dm_PriceExtractions_20250514.CSV
+-------------------------------------------
+no issues
+
+
+DataHut_SI_Mercator_PriceExtractions_20250514.CSV
