@@ -1,0 +1,108 @@
+DataHut_CH_Denner_FullDump_20250515.CSV
+--------------------------------------
+1."producthierarchy_level7'
+is not empty
+
+'file_name_4', 'image_url_4'
+are empty"
+
+2."promotion valid upto 
+expired.
+12.05.2025
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland-weekly%3Adenner&fieldname=pdp_url&fieldvalue=https%3A//www.denner.ch/de/aktionen/article/denner-cervelas/"
+
+
+3.site shown uom is missing for one row
+
+DataHut_CH_Coop_FullDump_20250515.CSV
+-------------------------------------
+"1.missing for 4249 rows
+2.site shown uom found as 
+   1 StückST , where grammge unit and quantity is
+    1 stuck
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland-weekly%3Acoop&fieldname=pdp_url&fieldvalue=https%3A//www.coop.ch/de/baby-kind/spielwaren/puppen-pluesch/interactive-baby/p/7258369
+
+3.site shown uom found as 12\|1ST
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland-weekly%3Acoop&fieldname=pdp_url&fieldvalue=https%3A//www.coop.ch/de/baby-kind/spielwaren/kreativ/diy-knete/aladine-farbstift-mehrfarbig-12-stueck/p/4848043"
+
+DataHut_CH_Migros_FullDump_20250515.CSV
+--------------------------------------
+1."producthierarchy_level5'
+is not empty"
+2.site shown uom is missing for 7976 fields
+3.breadcrumbs empty for 15 fields
+
+DataHut_SI_Hitrinakup_FullDump_20250515.CSV
+------------------------------------------
+1.instock true only
+
+DataHut_SI_Mercator_FullDump_20250515.CSV
+----------------------------------------
+1.instock true only
+
+DataHut_SI_Spar_FullDump_20250515.CSV
+-----------------------------------
+1."producthierarchy_level7
+is also 
+empty
+"
+2.instock true only
+
+DataHut_SI_Dm_FullDump_20250515.CSV
+------------------------------------
+instock true only
+
+DataHut_SI_Mercator_PriceExtractions_20250514.CSV
+-----------------------------------------------
+no issues
+
+DataHut_HU_Auchan_FullDump_20250515.CSV
+----------------------------------------
+"grammage_quantity
+found as
+970766801
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Aauchan&fieldname=pdp_url&fieldvalue=https%3A//auchan.hu/shop/easycut-970766801-l-%C3%A1gv%C3%A1g%C3%B3-oll%C3%B3--%2B-metsz%C5%91oll%C3%B3.p-914556"
+
+DataHut_HU_Tesco_FullDump_20250515.CSV
+------------------------------------
+"brand', 'producthierarchy_level4', 'file_name_5', 'image_url_5'
+is not empty"
+
+
+DataHut_HU_Wolt_FullDump_20250515.CSV
+-------------------------------------
+1.unique id is not unique
+2.extraction_date found as
+['2025-05-07'] 
+3."file_name_5', 'image_url_5', 'file_name_6', 'image_url_6'
+are empty" are empty
+
+DataHut_At_Interspar_FullDump_20250515.CSV
+------------------------------------------
+1."wrong
+T is small
+DataHut_At_Interspar_FullDump_20250515.CSV"
+2.age_recommendations is not empty 
+3."grammage_quantity
+contains comma.
+eg:3 x 8,2
+8x8,2"
+4."site shown uom found
+but in some field comma found
+in some field dot"
+5.extraction date "wrong found as 2025-04-15
+6.competitor_name wrong
+['interespar'] 
+7.instock True False
+8.price_per_unit 
+contains comma
+in (23752 rows)
+
+9.one unique id repeated
+
+10."promotion_valid_upto expired 
+14.05.2025
+promotion_valid_upto is 30.12.9999. 
+promotion_valid_upto is 09.10.2204,"
+
