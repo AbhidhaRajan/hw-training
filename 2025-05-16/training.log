@@ -1,0 +1,129 @@
+DataHut_SI_Hitrinakup_PriceExtractions_20250516.CSV
+-------------------------------------------------
+"1. grammage quantity wrong 
+1kg in site, 500.1 kg in data.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Ahitrinakup&fieldname=pdp_url&fieldvalue=https%3A//hitrinakup.com/izdelki/444793"
+
+
+DataHut_SI_Dm_PriceExtractions_20250516.CSV
+-------------------------------------------
+"site_shown_uom contains comma and
+dot.
+eg:1.020 g,0,5 g "
+
+DataHut_HU_Wolt_PriceExtractions_20250516.CSV
+---------------------------------------------
+"wrong price.
+regular and selling price in data is
+11549.00
+in site 11 499 Ft"
+
+DataHut_HU_Tesco_PriceExtractions_20250516.CSV
+----------------------------------------------
+no issues
+
+DataHut_HU_Auchan_PriceExtractions_20250516.CSV
+-----------------------------------------------
+no issues
+
+DataHut_CH_Lidl_PriceExtractions_20250516.CSV
+--------------------------------------------
+no issues
+
+DataHut_AT_Fressnapf_PriceExtractions_20250516.CSV
+-------------------------------------------------
+1."age is taken along with grammage quantity
+
+https://www.fressnapf.at/p/royal-canin-medium-ageing-10-3-kg-1002985009"
+2."grammage_quantity wrong
+found ""2 x 8 Beutel à 60g"" in siteshowm uom
+but grammage quantity and unit is 8 btl  
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/felix-knabbermix-original--strandspass-katzensnacks-2-x-8-beutel--60g-1364343/
+
+site_shown_uom contains beutel, but grammage_unit is not btl.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/leo-loewenkatz-matatabi-fruechte-silvervine-fruechte-20-gramm-beutel-1729604/"
+
+DataHut_AT_Mpreis_PriceExtractions_20250516.CSV
+----------------------------------------------
+"site_shown_uom is missing for 495 fields.
+
+
+site shown uom found as 1.
+
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ampreis&fieldname=pdp_url&fieldvalue=https%3A//www.mpreis.at/shop/p/tv-media-705800"
+
+DataHut_AT_Dm_PriceExtractions_20250516.CSV
+--------------------------------------------
+"in site_shown_uom fields
+some values contains dot 
+and others contains comma.
+eg: 1,5 l  , 1.04 g "
+
+DataHut_AT_Mueller_PriceExtractions_20250516.CSV
+-----------------------------------------------
+no issues
+
+DataHut_AT_Billa_PriceExtractions_20250516.CSV
+----------------------------------------------
+no issues
+
+DataHut_AT_Interspar_PriceExtractions_20250516.CSV
+---------------------------------------------------
+no issues
+
+DataHut_AT_Billa_PriceExtraction_20250516.CSV
+----------------------------------------------
+1."order is correct
+but product_name is found as
+product_names"
+
+2."wrong
+s is missing
+DataHut_AT_Billa_PriceExtraction_20250516.CSV"
+3."unique id repeated
+for one field"
+
+4.site shown uom missing for one field
+5."comma found
+1 Stk 0,21 €
+https://shop.billa.at/produkte/clever-eier-aus-bodenhaltung-m-00312736"
+
+6."grammage_unit 
+missing
+https://shop.billa.at/produkte/teekanne-winterzauber-00403175
+"
+
+7.selling price "value is in float
+but no 2 decimal
+place found
+eg:8
+8.1"
+
+8."50 Waschgang Flaschefound in site shown uom,
+but grammage quantity and unit is 1 stuck
+"
+
+
+
+DataHut_AT_Interspar_PriceExtractions_20250516.CSV
+-------------------------------------------------
+1."product name missing
+https://www.interspar.at/shop/lebensmittel/enders-raeucherbox/p/2020004686435
+"
+
+2.site shown uom contains comma
+3.date format "2025/05/16'
+wrong format"
+
+4."grammage_unit 
+contains
+stück' 'g' 'ml' 'kg' 'STK' 'l' 'btl' 'wg'"
+
+5.selling price not having two decimal points
+6."promotion valid upto
+30.12.9999"
+
+
+
