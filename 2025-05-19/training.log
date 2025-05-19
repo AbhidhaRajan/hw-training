@@ -1,0 +1,89 @@
+DataHut_AT_Billa_PriceExtractions_20250519.CSV
+----------------------------------------------
+"site_shown_uom contains
+18 Beutel Packung but
+grammage_unit and quantit
+is 1 stück.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Abilla&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/teekanne-biogarten-bio-orange-00701422"
+
+DataHut_AT_Bipa_PriceExtractions_20250519.CSV
+--------------------------------------------
+no issues
+
+DataHut_AT_Dm_PriceExtractions_20250519.CSV
+-------------------------------------------
+"in site_shown_uom fields
+some values contains dot 
+and others contains comma.
+eg: 0,012 kg , 1.04 g "
+
+DataHut_AT_Mpreis_PriceExtractions_20250519.CSV
+-----------------------------------------------
+site_shown_uom is missing for 511 fields.
+
+DataHut_AT_Fressnapf_PriceExtractions_20250519.CSV
+-------------------------------------------------
+"age is taken along with grammage quantity
+
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/royal-canin-medium-ageing-10-3-kg-1002985009/"
+
+DataHut_SI_Dm_PriceExtractions_20250519.CSV
+------------------------------------------
+"site_shown_uom contains comma and
+dot.
+eg:1.020 g,0,5 g 
+
+DataHut_SI_Hitrinakup_PriceExtractions_20250519.CSV
+-------------------------------------------------
+"1. grammage quantity wrong 
+1kg in site, 500.1 kg in data.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Ahitrinakup&fieldname=pdp_url&fieldvalue=https%3A//hitrinakup.com/izdelki/444793"
+
+DataHut_HU_Wolt_PriceExtractions_20250519.CSV
+---------------------------------------------
+no issues
+
+DataHut_HU_Tesco_PriceExtractions_20250519.CSV
+----------------------------------------------
+" no unit and quantity found in site.grammage quantity 
+and unit taken from model number in product name.
+product name is
+
+""Snow Meister SM2014G zöld fém karácsonyfa talp""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005100504453
+"
+
+DataHut_HU_Auchan_PriceExtractions_20250519.CSV
+-----------------------------------------------
+no issues
+
+aldi_nl_20250520.csv
+--------------------
+1. producthierarchy_level4,
+promotion_valid_from, are
+not empty
+file_name_6 is empty"
+2."""promotion_valid_upto"": ""2025-05-18""
+expired"
+
+delhaize_nl_20250520.csv
+------------------------
+1."""promotion_valid_upto"": ""20/5/2025"",
+date format wrong"
+
+2.site cant be reached
+
+plus_nl_20250520.csv
+-------------------
+no issues
+
+jumbo_nl_20250520.csv
+---------------------
+no issues
+
+dirk_nl_20250520.csv
+--------------------
+no issues
