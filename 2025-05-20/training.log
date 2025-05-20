@@ -1,0 +1,77 @@
+dari_ae_2025_05_03.json
+-----------------------
+"phone_number_2
+found as 03666656,
+ https://www.dari.ae/en/app/directory/profession?id=8536"
+
+dubizzle_uae_2025_05_03.json
+----------------------------
+ 1.listed_by is empty
+ 2. "broker (Distinct Values: 3468,)
+broker_display_name (Distinct Values: 3469,"
+
+
+aqarmap_egp_2025_05_03.json
+--------------------------
+1."depth', 'seller_role', 'listing_type'
+empty"
+2."phone_number found as
++20
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Aaqarmap_egp&fieldname=url&fieldvalue=https%3A//aqarmap.com.eg/en/listing/5801286-for-sale-cairo-el-haram-el-lebeny/
+
+phone_number found as
++2010 
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Aaqarmap_egp&fieldname=url&fieldvalue=https%3A//aqarmap.com.eg/en/listing/5708638-for-rent-ismailia-qry-ljndwl/
+
+site cant be reached
+
+
+bayut_egp_2025_05_03.json
+-------------------------
+1."Two new fields
+""completion_status"", ""ownership"
+
+2.broker_display_name,broker,broker not empty
+3.price_per contains -- Monthly,daily,weekly,yearly
+
+dubizzle_egp_2025_05_03.json
+----------------------------
+no issues
+
+nawy_egp_2025_05_03.json
+----------------------------
+no issues
+
+DataHut_AT_Mpreis_FullDump_20250522.CSV
+--------------------------------------
+"only promotion 
+price found in site,
+data have promotion
+and regular prices.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ampreis%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.mpreis.at/shop/p/bio-vom-berg-kalbsleber-streichwurst-242575"
+
+DataHut_AT_Fressnapf_FullDump_20250522.CSV
+------------------------------------------
+Dimensions is not empty
+
+DataHut_AT_Mueller_FullDump_20250522.CSV
+----------------------------------------
+"page not found error
+https://www.mueller.at/p/beba-junior-IPN2911740/?itemId=2911740"
+
+DataHut_AT_Interspar_FullDump_20250522.CSV
+------------------------------------------
+1."promotion valid upto expired
+19.05.2025 
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ainterspar%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/schwechater-bier/p/2020005429116
+
+will expire today
+20.05.2025 (count:659)
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ainterspar%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/almdudler-alpenkraeuterlimonade-original/p/2020005441750"
+2.age_recommendations is not empty 
+
+bayut_uae_2025_05_03.json
+-------------------------
+extra fields in data
+orn_number"",bln_number,adm_number,3d_live,3d_image ,2d_image,ded_number_2,""ded_number_3,ded_number_4",trucheck_on"",""email"",""truboker"",""rating"",""no_of_reviews"",""property_of_the_week"
