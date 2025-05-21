@@ -1,0 +1,87 @@
+DataHut_SI_Hitrinakup_PriceExtractions_20250521.CSV
+---------------------------------------------------
+no issues
+
+DataHut_SI_Dm_PriceExtractions_20250521.CSV
+-------------------------------------------
+"site_shown_uom contains comma and
+dot.
+eg:1.020 g,0,5 g "
+
+DataHut_HU_Wolt_PriceExtractions_20250521.CSV
+---------------------------------------------
+no issues
+
+DataHut_HU_Tesco_PriceExtractions_20250521.CSV
+----------------------------------------------
+1.regular_price', 'selling_price', 'price_per_unit', 'percentage_discount', 'promotion_price', , 'promotion_valid_upto', 'promotion_description', are empty
+2." no unit and quantity found in site.grammage quantity 
+and unit taken from model number in product name.
+product name is
+""Snow Meister SM2014G zöld fém karácsonyfa talp""
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005100504453
+"
+
+DataHut_SI_Spar_FullDump_20250522.CSV
+-------------------------------------
+1."producthierarchy_level7
+and image fields are also empty
+
+2."grammage_quantity
+and unit wrong
+50g in data,1kg in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia-weekly%3Aspar%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.spar.si/online/pizza-sunka-zdezele-1kg/p/299304"
+
+DataHut_HU_Auchan_PriceExtractions_20250521.CSV
+-----------------------------------------------
+"grammage_quantity
+found as 970766801
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Aauchan&fieldname=pdp_url&fieldvalue=https%3A//auchan.hu/shop/easycut-970766801-l-%C3%A1gv%C3%A1g%C3%B3-oll%C3%B3--%2B-metsz%C5%91oll%C3%B3.p-914556"
+
+DataHut_AU_Coles_FullDump_20250521.CSV
+--------------------------------------
+1."missing for 2167
+fields"
+2."
+grammage_unit (13 unique values):
+['g' 'pack' 'each' 'ml' 'kg' 'l' 'm' 'pair' 'carton' 'mg' 'piece' 'bunch'
+ 'cm']"
+
+DataHut_AT_Bipa_PriceExtractions_20250521.CSV
+--------------------------------------------
+no issues
+
+DataHut_IT_Easycoop_FullDump_20250521.CSV
+----------------------------------------
+"promotion_valid_upto
+expaired. so mistake found in selling and promotion price
+2025-05-19 (Count: 220)
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-monthly%3Aeasycoop&fieldname=pdp_url&fieldvalue=https%3A//www.easycoop.com/casa-modena-casa-modena-teneroni-la-merenda-soffice-panino-con-prosciutto-cotto-e-formaggio-180-g-4757585.html
+ 2025-05-20 (Count: 450)
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-monthly%3Aeasycoop&fieldname=pdp_url&fieldvalue=https%3A//www.easycoop.com/amadori-amadori-kebab-0-280-kg-7045939.html"
+
+DataHut_IT_Esselunga_FullDump_20250521.CSV
+------------------------------------------
+1."price change found
+price_per unit is 0,38 € / pz in site,
+0.47 € / pz in data.
+regular price is 5.59 in site 6.99 in data
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-monthly%3Aesselunga&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/688067/lines-specialist-traverse-salvaletto-mis-80x180-cm-rimboccabili-132-pezzi"
+2."promotion_valid_upto
+expired
+20/05/2025 (Count: 509)"
+
+DataHut_IT_Conad_FullDump_20250521.CSV
+--------------------------------------
+1."price change found
+price and price per unit
+found in site is
+4,98 € / Kg
+2,49€, 
+
+5.98 € / Kg and 3.28
+selling_price	2.99 in data, also percentage discount found as zero in data
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-monthly%3Aconad&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.conad.it/p/albicocche-i-35-ita-cs500g--V_231315_C"
