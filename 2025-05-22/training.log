@@ -1,0 +1,106 @@
+DataHut_AT_Fressnapf_FullDump_20250522.CSV
+-----------------------------------------
+1.Dimensions is not empty
+2.image fields are empty
+
+DataHut_AT_Bipa_FullDump_20250522.CSV
+-------------------------------------
+1.image fields and retail limit is empty
+2.instock contains false only
+  instock is false in data
+available on site.
+https://www.bipa.at/p/B3-320256
+3."two net content found in data, same
+found in site .
+0.183 Kilogramm, 300 Milliliter (count:1)
+grammage quantity and unit is 300 ml
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abipa&fieldname=pdp_url&fieldvalue=https%3A//www.bipa.at/p/B3-578010"
+4."promotion description 
+contains two euro sign
+eg:-€€0.30
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abipa&fieldname=pdp_url&fieldvalue=https%3A//www.bipa.at/p/B3-320137"
+
+DataHut_AT_Billa_FullDump_20250522.CSV
+-------------------------------------
+1.site shown uom wrong, found as
+""440 ml Becher 1 000 ml Packung 1 000 ml Packung 1 000 ml Packung 1 000 ml Packung 1 000 ml Packung 1 000 ml Packung 1 000 ml Packung 1 000 ml Packung 1 000 ml Packung 500 ml Becher 460 ml Becher 460 ml Becher 460 ml Becher (count:1)""
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abilla%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/eskimo-magnum-double-gold-caramel-billionaire-00464896
+
+
+2.site shown uom found as 0,5 kg Beutel 
+but grammage unit is kg
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abilla%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/al-amier-rote-linsen-00937491
+
+3.site shown uom found as 100 Waschgang Packung
+but grammage unit is stuck
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abilla%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/ariel-color-pulver-waschmittel-grosspackung-00360202"
+
+4.retail_limit is empty
+5."promotion description 
+not found in site,found
+in data as ab 2 Gläser,AKTION.
+change in price and price per unit
+
+https://shop.billa.at/produkte/felix-sugo-mit-fleisch-00830115"
+
+DataHut_AT_Mpreis_FullDump_20250522.CSV
+--------------------------------------
+1."grammage_quantity
+wrong in data.
+07 l in data,0.7l in site
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ampreis%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.mpreis.at/shop/p/zacapa-solera-gran-reserva-no-23-0-122853"
+
+2.site_shown_uom missing for 474 entries.
+
+DataHut_HU_Tesco_FullDump_20250522.CSV
+------------------------------------
+"brand', 'producthierarchy_level4', 'file_name_5', 'image_url_5'
+is not empty"
+
+DataHut_HU_Auchan_FullDump_20250522.CSV
+--------------------------------------
+1.grammage_quantity
+found as
+970766801
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Aauchan&fieldname=pdp_url&fieldvalue=https%3A//auchan.hu/shop/easycut-970766801-l-%C3%A1gv%C3%A1g%C3%B3-oll%C3%B3--%2B-metsz%C5%91oll%C3%B3.p-914556
+
+2."change found in
+price per unit and 
+price fields.
+price per unit is
+136Ft/db in data,
+139Ft/db in site.
+price found as 
+7319.00 in data,
+7499 Ft in site
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Aauchan&fieldname=pdp_url&fieldvalue=https%3A//auchan.hu/shop/finish-powerball-ultimate-plus-all-in-1-regular-mosogat%C3%B3g%C3%A9p-kapszula-54-db-6588-g.p-720056
+
+
+DataHut_SI_Dm_FullDump_20250522.CSV
+----------------------------------
+no issues
+
+DataHut_SI_Spar_FullDump_20250522.CSV
+-------------------------------------
+1."producthierarchy_level7
+and image fields are also  empty
+
+2.grammage_quantity
+and unit wrong
+50g in data,1kg in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia-weekly%3Aspar&fieldname=pdp_url&fieldvalue=https%3A//www.spar.si/online/pizza-sunka-zdezele-1kg/p/299304
+
+DataHut_SI_Mercator_FullDump_20250522.CSV
+-----------------------------------------
+"single image found,but
+taken as image_2
+18046642_2.png
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia-weekly%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/18046642/jogurt-kvinoja-in-soncnicna-semena-activia-4-x-115-g
+
+same issue
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia-weekly%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/19434457/prepelicja-jajca-12-1
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia-weekly%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/18046565/jogurt-z-ziti-activia-4-x-115-g"
