@@ -1,0 +1,95 @@
+DataHut_SI_Spar_PriceExtractions_20250523.CSV
+---------------------------------------------
+1."site_shown_uom contains
+comma insted of dot
+eg: 87,5g 
+
+
+DataHut_SI_Hitrinakup_PriceExtractions_20250523.CSV
+--------------------------------------------------
+"1. grammage quantity wrong 
+1kg in site, 500.1 kg in data.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Ahitrinakup&fieldname=pdp_url&fieldvalue=https%3A//hitrinakup.com/izdelki/444793"
+
+DataHut_SI_Dm_PriceExtractions_20250523.CSV
+-------------------------------------------
+"site_shown_uom contains comma and
+dot.
+eg:1.020 g,0,5 g "
+
+DataHut_HU_Tesco_PriceExtractions_20250523.CSV
+----------------------------------------------
+"no unit and quantity found in site.grammage quantity 
+and unit taken from model number in product name.
+product name is
+""Snow Meister SM2014G zöld fém karácsonyfa talp""
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005100504453
+
+
+DataHut_HU_Auchan_PriceExtractions_20250523.CSV
+---------------------------------------------
+"grammage_quantity
+found as 970766801
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Aauchan&fieldname=pdp_url&fieldvalue=https%3A//auchan.hu/shop/easycut-970766801-l-%C3%A1gv%C3%A1g%C3%B3-oll%C3%B3--%2B-metsz%C5%91oll%C3%B3.p-914556"
+
+
+
+indeed_2025_05_22.xlsx
+----------------------
+1.26584 rows
+2.date format found as dd/mm/yyyy
+  eg:22/05/2025
+
+3.website domain not found in site
+  line 344
+  ad_url https://de.indeed.com/Zeige-Job?jk=02aaac78045c177b&from=serp&vjs=3
+
+
+DataHut_HU_Wolt_PriceExtractions_20250523.CSV
+--------------------------------------------
+"grammage quantity and unit
+found as 220g in site, .22kg in data.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Awolt&fieldname=pdp_url&fieldvalue=https%3A//wolt.com/hu/hun/budapest/venue/interspar-kerepesiut/spar-premium-norveg-lazacfile-itemid-66544f2719a3000d77588231"
+
+
+machinerytrader_2025_05_23.csv
+-----------------------------
+"1.company_phone found text
+eg: +1 905-857-6200 ext. 1 
+line 2823
+https://www.machinerytrader.com/listing/for-sale/211553403/1998-ford-lt9513-vacuum-slash-industrial-tank-trucks
+
+2.counterweight contains both
+number and text values
+eg: yes,20,000 lb
+
+3.FrontAxleLbs. contains a value with both dot and comma
+11,999.76 lb
+line 2826
+https://www.machinerytrader.com/listing/for-sale/243937241/1995-international-4700-dump-trucks
+4.GrossVehicleWeight. contains value with dot and comma
+29,500.06 lb,32,998.79 lb
+line 2826
+5.Hours contains both comma and dot in sinle value.
+eg:1,038.3
+
+6.MaxOperatingPressure field contains value and text
+4,360 psi ,line 5247
+https://www.machinerytrader.com/listing/for-sale/233611487/2024-fassi-f360se-dot-24-mounted-on-2025-freightliner-114sd-plus-mounted-knuckle-boom-cranes
+7.OperatingWeight contains both , and . in same price
+  1,962.11 lb ,line 2170
+https://www.machinerytrader.com/listing/for-sale/243384921/2023-jq-power-jq400-mini-skid-steers
+
+8.ShippingWeight contains value with dot and comma
+eg:30,203.3 lb line 8019
+https://www.machinerytrader.com/listing/for-sale/226472959/2019-xcmg-cv122pd-smooth-drum-compactors
+9.stocknumber found as 0,
+10.TipLoad contains value with dot and comma
+eg: 21,164.4 lb "
+
+11."two category column found.
+Category and category"
+
+12.price field contains comma
