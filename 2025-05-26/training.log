@@ -1,0 +1,88 @@
+DataHut_AT_Fressnapf_PriceExtractions_20250526.CSV
+-------------------------------------------------
+1.grammage quantity wrong.
+age is taken along with grammage_quantity.
+eg:5+15 kg
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/royal-canin-maxi-adult-5-15-kg-1003112005/
+
+
+2.size is taken along with grammage_quantity
+eg:60x90 50
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/anione-training-pads-60x90-50-stueck-1309637/"
+
+
+DataHut_AT_Mpreis_PriceExtractions_20250526.CSV
+----------------------------------------------
+site_shown_uom is missing for 502 fields.
+
+DataHut_AT_Bipa_PriceExtractions_20250526.CSV
+--------------------------------------------
+no issues
+
+DataHut_AT_Dm_PriceExtractions_20250526.CSV
+-------------------------------------------
+"in site_shown_uom fields
+some values contains dot 
+and others contains comma.
+eg:  12,5 g ,16.5 g "
+
+DataHut_AT_Billa_PriceExtractions_20250526.CSV
+----------------------------------------------
+no issues
+
+nawy_egp_2025_05_04.json
+-----------------------
+no issues
+
+aqarmap_egp_2025_05_04.json
+---------------------------
+
+"1.extra character in
+bathroom field
+eg:2د
+url not woring
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Aaqarmap_egp&fieldname=url&fieldvalue=https%3A//aqarmap.com.eg/en/listing/5727128-for-sale-cairo-mokattam-lhdb-l-ly-shareaa-9/
+
+2.broker name found as number
+eg:123,2
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Aaqarmap_egp&fieldname=url&fieldvalue=https%3A//aqarmap.com.eg/en/listing/5927085-for-sale-cairo-helwan-hadayek-helwan/
+
+3. 2499 empty field in currency 
+
+4.phone_number found as
++20
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Aaqarmap_egp&fieldname=url&fieldvalue=https%3A//aqarmap.com.eg/en/listing/5915575-for-sale-alexandria-l-jmy-lbytsh-el-hay-st/
+
+5.site cant be reached
+
+6."depth', 'seller_role', 'listing_type'
+empty"
+
+bayut_uae_project_2025_05_04.json
+--------------------------------
+date found as 2025-05-27
+
+bayut_egp_2025_05_04.json
+-------------------------
+depth,broker_display_name,broker are not empty
+
+dubizzle_egp_2025_05_04.json
+---------------------------
+"ad no longer available
+https://www.dubizzle.com.eg/en/ad/%D9%82%D8%B7%D8%B9%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%A8%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A8%D8%AF%D8%B1-%D8%A7%D9%84%D8%AD%D9%89-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3-%D9%85%D9%85%D9%8A%D8%B2%D8%A9-%D8%AC%D8%AF%D8%A7-%D9%88%D8%A8%D8%B3%D8%B9%D8%B1-%D9%85%D9%85%D8%AA%D8%A7%D8%B2-ID204497283.html"
+
+dubizzle_uae_2025_05_04.json
+----------------------------
+1. listed_by is empty
+2."page not found
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Adubizzle_uae&fieldname=url&fieldvalue=https%3A//dubai.dubizzle.com/property-for-rent/residential/apartmentflat/2025/5/19/skycourts-studio-35000-dhs-2-674535/
+
+same issue
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Adubizzle_uae&fieldname=url&fieldvalue=https%3A//dubai.dubizzle.com/property-for-rent/residential/apartmentflat/2025/5/16/in-12-payments-damac-jvc-ghalia-hotel-a-2-358574/
+
+3.phone number found as +9714
+eg:
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Adubizzle_uae&fieldname=url&fieldvalue=https%3A//dubai.dubizzle.com/property-for-sale/residential/apartment/2025/4/2/stunning-views-elegant-2br-high-floor-l-2-218862/
+
+4.rera permit number found as 000000000000000000000000000000000 
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Adubizzle_uae&fieldname=url&fieldvalue=https%3A//ajman.dubizzle.com/property-for-rent/residential/townhouse/2025/5/4/best-2br-townhouse-for-annual-rent-in-a-14-332548/"
