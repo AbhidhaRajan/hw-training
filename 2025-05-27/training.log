@@ -1,0 +1,97 @@
+dari_ae_2025_05_04.json
+-----------------------
+phone number 2 not 
+found in site
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Adari_ae&fieldname=url&fieldvalue=https%3A//www.dari.ae/en/app/directory/profession%3Fid%3D7061"
+
+
+DataHut_AT_Bipa_FullDump_20250529.CSV
+-------------------------------------
+6 image fields contains value
+but all file names are empty
+
+
+aldi_nl_20250527.csv
+--------------------
+1.price_per_unit wrong.
+l = 0.59 in data,l = 0.79
+line 150
+
+https://www.aldi.nl/product/cola-zero-1224817.html
+
+2.should not have two decimal place
+in price_per unit column
+eg: kg = 12.3 
+
+3.producthierarchy_level4,
+promotion_valid_from, are
+not empty
+file_name_6 is empty
+
+4."image field 1 is empty
+but image field 2
+contains data
+line 194
+https://www.aldi.nl/product/chips-naturel-1225746.html
+
+
+ah_nl_20250527.csv
+------------------
+1.file_name_6,image_url_6
+is not empty
+
+2.in percentage discount "only values found
+no percentage symbol
+
+
+
+dirk_nl_20250527.csv
+--------------------
+"difference in promotion
+price found.0.69 in row, 69 in site
+line 114
+https://www.dirk.nl/boodschappen/zuivel-kaas/overige-kazen/echte%20smeerkaas%20sambal%2020%2b/91134
+"
+
+
+plus_nl_20250527.csv
+--------------------
+1."price_per unit,selling and regular
+price found wrong.
+selling and regular price in data
+2.15 and price per unit is per kilo €10.75
+, in site price per unit is per kilo €11.45 and
+sp and rp is 2.29.
+line 1302
+https://www.plus.nl/product/croky-chips-bolognese-zak-200-g-932597
+
+2."percentage_discount
+not empty"
+
+jumbo_nl_20250527.csv
+---------------------
+no issues
+
+wasalt_ksa_2025_06.json
+----------------------
+1.previous data count "24701" , todays count "19579" 
+ difference of 5122
+
+2."bedrooms found as 270000
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-monthly%3Awasalt_ksa&fieldname=url&fieldvalue=https%3A//wasalt.com/en/property/sale/apartment-97-sqm-with-9-bedrooms-217029
+
+3.user_id', 'amenities' are empty
+4."3 more fields
+project""
+    ""rega_ad_license_no""
+    ""fal_license_number"
+
+servicesbahrain_bah_2025_06.json
+-------------------------------
+"telephone number found as 
+(+973) ,0,  +973NA"
+
+
+baity_bah_2025_06.json
+bahrainfinder_bah_2025_06.json
