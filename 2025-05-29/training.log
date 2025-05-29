@@ -1,0 +1,89 @@
+DataHut_HU_Tesco_FullDump_20250529.CSV
+-------------------------------------
+1."grammage quantity 
+wrong. found as 800x800g
+in data,price per unit is 
+2986Ft/kg,and price is 2389.00.
+value is for 800g.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004010272233
+
+
+grammage quantity found as 1db,
+price per unit is 178 Ft/db
+but regular price is 6490.00
+and selleing price is 5690.00.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005105047391"
+
+
+2.brand, producthierarchy_level4, file_name_5, image_url_5 are not empty
+
+DataHut_SI_Hitrinakup_FullDump_20250529.CSV
+------------------------------------------
+no issues
+
+DataHut_SI_Spar_FullDump_20250529.CSV
+-------------------------------------
+1.producthierarchy_level7 
+empty
+2."site shown uom
+contains comma"
+
+DataHut_CH_Denner_FullDump_20250529.CSV
+--------------------------------------
+1.data count found as 1265,found as 3045 in 2025-05-15.
+2."producthierarchy_level7'
+is not empty
+
+'file_name_4', 'image_url_4'
+are empty"
+
+3."grammage quantity 
+found as 75cl in data,
+6 x 75 cl in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland-weekly%3Adenner&fieldname=pdp_url&fieldvalue=https%3A//www.denner.ch/de/weinshop/st.michael-eppan-fallwind-sauvignon-blanc-alto-adige-doc~p662561
+
+same issue
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland-weekly%3Adenner&fieldname=pdp_url&fieldvalue=https%3A//www.denner.ch/de/aktionen-und-sortiment/faustino-i-gran-reserva-rioja-doca~p051322%3Fvariant%3Dbfc0e7d7-c117-4670-be36-3a40ae3388f1"
+
+
+DataHut_SI_Dm_FullDump_20250529.CSV
+------------------------------------
+"grammage quantity and unit found as 
+1 kos in data, but in product name found
+as 16 kos.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia-weekly%3Adm&fieldname=pdp_url&fieldvalue=https%3A//www.dm.si/sanft-sicher-toaletni-papir-pro-climate-3-slojni-16-x-220-p4066447787702.html"
+
+DataHut_HU_Auchan_FullDump_20250529.CSV
+-------------------------------------
+"grammage_quantity
+found as
+970766801
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Aauchan&fieldname=pdp_url&fieldvalue=https%3A//auchan.hu/shop/easycut-970766801-l-%C3%A1gv%C3%A1g%C3%B3-oll%C3%B3--%2B-metsz%C5%91oll%C3%B3.p-914556"
+
+
+qatarliving_qat_2025_06.json
+---------------------------
+1.depth is not empty.
+
+dubizzle_qat_2025_06.json
+------------------------
+1."currency is missing for 3 rows.
+but also missing in site
+
+2.depth is Not empty
+
+dubizzle_bah_2025_06.json
+---------------------------
+1.empty columns.
+'reference_number','price_per',
+ 'rera_permit_number','dtcm_licence',
+ 'agent_name','user_id','sub_category_2'
+
+2.currency is missing for 4 rows.
+but also missing in site.
+
+3. ad no longer available
+  http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-monthly%3Adubizzle_bah&fieldname=url&fieldvalue=https%3A//www.dubizzle.com.bh/en/ad/full-sea-view-brand-new-2-bed-juffair-sale-ID104396351.html
+
+ https://www.dubizzle.com.bh/en/ad/limited-slots-75-only-for-the-new-office-space-and-address-in-hidd-ID105128485.html
