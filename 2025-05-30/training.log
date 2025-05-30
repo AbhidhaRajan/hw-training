@@ -1,0 +1,270 @@
+home_realestate_2025_06_05.json
+------------------------------
+1.image is in jpg ,gif and png format,
+in line 63,image is in png format
+in line 119,image is in gif format
+
+2. zipcode contains
+68506 (Count: 2)
+ 68510 (Count: 100)
+ Street (Count: 47)
+ of (Count: 1)
+"
+3.fields are not in order
+4..description contains
+extra characters 
+eg: ""   ~ Seller | Lincoln, NE ""
+line 56
+
+5..description incomplete
+line 144
+    ""profile_url"": ""https://DonDahlquist.homerealestate.com"",
+6.languages contains 
+empty list
+7.email is empty
+8.state contains
+ Circle (Count: 1)
+ NE (Count: 102)
+ O (Count: 47)
+
+
+
+kw_SET_1sutton_2025_06_05.json
+---------------------
+"1.agent-phone-number
+found as 
+['Edison@edisonchua.com']
+line 1393
+
+
+2.office-phone number found as
+""00000000""
+line 640
+    ""profile_url"": ""https://www.sutton.com/ca/agent/sutton-accounts-lethbridge-120465"",
+
+same issue
+""office_phone_numbers"":
+    [
+        ""0000000000""
+    ],
+
+line 1904
+    ""profile_url"": ""https://www.sutton.com/ca/agent/generic-agent-93889"",
+
+3."webisite found as
+dainemontgomery.com
+line 5093
+    ""profile_url"": ""https://www.sutton.com/ca/agent/daine-montgomery-98149"",
+4.fields are not in order
+
+
+kw_SET_1longandfoster_2025_06_05.json
+-----------------------------
+fields are not in order
+
+kw_SET_1/iowarealty_2025_06_05.json
+--------------------------
+fields are not in order
+
+kw_SET_1/robertsbrothers_2025_06_05.json
+-------------------------------
+1.fields are not in order
+2."description contains phone numbers.
+eg:""Phone Number 251-656-3225
+Office Number 251-928-2109""
+but office number is missing in data.
+line 32
+    ""profile_url"": ""https://www.robertsbrothers.com/bio/carenreid"",
+
+"
+
+kw_SET_1/ewm_2025_06_05.json
+----------------------------
+"1.image url found as
+""    ""image_url"": ""https://img.boldtrail.com/dGcqVsgLXJmueIno4cWd_7TCgUWGMz-bFg75VU-zdxc/rs:fit:500/plain/https://hsfazpw2storagesf1.blob.core.windows.net/hsflibrary/bhhsagents/3064229/profileimages/3064229-profileimage.jpg"",
+line 121
+    ""profile_url"": ""https://www.ewm.com/agents/1777635/Cristina+Negru""
+
+same issue
+line 481
+    ""image_url"": ""https://img.boldtrail.com/4Rrlz0pzIllzeNp9SGnTQ_Ebsffyaqzx3Z4oLapDoqQ/rs:fit:500/plain/https://hsfazpw2storagesf1.blob.core.windows.net/hsflibrary/bhhsagents/3053975/profileimages/3053975-profileimage.jpg"",
+    ""profile_url"": ""https://www.ewm.com/agents/1776977/Ruth+Puig-Smith""
+
+
+2.mistake found in office_phone number
+""office_phone_numbers"":
+    [""305-329-7600""], in data
+305-329-7774 in site.
+line 560
+    ""profile_url"": ""https://www.ewm.com/agents/1785606/Xenia+Dmitrieff%2C+P.A.""
+"
+
+semonin_realtors_2025_05_05.json
+-------------------------------
+1.file name wrong
+  mistake found in month
+
+2.field order wrong
+3.agent phone number contains extra 
+characters
+eg:""agent_phone_numbers"":
+    [
+        ""502-298-5674"",
+        ""Contact "",
+        ""My Website ""
+    ],
+
+line 223
+    ""profile_url"": ""https://www.semonin.com/bio/loribrumback"",
+same isse
+line 173
+        ""profile_url"": ""https://www.semonin.com/bio/JudithGlick"",
+line 5,6,14,21,88
+
+
+4.in most fields office_phone number having
+extra characters
+eg: ""office_phone_numbers"":
+    [
+        ""(270) 766-1201"",
+        ""Business: (502) 420-5000""
+    ],line 2
+    ""profile_url"": ""https://amandablair.semonin.com/"",
+5.title found as number.""title"": ""125478"",
+line 10
+    ""profile_url"": ""https://heatherhammett.semonin.com/"",
+
+6.""social"":{257895},
+line 351
+""profile_url"":""https://testagent.semonin.com/"
+
+"7.description in complete
+line 111
+    ""profile_url"": ""https://www.semonin.com/bio/DougRoemer"",
+
+ 8."""country"":""United States""},
+""country"":""United Stats""},
+in line 391, country found as ""United Stats""
+
+    ""profile_url"": ""https://mikejohnson.semonin.com/"",
+"
+
+berkshirehathaways_2025_06_05.json
+---------------------------------
+"1.agent phonr numbrt found as 
+[000-000-0000]
+but same found in site too.
+
+2.city found as number
+line 29986
+""city"": ""123654""
+    ""profile_url"": ""https://www.bhhspenfedrealty.com/berlin/taryn-walterhoefer/cid-1019764""
+3.state found as 123
+line 22
+    ""profile_url"": ""https://www.bhhsalaska.com/anchorage/michelle-crismore/cid-3064648""
+
+
+
+emlakjet_tur_2024_06.json
+------------------------
+1."category found as SALES in one field
+LINE 24
+    ""url"": ""https://www.emlakjet.com/ilan/bagdat-caddesinin-en-iyi-manzarali-dairesi-yeni-sahibini-ariyor-15541058/"",
+
+2. id repeated
+17366473 (Count: 2)
+
+3."wrong,year found as 2024
+emlakjet_tur_2024_06.json
+
+4.iteration_number
+5." 2025_05 (Count: 2)
+ 2025_06 (Count: 398902)"
+
+
+DataHut_AT_Mpris_PriceExtractions_20250530.CSV
+--------------------------------------------
+1.file name wrong
+DataHut_AT_Mpris_PriceExtractions_20250530.CSV
+spelling of Mpreis wrong"
+
+2."unique id(166405)
+ repeated for one field"
+3.site_shown_uom is missing for 508 fields.
+
+4.extraction date and month wrong
+ 2025-06-23 
+
+5.in selling price field "integer value found
+eg:10 
+
+6."comma found in regular price 4,,99
+pdp url
+https://www.mpreis.at/shop/p/lindtspruengli-schokolade-edelbittermousse-sauerkirsch-chili-170535
+
+in regular price field,integer found
+eg: line 42
+""25""
+
+7."promotion description found
+extra space
+eg:1+1             gratis
+line 151
+https://www.mpreis.at/shop/p/lattella-100-pflanzlich-maracuja-818803
+"
+
+
+DataHut_AT_Fressnapf_PriceExtractions_20250530.CSV
+------------------------------------------------
+"1.mistake in currency 
+ERU' 
+2.product name is missing for one row
+line 20
+https://www.fressnapf.at/p/bosch-active-15-kg-1232317001/
+"
+3."price per unit found as"" xxx"" 
+line 11
+https://www.fressnapf.at/p/gourmet-crystal-soup-32x40g-thunfisch--garnelen-1241241/
+"
+4"f missing
+['fressnap'] "
+
+5."date wrong
+['2025-05-23']"
+
+6.selling price "doesnot contains two decimal places
+eg: 0.4 ,10"
+
+7.promotion description 
+found as -adc%
+line 243
+https://www.fressnapf.at/p/premiere-meat-menu-adult-rind-mit-reh-6x400-g-1335011/
+
+8.regular price is in integer format
+eg:10 ".
+
+DataHut_AT_Dm_PriceExtractions_20250530.CSV
+------------------------------------------
+"1.grammage unit missing for
+one field
+line 240
+https://www.dm.at/profissimo-einmal-handschuhe-latexfrei-weiss-mittel-30-paar-p4066447783179.html
+
+2.unique id found as &*$%^&*
+line 16798
+https://www.dm.at/stella-jones-energize-business-strumpfhose-make-up-40-den-gr-46-48-p4000376260233.html
+
+"
+3.site shown uom "missing for one field
+line 349
+https://www.dm.at/babylove-baby-pants-premium-gr-6-xl-18-30-kg-jumbopack-p4066447668698.html
+
+4."format and day wrong
+2025/05/23"
+5."price_per unit
+contains comma
+41,67 € je 1 kg
+https://www.dm.at/mogli-kindersnack-kakao-baellchen-aus-maisgriess-p4260311985281.html
+
+6.selling price doesnot contains two decimal places
+eg: 0.4 ,1
