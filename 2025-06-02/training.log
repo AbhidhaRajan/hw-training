@@ -1,0 +1,135 @@
+KW_SET_2/bhgre_2025_06_05.json
+---------------------------------
+no issues
+
+KW_SET_2/home_realestate_2025_06_05.json
+----------------------------------------
+"1.image_url found in data,
+but no images found in site.
+line 140
+    ""profile_url"": ""https://SusieLuxford.homerealestate.com""
+"
+
+2."description incomplete. just starting of description
+found in data
+line 121
+    ""profile_url"": ""https://KatyManning.homerealestate.com""
+
+
+ 3.languages contains 
+empty list
+4.email is empty
+
+5."state (Distinct Values: 3, :
+ NE (Count: 103)
+ Ne (Count: 47)
+ ne (Count: 6)"
+
+
+KW_SET_2/semonin_realtors_2025_06_05.json
+----------------------------------------
+
+1."1.name change found. line 66
+in site name found as ""Shallcross Real Estate Group""
+and in data, ""Carrie"",""Shallcross"",.
+also image changes found.
+entered image url is
+""image_url"": ""https://content.mediastg.net/Dynamic/RealEstate/company/354/account/315202/315202_01072016140250.jpg"",
+url of the image found in site is
+https://content.mediastg.net/dynamic/RealEstate/company/354/account/318331/318331_11212022212457.jpg
+
+2.email, found value in a single row
+
+
+
+
+DataHut_SI_Hitrinakup_PriceExtractions_20250602.CSV
+--------------------------------------------------
+"1. grammage quantity wrong 
+1kg in site, 500.1 kg in data.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Ahitrinakup&fieldname=pdp_url&fieldvalue=https%3A//hitrinakup.com/izdelki/444793"
+
+DataHut_SI_Spar_PriceExtractions_20250602.CSV
+-------------------------------------------
+no issues
+
+
+DataHut_SI_Dm_PriceExtractions_20250602.CSV
+-------------------------------------------
+"in some rows 
+site shown uom 
+values contains
+comma, and in some fields
+it contains dot
+eg:0,08 kg,1.020 g"
+
+DataHut_SI_Mercator_PriceExtractions_20250602.CSV
+------------------------------------------------
+no issues
+
+DataHut_HU_Auchan_PriceExtractions_20250602.CSV
+----------------------------------------------
+"grammage_quantity
+found as 970766801
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Aauchan&fieldname=pdp_url&fieldvalue=https%3A//auchan.hu/shop/easycut-970766801-l-%C3%A1gv%C3%A1g%C3%B3-oll%C3%B3--%2B-metsz%C5%91oll%C3%B3.p-914556"
+
+DataHut_HU_Wolt_PriceExtractions_20250602.CSV
+---------------------------------------------
+1."price change found
+price found as 
+1199.00 in data,
+1329 Ft in site.
+https://wolt.com/hu/hun/papa/venue/interspar-papa/aviko-pati-parts-garlic-elosutott-gyorsfagyasztott-burgonyagerezdek-fokhagymas-fuszerkopenyben-600-g-itemid-66544f188738eae4a40b4760"
+
+2.promotion_valid_upto,promotion price are empty
+
+DataHut_HU_Tesco_PriceExtractions_20250602.CSV
+----------------------------------------------
+"promotion price,promotion valid upto and
+selling price found 
+in site, not found in 
+data.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004003187452"
+
+
+hepsiemlak_tur_2025_06.json
+--------------------------
+1."1.listing is not live
+https://www.hepsiemlak.com/en/istanbul-esenler-15-temmuz-sezonluk-kiralik/daire/150015-2037
+
+2."category values are
+Devren Kiralık (Count: 314)
+ Devren Satılık (Count: 1076)
+ For Rent (Count: 36726)
+ For Sale (Count: 95527)
+ Kiralık (Count: 14624)
+ Projeler (Count: 18)
+ Satılık (Count: 201175)
+ Seasonal Rental (Count: 924)
+ Sezonluk Kiralık (Count: 380)
+
+
+plus_nl_20250603.csv
+--------------------
+1.data count 
+previous: 1338
+todays :219
+
+2." image_url_6 ', ' image_url_3', ' file_name_4', ' percentage_discount', ' image_url_4', ' file_name_3', 'file_name_6', ' image_url_5', ' file_name_5', ' file_name_2', ' image_url_2' are not empty.
+
+
+3.'producthierarchy_level5', 'organictype', 'promotion_description', 'storage_instructions', 'nutritional_values_information', , 'nutritional_score', 'instructions', 'ingredients are empty"
+
+4.competitor_name
+wrong. found as 
+ aldi
+
+
+
+pending
+---------
+
+jumbo_nl_20250603.csv
+
+
