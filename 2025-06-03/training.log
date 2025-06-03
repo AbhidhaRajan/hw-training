@@ -1,0 +1,127 @@
+jumbo_nl_20250603.csv
+---------------------
+"product name contains grammage
+quantity and unit as 150gr,
+price is taken for 150 gram but
+grammage unit and quantity 
+found as 1 stuks
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Ajumbo&fieldname=pdp_url&fieldvalue=https%3A//www.jumbo.com/producten/beemster-oud-plakken-150-gr-417183ZK"
+
+edinarealty_2025_06_05.json
+---------------------------
+1"1.name found wrong
+in site found as ""Tom Ries & Erick Ries""
+in data Tom Ries only taken as first and last name.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aedinarealty&fieldname=profile_url&fieldvalue=https%3A//www.edinarealty.com/tom-ries-realtor
+
+
+2.address not found in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aedinarealty&fieldname=profile_url&fieldvalue=https%3A//www.edinarealty.com/joel-jacobson-realtor
+
+3.wrong address
+address of Mortgage Consultant is taken
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aedinarealty&fieldname=profile_url&fieldvalue=https%3A//www.edinarealty.com/stephanie-adams-realtor"
+
+4.fields are not in order
+5.languages found as empty list
+
+coldwellbanker_us_2025_06_05.json
+--------------------------------
+"1.office-phone_number contains
+extra characters
+eg:+10131403891;ext=2'
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Acoldwellbanker_us&fieldname=profile_url&fieldvalue=https%3A//www.coldwellbanker.com/nj/closter/agents/martin-huguley/aid-P00200000FSjy1TFh6B9jj5CnNzmoRVJ5QXBwYsM"
+
+2."webiste found as
+""www.https://JenOlin.com""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Acoldwellbanker_us&fieldname=profile_url&fieldvalue=https%3A//www.coldwellbanker.com/nc/charlotte/agents/jennifer-olin/aid-P00200000FSk0xoxtwmnJqnzU9lGurXFxp7e74uH"
+
+
+alliebeth_2025_06_05.json
+--------------------------
+"title contains extra word
+eg:Executive Vice President, Relocation
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aalliebeth&fieldname=profile_url&fieldvalue=https%3A//www.alliebeth.com/bio/DebBorrell"
+
+berkshirehathaways_2025_06_05.json
+----------------------------------
+"1.agent_phone numebr found
+as ['020\xa04513\xa07403']
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aberkshirehathaways&fieldname=profile_url&fieldvalue=https%3A//www.bhhs.com/london-gb801/london/patrick-mcdowell/cid-3041341"
+
+
+DataHut_AT_Mpreis_FullDump_20250605.CSV
+--------------------------------------
+1."contains image urls,
+but file name is empty"
+
+2."grammage_quantity
+wrong in data.
+07 l in data,0.7l in site
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ampreis%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.mpreis.at/shop/p/zacapa-solera-gran-reserva-no-23-0-122853"
+
+DataHut_AT_Dm_FullDump_20250605.CSV
+------------------------------------
+"file names of image fields are
+missing"
+
+DataHut_AT_Bipa_FullDump_20250605.CSV
+------------------------------------
+1.instock is true and false
+2."file_name_6', 'file_name_4', 'file_name_2', 'file_name_5', 'file_name_3', 'file_name_1
+are empty. image fields not empty"
+
+bayut_egp_2025_06_01.json
+--------------------------
+1."Two new fields
+""completion_status"", ""ownership"""
+2.depth,broker_display_name,broker not empty
+3.price_per found in Monthly,daily,weekly,yearly
+
+4."publidhed_at found as 
+""28 May 2025"" in data,
+""29 May 2025"" in site
+https://www.bayut.eg/en/property/details-204821613.html"
+
+dari_ae_2025_06_01.json
+------------------------
+"license expired, 2025-06-02
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Adari_ae&fieldname=url&fieldvalue=https%3A//www.dari.ae/en/app/directory/profession%3Fid%3D20265"
+
+kw/remax_us_2025_05_05.json
+--------------------------
+
+"1.extra characters found in agent_phone_number
+eg:[""(800) 225-7369 EXT264"",""(626) 967-1779 EXT264""
+line 3(also middle name not found in site)
+    ""profile_url"": ""https://www.remax.com/real-estate-agents/andrea-elizalde-covina-ca/100000011"",
+
+
+2.in data name found as ""first_name"": ""Andrew"",""middle_name"": ""A."",
+ ""last_name"": ""Witham"",but  in site found as Andrew Witham
+
+3.last name contains extra characters like  | Seacoast Homes ,REALTOR® etc
+and middle name not found in site
+eg:line 94
+    ""profile_url"": ""https://www.remax.com/real-estate-agents/harold-powell-realtor-ventura-ca/100000334"",
+4.office_phone number contains extra characters 
+ex: ['(732) 212-9900 EXT300'
+line 4074
+    ""profile_url"": ""https://www.remax.com/real-estate-agents/sandra-rosa-fair-haven-nj/100014824"",
+
+5.profile_url wrong
+line 31931
+    ""profile_url"": ""https://www.remax.com/real-estate-agents/shawn-wiser-fort-myers-fl/102169144"",
+
+6.file name "wrong ,month found as 05,insted of 06
+remax_us_2025_05_05.json"
+
+7.fields are not in order
+
+
+
+kw/globalremax_2025_06_05.json
+kw/ebby_2025_06_05.json
+kw/century21_us_2025_06_05.json
