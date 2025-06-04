@@ -1,0 +1,232 @@
+DataHut_AT_Mueller_FullDump_20250605.CSV
+-----------------------------------------
+1.image fields are found
+file names not found"
+2.instock contains True and False
+3."color found as 
+""000000"" in data
+Farbe: 000000 - 1
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Amueller%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.mueller.at/p/lancome-lash-idole-waterproof-mascara-2785864/%3FitemId%3D2785864
+
+same issue
+color found as 00 in data
+Farbe: 00 - 00 in site
+
+4."product description
+found as paragraph"
+
+
+
+DataHut_AT_Fressnapf_FullDump_20250605.CSV
+------------------------------------------
+1.Dimensions is not empty
+
+2.product_description', 'file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6' are empty"
+
+DataHut_AT_Dm_FullDump_20250605.CSV
+------------------------------------
+1."file_name_1', 'file_name_2', 'file_name_3',
+ 'file_name_4', 'file_name_5', 'file_name_6'
+are empty"
+
+2.product description
+found as paragraph
+
+
+kw/globalremax_2025_06_05.json
+-------------------------------
+1.name found as number
+eg line 68029
+    ""profile_url"": ""https://global.remax.com/en/agents/argentina/valle-escondido/3875-727130/421411065"",
+
+2.office_phone_numbers"":[""+20""]
+eg line 42928
+    ""profile_url"": ""https://global.remax.com/en/agents/egypt/new-cairo/mohamed-azab/911571003"",
+
+
+3.office_phone_numbers"":[""+234  0700  "","" 0700""],
+eg line:21459
+    ""profile_url"": ""https://global.remax.com/en/agents/nigeria/ikeja-alausa/peter-itse-eyeoyibo/117005002"",
+
+4.in social field, other urls found as  ""http://<a href=""
+line 9154,22399,
+   ""profile_url"": ""https://global.remax.com/en/agents/portugal/carnide/anabela-alcobia/120181087"",
+
+5.fields are not in order
+6."website found as 
+http://- (Count: 1)
+ http://.(Count: 5)
+and have 3/// for some urls
+eg:http:///andreapena
+eg:https:/www.remax.ch/lausanne (Count: 1)
+ https:www.instagram.com/douglascostamoreira?igshid=YzVkODRmOTdmMw== (Count: 1)"
+
+
+
+kw/realliving_realestate_2025_06_05.json
+---------------------------------------
+"1.site cant be reached 
+line 11
+        ""profile_url"": ""https://www.reallivingrealestatesolutions.com/douglas.clement"",
+line 12
+        ""profile_url"": ""https://www.reallivingrealestatesolutions.com/bill.kolb"",
+
+2.state found as ""FL"" in site
+Florida in data
+
+3."office name found as 
+Real Living Real Estate Solutions
+in site,
+""Real Living Real Estate Solutions - Orlando""
+in data.
+eg:
+line 1
+        ""profile_url"": ""https://www.realliving.com/chelsea.calabrese"",
+
+4.fields are not in order
+
+
+KW_SET_3/compass_2025_06_05.json
+---------------------------------
+"1.in line 28272 and 28273
+image, name are same.
+    ""profile_url"": ""https://www.compass.com/agents/storedxss/""
+    ""profile_url"": ""https://www.compass.com/agents/ramadan55/""
+
+2.agent phone number found as ['000-000-0000'],
+same found in site
+line 2456
+    ""profile_url"": ""https://www.compass.com/agents/liam-brock/""
+
+
+3.email field contains numbers,address etc
+eg:""email"": ""020726"", 030908 
+ 1699 Van Ness Ave, San Francisco, CA 94109
+
+line 15597
+    ""profile_url"": ""https://www.compass.com/agents/rhonda-brandon/""
+"
+4..title found as number
+eg:214.282.6031
+line 7903
+    "profile_url": "https://www.compass.com/agents/kevin-hunter/"
+
+
+KW_SET_3/firstweber_2025_06_05.json
+------------------------------------
+no issues
+
+KW_SET_3/longrealty_2025_06_05.json
+-----------------------------------
+"1.state is missing in data,
+found as AZ in site,
+line 136
+    ""profile_url"": ""https://www.homesintucson.com""
+
+2.email found as "" Email""
+line 575
+    ""profile_url"": ""https://LisaBaylessTeam.longrealty.com""
+
+3.more than 1 image urls found in a single row ,
+eg:    ""image_url"": ""https://content.mediastg.net/Dynamic/RealEstate/company/448/account/502724/502724_05132020095027.jpg;https://content.mediastg.net/Dynamic/RealEstate/company/448/account/502227/502227_09132019154957.jpg"",
+line 27
+    ""profile_url"": ""https://ExploreTucsonHomes.longrealty.com""
+4.other urls in social field found as ""http://JonnaAZ""
+line 678
+    ""profile_url"": ""https://jonnad.longrealty.com""
+"
+
+KW_SET_3/royallepage_2025_06_05.json
+-----------------------------------
+"1.agent phone number contains
+extra numbers.
+eg: ""agent_phone_numbers"":
+    [
+        ""416.654.1010"",
+        ""123""
+    ],
+line 9998
+    ""profile_url"": ""https://www.royallepage.ca/en/agent/ontario/toronto/robert-volpentesta/91166/""
+2.agent phone number found as email
+""www.dubiens.com""
+    ""profile_url"": ""https://www.royallepage.ca/en/agent/ontario/collingwood/rob-angiline-dubien/40382/""
+
+3.website found as "" http://0""
+line 16836
+    ""profile_url"": ""https://www.royallepage.ca/en/agent/ontario/georgetown/finn-poulstrup/43093/""
+
+4.website found as ""http://HTTP://www.murryanna.com"" format.
+eg line 14001
+
+
+KW_SET_4/century21_us_2025_06_05.json
+-------------------------------------
+"1.agent phone number 
+found as ""0"",
+ ['7', '(216) 269-9675'] etc
+eg:line 38260
+
+2.office name found as
+"" of CENTURY"" in two fields
+eg line:2015
+    ""profile_url"": ""https://www.century21.com/real-estate-agent/profile/irena-mccoy-of-mccoy-team-21-of-mccoy-team-21-P25340964""
+3.website found as ""https://xxx ""
+line 22099
+    ""profile_url"": ""https://www.century21.com/real-estate-agent/profile/james-semsel-P80067476""
+
+
+KW_SET_4/ebby_2025_06_05.json
+-----------------------------
+"1.country found as 
+ united states (Count: 1)
+in one line.
+
+2.profile_url repeated
+ https://www.ebby.com/bio/company 
+line 257, line 258
+
+3.wrong title found
+eg:  themowadgroup.ebby.com 
+line 658
+    ""profile_url"": ""https://www.ebby.com/bio/josegutierrez""
+
+
+KW_SET_4/remax_us_2025_06_05.json
+--------------------------------
+"1.""office_phone_numbers"":
+    [
+        ""92-3000876666""
+    ],
+not found in site.
+line 27056
+    ""profile_url"": ""https://www.remax.com/real-estate-agents/muhammad-saleem-deerfield-il/102053583""
+"
+
+kw/kentwood_2025_06_05.json
+---------------------------
+"
+
+city found as :""Dillon"" for one row
+line 180
+    ""profile_url"": ""https://www.kentwood.com/bio/Soley""
+
+city found as :""Colorado Springs "" for one row
+line 91
+    ""profile_url"": ""https://www.kentwood.com/bio/JessicaPaulucci""
+
+"
+
+kw/harrynorman_2025_06_05.json
+-----------------------------
+"1.email is empty
+2.title wrong
+""title"": ""REALTOR&amp;reg;
+in data,
+line 422
+    ""profile_url"": ""https://www.harrynorman.com/bio/lawandasales""
+"
+
+
+
+
+
