@@ -1,0 +1,225 @@
+kw_set_6/century21global_2025_06_05.json
+----------------------------------------
+"1.agent phone number found as
+""(1721) 581 x2592""
+line 10848
+    ""profile_url"": ""https://www.century21global.com/en/agents/rl-134669414"",
+
+2.agent phone number found as
+['+32 inf', '@century21mais', 'nblanche be'] 
+line 12382
+    ""profile_url"": ""https://www.century21global.com/en/agents/rl-120250895"",
+
+3.agent phone number contains extra characters
+eg:""agent_phone_numbers"":[""+86 400-000-1218转6620""]
+line 33541
+    ""profile_url"": ""https://www.century21global.com/en/agents/rl-134447985"",
+
+4.description contains numbers
+eg:18362
+    ""profile_url"": ""https://www.century21global.com/en/agents/rl-135291798"",
+5.first_name found as number
+eg:0928277229
+line 31779
+    ""profile_url"": ""https://www.century21global.com/en/agents/rl-127642870"",
+6.wrong image_urls found
+eg:37525/00/01/bbe9e31b-d47d-44fa-b2fc-a6b8b1011c1e_TA1OSW7N4C.jpg
+line 19847
+    ""profile_url"": ""https://www.century21global.com/en/agents/rl-133514904"",
+7.""image_url"": ""FAILED_MIGRATION""
+line 6319
+    ""profile_url"": ""https://www.century21global.com/en/agents/rl-135424206"",
+8.    ""image_url"": ""storage/c21mn/2021/February/week3/19826_"",
+
+line 31109
+    ""profile_url"": ""https://www.century21global.com/en/agents/rl-125259752"",
+9.""last_name"": ""&amp;amp;ccedil;ela""
+line 12676
+    ""profile_url"": ""https://www.century21global.com/en/agents/rl-135510664"",
+10.last name and middle name found as dot 
+11.zipcode found as 4 for 19 rows
+eg:    ""zipcode"": ""4"",line 5537
+    ""profile_url"": ""https://www.century21global.com/en/agents/rl-132714083"",
+
+12.fields are not in order
+
+kw/coldwellbankerinternational_2025_06_05.json
+---------------------------------------------
+"1.two phone number found in site,
+only one found in data
+line 2728
+    ""profile_url"": ""https://www.coldwellbankerinternational.com/agent/fNCAmu6"",
+2.first_name found as dot
+    ""first_name"": ""."",
+line 919
+    ""profile_url"": ""https://www.coldwellbankerinternational.com/agent/BQcSG145"",
+3.    ""zipcode"": ""2"",for 3 rows
+eg:line 2325
+    ""profile_url"": ""https://www.coldwellbankerinternational.com/agent/jX0goqG"",
+
+
+4.fields are not in order
+
+kw/reecenichols_2025_06_05.json
+------------------------------
+"1.description incomplete
+line 338
+    ""profile_url"": ""https://www.reecenichols.com/bio/janettefrank""
+2.unwanted characters found in description
+eg:.btn { border: none; background-color:
+line 866
+    ""profile_url"": ""https://www.reecenichols.com/bio/gerradfase""
+
+3.    ""description"": ""sdfsdfg"",
+line 658
+    ""profile_url"": ""https://www.reecenichols.com/bio/moxitest""
+
+4.email"" is  empty
+office_phone_numbers
+  is not empty"
+
+kw/realtysouth_2025_06_05.json
+------------------------------
+"1.wrong profile url 
+found in some rows.
+eg: https://www.realtysouth.com/roster/agents/9 (Count: 1)
+
+line 84"
+
+2.office name not found in site
+
+kw/houlihanlawrence_2025_06_05.json
+----------------------------------
+"1.agent_phone_number found as
+['914-328-8400  ext. 15222']
+line 5
+    ""profile_url"": ""https://www.houlihanlawrence.com/bio/GeoffreyBerry""
+2.   
+ ""email"": ""'https:/www.testimonialtree.com/widgets/?widgetid=48832&TeamID=1467420282"",
+line 353
+    ""profile_url"": ""https://www.houlihanlawrence.com/bio/mcelweeteam""
+3.
+    ""email"": ""/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"",
+
+line 354
+    ""profile_url"": ""https://www.houlihanlawrence.com/bio/EllenBeyer""
+
+"
+
+kw/woodsbros_2025_06_05.json
+----------------------------
+"1.extra characters found in description
+eg:Read More Testimonials 
+line 83
+    ""profile_url"": ""https://paularandall.woodsbros.com""
+2.   
+ ""description"": ""Call me today at 402-430-7506"",
+
+line 38
+    ""profile_url"": ""https://dennisflesner.woodsbros.com""
+3.    ""description"": ""Call today | 402-432-5943"",
+
+line 143
+    ""profile_url"": ""https://louisekirkbride.woodsbros.com""
+4.    ""languages"":[[]],
+eg:line 168
+    ""profile_url"": ""https://www.woodsbros.com/roster/agents/18""
+"
+
+kw/rector_hayden_2025_06_05.json
+-------------------------------
+"1.""agent_phone_numbers"":
+    [ ""859""] for two fields
+eg:line 40
+    ""profile_url"": ""https://emilybelcher.rhr.com""
+line 135
+    ""profile_url"": ""https://rickscott.rhr.com""
+
+full number found in site
+
+2.""office_phone_numbers"":
+    [
+        ""859-873-1299"",
+        ""(859) 873-1299""
+    ]
+
+line 129
+    ""profile_url"": ""https://phyllischenault.rhr.com""
+also another office number found in site and is taken as 
+agent number"
+
+3.email is empty
+
+
+kw/huff_realty_2025_06_05.json
+------------------------------
+"1.No image found in site,
+but image_url found in data
+line 40
+    ""profile_url"": ""https://MikeBovard.huff.com""
+2.""zipcode"":""|"",
+line 286
+    ""profile_url"": ""https://sarahmorrison.huff.com""
+
+3."email"  is empty
+4."description"": ""- WArren Buffett"",
+line 241
+    ""profile_url"": ""https://www.listwithlisk.com""
+5.description incomplete
+line 11
+    ""profile_url"": ""https://www.averyteam.com""
+
+
+kw/intero_realestate_2025_06_05.json
+------------------------------------
+"1.wrong profile url
+line 516
+    ""profile_url"": ""https://www.intero.com/directory/agents/lynne-tran-1"",
+2.description found wrong
+line 402
+    ""profile_url"": ""https://www.intero.com/directory/agents/andrea-kohler"",
+
+3.description found as 
+https://mikebrasil.net/RealtorWebPage (Count: 1) line 796
+ www.rigob.com (Count: 1) line 871
+
+4.description wrong is taken from website
+eg:line 728
+    ""profile_url"": ""https://www.intero.com/directory/agents/stella-benjamin"",
+
+5.title found as 
+""MA JD LL.M e-Pro© | Broker Associate & Realtor© | 650.430.6500""
+line 1203
+    ""profile_url"": ""https://www.intero.com/directory/agents/mike-foor"",
+6.    ""website"": ""http:////awright.intero.com"",
+
+line 490
+    ""profile_url"": ""https://www.intero.com/directory/agents/a-chris-wright"",
+7.fields are not in order
+
+
+DataHut_AT_Billa_FullDump_20250605.json
+----------------------------------------
+
+1."retail_limit','file_name_5', 'file_name_6', 
+'file_name_3', 'file_name_4', 'file_name_2', 
+'file_name_1'"are empty
+2."product description 
+found as  paragraph"
+
+
+
+indeed_2025_06_05.xlsx
+----------------------
+"1.phone number found as +49 0 7348 | 98 in data
+Tel: +49 (0) 7348 | 98 70 - 526  in site
+
+
+line 8441
+https://de.indeed.com/Zeige-Job?jk=9cd744c9d3ac6528&from=serp&vjs=3
+
+"2.phone number found as 
++49 30 209 67 33 - 40 ⁄ +49 in data
+Tel.: +49 30 209 67 33 - 40 ⁄ +49 175 720 2123 in site
+line 26439
+
