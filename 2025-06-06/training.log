@@ -1,0 +1,166 @@
+DataHut_AT_Fressnapf_PriceExtractions_20250606.CSV
+------------------------------------------------
+1.price per unit found as
+€19490.00/kg, grammage quantity and unit is 4kg,
+but regular and selling price found as 
+19.49
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/ardap-spot-on-fuer-kleintiere-von-1-4-kg-1201690/"
+
+2."grammage quantity wrong,
+age is taking along with grammage quantity,
+eg:12+1.5 kg in data, 1.5kg in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/royal-canin-mini-ageing-12-15-kg-1002897005/"
+
+3."site shown uom is
+""8in1 Delights Kauknochen Hähnchenfleisch im Beutel S 6 Stück""
+but grammage unit is stuck
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/8in1-delights-kauknochen-haehnchenfleisch-im-beutel-s-6-stueck-1002057/"
+
+4.grammage quantity wrong
+500g in data,1 kg in site.
+price is also taken for 1kg
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/aniforte-barf-complete-500-g-1-kg-1422211/
+
+DataHut_AT_Mpreis_PriceExtractions_20250606.CSV
+-----------------------------------------------
+1.Startseite > Getränke > Kaffee, Tee & Kakao > Kaffee > Löskaffee > 3 in 1 Löskaffee 10 Sticks x 16,5 gr (Einweg)  in data
+
+Startseite>Getränke>Kaffee, Tee & Kakao>Kaffee>Löskaffee>3 in 1 Löskaffee 10 Sticks x 16,5 gr
+in site
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ampreis&fieldname=pdp_url&fieldvalue=https%3A//www.mpreis.at/shop/p/nescafe-3-in-1-loeskaffee-10-sticks-x-165-gr-147119"
+
+
+2.site_shown_uom is missing for 501 fields.
+
+
+DataHut_AT_Dm_PriceExtractions_20250606.CSV
+---------------------------------------------
+"in site_shown_uom fields
+some values contains dot 
+and others contains comma.
+eg:  12,5 g ,16.5 g "
+
+DataHut_AT_Bipa_PriceExtractions_20250606.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Billa_PriceExtractions_20250606.CSV
+----------------------------------------------
+1.site_shown_uom contains beutel, but grammage_unit is not btl
+eg: site shown uom 90 g Beutel but grammage quantity and unit is 90g
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Abilla&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/biozentrale-maisecken-huelsenfruechte-00394884
+
+
+2.site shown uom is ""85 Waschgang Packung""
+but grammage unit and quantity is 1 stuck,
+price per unit is
+1 Waschgang 0.11 €
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Abilla&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/clever-vollwaschmittel-pulver-00378354
+
+DataHut_AT_Mueller_PriceExtractions_20250606.CSV
+------------------------------------------------
+no issues
+
+DataHut_HU_Wolt_PriceExtractions_20250606.CSV
+---------------------------------------------
+no issues
+
+DataHut_HU_Tesco_PriceExtractions_20250606.CSV
+---------------------------------------------
+"logical error.
+price per unit is
+5840Ft/kg
+grammage quantity and unit is
+2000g
+but price found as 584.00
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004002639853"
+
+DataHut_SI_Dm_PriceExtractions_20250606.CSV
+--------------------------------------------
+no issues
+
+machinerytrader_2025_06_06.csv
+------------------------------
+"1.capacity found as 
+2,222.22 cu yd 
+line 5817
+https://www.machinerytrader.com/listing/for-sale/196489695/1982-caterpillar-988b-wheel-loaders
+
+2.CentrifugalForce field contains both comma and dot separated values
+
+3.company_phone 
++1 905-857-6200 ext. 1 for 8 rows
+eg line 2813
+https://www.machinerytrader.com/listing/for-sale/243327995/2005-ford-f550-xl-sd-dump-trucks
+
+
+4.FrontAxleLbs found as 11,999.76 lb(dot and comma)
+eg line 2814
+https://www.machinerytrader.com/listing/for-sale/243937241/1995-international-4700-dump-trucks
+
+5.GrossVehicleWeight found as 29,500.06 lb 
+line 2814
+https://www.machinerytrader.com/listing/for-sale/243937241/1995-international-4700-dump-trucks
+6.OperatingWeight  found as 1,962.11 lb
+eg:https://www.machinerytrader.com/listing/for-sale/243384921/2023-jq-power-jq400-mini-skid-steers
+line 2180
+
+7.ShippingWeight found as  30,203.3 lb
+line 8061
+https://www.machinerytrader.com/listing/for-sale/226472959/2019-xcmg-cv122pd-smooth-drum-compactors
+
+
+8.WarrantyExpireDate  7/12/24
+
+9.field count is 631
+10."two category column found.
+Category and category"
+
+11.images is empty
+12.price field contains comma
+
+
+wag_nb_top_100_2025_05_06 (1).csv
+--------------------------------
+1.24 columns,400 rows
+2.WAG url contains item not found and NA
+  and in some fields urls missing and in some other fields found as "Claritin Allergy Medicine, Loratadine Tablets 10 mg \| Walgreens".
+3.Competitor
+Amazon
+Target
+Walmart
+CVS
+
+4.UPC Match
+
+false
+true
+
+5.price change found, line 1 price found as 6.39, but 8.88 found in in site ,
+  url https://www.amazon.com/Energizer-Batteries-Double-Alkaline-Battery/dp/B004U429ME
+
+6.price change found, line 7, in data price found as  7.99, but in site is found as 8.29,
+ url https://www.target.com/p/azo-maximum-strength-urinary-pain-relief-uti-pain-reliever-24ct/-/A-16293312
+
+7.price not found in site
+line 250
+https://www.amazon.com/Pepper-Soda-20oz-Bottle-Pack/dp/B0BR8FCGM5
+
+
+DataHut_DE_Picnic_PriceExtractions_20250606.CSV
+-----------------------------------------------
+
+1.Total data count 10672
+2.competitor_name 
+ picnic
+
+3.empty fields 
+'price_valid_from', 'pack_size', 'promotion_valid_upto', 'pdp_url', 'promotion_valid_from', 'region'
+
+4.site shown uom contains extra characters
+eg:4 Pers. | 40 Min.
+
+5.pdp_utl empty. so cant check the site
+
