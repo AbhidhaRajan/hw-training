@@ -1,0 +1,136 @@
+dirk_nl_20250610.csv
+--------------------
+"price change found
+0.87 in data,87 in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Adirk&fieldname=pdp_url&fieldvalue=https%3A//www.dirk.nl/boodschappen/dranken-sap-koffie-thee/frisdranken/shakura%2520energy%2520drink/94374"
+
+delhaize_nl_20250610.csv
+-----------------------
+"promotion date format found wrong
+eg:22/5/2025 "
+
+plus_nl_20250610.csv
+--------------------
+no issues
+
+aldi_nl_20250610.csv
+--------------------
+1."producthierarchy_level4,
+promotion_valid_from, are
+not empty"
+
+2."promotion valid upto will expire today(2025-06-09)
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Aaldi&fieldname=pdp_url&fieldvalue=https%3A//www.aldi.nl/product/goudse-geraspte-kaas-48--mild-1214526.html"
+
+jumbo_nl_20250603.csv
+---------------------
+1."jumbo_nl_20250603.csv
+date found wrong"
+2."price found as 
+0.00
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Ajumbo&fieldname=pdp_url&fieldvalue=https%3A//www.jumbo.com/producten/siroop-pakket-fris-378295STK
+grammage quantity and unit is 1 stuks, price per unit is 8.25/stuk"
+3."grammage unit wrong
+found as 24 x 33 stuks in data
+but 24 x 33 cl in site.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Ajumbo&fieldname=pdp_url&fieldvalue=https%3A//www.jumbo.com/producten/spa-intense-bruisend-natuurlijk-mineraalwater-4-x-6-x-33-cl-644306PAK.
+
+4.same issue 
+grammage quantity and unit found as 6 x 50 stuks in data
+6 x 50 cl in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Ajumbo&fieldname=grammage_unit&fieldvalue=stuks
+
+
+5.grammage quantity and unit found as 40 stuks in data
+40cl in site.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Ajumbo&fieldname=price_per_unit&fieldvalue=3.63%2Fliter"
+
+6."nutritional_values_information is in dict format but extra : found
+
+eg:{'Ca:_Analyse (mg/l):': '5,5', 'Mg:_Analyse (mg/l):': '1,9', 'Na:_Analyse (mg/l):': '5', 'K:_Analyse (mg/l):': '0,5', 'CI:_Analyse (mg/l):': '4,5', 'SO₄:_Analyse (mg/l):': '7,5', 'NO₃:_Analyse (mg/l):': '1,5', 'HCO₃:_Analyse (mg/l):': '18', 'SiO₂:_Analyse (mg/l):': '10', 'Droogrest:_Analyse (mg/l):': '47 mg/l'} 
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Ajumbo&fieldname=pdp_url&fieldvalue=https%3A//www.jumbo.com/producten/spa-intense-bruisend-natuurlijk-mineraalwater-4-x-6-x-33-cl-644306PAK"
+
+
+
+dari_ae_2025_06_02.json
+-----------------------
+"license expired
+ 2024-11-26 
+ 2025-06-02 
+ 2025-06-04 
+ 2025-06-08"
+
+
+nawy_egp_2025_06_02.json
+------------------------
+no issues
+
+wag_nb_top_100_2025_06_09.csv
+------------------------------
+1.Competitor Name 
+ Amazon 
+ CVS 
+ Target 
+ Walmart 
+
+2.full capitals found in file name. eg:ZIPCODE
+3.competitor id found as repeatative and also found some values other than numbers,
+  eg:Item Not found ,Item not found ,Missing ,No Data ,Yet to upload ,Yet to uplod 
+4.Breadcrumb missing for 130 fields
+5.Competitor URL missing for 100 fields
+6.ingradients is incomplete.
+  line 19
+  competitor url :https://www.walmart.com/ip/Tylenol-Cold-Flu-Severe-Day-Night-Caplets-Combo-Pack-24-Ct/156184739
+
+7.price found as different formats. found as float,integer , float with single decimal point,and float with two decimal points.
+
+8. mistake found in Competitor Product name. in data found as "Allegra 24 Hour Allergy Relief Tablets - Fexofenadine Hydrochloride - 15ct"
+   and in site found as "Allegra 24 Hour Allergy Relief Tablets - Fexofenadine Hydrochloride", also breadcrumb found in site, not found in data. ingradients found in site,not in data. line 56,Competitor URL .https://www.target.com/p/allegra-24-hour-allergy-relief-tablets-fexofenadine-hydrochloride/-/A-15068699?preselect=13263272
+
+9.Competitor Pack Type is empty
+10.Competitor ID not found in site.
+11.fields are not in order
+
+
+market_nb_top_100_2025_06_09.csv
+--------------------------------
+1.fields are not in order
+2.Breadcrumb missing for 119 fields
+3.Competitor URL missing for 64 fields.
+4.WAG URL found as Item not found for 16 rows
+5.item currently unavailable,so price not found.
+line 1
+6.price change found, line 35
+  $5.49 in site,4.89 in data
+  competitor url:https://www.target.com/p/pepsi-cola-soda-6pk-16-9-fl-oz-bottles/-/A-13044174
+
+7.price change found, line 331
+6.39 IN DATA,6.59 in site
+
+Competitor url:https://www.target.com/p/coca-cola-10pk-7-5-fl-oz-mini-cans/-/A-51139832
+
+bayut_egp_2025_06_02.json
+--------------------------
+1.depth,broker_display_name,and broker are empty
+2.price per unit contains Monthly,daily,weekly,yearly
+3."Two new fields
+""completion_status"", ""ownership""
+
+aqarmap_egp_2025_06_02.json
+--------------------------
+1.broker name found as
+""? ? ? ? ? ? ? ""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Aaqarmap_egp&fieldname=url&fieldvalue=https%3A//aqarmap.com.eg/en/listing/5806645-for-sale-cairo-mokattam-el-hadabah-el-wosta-compounds-art-city/
+
+2.phone number found as ""+undefined1552993258 ""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Aaqarmap_egp&fieldname=url&fieldvalue=https%3A//aqarmap.com.eg/en/listing/5819945-for-rent-cairo-ain-shams-ain-shams-el-sharkia-el-eshrein-stt/
+
+3.phone number found as +20 for 6 rows
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Aaqarmap_egp&fieldname=url&fieldvalue=https%3A//aqarmap.com.eg/en/listing/5801268-for-sale-cairo-el-haram-el-lebeny/
+4.currency is empty for 2499 rows
+5.site cant be reached."
+
+6."depth', 'seller_role', 'listing_type'
+empty"
+
+
