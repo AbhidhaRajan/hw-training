@@ -1,0 +1,109 @@
+dubizzle_uae_2025_06_02.json
+---------------------------
+1."phone number found as
+""+9714 "" for two fields
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Adubizzle_uae&fieldname=url&fieldvalue=https%3A//dubai.dubizzle.com/property-for-sale/residential/townhouse/2025/5/21/new-launch-modern-design-closed-kitchen-2-261684/
+
+2. listed_by is empty
+
+dubizzle_egp_2025_06_02.json
+----------------------------
+1."ad no longer available
+https://www.dubizzle.com.eg/en/ad/%D8%A7%D8%B1%D8%B6-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%A7%D9%84%D8%B9%D8%AC%D9%85%D9%89-%D8%A7%D9%84%D9%87%D8%A7%D9%86%D9%88%D9%81%D9%8A%D9%84-%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D9%87-ID203524160.html
+"
+2."details contains both comma and dot
+eg:6,070.28 m²
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Adubizzle_egp&fieldname=url&fieldvalue=https%3A//www.dubizzle.com.eg/en/ad/%D9%81%D8%AF%D8%A7%D9%86-%D9%88%D9%86%D8%B5-%D9%85%D8%A7%D9%86%D8%AC%D9%88-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%A8%D8%AC%D9%85%D8%B9%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B9%D8%AA%D9%85%D8%AF%D9%8A%D9%87-%D8%B7%D8%B1%D9%8A%D9%82-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D9%87-%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D9%88%D9%8A-ID204820333.html"
+
+
+DataHut_HU_Tesco_PriceExtractions_20250610.CSV
+----------------------------------------------
+no issues
+
+DataHut_HU_Wolt_PriceExtractions_20250610.CSV
+----------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_PriceExtractions_20250610.CSV
+----------------------------------------------
+1.site_shown_uom is missing for 513 fields.
+2."breadcumb found as
+Startseite>Getränke>Bier>Bier>0,5 Liter Dose
+in site,
+Startseite > Getränke > Bier > Bier > 0,5 Liter Dose (Einweg)
+in data
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ampreis&fieldname=pdp_url&fieldvalue=https%3A//www.mpreis.at/shop/p/heineken-05-liter-dose-103605"
+
+DataHut_AT_Fressnapf_PriceExtractions_20250610.CSV
+-------------------------------------------------
+"1.grammage quantity found as
+60x90 50 stuck
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/anione-training-pads-60x90-50-stueck-1309637/
+
+2.grammage quantity wrong
+found as 9+300g in data, 300g in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/select-gold-9-senior-300-g-1407044/"
+
+DataHut_AT_Dm_PriceExtractions_20250610.CSV
+------------------------------------------
+"in site_shown_uom fields
+some values contains dot 
+and others contains comma.
+eg:  12,5 g ,16.5 g "
+
+DataHut_AT_Mpreis_FullDump_20250612.CSV
+------------------------------------------
+1.image_url_1 found,
+file_name_1 is empty"
+
+2.site_shown_uom missing for 441 entries.
+3."grammage_quantity
+wrong in data.
+07 l in data,0.7l in site
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ampreis%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.mpreis.at/shop/p/zacapa-solera-gran-reserva-no-23-0-122853"
+
+DataHut_AT_Bipa_FullDump_20250612.CSV
+-------------------------------------
+1."6 image fields contains value
+but all file names are empty"
+2.Inhalt': ['X'] for 4
+rows
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abipa%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.bipa.at/p/B3-577663"
+3.instock contains both true and False
+
+
+DataHut_DE_Knuspr_FullDump_20250610.CSV
+---------------------------------------
+1.empty fields
+store_name,store_addressline1,store_addressline2,store_suburb,store_state,store_postcode,store_addressid,brand_type,drained_weight,producthierarchy_level3,producthierarchy_level4,producthierarchy_level5,producthierarchy_level6,producthierarchy_level7,promotion_valid_from,promotion_type,package_sizeof_sellingprice,per_unit_sizedescription,price_valid_from,multi_buy_item_count,multi_buy_items_price_total,variants,instructions,storage_instructions,preparationinstructions,instructionforuse,age_of_the_product,age_recommendations,flavour,nutritions,vitamins,labelling,grade,region,packaging,receipies,processed_food,barcode,frozen,chilled,cooking_part,handmade,max_heating_temperature,special_information,label_information,dimensions,special_nutrition_purpose,feeding_recommendation,warranty,color,model_number,material,usp,dosage_recommendation,tasting_note,food_preservation,size,rating,review,file_name_1,file_name_2,file_name_3,file_name_4,file_name_5,file_name_6,competitor_product_key,fit_guide,occasion,style,care_instructions,heel_type,heel_height,upc,features,dietary_lifestyle,importer_address,distributor_address,vinification_details,recycling_information,return_address,beer_deg,netcontent,netweight,random_weight_flag,promo_limit,multibuy_items_pricesingle,perfect_match,servings_per_pack,suitable_for,standard_drinks,environmental,grape_variety,retail_limit
+
+2.breadcunb missing for Count: 2860 rows
+3.price_per_unit contains multiple dot prices(in 226 rows)
+eg:1.447.50€/l
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_germany-poc%3Aknuspr&fieldname=pdp_url&fieldvalue=https%3A//www.knuspr.de/83400-hylo-comod-augentropfen
+
+
+DataHut_AT_Mueller_FullDump_20250612.CSV
+----------------------------------------
+1."file_name_1', 'file_name_2', 'file_name_3', 
+'file_name_4', 'file_name_5', 'file_name_6'
+are also empty"
+2."product description
+found as paragraph"
+3.instock contains both true and False
+
+DataHut_AT_Fressnapf_FullDump_20250612.CSV
+------------------------------------------
+1."file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6', 'netcontent are empty
+
+2.dimensions is not empty.
+3."product description
+found as paragraph"
+4."mistake found in price per unit.
+price per unit found as € 19,49/kg
+in site,€19490.00/kg in data.
+also grammage quantity and unit found as 
+4 kg in data,but price of 1 kg found in site and data.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/ardap-spot-on-fuer-kleintiere-von-1-4-kg-1201690/"
+
