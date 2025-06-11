@@ -1,0 +1,153 @@
+
+bayut_uae_2025_06_02.json
+-------------------------
+
+"1.brn_registration_number found as 
+""BRN: 202402125458"" for 97 rows
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Abayut_uae&fieldname=url&fieldvalue=https%3A//www.bayut.com/property/details-11657467.html
+
+2.brn_registration_number found as ""MUHAMMAD SOHAIB SHAFIQUE MUHAMMAD""
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Abayut_uae&fieldname=url&fieldvalue=https%3A//www.bayut.com/property/details-11739685.html"
+
+3.currency is missing for 54 rows
+4.new fields are
+  """orn_number"",
+    ""bln_number"" ,
+    ""adm_number"" ,
+    ""3d_live"",
+    ""3d_image"" ,
+    ""2d_image"" ,
+""ded_number_2"",
+""ded_number_3"",
+""ded_number_4"",
+""trucheck_on"",""email"",""truboker"",""rating"",""no_of_reviews"",""property_of_the_week"
+
+
+DataHut_IT_Easycoop_PriceExtractions_20250611.CSV
+-------------------------------------------------
+"1.promotion valid
+upto is found as 
+ 2025-06-09.for 11 rows.
+expired.so there is a change
+in price per unit and price.
+eg:
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aeasycoop&fieldname=pdp_url&fieldvalue=https%3A//www.easycoop.com/libera-terra-scamorza-di-latte-di-bufala-biologica-libera-terra-250-g-4765625.html
+
+
+2.price change found
+price per unit found as 30.00 €/KG anf price found as 7,50 € in site.
+but 28.00 €/KG and 7,00 found in data.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aeasycoop&fieldname=pdp_url&fieldvalue=https%3A//www.easycoop.com/lonza-con-funghi-b-m-gastronomia-250-g-4771445.html
+
+3.price per unit wrong.
+0.28 €/PZ in site,41.19 €/KG in data,
+https://www.easycoop.com/nescafe-dolce-gusto-nescafe-dolce-gusto-caffe-ginseng-caffe-al-ginseng-16-capsule-108-8-g-4631605.html"
+
+4.extraction_date 
+['2025-06-10'] day found as 10.
+
+DataHut_CH_Lidl_PriceExtractions_20250611.CSV
+----------------------------------------------
+"1.site shown uom empty for 222 fields
+2.site shown uom and price per unit 
+found same
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland%3Aprice-daily%3Alidl&fieldname=pdp_url&fieldvalue=https%3A//sortiment.lidl.ch/de/catalog/product/view/id/16597/s/san-pellegrino-sanbitter-0003819/category/54/
+
+same issue
+https://sortiment.lidl.ch/de/catalog/product/view/id/11821/s/schweizer-lauchzwiebeln-0082236/category/54/"
+
+DataHut_SI_Spar_PriceExtractions_20250611.CSV
+--------------------------------------------
+"1.grammage quantity
+and unit is found as
+1kg in site,1500g in data
+and price is found for
+1500g.
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Aspar&fieldname=pdp_url&fieldvalue=https%3A//www.spar.si/online/domaci-premium-piscanec-ik-ave-panvita-1kg/p/654519"
+
+
+DataHut_AU_Coles_FullDump_20250611.CSV
+-------------------------------------
+1.file_name_1 is empty
+2."price not found in site
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_australia-weekly%3Acoles&fieldname=promotion_price&fieldvalue=9.00"
+
+3."grammage unit found as 
+['g' 'kg' 'pack' 'each' 'ml' 'l' 'piece' 'm' 'pair' 'carton' 'mg' 'bunch'
+ 'cm'] 
+
+
+DataHut_IT_Conad_PriceExtractions_20250611.CSV
+---------------------------------------------
+1.site shown uom contains comma
+2.price change found.
+price per unit is 3,44 € / L
+and price is 4,21€ in site.
+in data price per unit is
+3.11 € / L and price is 3.81.
+
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aconad&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.conad.it/p/vert-di-chanteclair-lavatrice-fresco-profumo-di-eucalipto-ecoricarica-1224-ml--10831467"
+
+DataHut_IT_Esselunga_PriceExtractions_20250611.CSV
+-------------------------------------------------
+"1.promotion valid upto
+expired. so price change found.
+09/06/2025 (Count: 44)
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aesselunga&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/312041/ehrmann-high-protein-caramel-pudding-200-g
+
+ 10/06/2025 (Count: 505)
+
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aesselunga&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/312041/ehrmann-high-protein-caramel-pudding-200-g
+
+2.price per unit found as
+100,00 € / pz. empty in data
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/641060/volagratis-card-virtuale-da-100-euro
+
+
+3.price changes found.
+price per unit is 0,06 € / pz,price is 3.39 and 2.37 in site.
+in data price per unit is 0.07 € / pz and prices are 3.49,2.44.
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/856008/fresh-clean-personal-care-maxi-salviette-umidificate-40-pezzi"
+
+4.unique id is not unique
+5.date format in promotions found as wrong. eg:01/01/2026 
+
+
+noragardner_2025_06_11_sample.csv
+---------------------------------
+1.product_sku,brand are taken from backend
+2.category not found in site
+3.all reviews are taken as review_text
+4.date_of_purchase ,place_of_purchase empty.,so product_sku and url repeated as of no of reviews.
+
+
+machinerytrader_2025_06_11.csv
+-----------------------------
+
+"1.BreakoutForce
+found as dot and comma
+value
+ eg:6,543.4 lb
+
+2.capacity field have both dot
+and comma separated value
+ eg:2,222.22 cu yd
+
+3.text found in company number
+eg:+1 905-857-6200 ext. 1
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=mascus-daily%3Amachinerytrader&fieldname=url&fieldvalue=https%3A//www.machinerytrader.com/listing/for-sale/243327995/2005-ford-f550-xl-sd-dump-trucks
+
+4.FrontAxleLbs found as 11,999.76 lb(dot and comma separated)
+5.GrossVehicleWeight found as 29,500.06 lb 
+6.lift capacity found as 4,078.5 lb 
+7.OperatingWeight  found as 1,962.11 lb
+8.RearAxleLbs contains both dot and comma separatedvalues .
+eg:20,999.03 lb
+
+9.ShippingWeight found as 19,246.6 lb
+10.Tipload contains 21,164.4 lb
+11."two category column found.
+Category and category"
+12.no of fields found as 632
