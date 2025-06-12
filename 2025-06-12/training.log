@@ -1,0 +1,158 @@
+DataHut_AT_Fressnapf_FullDump_20250612.CSV
+-----------------------------------------
+"1.grammage quantity 
+wrong. found as 4kg in data.
+price is 19.49 and price per unit 
+is 19.49/kg.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/ardap-spot-on-fuer-kleintiere-von-1-4-kg-1201690/
+
+2.grammage quantity wrong. found as 1 000kg in data,
+price per unit is 4.49/kg and price is 4.49.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/vitakraft-menu-vital-meerschweinchen-1000-kg-1004435/"
+
+3."product description
+found as paragraph.
+
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/4cats-pet-airs-schutzkragen-xs-1269007/"
+
+4."file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6', 'netcontent are empty
+
+5.dimensions is not empty."
+
+6.image found in png format
+  eg: https://media.os.fressnapf.com/products-v2/0/0/0/7/0007488abf2f616bd9ef1fab0a696f0e0a044f5d_1310285_0.PNG?t=prod_l
+
+DataHut_AT_Mpreis_FullDump_20250612.CSV
+----------------------------------------
+"1.mistake found in promotion 
+price and price per unit.
+promotion price is not found in site,
+price per unit is 0,79€ /l in site ,
+0.39€ /l in data
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ampreis&fieldname=pdp_url&fieldvalue=https%3A//www.mpreis.at/shop/p/alpquell-mild-10-liter-420008
+
+2.promotion description not found in site.
+in data ab 6 billiger found, 
+so there is a change in price and priceper unit.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ampreis&fieldname=pdp_url&fieldvalue=https%3A//www.mpreis.at/shop/p/red-bull-bio-organics-simply-cola-025-liter-dose-109124
+
+
+same issue 
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ampreis&fieldname=pdp_url&fieldvalue=https%3A//www.mpreis.at/shop/p/coca-cola-tray-6-x-10-liter-106165"
+
+3.image_url_1 present, but file_name_1 is empty 
+  images are in jpg format
+4.site shown uom missing for 459 entries
+5."mistake found in breadcrumb.
+Einweg tag is taken along with breadcrumb.
+
+eg:in site breadcrumb found as
+Startseite > Getränke > Wasser, Limonaden & Energy drinks > Mineralwasser > mild 1,0 Liter 
+and in data
+Startseite > Getränke > Wasser, Limonaden & Energy drinks > Mineralwasser > mild 1,0 Liter (Einweg)
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ampreis&fieldname=pdp_url&fieldvalue=https%3A//www.mpreis.at/shop/p/alpquell-mild-10-liter-420008"
+
+
+DataHut_AT_Bipa_FullDump_20250612.CSV
+-------------------------------------
+"1.Aktion tag and 
+2+1 gratis found in site,
+not found in data.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abipa&fieldname=pdp_url&fieldvalue=https%3A//www.bipa.at/p/B3-304773
+
+same issue
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abipa&fieldname=pdp_url&fieldvalue=https%3A//www.bipa.at/p/B3-432785
+
+
+2.promotion description found in site as -€1.17 in data,
+no aktion tag found
+but aktion tag found in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abipa&fieldname=pdp_url&fieldvalue=https%3A//www.bipa.at/p/B3-487438"
+
+3."file_name_1', 'file_name_5', 'file_name_4', 'file_name_3', 'file_name_2', 'file_name_6'
+empty"
+
+
+DataHut_AT_Dm_FullDump_20250612.CSV
+----------------------------------
+"1.product description 
+found as paragraph
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Adm&fieldname=pdp_url&fieldvalue=https%3A//www.dm.at/jessa-diskret-hygiene-einlagen-maxi-super-p7332152213131.html"
+
+2."retail_limit'
+is not empty.
+
+3.file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6
+are empty
+
+4.site shown uom contains both comma and dot separated values
+
+5."wrong image url found
+ https://products.dm-static.com/f_auto,q_auto,c_fit,w_1200,h_1200/not-found/"
+
+6.feeding reccomendation found 
+incomplete.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Adm&fieldname=pdp_url&fieldvalue=https%3A//www.dm.at/vitakraft-nassfutter-katze-poesie-classique-poultry-choice-p4008239589798.html
+
+7."price_per_unit field
+contains comma
+eg: 0,15 € je 100 ml"
+
+
+DataHut_HU_Tesco_FullDump_20250612.CSV
+--------------------------------------
+1."extra character found in product name
+eg:Pantene Pro-V Sampon, Inifnitely Long \\| Erősíti És Táplálja, Károsodott Hajat \\| 400 m
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005105006005"
+
+2.brand', 'producthierarchy_level4'
+are not empty.
+
+3.file_name_1', 'file_name_2', 'file_name_3', 'file_name_4'
+are empty
+
+
+DataHut_HU_Wolt_FullDump_20250612.CSV
+-----------------------------------
+1.unique id is not unique
+2."date found as
+'2025-06-11'
+3.file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'image_url_5', 'file_name_6', 'image_url_6 are empty
+4.promotion price and price_was is empty
+5."1.price change found.
+price_per_unit found as
+330,20 Ft/kg and
+price found as 1651 Ft in site.
+
+in data, price per unit found as
+329.6 Ft/1kg and price found as
+1648.00
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Awolt&fieldname=selling_price&fieldvalue=1648.00"
+
+
+
+noragardner_2025_06_12.csv
+-----------------------
+no issues
+
+mmlafleur_2025_06_12.csv
+--------------------------
+1."review found in data, not found in site.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=hydecloset-poc%3Ammlafleur&fieldname=url&fieldvalue=https%3A//mmlafleur.com/products/teddy-navy-ivory
+
+as of data,there should have two reviews in the site,but no review found"
+
+2."duplicate review found for same product.
+review text is
+""It is a beautiful shirt . I will be returning it as it does not flatter my hour glass figure""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=hydecloset-poc%3Ammlafleur&fieldname=url&fieldvalue=https%3A//mmlafleur.com/products/owen-t-shirt-pima-cotton-black
+
+
+
+
+DataHut_AT_Mueller_FullDump_20250612.CSV
+DataHut_AT_Billa_FullDump_20250612.CSV
+
+"
