@@ -1,0 +1,191 @@
+DataHut_CH_Denner_FullDump_20250612.CSV
+---------------------------------------
+"1.page not found
+line 1
+https://www.denner.ch/de/aktionen-und-sortiment/alle-produkte-von-camille-bloch-ragusa-und-torino~pe9b756be-faff-4b24-9eef-77bc046c899e?variant=4d4a20ba-fb94-4e36-8667-ad2adadee392
+
+
+2.image url found as 
+"" https://denner.imgix.net/assets/00000000-0000-1000-8000-000000000000/denner_d.png?auto=format,compress&crop=faces&w=620&h=730&fit=fill"" for 7 rows
+
+eg:line 224
+https://www.denner.ch/de/aktionen-und-sortiment/ip-suisse-schweinshalssteaks~p661474?variant=b599eab0-124e-452f-975c-2bc7a3723aed
+
+3."producthierarchy_level7
+is not empty
+
+
+4.file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'image_url_4'
+is empty"
+
+5."unique id found as
+""e9b756be-faff-4b24-9eef-77bc046c899e""
+line 1
+https://www.denner.ch/de/aktionen-und-sortiment/alle-produkte-von-camille-bloch-ragusa-und-torino~pe9b756be-faff-4b24-9eef-77bc046c899e?variant=4d4a20ba-fb94-4e36-8667-ad2adadee392
+
+""2c538c0d-c9e8-4fcf-b838-2ca632cb01b7""
+line 3
+https://www.denner.ch/de/aktionen-und-sortiment/auf-alle-ip-suisse-produkte~p2c538c0d-c9e8-4fcf-b838-2ca632cb01b7?variant=4c98dce4-7e77-4723-9aa3-1aa3365a6c6f
+"
+
+
+DataHut_CH_Lidl_FullDump_20250612.CSV
+-------------------------------------
+1.breadcrumb found wrong for many fields.
+eg:Sortiment > Sortiment > 1/2 Walliser Mutschli
+in data, 
+Startseite > Sortiment > 1/2 Walliser Mutschli in site
+line 1778
+https://sortiment.lidl.ch/de/catalog/product/view/id/14298/s/1-2-walliser-mutschli-5109283/category/54/
+"
+2.page not found
+line 2671
+ https://www.lidl.ch/p/de-CH/trisa-elektrische-pfeffer-salzmuehle-pure-elegance-aktion-nur-in-der-deutschschweiz-gueltig/p10037051
+
+3."file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6'
+are empty
+
+4.site shown uom missing for 46 fields
+
+
+DataHut_SI_Dm_PriceExtractions_20250617.CSV
+------------------------------------------
+"1.grammage quantity and
+unit found as 1.000g in data,
+but is 1000g(1kg) and price is taken for
+1000g
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Adm&fieldname=pdp_url&fieldvalue=https%3A//www.dm.si/babylove-bio-sadna-kasica-z-jagodami-borovnicami-in-jabolkom-10x100g-p2090000401714.html
+"
+DataHut_SI_Spar_PriceExtractions_20250617.CSV
+---------------------------------------------
+"1.promotion description found as 
+""Trajno znižano"" in data
+""Trajno znižano"" and 20% CENEJE
+in site.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Aspar&fieldname=pdp_url&fieldvalue=https%3A//www.spar.si/online/belo-vino-malvazija-simcic-075l/p/494221
+
+2.promotion description found as ""Trajno znižano""
+in data and site, but only single price found in site and 
+differernt  price found in data.
+price pand price_per_unit in site is 4,99 €,  (6,65 €/l)
+and in data 3.69,4.92€/l
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Aspar&fieldname=pdp_url&fieldvalue=https%3A//www.spar.si/online/merlot-andes-075l/p/644845"
+
+3."promotion description wrong, no promotion found. in data found as 
+""IMMUNE SHOT Nutralux, 500 ml"" as promotion
+and product name is 
+'PREHRANSKO DOPOLNILO V TEKOČINI IMMUNE SHOT, NUTRALUX, 500ML""
+price was is taken as price of 1L.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Aspar&fieldname=pdp_url&fieldvalue=https%3A//www.spar.si/online/prehransko-dopolnilo-v-tekocini-immune-shot-nutralux-500ml/p/622982"
+
+DataHut_SI_Mercator_PriceExtractions_20250617.CSV
+-----------------------------------------------
+1. logical error.
+price per unit found as
+0.38€ / kos, grammage
+quantity and unit found as 1
+kos, price found as 2,29€
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/18077306/jajca-m-prosta-reja-mercator-6-1
+
+same issue
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/17026888/jajca-m-hlevska-reja-mercator-10-jajc
+
+
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/17961253/jajca-l-hlevska-reja-mercator-10-1"
+
+
+
+
+
+DataHut_CH_Migros_FullDump_20250612.CSV
+--------------------------------------
+"1.missing for 6966 fields
+2.site shown uom found as 0M"
+3."producthierarchy_level5 is not empty.
+4.file_name_1 is empty
+5.breadcrumbs empty for 10 rows
+6."logical error.
+price per unit is 
+0.43/Stück, 
+grammage quantity and unit is
+1 stuck, price is
+4.25.
+line 19824
+https://www.migros.ch/de/product/520675500000
+"
+DataHut_CH_Coop_FullDump_20250612.CSV
+------------------------------------
+1.site shown uom is missing for 4304 rows
+2."file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6
+are empty"
+
+3.regular price "found as 0.00 in 45 rows
+eg:line 24024
+https://www.coop.ch/de/lebensmittel/getraenke/soft-drinks/cola-limonaden/cola/gratis-pepsi-zero/p/7403521
+
+
+DataHut_DE_Knuspr_FullDump_20250617.CSV
+---------------------------------------
+1."price found in data,
+not found in site
+line 17083
+https://www.knuspr.de/100031-followfood-bio-stieleis-mango-passionsfrucht-figgo-by-teddy-teclebrhan-3-x-65ml
+
+2.price_per_unit found as 0.0 €/l in data
+no price found in site
+line 13614
+https://www.knuspr.de/99918-vitamin-well-zero-raspberry-einweg
+
+
+3."site shown uom contains
+comma seperated values
+4.breadcrumbs missing for 2860 rows
+5."ingradients found as
+""x "" for  3 rows.
+
+6."image_url_1 is in svg format
+eg:https://cdn.knuspr.de/images/company/knuspr-placeholder.svg
+for 12 rows
+
+ https://cdn.knuspr.de/images/company/preussen-placeholder.svg (Count: 8)
+
+
+DataHut_DE_Flaschenpost_FullDump_20250617.CSV
+--------------------------------------------
+"1.price_per_unit contains double dot
+   2.995.00 €/kg
+   https://www.flaschenpost.de/p/ostmann/ostmann-feine-vanille-stange
+   36.900.00 €/kg
+   https://www.flaschenpost.de/p/ostmann/ostmann-safran-gemahlen
+
+2.price per unit found as (11,99 €/L)in site, 13.32 €/L in data.
+https://www.flaschenpost.de/p/fuerst-von-metternich/fuerst-von-metternich-riesling-deutscher-qualitaetswein-rheingau
+
+
+
+DataHut_AT_Fressnapf_FullDump_20250619.CSV
+------------------------------------------
+"1.""file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6', 'netcontent are empty
+
+2.dimensions is not empty."""
+3."grammage quantity and unit 
+wrong, found as 56l in data, 500g in site.
+also price prt unit is € 16,98/kg and price is € 8,49
+line 8586
+
+https://www.fressnapf.at/p/multifit-kleintierstreu-56-l--heu-mit-loewenzahn-500-g-1310109/
+4.site shown uom same as product name
+5."images with .png
+format found.
+eg: https://media.os.fressnapf.com/products-v2/0/0/0/7/0007488abf2f616bd9ef1fab0a696f0e0a044f5d_1310285_0.PNG?t=prod_l (Count: 1)
+line 6658
+https://www.fressnapf.at/p/multifit-mellos-trockenfutter-hund-adult-mini-rind-und-karotten-1-kg-1310285/
+
+
+DataHut_AT_Mueller_FullDump_20250619.CSV
+----------------------------------------
+1."file_name_4', 'file_name_2', 'file_name_1', 'file_name_5', ' 'file_name_6', 'file_name_3'
+are empty"
+2.product description is paragraph
+3.image urls are present, file names are empty
