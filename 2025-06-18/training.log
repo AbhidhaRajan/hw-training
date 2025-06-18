@@ -1,0 +1,264 @@
+DataHut_AT_Interspar_FullDump_20250619.CSV
+------------------------------------------
+"1.'age_recommendations'
+is not empty.
+
+2.'file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6'
+are empty"
+
+3."site shown uom contain only number.
+line 21910
+https://www.interspar.at/shop/lebensmittel/simpex-basic-kleidersack-vakuum-1/p/2020001803514"
+
+4.alcohol by volume "contains comma
+insted of dot"
+5."replaced with \\ in
+nutritional information.
+eg:{'Durchschnittliche Nährwerte': {'Biotin': '500 g \\| 1000 %', 'Zusatztext': 'Nahrungsergnzungsmittel sind kein Ersatz fr eine ausgewogene und abwechslungsreiche Ernhrung und eine gesunde Lebensweise.'}}
+line 11631"
+
+6." logical error.
+grammage quantity and unit
+found as 5+1 stuck, price_per_unit
+is 6,49 €/Stück and price is 6.49.
+line 21480
+https://www.interspar.at/shop/lebensmittel/scholl-blasenpflaster-fersen-5-1-stueck/p/2020004188854
+
+
+7.promotion valid upto expired
+found as 17.06.2025 for 1062 fields. and 
+18.06.2025 (Count: 68)
+
+
+8.regular price and selling_price found as 0.00 for 1 row"
+
+
+DataHut_SI_Dm_FullDump_20250619.CSV
+-----------------------------------
+1."file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6
+are empty"
+2.date found as found as '2025-06-18'
+3.instock true only
+
+DataHut_SI_Spar_FullDump_20250619.CSV
+-------------------------------------
+1."producthierarchy_level7', 'file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6'
+are empty"
+2.extraction date found as '2025-06-18'
+3."site shown uom
+contains comma"
+4."alcohol by volume and netweight
+contains comma insted of dots"
+
+DataHut_HU_Tesco_FullDump_20250619.CSV
+--------------------------------------
+"1.grammage quantity 
+wrong.
+found as 1250g in data.
+price per unit is 2 086 Ft/kg
+and price is 1669ft.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005105003009
+
+2.grammage quantity found as 2000g, price per unit is 5 840 Ft/kg
+and price is 584 Ft,(price is taken for 100g)
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004002639853
+
+
+same issue. 
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004005899162
+
+same issue
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004007584547"
+
+3."price and price_per unit found in site
+not found in data.(empty in data)
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005105006947
+
+4."promotion valid upto found as 
+ 2025. 06. 18 for 56 rows"
+
+5."date found as 
+2025-06-18"
+
+6.brand', 'producthierarchy_level4', 'image_url_5'
+are not empty.
+
+7.'file_name_1', 'file_name_2', 'file_name_3', 'file_name_4
+are empty"
+
+DataHut_HU_Tesco_PriceExtractions_20250618.CSV
+----------------------------------------------
+"1.grammage quantity and unit found as 
+1000g. price per unit is 1 574 Ft/kg,
+price is found as 1 259 Ft, price is taken for 800g.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004020319292
+
+2.grammage quantity and unit found as 
+1050g. price per unit is 3 875 Ft/kg,
+price is found as 2 519 Ft.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004007723878
+
+3.grammage quantity and unit taken from product name.
+found as 2014g in data, product name is
+""Snow Meister SM2014G zöld fém karácsonyfa talp""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005100504453"
+
+4.promotion description found in site as
+clubcard ar 3633 ft, normal ar 5190.
+not found in data.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005105028812"
+
+5."price and price per unit 
+found in site, empty in data.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004020287217
+
+same issue
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005100960107
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005105446627"
+
+DataHut_IT_Esselunga_FullDump_20250618.CSV
+------------------------------------------
+"1.alchol_by_volume 
+contains comma separated values
+
+2.preparationinstructions contains \\
+eg:Forno elettrico: 220 °C - 230 °C \\| ventilato: 200 °C \\|
+
+3.promotion valid upto expired.
+16/06/2025 (Count: 22)
+ 17/06/2025 (Count: 466)"
+
+4."price found as 5.30
+in site, 5.29 in data.
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/714046/esselunga-suino-italiano-salsiccia-per-griglia.
+
+5.price change found. price per unit found as 32,25 € / kg in site,34.88 € / kg in data.
+regular and selling price are 3.99,2.77 in data.
+3.69,2.58 in site.
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/770806/lenti-roastbeef-allinglese-80-g"
+
+6."file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6'
+are empty"
+7.extraction date found as '2025-06-16
+
+
+DataHut_IT_Easycoop_FullDump_20250618.CSV
+-----------------------------------------
+1."promotion valid upto 
+found as expired,so price change found.
+2025-06-11 (Count: 11)
+ 2025-06-16 (Count: 99)
+ 2025-06-17 (Count: 385)
+
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-monthly%3Aeasycoop&fieldname=pdp_url&fieldvalue=https%3A//www.easycoop.com/biffi-biffi-insalata-capricciosa-100-vegetale-175-g-7133006.html
+
+ 2.extraction "date found as 
+'2025-06-17"
+
+3."pdp_url found wrong
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-monthly%3Aeasycoop&fieldname=pdp_url&fieldvalue=https%3A//www.easycoop.com/martini-spiedini-di-suino-1-096-kg-3909400.html"
+
+4.site shown uom is same as product name
+5."file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6
+are empty"
+
+DataHut_IT_Conad_FullDump_20250618.CSV
+-------------------------------------
+"1.promotion description found as ""0""
+but promotion price and regulr price found 
+in data,
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-monthly%3Aconad&fieldname=promotion_price&fieldvalue=4.76
+
+2.logical error found.
+price per unit found as 0,00 € / Kg.  grammage quantity and unit is 375g,
+price found as 1,79€
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-monthly%3Aconad&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.conad.it/p/purina-friskies-gatto-junior-con-un-gustoso-mix-di-pollo-e-tacchino-con-latte-e-con-verdure-375-g--0827708
+
+
+3.price per unit found as 99800,00 € / Kg, grammage quantity and unit found as 22,5 g
+and price found as 4,99€
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-monthly%3Aconad&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.conad.it/p/langelica-rilassamento-le-8-erbe-del-rilassamento-multifunzione-50-compresse-225-g--11796991
+
+4.price change found.
+price_per unit in data found as 11.95 € / Kg, in site found as 12,25 € / Kg
+regular and promotion prices in data found as 2.45 and 2.39.
+but in site is found as 2.45 and 2.19
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-monthly%3Aconad&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.conad.it/p/vallelata-fior-di-latte-8-bocconcini-200-g--10774737"
+
+5."file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6
+are empty"
+
+DataHut_AT_Billa_FullDump_20250619.CSV
+-------------------------------------
+"1)nutritional_information contains empty
+dictionary,{}
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abilla%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/frosch-wc-essigreiniger-00100696
+
+2)price value found as integer
+eg: 047 (Count: 1)
+ 069 (Count: 1)
+ 075 (Count: 1)
+ 089 (Count: 8)
+ 092 (Count: 2)
+ 099 (Count: 3)
+109 (Count: 4)
+118 (Count: 1)
+ 119 (Count: 1)
+219 (Count: 3)
+259 (Count: 1)
+279 (Count: 1)
+ 308 (Count: 2)
+329 (Count: 6)
+ 349 (Count: 2)
+350 (Count: 3)
+ 357 (Count: 1),397 (Count: 2),469 (Count: 5),542 (Count: 1),
+
+ eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abilla%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/juvina-mineralwasser-prickelnd-0021803
+ in this price found as 069, insted of 0.69
+
+
+3.regular price and price per unit data found as ""6.79"" and ""1 Liter 8.13 €""
+in site is found as ""7,29 €"" and ""1 Liter 8,50 €
+""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abilla%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/eskimo-magnum-double-gold-caramel-billionaire-00464896"
+
+
+4.promotion description 
+found as je 3 Dosen,
+but regular, selling price and price was contains same 
+value. only promotion price is having promotion value
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abilla%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/vier-diamanten-thunfisch-naturell-00415575
+
+5.promotion price found as integer
+119 in data,but found as 1.19 in site. also aktion tag found in site, not found in data.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abilla%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/goesser-bio-stoff-00742269"
+
+6."image url repeated
+eg: https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-100119-0858414251-mbBu1ac1.jpg (Count: 2)"
+
+7.pdp_url is not unique for 7 rows
+
+8.product description found as paragraph
+
+9."product name found as 
+Gösser Bio Stoff 500 ml
+in data,
+Gösser Bio Stoff
+Gösser in site
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abilla%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/goesser-bio-stoff-00742269
+
+
+10.product name and site shown uom found as 
+""Eskimo Magnum Double Gold Caramel Billionaire 440 ml Becher 1 000 ml Packung 1 000 ml Packung 1 000 ml Packung 1 000 ml Packung 1 000 ml Packung 1 000 ml Packung 1 000 ml Packung 1 000 ml Packung 1 000 ml Packung 500 ml Becher 460 ml Becher 460 ml Becher 460 ml Becher""
+in data.
+in site is found as ""Eskimo Magnum Double Gold Caramel Billionaire
+Eskimo
+440 ml Becher""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abilla%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/eskimo-magnum-double-gold-caramel-billionaire-00464896
+
+
+11."file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6', 'retail_limit
+
+are empty"
