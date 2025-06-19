@@ -1,0 +1,180 @@
+DataHut_HU_Tesco_FullDump_20250619.CSV
+-------------------------------------
+"1.brand name found as 
+B.U in site, B.U. in 20 rows
+eg;http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005105483946
+"
+2.'brand', 'producthierarchy_level4', 'image_url_5'
+are not empty.
+
+3.'file_name_1', 'file_name_2', 'file_name_3', 'file_name_4
+are empty
+
+4.grammage quantity
+and unit found as 60db 
+in data,product name is
+""1×1 Vitamin D3-vitamin 2000 NE étrend-kiegészítő filmtabletta 60 x 320 mg (19,2 g)""
+it contains 60x320 mg or 19.2g
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004020223843
+
+
+5.grammage quantity found as 2000g, price per unit is 5 840 Ft/kg
+and price is 584 Ft,(price is taken for 100g)
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004002639853
+
+6.model number found in product name is taken as grammage quantity and unit.
+product name is ""Snow Meister SM2014G zöld fém karácsonyfa talp""
+grammage quantity and unit is 2014 g.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005100504453
+
+7.grammage quantity found as 800x800 g in data,
+product name is ""Purina One Junior csirkében gazdag, teljes kiőrlésű gabonákkal száraz macskaeledel 800 g""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004010272233
+
+8..price and price_per_unit found in site.
+not found in data.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005105446626
+
+9.clubcard ar found in site
+not found in data.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005100960099
+
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005100959340
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005100959342"
+
+DataHut_SI_Dm_FullDump_20250619.CSV
+----------------------------------
+1."file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6
+are empty"
+2.instock contains true only
+3."invalid image
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia-weekly%3Adm&fieldname=pdp_url&fieldvalue=https%3A//www.dm.si/sundance-losjon-za-nego-koze-po-soncenju-after-sun-p4066447503074.html"
+
+DataHut_SI_Spar_FullDump_20250619.CSV
+------------------------------------
+1.producthierarchy_level7', 'file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6'
+are empty"
+2."site shown uom
+contains comma"
+3.instock contains true only
+4."alcohol by volume and netweight
+contains comma insted of dots."
+
+DataHut_SI_Mercator_FullDump_20250619.CSV
+----------------------------------------
+"1.alcohol by volume 
+field contains comma separated values
+
+2.promotion description found in data and
+site promotion price  found in site not found in data.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia-weekly%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/18447561/kava-v-kapsulah-classico-rdeca-illy-18-1-120-6-g"
+
+3."grammage quantity and unit
+found as 1 kos,price per unit
+found as  0,24€ / kos
+but price found as 2,35€
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia-weekly%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/18342686/jajca-l-hlevska-reja-mercator-10-1"
+
+4."file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6
+are empty"
+
+5.site shown uom is same as product name
+
+
+DataHut_CH_Coop_FullDump_20250619.CSV
+-------------------------------------
+1.regular price "found as 0.00 for 46 rows
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland-weekly%3Acoop&fieldname=pdp_url&fieldvalue=https%3A//www.coop.ch/de/lebensmittel/brot-backwaren/cracker-knaeckebrot/reiswaffeln/gratis-reis-maiswaffel-sour-cream-onion/p/7439505"
+
+2."grammage quantity and unit found as 360g
+but it belongs to ""Fleisch & Fisch"" category,
+so is should be taken from price per unit.
+price per unit is 4.71/100g.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland-weekly%3Acoop&fieldname=pdp_url&fieldvalue=https%3A//www.coop.ch/de/lebensmittel/tiefgekuehlt/fleisch-fisch/fisch-meeresfruechte/ganze-fische-filets/bio-lachsfilet-mit-haut-2x180g/p/7015901"
+
+DataHut_AT_Dm_FullDump_20250619.CSV
+----------------------------------
+"1.product description 
+found as paragraph
+
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Adm&fieldname=pdp_url&fieldvalue=https%3A//www.dm.at/maybelline-new-york-mascara-the-colossal-volum-express-100-prozent-black-p30174931.html"
+2."retail_limit'
+is not empty.
+
+file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6
+are empty"
+
+3.site shown uom contains both comma and dot separated values
+4."image url found wrong.
+ https://products.dm-static.com/f_auto,q_auto,c_fit,w_1200,h_1200/not-found/ (Count: 14)
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Adm&fieldname=pdp_url&fieldvalue=https%3A//www.dm.at/ebelin-haargummis-mini-p4066447499551.html"
+
+5."price_per_unit column contains
+comma."
+
+
+DataHut_AT_Fressnapf_FullDump_20250619.CSV
+-----------------------------------------
+"1.dimensions is not empty.
+
+2.file_name_1, file_name_2, file_name_3, file_name_4, file_name_5, file_name_6, netcontent are empty."
+3."product_description found as
+ paragaraph"
+
+4.grammage quantity is wrong.
+taken from product name.
+product name is "MultiFit Set 56l bedding + 500g hay"
+and grammage quantity is 56l.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/multifit-set-56l-einstreu--500g-heu-1310103/
+
+
+same issue.in this case product name is "MultiFit Small Animal Bedding 56 L & Hay with Dandelion 500 g".,grammage quantity and unit is 56l, price per unit is
+(€ 16.98/kg) and price is  €8.49
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/multifit-kleintierstreu-56-l--heu-mit-loewenzahn-500-g-1310109/
+
+5.grammage quantity wrong.
+found as 9x12 in data, 7x9x12 in site. and also price is taken for 7x9x12
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/sheba-beutel-creamy-snacks-7x-9x12g-huhn-und-lachs-1706488/
+
+same issue, grammage quantity found as 7x15 in data, 11x7x15 in site.
+price is taken for 11x7x15
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/multifit-snack-cream-11x7x15g-gefluegel-leberund-biotin-1127815/
+
+6.site shown uom same as product name
+7."imgae url in png format found.
+
+eg: https://media.os.fressnapf.com/products-v2/0/0/0/7/0007488abf2f616bd9ef1fab0a696f0e0a044f5d_1310285_0.PNG?t=prod_l (Count: 1)
+"
+8."feeding recommendation
+found as dictionary in data."
+
+DataHut_AT_Bipa_FullDump_20250619.CSV
+-----------------------------------
+"1.product name and grammage quantity found as wrong.
+
+product name found as ""Pants 1056 g"" in data and grammage quantity and unit
+found as 1056g. but in site product name found as ""Pants 5"" and grammage quantity and unit found as 33 Stück
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abipa&fieldname=pdp_url&fieldvalue=https%3A//www.bipa.at/p/B3-604845
+
+same issue
+product name found as ""Premium Windeln 1560 g"" in data and grammage quantity and unit
+found as 1560g. but in site product name found as ""Premium Windeln 6""and grammage quantity and unit found as 40 Stück
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abipa&fieldname=pdp_url&fieldvalue=https%3A//www.bipa.at/p/B3-604796
+
+
+2.file_name_1, file_name_2, file_name_3, file_name_4, file_name_5, file_name_6 are empty
+
+3.site shown uom same as product name
+
+4.2+1 gratis and aktion 
+tag found in site,
+not found in data
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abipa&fieldname=pdp_url&fieldvalue=https%3A//www.bipa.at/p/B3-348014
+
+same issue
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abipa&fieldname=pdp_url&fieldvalue=https%3A//www.bipa.at/p/B3-484281"
