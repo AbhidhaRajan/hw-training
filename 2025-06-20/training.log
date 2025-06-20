@@ -1,0 +1,121 @@
+DataHut_SI_Mercator_PriceExtractions_20250620.CSV
+-----------------------------------------------
+"logical error.
+price per unit found as
+0.32€ / kos, grammage
+quantity and unit found as 1
+kos, price found as 3,79€
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/13633580/jajca-izpod-kamniskih-planin-m-hlevska-reja-jata-zgo-12-jajc
+
+
+same issue
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/18077306/jajca-m-prosta-reja-mercator-6-1"
+
+DataHut_SI_Spar_PriceExtractions_20250620.CSV
+---------------------------------------------
+1.promotion description wrong, no promotion found. in data found as 
+""IMMUNE SHOT Nutralux, 500 ml"" as promotion
+and product name is 
+'PREHRANSKO DOPOLNILO V TEKOČINI IMMUNE SHOT, NUTRALUX, 500ML""
+price was is taken as price of 1L.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Aspar&fieldname=pdp_url&fieldvalue=https%3A//www.spar.si/online/prehransko-dopolnilo-v-tekocini-immune-shot-nutralux-500ml/p/622982"
+
+2."site shown uom found as
+""g"" in data. 1kg in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Aspar&fieldname=pdp_url&fieldvalue=https%3A//www.spar.si/online/zelje-mlado-1kg/p/663521"
+
+
+3.site shown uom contains comma separated values
+
+DataHut_SI_Dm_PriceExtractions_20250620.CSV
+-------------------------------------------
+"1.grammage quantity and unit found as 
+1.200 kos in data, price_per_unit found as
+0,25 € za 10 kos,and price is 29.99 so grammage quantity should be 
+1200kos.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Adm&fieldname=pdp_url&fieldvalue=https%3A//www.dm.si/pampers-vlazni-robcki-sensitive-xxl-pakiranje-15-x-80-p8001841063188.html
+
+2.same issue. grammage quantity found as 2.000g,
+price is taken for 2000g
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Adm&fieldname=pdp_url&fieldvalue=https%3A//www.dm.si/babylove-zacetno-mleko-za-dojencke-1-0-m-4x500g-p2090000399875.html"
+
+3."site shown uom contains dot 
+and comma separated values"
+
+DataHut_HU_Tesco_PriceExtractions_20250620.CSV
+------------------------------------------------
+"1.price change found.
+price per unit found as
+107Ft/db and price found as 
+7990.00 in data,
+in site price per unit found as 
+101 Ft/db and price found as 7 590 Ft
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005105013456
+
+
+ 2.price,price_per_unit and promotion
+found in site, missing in data
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004020282082"
+
+3."Clubcard promotion present in site missing in data
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004020282080"
+
+4.grammage quantity and unit found as 
+1000g. price per unit is 1 574 Ft/kg,
+price is found as 1 259 Ft, price is taken for 800g.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004020319292"
+
+5."breadcrumb found as
+""Szpsgpols > Frfi kozmetikumok > Hajolaj > Pantene Pro-V Strength Hajon Hagyhat Szrum, Infinitely Long \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\| Krosodott Hajra \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\| 200 ml ""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005105006004"
+
+6.grammage quantity wrong.
+took as 15kg , which is the size of diaper pants(9-15 kg)
+72 db is the grammage qunatity and unit .
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005105003238
+
+machinerytrader_2025_06_20.csv
+------------------------------
+"1.BreakoutForce
+found as dot and comma
+value
+ eg:6,543.4 lb
+
+2.capacity field have both dot
+and comma separated value
+ eg:2,222.22 cu yd
+also some values are separated with comma and
+others are separated with dot
+
+3.CentrifugalForce field contains both comma and dot separated values
+4.text found in company number
+eg:+1 905-857-6200 ext. 1
+5.CompartmentCapacity1 to 6 have comma separated values
+6.Counterweight contains both comma and dot separated values
+7.CraneRotationTorque contains comma separated values
+8.FrontAxleLbs found as 11,999.76 lb(dot and comma separated)
+9.GrossVehicleWeight found as 29,500.06 lb 
+10.HorsePower contains both dot and comma separated values
+11.hors contains both dot and comma separated values
+12.liftcapacity contains both dot and comma in single value
+4,078.5 lb 
+13.MaxLiftingMoment  contains comma separated values
+14.OperatingWeight  found as 1,962.11 lb
+15.RearAxleLbs found as 17,500.29 lb
+16.ShippingWeight found as 19,246.6 lb
+17.TipLoad contains both dot and comma separated values
+eg:21,164.4 lb
+18.Vin and VIN fields found
+
+19"two category column found.
+Category and category"
+20.price field contains comma
+21.fields are not in order and no of fields found as 635
+
+DataHut_AT_Interspar_PriceExtractions_20250620.
+DataHut_AT_Dm_PriceExtractions_20250620.CSV
+DataHut_CH_Lidl_PriceExtractions_20250620.CSV
