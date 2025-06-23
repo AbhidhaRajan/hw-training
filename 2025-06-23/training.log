@@ -1,0 +1,172 @@
+ah_nl_20250624.csv
+------------------
+1.",file_name_6,image_url_6
+is not emptty"
+2.date format is correct
+but found as '2025-06-23
+
+3."file names are in png
+format, images are in jpg 
+format"
+
+dirk_nl_20250624.csv
+--------------------
+"1.price change found. eg: 0.98 in data, 98 in site,
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Adirk&fieldname=pdp_url&fieldvalue=https%3A//www.dirk.nl/boodschappen/zuivel-kaas/melk-karnemelk/melkunie%2520halfvolle%2520melk/6247
+
+2.price change found. eg: 0.97 in data, 97 in site,
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Adirk&fieldname=pdp_url&fieldvalue=https%3A//www.dirk.nl/boodschappen/dranken-sap-koffie-thee/frisdranken/1%2520de%2520beste%2520lemon%2520drink%2520zero%2520sugar/99982
+
+same for price 0.35,0.36,0.37 etc"
+
+3.file_name_5, image_url_5 also empty
+4."date format is correct
+but found as '2025-06-23"
+
+
+jumbo_nl_20250624.csv
+--------------------
+"1.grammage_quantity
+found as 0.2l in data,
+10 x 0.2l in product name
+and also price is taken for
+2l.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Ajumbo&fieldname=pdp_url&fieldvalue=https%3A//www.jumbo.com/producten/taksi-sinaasappel-10-x-0%2C2-l-428592PAK
+
+2.grammage quantity found as 175gr in product name in site.
+in data found as 1 stuck. price is taken for 175gr
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Ajumbo&fieldname=grammage_unit&fieldvalue=stuks
+
+3.grammage quantity found as 24x250 ml in product name and price
+is also taken for the same,
+but in data grammage quantity found as 250ml
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Ajumbo&fieldname=grammage_unit&fieldvalue=ml"
+
+4."date format is correct
+but found as '2025-06-23"
+
+5.file_name_6, image_url_6 are not empty
+
+
+
+delhaize_nl_20250624.csv
+----------------------
+"1.price_per_unit wrong.
+found as 0.89 €/l in data,
+0.59 €/l in site.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Adelhaize&fieldname=pdp_url&fieldvalue=https%3A//www.delhaize.be/nl/shop/Koude-en-warme-dranken/Frisdrank/Iced-tea/Bruisende-iced-tea/Ice-Tea-Perzik/p/S2023082500721610000
+
+2.price_per_unit wrong.
+found as 0.95 €/l in data,
+0,63 €/l in site
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Adelhaize&fieldname=pdp_url&fieldvalue=https%3A//www.delhaize.be/nl/shop/Koude-en-warme-dranken/Frisdrank/Iced-tea/Bruisende-iced-tea/Ice-Tea-Citroen/p/S2023082500721640000"
+
+3..promotion valid upto and promotion valid from are not in proper date format
+
+4."date format is correct
+but found as '2025-06-23"
+5."file names are in png format
+and image_urls are in jpg format"
+
+plus_nl_20250624.csv
+--------------------
+"1.promotion description found as 
+""Alle Apetina Witte kaas Per stuk Geldig van woensdag 18 juni tot en met dinsdag 24 juni""
+including protion validation.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Aplus&fieldname=pdp_url&fieldvalue=https%3A//www.plus.nl/product/apetina-witte-kaas-blokjes-in-olie-pot-265-g-234507
+
+all promotion description have same issue. promotion validation take along with description.
+
+
+2.promotion description found in site, not found in data
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Aplus&fieldname=pdp_url&fieldvalue=https%3A//www.plus.nl/product/plus-viking-blue-50-krimp-122-g-535016"
+
+3.date format is correct
+but found as '2025-06-23"
+
+aldi_nl_20250624.csv
+--------------------
+"1.promotion valid upto
+found as 2025-06-22.
+expired.so price change 
+found.
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Aaldi&fieldname=pdp_url&fieldvalue=https%3A//www.aldi.nl/product/goudse-kaas-48--jong-1226121.html
+
+
+2.promotion found in site, not found in data.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Aaldi&fieldname=pdp_url&fieldvalue=https%3A//www.aldi.nl/product/mosterdkaas-1231970.html
+
+3.promotion found in site, not found in data.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Aaldi&fieldname=pdp_url&fieldvalue=https%3A//www.aldi.nl/product/verse-manchego-1231968.html
+
+
+4.price_per_unit found in site, not found in data
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Aaldi&fieldname=pdp_url&fieldvalue=https%3A//www.aldi.nl/product/gouda-48--jong-belegen-stuk-1226221.html
+
+same issue
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Aaldi&fieldname=pdp_url&fieldvalue=https%3A//www.aldi.nl/product/gouda-48--belegen-1226174.html"
+
+5.producthierarchy_level4', 'promotion_valid_from', 'promotion_description'
+are not empty.
+
+6..image fields and image file names are empty"
+
+7."date format is correct
+but found as '2025-06-23"
+
+8."promotion not found in site,
+found in data,so change in price found.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aah-weekly%3Aaldi&fieldname=pdp_url&fieldvalue=https%3A//www.aldi.nl/product/goudse-kaas-48--jong-1226121.html"
+
+
+DataHut_DE_Knuspr_FullDump_20250624.CSV
+----------------------------------------
+"1.alchol_by_volume' is not empty
+2.warning is empty"
+3."site shown uom contains
+comma seperated values"
+
+4.grammage quantity found as zero.
+found 1 stuck in product name.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_germany-weekly%3Aknuspr&fieldname=pdp_url&fieldvalue=https%3A//www.knuspr.de/102563-sanlucar-birne-forelle-1-stk
+
+5."image_url_1 is in svg format
+
+ https://cdn.knuspr.de/images/company/knuspr-placeholder.svg (Count: 2)
+"
+
+DataHut_CH_Lidl_PriceExtractions_20250623.CSV
+---------------------------------------------
+"1.site shown uom empty for 311 fields
+
+2. site shown uom found as pro pro 10 x 20 Stk
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland%3Aprice-daily%3Alidl&fieldname=pdp_url&fieldvalue=https%3A//sortiment.lidl.ch/de/catalog/product/view/id/15890/s/terea-turquoise-5111617/category/54/"
+
+3."promotion valid upto found as
+21.6.2025 (Count: 2)"
+4."page cant be find
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland%3Aprice-daily%3Alidl&fieldname=pdp_url&fieldvalue=https%3A//www.lidl.ch/p/de-CH/edamame-bohnen/p10037493"
+
+DataHut_SI_Spar_PriceExtractions_20250623.CSV
+----------------------------------------------
+1.Site shown uom contains comma separated values
+
+DataHut_SI_Mercator_PriceExtractions_20250623.CSV
+-------------------------------------------------
+no issues
+
+DataHut_SI_Dm_PriceExtractions_20250623.CSV
+------------------------------------------"1.grammage quantity and unit found as 
+1.200 g in data.price per unit found as 0.33 € za 100 g,
+and price found as 4.00. so grammage quantity is 1200g.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Adm&fieldname=pdp_url&fieldvalue=https%3A//www.dm.si/pampers-vlazni-robcki-xxl-pakiranje-15-x-80-p8001841078496.html
+
+
+
+2.same issue. grammage quantity found as 2.000g,
+price is taken for 2000g.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Adm&fieldname=pdp_url&fieldvalue=https%3A//www.dm.si/babylove-zacetno-mleko-za-dojencke-1-0-m-4x500g-p2090000399875.html"
+
+3."site shown uom contains dot 
+and comma separated values"
