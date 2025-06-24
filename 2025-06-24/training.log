@@ -1,0 +1,136 @@
+nawy_egp_2025_06_04.json
+-----------------------
+no issues
+
+dari_ae_2025_06_04.json
+----------------------
+no issues
+
+bayut_egp_2025_06_04.json
+--------------------------
+1.data count found as 54920 in 4th week and 59351 in second week(difference of 4431)
+2.details found as 1 sq.meter
+but in title found as 60 sq.meter
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Abayut_egp&fieldname=url&fieldvalue=https%3A//www.bayut.eg/en/property/details-502078218.html
+3.depth,broker_display_name,broker are not empty
+4.price_per found in Monthly,daily,weekly,yearly
+5."Two new fields
+""completion_status"", ""ownership""
+
+
+bayut_uae_project_2025_06_04.json
+--------------------------------
+no issues
+
+dubizzle_uae_2025_06_04.json
+----------------------------
+ listed_by is empty
+
+
+DataHut_CH_Lidl_PriceExtractions_20250624.CSV
+--------------------------------------------
+1.unique id found as ""1""
+in data, 0000001 in url.
+https://sortiment.lidl.ch/de/catalog/product/view/id/12694/s/mineralwasser-0000001/category/54/
+
+same for 2,22,26 etc"
+
+2."grammage quantity and unit not found in site,
+found as  as 1
+stuck in data, but price_per_unit is pro kg
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland%3Aprice-daily%3Alidl&fieldname=pdp_url&fieldvalue=https%3A//sortiment.lidl.ch/de/catalog/product/view/id/11887/s/schweizer-blumenkohl-0082875/category/54/"
+
+3."breadcrumbs contains
+Sortiment > Sortiment
+for 2655 rows.
+
+eg: Sortiment > Sortiment > Übersee Rum"
+
+4."promotion and selling price
+found as zero
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland%3Aprice-daily%3Alidl&fieldname=pdp_url&fieldvalue=https%3A//sortiment.lidl.ch/de/catalog/product/view/id/17138/s/gianduja-tafel-5112066/category/54/"
+
+
+DataHut_DE_Picnic_PriceExtractions_20250624.CSV
+-----------------------------------------------
+1.'region', 'promotion_valid_upto', 'price_valid_from', 'pdp_url', 'pack_size', 'promotion_valid_from' are empty
+2.data count 10729
+3.competitor_name
+['picnic'] 
+
+4.currency EUR
+5.pdp_url is empty, so random checking not done.
+
+DataHut_DE_Knuspr_FullDump_20250624.CSV
+--------------------------------------
+1."1.grammage quantity and unit found as 0g.
+found 1 stuck in product name.
+
+product name is ""SanLucar Birne Forelle, 1 Stk.""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_germany-weekly%3Aknuspr&fieldname=pdp_url&fieldvalue=https%3A//www.knuspr.de/102563-sanlucar-birne-forelle-1-stk
+
+2.ingradients found as x in data. no ingradients found in site
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_germany-weekly%3Aknuspr&fieldname=pdp_url&fieldvalue=https%3A//www.knuspr.de/48754-jeden-tag-instantkaffee-gold"
+
+3."site shown uom contains
+comma seperated values"
+4.breadcrumbs missing for 2744 rows
+5."promotion description found in site, not 
+found in data.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_germany-weekly%3Aknuspr&fieldname=pdp_url&fieldvalue=https%3A//www.knuspr.de/98858-kinder-riegel-xxl
+
+
+same issue
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_germany-weekly%3Aknuspr&fieldname=pdp_url&fieldvalue=https%3A//www.knuspr.de/90940-milky-way-multipack"
+
+6."image_url_1 is in svg format
+ 
+https://cdn.knuspr.de/images/company/knuspr-placeholder.svg (Count: 13)
+
+ https://cdn.knuspr.de/images/company/preussen-placeholder.svg (Count: 7)
+
+
+DataHut_DE_Flaschenpost_FullDump_20250624.CSV 
+--------------------------------------------
+"1.price_per_unit contains double dot
+   2.995.00 €/kg
+
+https://www.flaschenpost.de/p/ostmann/ostmann-feine-vanille-stange
+
+    36.900.00 €/kg
+https://www.flaschenpost.de/p/ostmann/ostmann-safran-gemahlen"
+
+2."promotion description found in site as
+""Top-Angebot"" and in data
+""topangebot""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_germany-weekly%3Aflaschenpost&fieldname=pdp_url&fieldvalue=https%3A//www.flaschenpost.de/p/sanbitter/sanbitter-alkoholfreier-aperitif"
+
+3."price and price_per_unit change 
+found.
+price_per_unit in data is 9.99 €/L,
+and in site is (13,32 €/L).
+also promotion price found in data,
+no promotion and promotion price
+found in site.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_germany-weekly%3Aflaschenpost&fieldname=pdp_url&fieldvalue=https%3A//www.flaschenpost.de/p/fuerst-von-metternich/fuerst-von-metternich-riesling-deutscher-qualitaetswein-rheingau"
+
+4.promotion found in site,not found in data.
+so price change found,
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_germany-weekly%3Aflaschenpost&fieldname=pdp_url&fieldvalue=https%3A//www.flaschenpost.de/p/henning-broscheit/bio-heidelbeeren-landgard
+
+same issue
+ 
+ http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_germany-weekly%3Aflaschenpost&fieldname=pdp_url&fieldvalue=https%3A//www.flaschenpost.de/p/henning-broscheit/bio-pfel-gala-01
+
+DataHut_DE_Rewe_FullDump_20250624.CSV
+-------------------------------------
+1.10175 rows
+2.empty columns are
+
+ store_name', 'store_addressline1', 'store_addressline2', 'store_suburb', 'store_state', 'store_addressid', 'brand_type', 'producthierarchy_level5', 'producthierarchy_level6', 'producthierarchy_level7', 'price_was', 'promotion_price', 'promotion_valid_from', 'promotion_type', 'percentage_discount', 'package_sizeof_sellingprice', 'per_unit_sizedescription', 'price_valid_from', 'multi_buy_item_count', 'multi_buy_items_price_total', 'variants', 'instructions', 'preparationinstructions', 'age_of_the_product', 'age_recommendations', 'nutritions', 'vitamins', 'labelling', 'grade', 'region', 'packaging', 'receipies', 'processed_food', 'barcode', 'frozen', 'chilled', 'cooking_part', 'handmade', 'max_heating_temperature', 'special_information', 'label_information', 'dimensions', 'special_nutrition_purpose', 'warranty', 'color', 'model_number', 'material', 'usp', 'dosage_recommendation', 'tasting_note', 'food_preservation', 'size', 'rating', 'review', 'file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6', 'competitor_product_key', 'fit_guide', 'occasion', 'material_composition', 'style', 'care_instructions', 'heel_type', 'heel_height', 'upc', 'features', 'dietary_lifestyle', 'manufacturer_address', 'importer_address', 'distributor_address', 'vinification_details', 'recycling_information', 'return_address', 'beer_deg', 'netcontent', 'random_weight_flag', 'promo_limit', 'multibuy_items_pricesingle', 'perfect_match', 'servings_per_pack', 'suitable_for', 'standard_drinks', 'environmental', 'grape_variety', 'retail_limit
+
+
+3.instock True only
+4.price per unit is taken along with grammage quantity in site shown uom.
+  eg: 0,20l (1 l = 11,45 €)
