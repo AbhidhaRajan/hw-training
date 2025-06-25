@@ -134,3 +134,6 @@ DataHut_DE_Rewe_FullDump_20250624.CSV
 3.instock True only
 4.price per unit is taken along with grammage quantity in site shown uom.
   eg: 0,20l (1 l = 11,45 €)
+
+5.feeding recommendation is found as "<div id=""responsive_table_wrapper_0"" class=""responsive_table_wrapper""><div id=""responsive_table_0"" class=""responsiveTable table-responsive""><table class=""table table-striped"" cellspacing=""1"" cellpadding=""1"">Gr&ouml;&szlig;e des Hundes&nbsp;Menge pro Tag&nbsp;Sehr kleine Rassen (ca. 4kg)250-340gKleine Rassen (ca. 10kg)500-680gMittlere Rassen (ca. 20kg)840-1150gGro&szlig;e Rassen (ca. 35kg)1280-1750g&nbsp;Diese Angaben sind Richtwerte. Der individuelle Bedarf variiert je nach Alter,Rasse, Haltungsbedingungen und Aktivit&auml;t. Die Tagesration in mindestens 2 Portionen aufteilen und zimmerwarm f&uuml;ttern. Das zus&auml;tzliche F&uuml;ttern von Snacks sollte bei der Tagesration ber&uuml;cksichtigt werden. Stellen Sie stets ausreichend frisches Trinkwasser bereit." 
+url: https://shop.rewe.de/p/zooroyal-mit-rinderherzen-400g/3279221
