@@ -1,0 +1,124 @@
+aqar_ksa_2025_07.json
+---------------------
+1.two new fields
+  "advertising_license",
+    advertiser"
+
+bahrainfinder_bah_2025_07.json
+------------------------------
+furnished and depth are not empty
+
+machinerytrader_2025_06_25.csv
+-----------------------------
+"1.two category column found.
+Category and category
+
+2.Vin and VIN fields found
+"
+3.640 fields found
+
+DataHut_AT_Fressnapf_PriceExtractions_20250625.CSV
+--------------------------------------------------
+"1.grammage quantity wrong. 1 000 kg in data, 
+but price per unit is €4.49/kg and price is 4.49.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/vitakraft-menu-vital-meerschweinchen-1000-kg-1004435/
+
+2.age is taken along with grammage quantity
+eg:10+15 kg
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/royal-canin-medium-ageing-10-15-kg-1003112018/
+
+3.grammage quantity and unit found as 8 btl , site shown uom is 
+Felix KnabberMix Original & Strandspaß Katzensnacks 2 x 8 Beutel à 60g
+""http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/felix-knabbermix-original--strandspass-katzensnacks-2-x-8-beutel--60g-1364343/""
+
+4.grammage quantity found as 9x12g in data, 7x9x12g in site.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/sheba-beutel-creamy-snacks-7x-9x12g-huhn-und-lachs-1706488/"
+
+DataHut_AT_Dm_PriceExtractions_20250625.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_PriceExtractions_20250625.CSV
+-----------------------------------------------
+"1.site_shown_uom is missing for 525 fields.
+
+2.site shown uom found as ""1""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ampreis&fieldname=pdp_url&fieldvalue=https%3A//www.mpreis.at/shop/p/tv-media-705800"
+
+3."Mehrweg tag is taken along with breadcrumb.
+
+eg:Startseite > Getränke > Bier > Bier > 20x0,5L Kiste (Mehrweg)
+in data
+
+Startseite > Getränke > Bier > Bier > 20x0,5L Kiste in site
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ampreis&fieldname=pdp_url&fieldvalue=https%3A//www.mpreis.at/shop/p/schwechater-bier-20x05l-kiste-103516"
+
+
+DataHut_AT_Bipa_PriceExtractions_20250625.CSV
+----------------------------------------------
+no issues
+
+DataHut_AT_Billa_PriceExtractions_20250625.CSV
+-----------------------------------------------
+no issues
+
+DataHut_AT_Interspar_PriceExtractions_20250625.CSV
+-------------------------------------------------
+"1.site shown uom found as 
+""1""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/simpex-basic-kleidersack-vakuum-1-stueck-1/p/2020001803514
+
+2.site shown uom found as x 2. in site found as  1L x 2
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/sodastream-glasflaschen-duo-1l-x-2/p/2020003525827"
+
+3."breadcrumb not found in site.
+but found in data
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/haushalt/leifheit-kleinteilehalter-2er-set/p/2020004027511"
+
+4."grammage quantity
+wrong. found as 1000ml in data.
+
+capacity is taken as grammage quantity
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/simpex-professional-glasdose-click-close-1000ml/p/2020004706522
+"
+5."regular price found as 0.00
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/haushalt/miraplast-ablagekorb-a5/p/2020004229380
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/alma-oesterreichischer-bergkaese-gerieben/p/3454121
+"
+
+DataHut_AT_Mueller_PriceExtractions_20250625.CSV
+-----------------------------------------------
+no issues
+
+
+DataHut_IT_Conad_PriceExtractions_20250625.CSV
+--------------------------------------------
+1.grammage quantity and unit found as
+200kg in data, found as 200g in 
+product name
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aconad&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.conad.it/p/fiorital-cous-cous-di-mare-200-g--10733442"
+
+2."price_per_unit found as 0.00 €/Kg in data
+21,90 € / Kg in site. also grammage quantity found as 300g
+in site and 1 kg in data
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aconad&fieldname=pdp_url&fieldvalue=https%3A//spesaonline.conad.it/p/pecorino-di-amatrice-flli-petrucci--V_11457101_C"
+
+DataHut_IT_Easycoop_PriceExtractions_20250625.CSV
+------------------------------------------------
+"1.promotion valid upto 
+found as expired.
+ 2025-06-23 (Count: 220)
+ 2025-06-24 (Count: 220)
+
+so price change found
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aeasycoop&fieldname=pdp_url&fieldvalue=https%3A//www.easycoop.com/danone-duo-pepite-cioc-lat-98g-7798705.html"
+
+2."grammage quantity taken wrong. 1pz 
+in data, 2pz in site.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aeasycoop&fieldname=pdp_url&fieldvalue=https%3A//www.easycoop.com/colgate-spazz-colgate-tripleac-1pz-1os-4771739.html"
+
+
