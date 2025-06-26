@@ -1,0 +1,108 @@
+DataHut_HU_Tesco_FullDump_20250626.CSV
+--------------------------------------
+"1.grammage quantity found as 800x800 g in data,
+product name is ""Purina One Junior csirkében gazdag, teljes kiőrlésű gabonákkal száraz macskaeledel 800 g
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2004010272233
+
+2.model number found in product name is taken as grammage quantity and unit.
+product name is ""Snow Meister SM2014G zöld fém karácsonyfa talp""
+grammage quantity and unit is 2014 g.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary-weekly%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005100504453"
+
+3.'brand', 'producthierarchy_level4', 'image_url_5'
+are not empty.
+
+4.'file_name_1', 'file_name_2', 'file_name_3', 'file_name_4
+are empty"
+
+DataHut_SI_Dm_FullDump_20250626.CSV
+-----------------------------------
+1.file_name_1, file_name_2, file_name_3, file_name_4, file_name_5, file_name_6 are empty.
+2."site shown uom found as 
+1.000g. grammage quantity and unit is 
+1000g.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia-weekly%3Adm&fieldname=pdp_url&fieldvalue=https%3A//www.dm.si/babylove-bio-sadna-kasica-iz-jabolk-jagod-in-banan-s-pirinimi-in-ovsenimi-kosmici-10x100g-p2090000400182.html
+"
+
+DataHut_SI_Spar_FullDump_20250626.CSV
+--------------------------------------
+1.['producthierarchy_level7', 'file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6']
+
+are empty"
+
+2."net quantity found as
+1kg in site ans net fruit quantity
+found as 7kg in site.
+in data grammage unit and quantity is taken as 
+7000 g.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia-weekly%3Aspar&fieldname=pdp_url&fieldvalue=https%3A//www.spar.si/online/primorski-prsut-s-kostjo-kras-1kg/p/352481"
+
+
+DataHut_SI_Mercator_FullDump_20250626.CSV
+-----------------------------------------
+1.file_name_1, file_name_2, file_name_3, file_name_4, file_name_5, file_name_6 are empty.
+2."grammage quantity taken wrong eg: 0.3kg in data,
+product name is ""Trdi sir, Kramar, cca 0,3 kg, pakirano, cena za kg""
+price of 1 kg is taken
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia-weekly%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/17365193/trdi-sir-kramar-cca-0-3-kg-pakirano-cena-za-kg"
+
+
+DataHut_CH_Coop_FullDump_20250626.CSV
+-------------------------------------
+1.file_name_1, file_name_2, file_name_3, file_name_4, file_name_5, file_name_6 are empty.
+2.site shown uom missing for 4343 rows
+3."grammage quantity and unit
+found as 1 stuck in data,
+2 stuck in product name
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland-weekly%3Acoop&fieldname=pdp_url&fieldvalue=https%3A//www.coop.ch/de/aktionen/aktuelle-trophy/kleiner-speiseteller-2-stueck/p/7370508"
+
+4."promotion description found in site.
+selling and regular price also found in site as
+49.95 and 129.95 in site. but in data 129.95 is
+taken as both selling and regular price and no promotion price
+found in data.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland-weekly%3Acoop&fieldname=pdp_url&fieldvalue=https%3A//www.coop.ch/de/aktionen/aktuelle-trophy/betty-bossi-heissluft-fritteuse/p/7302636"
+
+5."3 images are in png format
+other images are in jpg"
+
+DataHut_AU_Coles_FullDump_20250625.CSV
+-------------------------------------
+"1.promotion valid upto is empty
+
+2.price not found in site,
+product unavailable
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_australia-weekly%3Acoles&fieldname=pdp_url&fieldvalue=https%3A//www.coles.com.au/product/san-remo-la-pasta-chicken-curry-flavour-pasta-and-sauce-80g-3221505"
+
+3.file_name_1 is empty
+
+westside_2025_06_26_sample.csv
+-----------------------------
+1.empty columns are 
+'producthierarchy_level3', 'producthierarchy_level4', 'producthierarchy_level5', 'promotion_price', 'promotion_valid_from', 'promotion_valid_upto', 'promotion_type', 'promotion_description', 'country_of_origin', 'instructions', 'model_number', 'material', 'rating', 'review', 'file_name_1', 'image_url_1', 'file_name_2', 'image_url_2', 'file_name_3', 'image_url_3', 'competitor_product_key', 'fit_guide', 'occasion', 'style', 'upc', 'features', 'clothing_fit', 'clothing_length', 'collar_type', 'pattern', 'pocket', 'fastener_closure_type', 'rise_pants_capris', 'pant_leg_cut', 'iron', 'stretch', 'maternity', 'thermal', 'clothing_weight', 'upper_body_strap_configuration', 'clothing_leg_bottom_opening_style', 'cuffs_style', 'neck_style', 'clothing_length_style', 'sleeve_length_style', 'ean'
+
+2.Country Of Origin: India in site, empty in data and dimensions found in site cant included in others.
+for first line
+url :https://www.westside.com/products/nuon-white-solid-cotton-shirt-301022989?variant=44544938901557
+
+3.country of origin found in site, not in data, also address,dimensions  is not included in others
+line 30 , url https://www.westside.com/products/lov-white-self-textured-shirt-301022303?variant=44555997446197
+
+4.images are found in site,not found in data
+
+hm_2025_06_26_sample.csv
+------------------------
+1.empty columns
+
+ ['promotion_price', 'promotion_valid_from', 'promotion_valid_upto', 'promotion_type', 'promotion_description', 'model_number', 'size', 'file_name_2', 'image_url_2', 'file_name_3', 'image_url_3', 'competitor_product_key', 'fit_guide', 'occasion', 'upc', 'features', 'clothing_type', 'pattern', 'pocket', 'fastener_closure_type', 'rise_pants_capris', 'pant_leg_cut', 'iron', 'stretch', 'maternity', 'thermal', 'clothing_weight', 'upper_body_strap_configuration', 'clothing_leg_bottom_opening_style', 'cuffs_style', 'clothing_length_style', 'ean', 'body_fit']
+
+2.product name found as full capital letters in site , only first letter is capital in data
+
+3.breadcrumb contains product name too, but in producthierarchy_level product name excluded
+4.instructions not found in site 
+5.all details which is already taken as others fields also took in others
+6.more than one image found in site but single image is found in data
+7.article number is taken along with description
