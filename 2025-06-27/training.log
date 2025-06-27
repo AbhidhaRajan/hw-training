@@ -1,0 +1,189 @@
+servicesbahrain_bah_2025_07.json
+-------------------------------
+"1.mobile number found
+as ""32016570 
+ 32153555 
+ 33330390
+ 37777470 
+ 39443889 
+ 66661500
+
+2.telephone number found as
++973NA (Count: 6)
+ 0 (Count: 196)
+ 0000000 (Count: 3)
+(+973) (Count: 46)"
+
+3."owner association_activity_status inactive for 182 rows
+with broker_type:
+project manager"
+
+ajmanded_uae_2025_07.json
+-------------------------
+no issues
+
+
+bayut_ksa_2025_07.json
+---------------------
+"1.mistake found in amenities 
+""000,Central Heating,Fixed Phone,Security Staff,Conference Room,Balcony or Terrace,Pets Allowed,Water Supply,Storage Areas,CCTV Security,Private garage,Office Room,Reception/Waiting Room,Close to Main Roads,Day Care Center,Parking Spaces:1,Electricity Backup,Air Conditioning,Elevators in Building:3,Fiber Optics,Double Glazed Windows,Sewerage,Service Elevators,Electricity""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-monthly%3Abayut_ksa&fieldname=url&fieldvalue=https%3A//www.bayut.sa/en/property/details-87605675.html
+
+2.price and currency found in site, missing in data
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-monthly%3Abayut_ksa&fieldname=url&fieldvalue=https%3A//www.bayut.sa/en/property/details-87586048.html
+
+3."reference_number', 'advertiser_designation'
+are empty"
+
+4.depth is not empty
+5."Four new fields .
+
+completion_status,
+ advertiser_designation,
+ ad_license_number,
+fal_license_number."
+
+
+wasalt_ksa_2025_07.json
+----------------------
+"1.bathrooms found as +9 in data, 9+ in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-monthly%3Awasalt_ksa&fieldname=url&fieldvalue=https%3A//wasalt.com/en/property/sale/villa-375-sqm-with-3-apartments-facing-north-232765
+
+2.bedrooms found as 270000 in data.(same in site)
+title is ""Apartment 100 SQM with 9+ Bedrooms"" price is 270000 SAR
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-monthly%3Awasalt_ksa&fieldname=url&fieldvalue=https%3A//wasalt.com/en/property/sale/apartment-100-sqm-with-9-bedrooms-210192
+
+3.broker_display_name and broker are in capital
+4.phone number not found in site"
+
+5.amenities', 'user_id are empty
+6."3 more fields
+""project""
+    ""rega_ad_license_no""
+    ""fal_license_number"""
+
+
+haraj_ksa_2025_07.json
+----------------------
+"1.category url found as
+"" /tags/%D8%A7%D8%AF%D9%88%D8%A7%D8%B1%20%D9%84%D9%84%D8%A7%D9%8A%D8%AC%D8%A7%D8%B1""
+
+2.wrong url
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-monthly%3Aharaj_ksa&fieldname=url&fieldvalue=https%3A//haraj.com.sa/11158591984/%D9%85%D8%B3%D8%AA%D9%88%D8%AF%D8%B9_%D9%84%D9%84%D8%A7%D8%AC%D8%A7%D8%B1_%D9%81%D9%8A_%D8%A8%D8%AD%D8%B1%D8%A9
+
+also broker,broker_display_name  and user_id found same
+"
+
+3.phone_number is empty
+
+bayut_bah_2025_07.json
+---------------------
+1.Count: 2719, 61 fields
+2.category [rent ,sale ]
+3.currency BHD
+4.empty fields
+
+ 'ad_type',
+ 'adm_number',
+ 'bln_number',
+ 'brn_registration_number',
+ 'ded_license_number',
+ 'ded_number_2',
+ 'ded_number_3',
+ 'ded_number_4',
+ 'depth',
+ 'dtcm_licence',
+ 'email',
+ 'no_of_reviews'
+ 'orn_number',
+ 'rating',
+ 'rera_permit_number',
+ 'rera_registration_number',
+ 'sub_category_2',
+ 'trucheck_on',
+ 'user_id',
+ 'verified'
+
+
+ 5.price_per : Monthly
+
+ 6.sub_category_1 
+ Commercial 
+ Residential 
+
+
+
+sedd_uae_2025_07.json
+--------------------
+1.Total field count : 19, data count : 902
+2. Empty fields are
+
+  district', 'region', 'city', 'the_unified_number_of_the_establishment', 'building_number', 'additional_number', 'email_address', 'mobile_number', 'street'
+    
+  
+ 3.broker_type 
+ Professional 
+ Trading 
+
+
+samsclub_2025_06_27.csv
+-----------------------
+
+1."float in data type. but some 
+prices having two decimal places
+and some having single decimal place.
+eg:75.8 
+ 77.98"
+
+
+indeed_2025_06_26.CSV
+----------------------
+1.address found as "03222 Lübbenau\u002FSpreewald" in data
+  "03222 Lübbenau/Spreewald" in site
+  http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=zenjobs-weekly%3Aindeed&fieldname=ad_url&fieldvalue=https%3A//de.indeed.com/Zeige-Job%3Fjk%3Dbe8ac517731c19ea%26from%3Dserp%26vjs%3D3
+
+  same issue
+  address found as "08340 Schwarzenberg\u002FErzgeb" in data
+  "08340 Schwarzenberg/Erzgeb" in site
+  http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=zenjobs-weekly%3Aindeed&fieldname=ad_url&fieldvalue=https%3A//de.indeed.com/Zeige-Job%3Fjk%3D83fb984e866c14da%26from%3Dserp%26vjs%3D3
+
+  same issue
+
+  address found as "09380 Thalheim\u002FErzgebirge" in data
+  "09380 Thalheim/Erzgebirge" in site
+  http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=zenjobs-weekly%3Aindeed&fieldname=ad_url&fieldvalue=https%3A//de.indeed.com/Zeige-Job%3Fjk%3D95d7ac66ae41b213%26from%3Dserp%26vjs%3D3
+
+  same issue 
+  15517 Fürstenwalde\u002FSpree (count:11)
+  60437 Kalbach\u002FRiedberg (Count: 1)
+
+  2.phone number found as " +49 0 6202 • 92" in data 
+  "+49 (0) 6202 • 92 80 318" in site
+  http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=zenjobs-weekly%3Aindeed&fieldname=ad_url&fieldvalue=https%3A//de.indeed.com/Zeige-Job%3Fjk%3D52dd825f83faeedc%26from%3Dserp%26vjs%3D3
+
+ 3. phone number found as "+49 0 7348 | 98" in data
+  +49 (0) 7348 | 98 70 - 526 in site
+
+  http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=zenjobs-weekly%3Aindeed&fieldname=ad_url&fieldvalue=https%3A//de.indeed.com/Zeige-Job%3Fjk%3Dbf19488cdad91766%26from%3Dserp%26vjs%3D3
+
+  4. phone number found as " Tel.: +49 1512 72 698 71"
+  in site. +49 1512 72 69 871; 081 - 3.692  in site 
+  http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=zenjobs-weekly%3Aindeed&fieldname=ad_url&fieldvalue=https%3A//de.indeed.com/Zeige-Job%3Fjk%3D033ab6eb9456b4f1%26from%3Dserp%26vjs%3D3
+
+  5. phone number found as +49 2351 - 7894 +49 in data
+  +49 2351 - 7894 +49 2351 7894 381. in site
+  http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=zenjobs-weekly%3Aindeed&fieldname=ad_url&fieldvalue=https%3A//de.indeed.com/Zeige-Job%3Fjk%3D244535ad10367832%26from%3Dserp%26vjs%3D3
+
+  6. STELLENNUMMER 0748_000038 found in site is taken as phone number
+     http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=zenjobs-weekly%3Aindeed&fieldname=ad_url&fieldvalue=https%3A//de.indeed.com/Zeige-Job%3Fjk%3D8731d696fddb85bb%26from%3Dserp%26vjs%3D3
+
+  7.incomplete phone number.
+    found as "49 911 – 74 89 99 50" in site "+49 911 – 74 " in data
+    http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=zenjobs-weekly%3Aindeed&fieldname=ad_url&fieldvalue=https%3A//de.indeed.com/Zeige-Job%3Fjk%3D07e61e35874e445d%26from%3Dserp%26vjs%3D3
+
+  8. incomplete phone number , found as "+49 9131  17 (Count: 10)" in data
+     eg:+49 (9131) / 17 – 1717 in site.
+     http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=zenjobs-weekly%3Aindeed&fieldname=ad_url&fieldvalue=https%3A//de.indeed.com/Zeige-Job%3Fjk%3Df136de2469972578%26from%3Dserp%26vjs%3D3
+  same issue found for another phone number fields too
+
+  
