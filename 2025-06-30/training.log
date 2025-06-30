@@ -1,0 +1,214 @@
+DataHut_AT_Mueller_PriceExtractions_20250630.CSV
+-----------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_PriceExtractions_20250630.CSV
+-----------------------------------------------
+"1.site shown uom
+missing for 525
+fields.
+
+2.site shown found as ""1""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ampreis&fieldname=pdp_url&fieldvalue=https%3A//www.mpreis.at/shop/p/tv-media-705800
+"
+3.product name found as 
+grammage quantity and tag.
+eg:0,25 Liter (Einweg) (Count: 1)
+ 0,33 Liter (Einweg) (Count: 1)
+ 0,5 Liter (Einweg) (Count: 1)
+ 0,5 Liter Dose (Einweg) (Count: 1)
+ 1,5 Liter (Einweg) (Count: 1)"
+
+4."if Einweg or Mehrweg
+tag is found in product name,
+it was uppend with breadcrumb.
+but in site no tag is found in
+breadcrumb, onlyproduct name found."
+
+DataHut_AT_Fressnapf_PriceExtractions_20250630.CSV
+-------------------------------------------------
+"1.grammage quantity found as 4kg
+in data, price_per unit is €19.49/kg
+price is 19.49. product name is
+""ARDAP Spot-On für Kleintiere von 1-4 kg""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/ardap-spot-on-fuer-kleintiere-von-1-4-kg-1201690/
+
+2.grammage quantity found as 500g in data,
+found as 250g in site. and price is taken for 250g
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/aniforte-bierhefe-pulver-500g-250-g-1665877/
+
+
+3.grammage quantity found as 1 stuck in data
+3 Stückx3 in site.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/8in1-delights-kauringe-haehnchenfleisch-3-stueckx3-1269659/
+
+4.grammage quantity found as 6 x 400g in data,
+6 x 800g in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/aniforte-nassfutter-greenfieldturkey-pute-6-x-400-g-6x800-g-1422189/
+
+5.grammage quantity found as 2kg in data,
+product name is ""Applaws Adult Mischfütterungs-Set Applaws Adult Huhn 2kg + Applaws Multipack Adult Huhn Variation 12x70g"" , 2kg+12x70g
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/applaws-adult-mischfuetterungs-set-applaws-adult-huhn-2kg--applaws-multipack-adult-huhn-variation-12x70g-1368754/"
+
+6."grammage quantity and unit found as 8 btl , site shown uom is 
+Felix KnabberMix Original & Strandspaß Katzensnacks 2 x 8 Beutel à 60g.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/felix-knabbermix-original--strandspass-katzensnacks-2-x-8-beutel--60g-1364343/"
+
+
+DataHut_AT_Dm_PriceExtractions_20250630.CSV
+------------------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250630.CSV
+---------------------------------------------
+1."breadcrumb not found in site,
+found in data as "" Startseite""for 3 rows
+eg:
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Abipa&fieldname=pdp_url&fieldvalue=https%3A//www.bipa.at/p/B3-439783
+"
+
+2."Aktion tag present in site
+missing in data
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Abipa&fieldname=pdp_url&fieldvalue=https%3A//www.bipa.at/p/B3-439783"
+
+
+DataHut_HU_Tesco_PriceExtractions_20250630.CSV
+----------------------------------------------
+"1.capacity of item is taken as
+gramage quantity and unit,
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005100645478
+
+same issue
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Atesco&fieldname=pdp_url&fieldvalue=https%3A//bevasarlas.tesco.hu/groceries/hu-HU/products/2005100645309"
+
+DataHut_HU_Wolt_PriceExtractions_20250630.CSV
+-------------------------------------------
+"1. grammage quantity found as 
+in kg in data, found as gram il site,
+eg:0.22kg in data and 220g in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Awolt&fieldname=pdp_url&fieldvalue=https%3A//wolt.com/hu/hun/budapest/venue/interspar-allee/spar-premium-norveg-lazacfile-itemid-64c767b6ccb61f6a97802216"
+
+2."logical error found.
+grammage quantity found as
+1l, price_per_unit found as 
+""1999.0 Ft/1l"".
+but price found as 2049.00
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_hungary%3Aprice-daily%3Awolt&fieldname=pdp_url&fieldvalue=https%3A//wolt.com/hu/hun/budapest/venue/interspar-allee/limenita-100-rostos-narancsle-1-l-itemid-67ad253e1af9fcb37885d55e"
+
+DataHut_AT_Billa_PriceExtractions_20250630.CSV
+----------------------------------------------
+no issues
+
+DataHut_AT_Interspar_PriceExtractions_20250630.CSV
+--------------------------------------------------
+"1.site shown uom found as 
+""12""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/bic-kids-evolution-triangle-farbstifte-12/p/1894264.
+
+2.site shown uom found as ""1""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/simpex-basic-kleidersack-vakuum-1-stueck-1/p/2020001803514
+
+3.site shown uom found as ""3""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/simpex-basic-celebration-luftschlangen-deko-2-3/p/2020004288127
+
+4.site shown uom found as ""x 2""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/sodastream-glasflaschen-duo-1l-x-2/p/2020003525827
+
+5.site shown uom found as ""weiß"" for 4 rows
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/donau-schnellhefter-a4-weiss/p/1381665
+
+6.site shown uom found as ""l""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/tann-in-vorarlberg-hausgemacht-rindssuppe/p/2020003986796
+
+
+
+7.grammage quantity and unit found as
+2 stuck, price per unit is ""3.99 €/Stück"",
+price is 3.99.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/staedtler-folienstifte-lumocolor-permanent-2-stk/p/1422368
+
+
+
+8."for some rows breadcrumbs
+not found in site.
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/haushalt/mediashop-aquadon-eco-tornado-duschkopf/p/2020004829160"
+
+9."price found as 0.00
+for 2 rows. but empty in site.
+        https://www.interspar.at/shop/haushalt/miraplast-ablagekorb-a5/p/2020004229380
+
+https://www.interspar.at/shop/haushalt/barbecue-anzuendholz-aus-oesterreich-55kg/p/2020002532123"
+
+
+ewm_2025_07_05.json
+--------------------
+"1.office name missing in data,
+found in site,line 318
+    ""profile_url"": ""https://www.ewm.com/agents/1801659/Lori+Farber"",
+
+2.no image found , but image url found in data
+eg: https://d9la9jrhv6fdd.cloudfront.net/agentimages/nophoto.jpg (Count: 146)
+
+3.image urls found as(downloaded when click)
+ https://dtzulyujzhqiu.cloudfront.net/berkshirehathawayhomeservicesewmrealty11930/profiles/1725177189_1777047.jpg (Count: 1)
+ https://dtzulyujzhqiu.cloudfront.net/berkshirehathawayhomeservicesewmrealty11930/profiles/1725177218_1777108.jpg (Count: 1)
+ https://dtzulyujzhqiu.cloudfront.net/berkshirehathawayhomeservicesewmrealty11930/profiles/1725177250_1777190.jpg (Count: 1)
+"
+
+4.fields are not in order
+
+ebby_2025_07_05.json
+-------------------
+"1.some images are in
+png formats, some are jpex and
+others are jpg. 
+
+2.zipcode found as 76205- 
+for 25 fields.
+eg:line 1397
+    ""profile_url"": ""https://www.ebby.com/bio/thomaspreciado"",
+
+3."""title"":""themowadgroup.ebby.com""
+line 658
+    ""profile_url"": ""https://www.ebby.com/bio/josegutierrez"",
+4.email is empty
+
+5."languages found as empty list
+[ ].
+6.fields are not in order
+
+firstweber_2025_07_05.json
+-------------------------
+"1.agent_phone_number found as 
+""['Brittany - 262-573-9083']""
+line 642
+    ""profile_url"": ""https://www.firstweber.com/bio/seefeldtnighandassociates"",
+
+
+2.description found wrong
+line 201
+""profile_url"": ""https://www.firstweber.com/bio/derekmlarson"",
+
+3.image_url wrong
+ https://content.mediastg.net/media/companyset/fwrgf/noagentphoto.jpg (Count: 2)
+
+4.in some fields title found as email
+eg: vanesst@firstweber.com
+
+5.description found as ""AboutAbout MeAs"" 
+line 90
+    ""profile_url"": ""https://www.firstweber.com/bio/bobwinding"",
+
+6.fields are not in oder
+
+iowarealty_2025_07_05.json
+-------------------------
+1."1.first name found as
+""Krzysztof (Chris K.) Chrzaszcz""
+and middle and last names are empty
+line 62
+    ""profile_url"": ""https://www.iowarealty.com/bio/krzysztofchrzaszcz"",
+
+2.fields are not in order
