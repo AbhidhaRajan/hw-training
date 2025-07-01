@@ -1,0 +1,131 @@
+aqarmap_egp_2025_07_01.json
+----------------------------
+"1.extra character in
+bathroom field
+eg:2د
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Aaqarmap_egp&fieldname=url&fieldvalue=https%3A//aqarmap.com.eg/en/listing/5727128-for-sale-cairo-mokattam-lhdb-l-ly-shareaa-9/
+
+2.broker and brokeer_display_name found as dots,user x, ???? etc.
+eg:- - -
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Aaqarmap_egp&fieldname=url&fieldvalue=https%3A//aqarmap.com.eg/en/listing/5890672-for-sale-north-sinai-arish-el-msaeid/
+
+3.location found as date
+eg:6 October,26th of July Corridor - 6 October
+
+4.phone number found as ""+20""
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Aaqarmap_egp&fieldname=url&fieldvalue=https%3A//aqarmap.com.eg/en/listing/5954243-for-sale-cairo-el-haram-el-lebeny/
+
+5.phone number found as ""+undefined1552993258""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Aaqarmap_egp&fieldname=url&fieldvalue=https%3A//aqarmap.com.eg/en/listing/5819945-for-rent-cairo-ain-shams-ain-shams-el-sharkia-el-eshrein-stt/
+
+6.description foundas ""Apartments For ""
+"
+7."depth', 'seller_role', 'listing_type'
+empty"
+
+bayut_uae_project_2025_07_01.json
+--------------------------------
+no issues
+
+bayut_egp_2025_07_01.json
+------------------------
+"1.reference number found as
+""Bayut - ⚜ H-Three Mall ⚜ (Count: 1)
+ Bayut - 🔹 For Sale Apartment in CFC Compound – New Cairo 🔹 (Count: 1)
+        https://www.bayut.eg/en/property/details-502160565.html
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Abayut_egp&fieldname=url&fieldvalue=https%3A//www.bayut.eg/en/property/details-501867601.html"
+
+2."Two new fields
+""completion_status"", ""ownership"""
+
+3.depth,broker_display_name,broker are not empty
+
+dari_ae_2025_07_01.json
+----------------------
+no issues
+
+nawy_egp_2025_07_01.json
+-------------------------
+no issues
+
+
+dubizzle_uae_2025_07_01.json
+----------------------------
+"1.phone number found as ""+971 ""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Adubizzle_uae&fieldname=url&fieldvalue=https%3A//dubai.dubizzle.com/property-for-sale/residential/apartment/2025/6/24/high-floor-seafront-luxury-marina-skyli-2-768260/
+
+2.mistakes found in reference number.
+eg:sunrise. #405. 2bhk. 90k
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Adubizzle_uae&fieldname=url&fieldvalue=https%3A//dubai.dubizzle.com/property-for-rent/residential/apartmentflat/2025/6/2/stylish-2-bedroom-brand-new-building-ul-2-201652/"
+
+3.listed_by is empty
+
+DataHut_SI_Dm_PriceExtractions_20250701.CSV
+-------------------------------------------
+no issues
+
+DataHut_SI_Mercator_PriceExtractions_20250701.CSV
+------------------------------------------------
+"logical issue.
+price per unit is 0.24€ / kos
+, grammage quantity and unit is
+1 kos, but price is 2.35.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/18342686/jajca-l-hlevska-reja-mercator-10-1"
+
+DataHut_SI_Spar_PriceExtractions_20250701.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Interspar_FullDump_20250703.CSV
+-----------------------------------------
+"1.promotion valid upto
+expired
+30.06.2025 (Count: 14)
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ainterspar%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/haushalt/simpex-color-auflaufform-keramik-lachs-95-cm/p/2020004935373"
+
+2."replaced with \\ in
+nutritional information.
+eg:{'Durchschnittliche Nährwerte': {'Biotin': '500 g \\| 1000 %', 'Zusatztext': 'Nahrungsergnzungsmittel sind kein Ersatz fr eine ausgewogene und abwechslungsreiche Ernhrung und eine gesunde Lebensweise.'}}"
+
+3.age recommendations is not empty.
+
+4.description found as paragraph
+
+5.."site shown uom found as ""3""
+eg;http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ainterspar%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/simpex-basic-celebration-luftschlangen-deko-2-3/p/2020004288127"
+
+6."price found as 0.00
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ainterspar%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/haushalt/miraplast-ablagekorb-a5/p/2020004229380"
+
+DataHut_AT_Fressnapf_FullDump_20250703.CSV
+----------------------------------------
+"1.dimensions is not empty.
+
+2.file names and net_content
+are empty"
+
+3.description found as paragraph
+
+4.grammage quantity found as
+1 000 kg in data, price per unit
+is €4.49/kg and price is 4.49.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/vitakraft-menu-vital-meerschweinchen-1000-kg-1004435/
+
+5.grammage quantity is wrong.
+taken from product name.
+product name is ""MultiFit Set 56l bedding + 500g hay""
+and grammage quantity is 56l.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/multifit-set-56l-einstreu--500g-heu-1310103/"
+
+6."date found as 
+2025_07_03'
+
+underscore insted of -"
+
+7."imgae with png format 
+also found
+
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/multifit-mellos-trockenfutter-hund-adult-mini-rind-und-karotten-1-kg-1310285/"
