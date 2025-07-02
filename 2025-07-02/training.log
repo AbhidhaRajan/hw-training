@@ -1,0 +1,184 @@
+DataHut_AT_Dm_PriceExtractions_20250702.CSV
+--------------------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250702.CSV
+--------------------------------------------
+no issues
+
+
+DataHut_AU_Coles_FullDump_20250702.CSV
+-------------------------------------
+"1.ingradients contains extra characters.
+eg: Himalayan Salt (100%)
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_australia-weekly%3Acoles&fieldname=pdp_url&fieldvalue=https%3A//www.coles.com.au/product/coles-pink-himalayan-fine-salt-750g-3402500
+
+2.in some rows ingradients contain the keyword ingradient.
+eg:INGREDIENTS - EACH TABLET CONTAINS:Silybum Marianum (Milk Thistle) ext. 100 mg, from 7 g (min) dry fruit, standardised to contain silymarin 80 mg
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_australia-weekly%3Acoles&fieldname=pdp_url&fieldvalue=https%3A//www.coles.com.au/product/ultralife-liver-support-120-pack-5325454
+
+3.size and site shown uom found same
+
+4.product size is taken as varients"
+
+5."grammage_unit 
+['g' 'kg' 'pack' 'each' 'ml' 'l' 'piece' 'm' 'pair' 'carton' 'mg' 'bunch'
+ 'cm']"
+
+6.site shown uom "missing for 2446
+fields"
+
+7.file_name 1 is empty
+
+
+berkshirehathaways_2025_07_05.json
+---------------------------------
+"1.agent_phone numebr found
+as ['020\xa04513\xa07403']
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aberkshirehathaways&fieldname=profile_url&fieldvalue=https%3A//www.bhhs.com/london-gb801/london/patrick-mcdowell/cid-3041341
+
+2. in some description first letter is missing.also same found in site.
+
+
+3.image url wrong
+found as 
+https://www.firstrealtorsks.com/topeka/annie-foust/cid-1121712/en3.thumb.800.480.png?ck=1750472956 (Count: 1)
+
+profile_url is
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aberkshirehathaways&fieldname=profile_url&fieldvalue=https%3A//www.firstrealtorsks.com/topeka/annie-foust/cid-1121712"
+
+coldwellbanker_us_2025_07_05.json
+--------------------------------
+"1.office_phone_number
+found as
+""+11024619521;ext=6""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Acoldwellbanker_us&fieldname=profile_url&fieldvalue=https%3A//www.coldwellbanker.com/pa/blue-bell/agents/anna-marie-walsh/aid-P00200000FSk1kTaicxc69eRu7f4QYZnIJf4w4qF
+
+
+2.office_phone number ""found as  +12037234461;ext=1219'
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Acoldwellbanker_us&fieldname=profile_url&fieldvalue=https%3A//www.coldwellbanker.com/ct/naugatuck/agents/peggy-dufresne/aid-P00200000FDdr5tW94g71MBIlDD2iA71OWiFNFKx
+
+
+3.12 phone numbers found in office_phone number field for single row.
+site cant be reached.
+
+https://www.coldwellbanker.com/pa/newtown/agents/stefanie-hahn/aid-P00200000FDdrU9PJc4EWAIuNnFll3LhoHOgxa6T"
+
+
+intero_realestate_2025_07_05.json
+--------------------------------
+"1.extra characters in language field
+eg:['Hebrew', 'Old French\xa0(842—Ca.\xa01400)'] 
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aintero_realestate&fieldname=profile_url&fieldvalue=https%3A//www.intero.com/directory/agents/stav-weiss-1
+
+also wrong profile url found.
+
+2.wrong description found, 
+also mistake found in languages
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aintero_realestate&fieldname=profile_url&fieldvalue=https%3A//www.intero.com/directory/agents/erich-sonnberger
+
+
+3.wrong website found.
+eg:""http:////awright.intero.com ""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aintero_realestate&fieldname=profile_url&fieldvalue=https%3A//www.intero.com/directory/agents/a-chris-wright
+
+4.run time error found for profile_url 
+https://www.intero.com/directory/agents/a-chris-wright
+
+https://www.intero.com/directory/agents/brooks-shirk
+
+https://www.intero.com/directory/agents/kathleen-huse
+
+https://www.intero.com/directory/agents/cassie-henderson
+
+5.wrong description found.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aintero_realestate&fieldname=profile_url&fieldvalue=https%3A//www.intero.com/directory/agents/art-maryon
+
+6.wrong description found.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aintero_realestate&fieldname=profile_url&fieldvalue=https%3A//www.intero.com/directory/agents/christopher-chu"
+
+7.fields are not in order
+
+harrynorman_2025_07_05.json
+--------------------------
+"1.email is empty
+
+2.extra sentance found in
+description as ""UNMATCHED SERVICE AND EXPERTISE""
+
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aharrynorman&fieldname=profile_url&fieldvalue=https%3A//www.harrynorman.com/bio/harrynormanrealtorsatlantanorthoffice
+
+3.in some social fields empty dict found {}
+
+
+4.wrong website found.
+eg: "" https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fchristianezeh.harrynorman.com%2F&data=05%7C02%7Cchrist (Count: 1)
+profile
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aharrynorman&fieldname=profile_url&fieldvalue=https%3A//www.harrynorman.com/bio/christianezeh
+
+
+"" https://pageandcarlhenry.harrynorman.com/?_gl=1*1ix8bzy*_ga*NDk4MjM0MTc4LjE3NDY2NDA4MDU.*_ga_9P80WDZGKL*czE3NDY3NDA4ODIk (Count: 2)
+profiles
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aharrynorman&fieldname=profile_url&fieldvalue=https%3A//www.harrynorman.com/bio/carlhenry
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aharrynorman&fieldname=profile_url&fieldvalue=https%3A//www.harrynorman.com/bio/pagehenry
+
+
+5.data count found as 555, previous month count is 715
+
+
+huff_realty_2025_07_05.json
+---------------------------
+"1.agent phone number
+found as ""'513-502-8248 call or text'
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Ahuff_realty&fieldname=profile_url&fieldvalue=https%3A//www.yourrealestatenerd.com
+
+
+2.description found wrong
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Ahuff_realty&fieldname=profile_url&fieldvalue=https%3A//ChristopherEldridge.huff.com
+
+3.profile url and webiste found wrong
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Ahuff_realty&fieldname=profile_url&fieldvalue=https%3A//www.michaelbarno.com"
+
+4."email"  is empty
+
+rector_hayden_2025_07_05.json
+-----------------------------
+"1.image url found as 
+"" https://content.mediastg.net/media/companyset/rhnr/noagentphoto.jpg (Count: 13)
+""
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Arector_hayden&fieldname=profile_url&fieldvalue=https%3A//alexbechel.rhr.com
+
+2.office phone number found as ""['() -']""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Arector_hayden&fieldname=profile_url&fieldvalue=https%3A//kimberlyMullins.rhr.com
+
+3.same url for two rows, name found different
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Arector_hayden&fieldname=profile_url&fieldvalue=https%3A//www.makinglexingtonkyhome.com/
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Arector_hayden&fieldname=profile_url&fieldvalue=https%3A//www.makinglexingtonkyhome.com"
+
+4.email is empty
+
+DataHut_IT_Easycoop_PriceExtractions_20250702.CSV
+--------------------------------------------------
+"1.promotion valid upto
+expired. found as 
+ 2025-07-01 (Count: 286)
+
+so price change found
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aeasycoop&fieldname=promotion_price&fieldvalue=5.92
+
+2.promotion valid upto found as 2025-07-02 in site, 2025-07-01 in data
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aeasycoop&fieldname=pdp_url&fieldvalue=https%3A//www.easycoop.com/coop-polpa-scelta-di-vitello-per-arrosto-4495303.html
+
+
+3.wrong url
+https://www.easycoop.com/nettarine-bianche-it-b-i-vh750-7985521.html
+
+4."price per unit found as 
+0.00 €/LT in data, missing in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_italy-weekly%3Aeasycoop&fieldname=pdp_url&fieldvalue=https%3A//www.easycoop.com/gaza-cola-250ml-7972449.html"
+
+5."date found as 
+'2025-07-01"
