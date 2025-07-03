@@ -1,0 +1,220 @@
+DataHut_CH_Coop_FullDump_20250703.CSV
+-------------------------------------
+1.file_name_1, file_name_2, file_name_3, file_name_4, file_name_5, file_name_6 are empty.
+2."promotion description contains 
+extra characters.
+ eg: 20% ab 20.- 
+for 414 rows
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland-weekly%3Acoop&fieldname=pdp_url&fieldvalue=https%3A//www.coop.ch/de/lebensmittel/getraenke/bier/bier-im-multipack/birra-moretti-l-autentica-lager-10x33cl/p/6864845"
+
+3.producthierarchy_level3
+_Fleisch & Fisch.
+also promotion present,
+but values are taken from 
+site,not from price_per_unit.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland-weekly%3Acoop&fieldname=producthierarchy_level3&fieldvalue=Fleisch%20%26%20Fisch"
+
+4."same image is taken as 
+image 1 and 2.
+
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_switzerland-weekly%3Acoop&fieldname=pdp_url&fieldvalue=https%3A//www.coop.ch/de/kiosk/gespraechsguthaben/yallo/yallo-guthaben-wert-chf-100/p/9900525"
+
+
+woodsbros_2025_07_05.json
+------------------------
+"1.image found as gif
+eg: https://content.mediastg.net/Dynamic/RealEstate/company/374/account/347469/photo.gif (Count: 1)
+
+
+2.wrong profile urls found.
+eg:https://www.woodsbros.com/roster/agents/0 (Count: 1)
+ https://www.woodsbros.com/roster/agents/12 (Count: 1)
+ https://www.woodsbros.com/roster/agents/8 (Count: 1)
+ https://www.woodsbros.com/roster/agents/9 (Count: 1)
+
+3.in languages empty list found,
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Awoodsbros&fieldname=profile_url&fieldvalue=https%3A//valeriedukich.woodsbros.com
+
+4.social field contains empty dict
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Awoodsbros&fieldname=profile_url&fieldvalue=https%3A//AmyandKaren.woodsbros.com
+
+
+5.description incomplete. found as ""HELLO"",full description found in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Awoodsbros&fieldname=profile_url&fieldvalue=https%3A//davidderun.woodsbros.com
+
+6.incomplete description found
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Awoodsbros&fieldname=profile_url&fieldvalue=https%3A//louvillalobos.woodsbros.com"
+
+7."""email"" is empty
+languages is not empty"
+
+
+houlihanlawrence_2025_07_05.json
+------------------------------
+"1.agemt phone number contains extra characters
+eg:'914-328-8400  ext. 15222
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Ahoulihanlawrence&fieldname=profile_url&fieldvalue=https%3A//www.houlihanlawrence.com/bio/GeoffreyBerry
+
+2.title wrong, found as at Houlihan Lawrence (Count: 32)
+original title found in site.
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Ahoulihanlawrence&fieldname=profile_url&fieldvalue=https%3A//www.houlihanlawrence.com/bio/architecturalhomesnewyork"
+
+2.languages is empty but found as empty list
+
+
+
+realtysouth_2025_07_05.json
+---------------------------
+"1.wrong profile url for 27 rows
+
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Arealtysouth&fieldname=profile_url&fieldvalue=https%3A//www.realtysouth.com/roster/agents/4
+
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Arealtysouth&fieldname=profile_url&fieldvalue=https%3A//www.realtysouth.com/roster/agents/5"
+
+coldwellbankerinternational_2025_07_05.json
+-----------------------------------------
+"1.agent phone number found as 
+'+55 55011525541621000 175'
+same found in site.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Acoldwellbankerinternational&fieldname=profile_url&fieldvalue=https%3A//www.coldwellbankerinternational.com/agent/fNCAmu6
+
+2.agent phone number found in site, missing in data
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Acoldwellbankerinternational&fieldname=profile_url&fieldvalue=https%3A//www.coldwellbankerinternational.com/agent/5CyHTr5r
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Acoldwellbankerinternational&fieldname=profile_url&fieldvalue=https%3A//www.coldwellbankerinternational.com/agent/iLhgDnt
+
+3.city found as ""B"" in data  , Canning, B Argentina in site.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Acoldwellbankerinternational&fieldname=profile_url&fieldvalue=https%3A//www.coldwellbankerinternational.com/agent/D4FwkygHv
+
+4.office phone number found as +34 for 8 rows
+same found in site too
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Acoldwellbankerinternational&fieldname=profile_url&fieldvalue=https%3A//www.coldwellbankerinternational.com/agent/RdE88m7apH"
+
+5.fields are not in order
+
+alliebeth_2025_07_05.json
+-------------------------
+no issues
+
+
+DataHut_AT_Billa_FullDump_20250703.CSV
+--------------------------------------
+"1. image found in site, empty in data.
+
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abilla&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/ja-natuerlich-kaesesemmel-007010161.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Abilla&fieldname=pdp_url&fieldvalue=https%3A//shop.billa.at/produkte/treatfuls-weisse-haselnuss-cashew-riegel-00763658"
+
+2.product description found as paragraph
+
+3."file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6', 'retail_limit
+
+are empty"
+
+DataHut_AT_Interspar_FullDump_20250703.CSV
+-----------------------------------------
+1.age recommendations is not empty.
+file_name_1, file_name_2, file_name_3, file_name_4, file_name_5, file_name_6 are empty."
+
+2.description found as paragraph
+3.site shown uom found as
+""x 2""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/sodastream-glasflaschen-duo-1l-x-2/p/2020003525827
+
+4.site shown uom found as ""3""http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/simpex-basic-celebration-luftschlangen-deko-2-3/p/2020004288127"
+
+5.promotion valid upto found as 
+01.07.2025 (Count: 2)
+ 02.07.2025 (Count: 7)
+
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/lebensmittel/colgate-plax-mundspuelung-fresh-protect-soft-mint-500-ml/p/7431296
+
+
+
+
+6.page not found
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/weinwelt/lindt-lindor-kugeln-weiss/p/154604SG
+
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/weinwelt/lindt-lindor-kugeln-milch/p/154048SG"
+
+7."regular price found as 
+0.00
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Ainterspar&fieldname=pdp_url&fieldvalue=https%3A//www.interspar.at/shop/haushalt/miraplast-ablagekorb-a5/p/2020004229380"
+
+
+DataHut_AT_Mueller_FullDump_20250703.CSV
+----------------------------------------
+1."file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6
+are empty"
+2.description found as paragraph
+3."instock found false in data,
+true in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Amueller&fieldname=pdp_url&fieldvalue=https%3A//www.mueller.at/p/la-rive-miss-dream-pink-eau-de-parfum-PPN3101121/%3FitemId%3D3101121"
+
+DataHut_AT_Fressnapf_FullDump_20250703.CSV
+----------------------------------------
+"1.dimensions is not empty.
+
+2.file names and net_content
+are empty"
+
+3."product_description found as
+ paragaraph"
+
+4."capacity is taken as grammage quantity
+and unit. 1000ml in data, product name is
+""Petsation Faltbarer Reisenapf 350+1000ml schwarz""
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/petsation-faltbarer-reisenapf-3501000ml-schwarz-1771154/"
+
+5."image with png format found
+
+eg: https://media.os.fressnapf.com/products-v2/0/0/2/a/002a44470ee0a7e57675609e3671c7411f537c2e_8e7a70a3b6f6304b05c2d289de5679c7f0c1902c.png?t=prod_l (Count: 1)
+"
+
+6.grammage quantity found as
+1 000 kg in data, price per unit
+is €4.49/kg and price is 4.49.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/vitakraft-menu-vital-meerschweinchen-1000-kg-1004435/
+
+
+8.grammage quantity is wrong.
+taken from product name.
+product name is ""MultiFit Set 56l bedding + 500g hay""
+and grammage quantity is 56l.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/multifit-set-56l-einstreu--500g-heu-1310103/"
+
+
+edinarealty_2025_07_05.json
+---------------------------
+"1.address not found in site
+2. in social fields other urls
+found as ""https://715-760-1300'""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aedinarealty&fieldname=profile_url&fieldvalue=https%3A//www.edinarealty.com/rick-coltrain-realtor
+
+3."fields are not in order
+4.languages found as empty list
+
+kentwood_2025_07_05.json
+------------------------
+"1.in social fields 
+empty fields found 
+as empty {}.
+
+2. in language field
+empty fields are found as
+empty list []."
+
+3.city found as 
+"Boulder (Count: 11)
+ Colorado Springs (Count: 1)
+ Denver (Count: 173)
+ Dillon (Count: 1)
+ Ft Collins (Count: 18)"
+ 
+realliving_realestate_2025_07_05.json
+reecenichols_2025_07_05.json
