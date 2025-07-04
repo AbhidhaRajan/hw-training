@@ -1,0 +1,239 @@
+realliving_realestate_2025_07_05.json
+-----------------------------------
+"1.site cant be reached
+for two rows.
+profile urls are
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Arealliving_realestate&fieldname=profile_url&fieldvalue=https%3A//www.reallivingrealestatesolutions.com/douglas.clement
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Arealliving_realestate&fieldname=profile_url&fieldvalue=https%3A//www.reallivingrealestatesolutions.com/bill.kolb
+
+2.one image is in png format others are jpg.
+eg: https://reallivingimages.fnistools.com/images/uploads/agents/23056278/23056278.jpg (Count: 1)
+
+3.fields are not in order
+4."office name found as 
+Real Living Real Estate Solutions
+in site,
+""Real Living Real Estate Solutions - Orlando""
+in data.
+
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Arealliving_realestate&fieldname=profile_url&fieldvalue=https%3A//www.realliving.com/chelsea.calabrese"
+
+5.empty fields in languages,phone numbers
+found as empty list[]
+
+6.empty fields in social found 
+as empty dict {}"
+
+reecenichols_2025_07_05.json
+----------------------------
+"1.title found as ""Rupp|Steven Team ""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Areecenichols&fieldname=profile_url&fieldvalue=https%3A//www.reecenichols.com/bio/bayliff
+
+2.title found as ""Team""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Areecenichols&fieldname=profile_url&fieldvalue=https%3A//www.reecenichols.com/bio/justinandjessikamayer
+
+3.title found as ""theportfolioreecenicholscom"" in data
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Areecenichols&fieldname=profile_url&fieldvalue=https%3A//www.reecenichols.com/bio/stacyanderson"
+
+4.no image found in site, image url found in data
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Areecenichols&fieldname=profile_url&fieldvalue=https%3A//www.reecenichols.com/bio/ashlynnpate
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Areecenichols&fieldname=profile_url&fieldvalue=https%3A//www.reecenichols.com/bio/martga"
+
+5."""email"" is  empty
+office_phone_numbers
+  is not empty"
+6."description incomplete.only last sentance 
+found in data
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Areecenichols&fieldname=profile_url&fieldvalue=https%3A//www.reecenichols.com/bio/griderhomegroup"
+
+KW_SET_4/ebby_2025_07_05.json
+----------------------------
+"1.some images are in
+png formats, some are jpex and
+others are jpg. 
+
+2.zipcode found as 76205-
+- found in 25 fields.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aebby&fieldname=profile_url&fieldvalue=https%3A//www.ebby.com/bio/allisonkempf
+
+3.profile url not found
+ http://www.https://kathygibson.net/ (Count: 1)
+
+4.same profile repeated
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aebby&fieldname=profile_url&fieldvalue=https%3A//www.ebby.com/bio/company"
+
+5."languages found as empty list
+[ ].
+email is empty"
+
+KW_SET_4/robertsbrothers_2025_07_05.json
+----------------------------------------
+"1.description incomplete. only first sentance found
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Arobertsbrothers&fieldname=profile_url&fieldvalue=https%3A//www.robertsbrothers.com/bio/danyellewilson
+
+
+2.decription wrong, found as ""fromon. (count:1)""
+original description found in site.
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Arobertsbrothers&fieldname=profile_url&fieldvalue=https%3A//www.robertsbrothers.com/bio/leahiawickware
+
+3.description incomplete.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Arobertsbrothers&fieldname=profile_url&fieldvalue=https%3A//www.robertsbrothers.com/bio/tammycurl"
+
+4."office_phone_numbers found as 
+empty list. [] "
+
+KW_SET_4/sutton_2025_07_05.json
+-------------------------------
+"1.title found as
+""Sales Representative""
+in data,  ""Sales Representative,
+Broker,
+Manager""in site.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Asutton&fieldname=profile_url&fieldvalue=https%3A//www.sutton.com/ca/agent/lindsay-barlow-81505
+
+2.phone number not found in site, found in data
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Asutton&fieldname=profile_url&fieldvalue=https%3A//www.sutton.com/ca/agent/lindsay-barlow-81505
+
+3.address found as , for 9 rows
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Asutton&fieldname=profile_url&fieldvalue=https%3A//www.sutton.com/ca/agent/lindsay-barlow-81505
+
+4.agent phone number found as ""['514-916-2924', '5149162924'] (Count: 1)""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Asutton&fieldname=profile_url&fieldvalue=https%3A//www.sutton.com/ca/agent/harry-lamontagne-71120
+
+5.agent phone number found as ""['5147965385', '514-796-5385']""
+also office_phone number found in site, missing in data
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Asutton&fieldname=profile_url&fieldvalue=https%3A//www.sutton.com/ca/agent/rudy-nehme-97026
+
+6.office phone number foundas ['000-0000-0000'] in data,
+empty in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Asutton&fieldname=profile_url&fieldvalue=https%3A//www.sutton.com/ca/agent/missy-sutton-110764
+
+7.same issue ['000-000-0000'] (count:3) as office phone number in data, empty in site
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Asutton&fieldname=profile_url&fieldvalue=https%3A//www.sutton.com/ca/agent/charlene-lewis-112167
+'00000000',['0000000000'] ,
+
+8.no image found in site, image url found in data
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Asutton&fieldname=profile_url&fieldvalue=https%3A//www.sutton.com/ca/agent/robert-wiafe-ababio-100196"
+
+9."website found as
+http://.naveenbhopal.com (Count: 1)
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Asutton&fieldname=profile_url&fieldvalue=https%3A//www.sutton.com/ca/agent/naveen-bhopal-121785"
+
+
+KW_SET_5/remax_us_2025_06_05.json
+---------------------------------
+1."month wrong
+remax_us_2025_06_05.json"
+
+2."title found as ""Agent -- (608) 732 - 4572""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=kw-monthly%3Aremax_us&fieldname=profile_url&fieldvalue=https%3A//www.remax.com/real-estate-agents/valerie-kieler-platteville-wi/102310248"
+
+
+DataHut_SI_Dm_PriceExtractions_20250704.CSV
+-------------------------------------------
+no issues
+
+DataHut_SI_Mercator_PriceExtractions_20250704.CSV
+-------------------------------------------------
+"1.grammage_quantity 
+found wrong, capacity is taken as 
+grammage quantity and unit.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/16447563/insekticidna-pipeta-za-pse-10-20-kg-vetocanis
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/16447551/insekticidna-pipeta-za-pse-2-10-kg-vetocanis
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/16447575/insekticidna-pipeta-za-pse-20-40-kg-vetocanis-2-1
+
+2.logical error
+price per unit found as 21.99€ / 1kg and price found as 21.99.
+but grammage quantity and unit is 10kg
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/18311340/prsut-san-daniele-s-kostjo-zorjen-16-mesecev-citterio-cca-10-kg-cena-za-kg
+
+3.grammage quantity and unit wrong,
+diaper capacity is taken as grammage unit and quantity
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Amercator&fieldname=pdp_url&fieldvalue=https%3A//mercatoronline.si/izdelek/19102368/pampers-hlacne-plenice-maxi-pack-s3-6-11-kg-56-1"
+
+
+DataHut_SI_Spar_PriceExtractions_20250704.CSV
+-------------------------------------------
+"1.grammage quantity 
+wrong.found as 1400g 
+in data, 1kg in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Aspar&fieldname=pdp_url&fieldvalue=https%3A//www.spar.si/online/melone-1kg/p/11710
+
+2.grammage quantity 
+wrong.found as 2200g 
+in data, 1kg in site
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_slovenia%3Aprice-daily%3Aspar&fieldname=pdp_url&fieldvalue=https%3A//www.spar.si/online/bio-lubenica-spar-naturpur-1kg/p/491973"
+
+
+DataHut_AT_Billa_PriceExtractions_20250704.CSV
+---------------------------------------------
+no issues
+
+
+KW_SET_6/globalremax_2025_07_05.json
+-------------------------------------
+"1.description incomplete
+line 40065
+    ""profile_url"": ""https://global.remax.com/en/agents/brazil/nova-friburgo-centro/walcirleyfreiredelimaesilva-monicamartinsnicolaute/630551024""
+
+2.two phn numbers found in site, missing in data
+line 75402
+
+    ""profile_url"": ""https://global.remax.com/en/agents/israel/carmiel/אהרון-איציקזון-aharon-izigzon/50011010""
+3.other urls found as whatsapp link.
+eg:'https://t.me/+595972494051'
+line 15116
+
+4.state found as ""100 Mile House"", in  some cases city found as ""100 Mile House"" 
+eg:    ""profile_url"": ""https://global.remax.com/en/agents/canada/100-mile-house/matthew-giroday/1029589034""
+state found as number 
+eg:1092 
+
+5.website wrong
+eg:http://10/02/2021 (Count: 1)
+ http://320868 
+
+6.website found as 
+ https:www.instagram.com/douglascostamoreira?igshid=YzVkODRmOTdmMw== (Count: 1)
+
+7.zipcode found as 
+ 2710-693 - Sintra (Sta Maria e S. Miguel, S. Mart. e S.P. Pen (Count: 2)
+
+ Bahía Blanca, Argentina (Count: 47)
+ Be'er Ya'akov, Center, Israel (Count: 2)
+ Be'ersheba, and the South, Israel (Count: 34)
+ Beit She'an, North, Israel (Count: 2)
+ Belgrano (CABA), Argentina (Count: 63)
+ Ciudad Del Este, Alto Paraná, Paraguay (Count: 5)
+ Córdoba Capital, Argentina (Count: 362)
+Las Mercedes, Asunción, Paraguay (Count: 41)
+ Ljubljana, Ljubljana (city), Slovenia (Count: 4)
+ Luján de Cuyo, Argentina (Count: 96)
+Maipú (Mendoza), Argentina (Count: 68)
+ Manorá, Asunción, Paraguay (Count: 17)
+ Mariscal Estigarribia, Asunción, Paraguay (Count: 20)
+ Mburucuyá, Asunción, Paraguay (Count: 3)
+ Medellín, Antioquia, Colombia (Count: 18)
+ Modi'in, Center, Israel (Count: 14)
+ N/A (Count: 186)
+ Villa Del Parque (CABA), Argentina (Count: 52)
+ Villa General Mitre (CABA), Argentina (Count: 14)
+ Villa Pueyrredón, Argentina (Count: 33)"
+
+
+DataHut_AT_Interspar_PriceExtractions_20250704.CSV
+--------------------------------------------------
+"for some rows breadcrumbs
+not found in site."
+
+
+
+
+
