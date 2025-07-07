@@ -1,0 +1,128 @@
+DataHut_AT_Mueller_PriceExtractions_20250707.CSV
+------------------------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250707.CSV
+--------------------------------------------
+"site shown uom found as ""1 Waschgang"" not Waschgange
+but grammage quantity is 1 btl
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Abipa&fieldname=pdp_url&fieldvalue=https%3A//www.bipa.at/p/B3-374375"
+
+
+DataHut_AT_Mpreis_PriceExtractions_20250707.CSV
+-----------------------------------------------
+1.selling price missing in data,
+found price in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Ampreis&fieldname=pdp_url&fieldvalue=https%3A//www.mpreis.at/shop/p/iglo-backfischstaebchen-msc-809317"
+
+2."if Einweg or Mehrweg
+tag is found in product name,
+it was uppend with breadcrumb.
+but in site no tag is found in
+breadcrumb, onlyproduct name found."
+
+3."site shown uom missing for 544 rows.
+
+
+
+DataHut_AT_Fressnapf_PriceExtractions_20250707.CSV
+------------------------------------------------
+"1.grammage quantity found as 4kg
+in data, price_per unit is €19.49/kg
+price is 19.49. product name is
+""ARDAP Spot-On für Kleintiere von 1-4 kg""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/ardap-spot-on-fuer-kleintiere-von-1-4-kg-1201690/
+
+2.grammage quantity found as 500g in data,
+found as 250g in site. and price is taken for 250g
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/aniforte-bierhefe-pulver-500g-250-g-1665877/
+
+
+3.grammage quantity found as 1 stuck in data
+3 Stückx3 in site.
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/8in1-delights-kauringe-haehnchenfleisch-3-stueckx3-1269659/
+
+4.grammage quantity found as 6 x 400g in data,
+6 x 800g in site
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/aniforte-nassfutter-greenfieldturkey-pute-6-x-400-g-6x800-g-1422189/
+
+5.grammage quantity found as 2kg in data,
+product name is ""Applaws Adult Mischfütterungs-Set Applaws Adult Huhn 2kg + Applaws Multipack Adult Huhn Variation 12x70g"" , 2kg+12x70g
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/applaws-adult-mischfuetterungs-set-applaws-adult-huhn-2kg--applaws-multipack-adult-huhn-variation-12x70g-1368754/"
+
+6."grammage quantity and unit found as 8 btl , site shown uom is 
+Felix KnabberMix Original & Strandspaß Katzensnacks 2 x 8 Beutel à 60g.
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria%3Aprice-daily%3Afressnapf&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/felix-knabbermix-original--strandspass-katzensnacks-2-x-8-beutel--60g-1364343/"
+
+
+DataHut_AT_Dm_PriceExtractions_20250707.CSV
+------------------------------------------
+no issues
+
+DataHut_CH_Lidl_PriceExtractions_20250707.CSV
+--------------------------------------------
+"breadcrumbs contains
+Sortiment > Sortiment
+for 2685 rows.
+
+eg: Sortiment > Sortiment > Übersee Rum"""
+
+machinerytrader_2025_07_07.csv
+------------------------------
+"1.two category column found.
+Category and category
+
+2.Vin and VIN fields found
+"
+3.fields are "not in order and extra fields
+found"
+
+4.630 fields found
+
+DataHut_AT_Mueller_PriceExtractions_20250704.CSV
+------------------------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250704.CSV
+--------------------------------------------
+no issues
+
+DataHut_AT_Dm_PriceExtractions_20250704.CSV
+-----------------------------------------
+no issues
+
+
+bayut_egp_2025_07_02.json
+-------------------------
+1.broker_display_name,depth and broker are not empty
+2.price_per contains Monthly,daily,weekly,yearly
+3."Two new fields ""completion_status"",
+""ownership"""
+
+
+dari_ae_2025_07_02.json
+----------------------
+no issues
+
+bayut_uae_project_2025_07_02.json
+--------------------------------
+date found as "2025-07-08"
+
+dubizzle_uae_2025_07_02.json
+----------------------------
+"1.phone number found as
+"" +971 (Count: 2)""
+eg:http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Adubizzle_uae&fieldname=url&fieldvalue=https%3A//dubai.dubizzle.com/property-for-sale/residential/apartment/2025/6/23/luxury-dubai-harbour-1bed-study-2-161184/
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Adubizzle_uae&fieldname=url&fieldvalue=https%3A//dubai.dubizzle.com/property-for-sale/residential/apartment/2025/6/24/high-floor-seafront-luxury-marina-skyli-2-768260/
+
+2.phone number found as
+"" +9714 in data, +9719714 in site (Count: 2)""
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Adubizzle_uae&fieldname=url&fieldvalue=https%3A//dubai.dubizzle.com/property-for-rent/residential/apartmentflat/2025/5/26/spacious-chiller-free-brand-new-furnitu-2-205372/
+
+3.site cant be reached
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Adubizzle_uae&fieldname=url&fieldvalue=https%3A//rak.dubizzle.com/property-for-rent/short-term-daily/villahouse/2025/6/4/farmhouse-in-ras-alkhimah-11-871/"
+
+4.listed_by is empty
