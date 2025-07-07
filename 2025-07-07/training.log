@@ -126,3 +126,4 @@ http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-wee
 http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Adubizzle_uae&fieldname=url&fieldvalue=https%3A//rak.dubizzle.com/property-for-rent/short-term-daily/villahouse/2025/6/4/farmhouse-in-ras-alkhimah-11-871/"
 
 4.listed_by is empty
+5.broker, broker_display_name are empty for 7033 rows
