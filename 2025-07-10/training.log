@@ -1,0 +1,162 @@
+DataHut_AT_Mueller_FullDump_20250710.CSV
+----------------------------------------
+1.file_names are empty
+2."product description is paragraph
+
+https://www.mueller.at/p/revell-05167-german-submarine-type-ix-c-40-u190-2867561/?itemId=2867561"
+
+3."""some images are in 
+other format
+eg:https://www.mueller.at/_next/image/?url=https://static.prod.ecom.mueller.de/products/4260491222046/4260491222046.tif&w=2880&q=75
+ 
+pdp url is
+https://www.mueller.at/p/ben-anna-love-soap-elmswood-IPN2886807/?itemId=2886807"""
+
+
+DataHut_AT_Bipa_FullDump_20250710.CSV
+-------------------------------------
+1.drained_weight', 'preparationinstructions', 'nutritional_information'
+and file names are empty"
+
+2."breadcrumb found as 
+""Startseite"" for 3 rows
+in data.
+but missing in site
+
+https://www.bipa.at/p/B3-439783
+https://www.bipa.at/p/B3-543233
+https://www.bipa.at/p/B3-774462"
+
+3."image missing in
+data, found in site
+https://www.bipa.at/p/B3-446618"
+
+4.instock found false in data
+true in site
+https://www.bipa.at/p/B3-869344
+
+5. 2+1 GRATIS and AKTION tag found in site
+missing in data
+https://www.bipa.at/p/B3-869344"
+
+DataHut_SI_Dm_FullDump_20250710.CSV
+------------------------------------
+1."Domov > Nega in dišave > Nega za moške > Moški geli za tuširanje
+in data only Domov in site.
+
+https://www.dm.si/balea-men-gel-za-tusiranje-z-oljem-planinskega-bora-in-metinim-kompleksom-p4067796168365.html
+
+https://www.dm.si/seinz-osvezilni-gel-za-tusiranje-3-v-1-z-meto-in-koriandrom-p4058172586439.html
+
+https://www.dm.si/seinz-gel-za-prhanje-sport-3-v-1-z-magnezijem-in-kumaro-p4058172586934.html"
+
+2.file names are empty
+3."country of origin 
+found wrong.
+https://www.dm.si/balea-men-gel-za-britje-sensitive-p4058172925757.html"
+
+DataHut_SI_Mercator_FullDump_20250710.CSV
+----------------------------------------
+file names are empty
+
+DataHut_CH_Coop_FullDump_20250710.CSV
+-------------------------------------
+"image found in site
+empty in data.
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/desserts-creme/creme-mousse/gourmand-vegetal-kokos-pfirsich4x100g/p/7078056
+
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/joghurt/joghurt-mit-geschmack/himbeer/new-roots-cashew-himbeere/p/7078711
+
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/butter-margarine/kochbutter-bratfett/naturaplan-bio-kokosoel/p/7263459"
+
+
+DataHut_AT_Mpreis_FullDump_20250710.CSV
+--------------------------------------
+"1.aktion tag not found in site
+found in data
+https://www.mpreis.at/shop/p/frosch-maschinengeschirrspuel-gel-40wg-309731
+https://www.mpreis.at/shop/p/kaegi-fret-mini-coconut-20er-packung-818036
+
+2.promotion missing in site, found in data, so price change found
+https://www.mpreis.at/shop/p/heineken-bier-tray-4x-05-liter-dose-107039
+same issue
+https://www.mpreis.at/shop/p/calgon-4-in-1-power-gel-43-waschgaenge-437607
+
+3.images are in jpg format
+4.file_name_1 is empty
+
+DataHut_AT_Interspar_FullDump_20250710.CSV
+------------------------------------------
+"1.regular price found as 0.00
+https://www.interspar.at/shop/haushalt/miraplast-ablagekorb-a5/p/2020004229380
+
+2.promotion description found as
+""Mengenvorteil - ab 2 Flaschen je 1,99  SIE SPAREN 0.80 €"" in site
+""Mengenvorteil - ab 2 Flaschen je 1,99"" in data
+https://www.interspar.at/shop/weinwelt/lobsters-tonic-water/p/2020004024541
+
+
+3.promotion description found as ""Mengenvorteil - ab 2 Flaschen je 4,99  SIE SPAREN 1.50 €""
+in site ""Mengenvorteil - ab 2 Flaschen je 4,99"" in data
+https://www.interspar.at/shop/weinwelt/mateus-ros/p/214858SG"
+
+4.page not found
+https://www.interspar.at/shop/haushalt/stabilo-filzstift-cappi-24-farben/p/2020004422507
+
+5."replaced with ""\\|""
+in nutrition information.
+https://www.interspar.at/shop/lebensmittel/doppelherz-kollagen-1000-biotin-q10-30-tabletten/p/2020003915048"
+
+6."site shown uom found as
+""x 2""
+https://www.interspar.at/shop/lebensmittel/sodastream-glasflaschen-duo-1l-x-2/p/2020003525827"
+
+7.capacity of material
+taken as grammage quantity 
+and unit
+
+https://www.interspar.at/shop/haushalt/simpex-professional-koerperanalysewaage-bis-180kg/p/2020001659609
+
+8.change in product name found
+Schwechater Bier 500 ML mit Pfand in data, Schwechater
+Bier 500 ML EINWEG mit Pfand in site.
+https://www.interspar.at/shop/lebensmittel/red-bull-energy-drink-zero-calories/p/2020005429178"
+
+9.description found as paragraph
+
+10."age_recommendations is not empty.
+
+file_name_1, file_name_2, file_name_3, file_name_4, file_name_5, file_name_6 are empty."
+
+
+
+DataHut_AT_Fressnapf_FullDump_20250710.CSV
+------------------------------------------
+"1.grammage quantity found as 4kg
+in data, price_per unit is €19.49/kg
+price is 19.49. product name is
+""""ARDAP Spot-On für Kleintiere von 1-4 kg""
+
+https://www.fressnapf.at/p/ardap-spot-on-fuer-kleintiere-von-1-4-kg-1201690/
+
+2.grammage quantity wrong. found as 9x12 g in data, 7x9x12g in site
+https://www.fressnapf.at/p/sheba-beutel-creamy-snacks-7x-9x12g-huhn-und-lachs-1706488/
+
+3..grammage quantity wrong. found as 6x15 g in data, 11x6x15g in site
+https://www.fressnapf.at/p/miamor-cat-snack-lachs-cream-11x6x15g-1265855/"
+
+4."product_description found as
+ paragaraph
+eg:https://www.fressnapf.at/p/4cats-pet-airs-schutzkragen-s-1269008/"
+
+5.dimensions is not empty.
+
+6.file names and net_content
+are empty"
+
+7."replaced with ""\\|""
+in special_nutrition_purpose .
+https://www.fressnapf.at/p/wolfsbacher-natur-bio-barf-oel-100-ml-1678073/"
+
+8."image with both png and
+jpg formats found"
