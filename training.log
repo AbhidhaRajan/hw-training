@@ -1,0 +1,188 @@
+DataHut_AT_Bipa_PriceExtractions_20250711.CSV
+---------------------------------------------
+1.breadcrumb found as 
+""Startseite"" in data,empty
+is site
+https://www.bipa.at/p/B3-439783
+
+https://www.bipa.at/p/B3-543233
+
+https://www.bipa.at/p/B3-774462"
+
+2."1+1 GRATIS AKTION tag present in site, missing in data
+https://www.bipa.at/p/B3-348504
+
+https://www.bipa.at/p/B3-431422"
+
+
+DataHut_AT_Dm_PriceExtractions_20250711.CSV
+------------------------------------------
+"breadcrumb wrong
+""Startseite > Styleguide > Vorlagen Landin­g­pages > Nachhaltig inspiriert mit dm > Haushalt"" in data
+
+""Startseite>Nachhaltiger leben>Nachhaltig inspiriert mit dm>Haushalt"" in site
+
+https://www.dm.at/profissimo-klammern-aus-holz-mini-p4058172507182.html
+"
+
+DataHut_AT_Billa_PriceExtractions_20250711.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Mueller_PriceExtractions_20250711.CSV
+------------------------------------------------
+no issues
+
+DataHut_SI_Dm_PriceExtractions_20250711.CSV
+------------------------------------------
+no issues
+
+DataHut_SI_Spar_PriceExtractions_20250711.CSV
+-------------------------------------------
+"1.grammage quantity found as 
+0.17l in data, 175ml in product name
+price is also taken for 175ml.
+https://www.spar.si/online/obnovitveni-balzam-in-maska-s-cistim-kokosovim-oljem-2v1-hair-repair-afrodita-175ml/p/649507
+
+2.same issue, grammge quantity found as 0.26l in data,
+250ml in product name. price is also taken for 250ml
+https://www.spar.si/online/omaka-tabasco-sweetspicy-mcilhenny-256ml/p/656757
+
+"
+
+DataHut_SI_Mercator_PriceExtractions_20250711.CSV
+------------------------------------------------
+"1.logical error
+price per unit,price and grammage quantity is not matching.
+eg:
+https://mercatoronline.si/izdelek/13633580/jajca-izpod-kamniskih-planin-m-hlevska-reja-jata-zgo-12-jajc
+price per unit is:0.32€ / kos
+price:3.79
+grammage quantity and unit :1 kos.
+
+same issue
+https://mercatoronline.si/izdelek/18342686/jajca-l-hlevska-reja-mercator-10-1
+https://mercatoronline.si/izdelek/17961253/jajca-l-hlevska-reja-mercator-10-1
+
+2.grammage quantity wrong
+found as 0.12g in data, actual quantity is 12gram. price is also taken for 12 gram
+https://mercatoronline.si/izdelek/290535/zafran-kotanyi-0-12-g"
+
+
+DataHut_CH_Lidl_PriceExtractions_20250711.CSV
+--------------------------------------------
+no issues
+
+samsclub_2025_07_11.csv
+-----------------------
+"float in data type. but some 
+prices having two decimal places
+and some having single decimal place.
+
+eg:120.0
+16.24"
+
+machinerytrader_2025_07_11.csv
+-----------------------------
+"1.two category column found.
+Category and category
+
+2.Vin and VIN fields found
+
+3.fields are not in order and extra fields
+found"
+
+DataHut_SI_Spar_FullDump_20250711.CSV
+------------------------------------
+1."DataHut_SI_Spar_FullDump_20250711.CSV
+date is 11 in file name"
+
+2."file names and 
+producthierarch_level7 are empty."
+
+3."extraction_date 
+['2025-08-10'] 
+month found as 08
+insted of 07"
+
+4."some site shown uom is product
+name, others are grammage quantity and unit"
+
+5.instock true only
+
+6.price was found as 
+float with single decimal point
+eg: 1.5
+1.55, and integer 
+eg:16
+https://www.spar.si/online/kivi-1kg/p/11658
+
+same found in promotion price,
+regular price and selling price
+
+https://www.spar.si/online/sadna-kupa-spar-to-go-1kg/p/317847
+https://www.spar.si/online/mortadela-klasika-despar-1kg/p/628956
+"
+
+7.Additional field  in site -- contact
+
+8.image urls present, file names are empty
+
+DataHut_SI_Dm_FullDump_20250711.CSV
+------------------------------------
+1."DataHut_SI_Dm_FullDump_20250711.CSV
+date found as 11 insted of 10"
+2.file names are empty
+3."grammage quantity is comma separated for 2 rows
+eg:0,75
+https://www.dm.si/ajax-cistilo-za-steklo-crystal-clean-p8718951048522.html
+https://www.dm.si/domestos-extended-power-citrus-fresh-tekoce-dezinfekcijsko-vecnamensko-cistilo-p5996037079780.html
+"4."Domov > Nega in dišave > Nega za moške > Moški geli za tuširanje
+in data only Domov in site.
+
+https://www.dm.si/balea-men-gel-za-tusiranje-z-oljem-planinskega-bora-in-metinim-kompleksom-p4067796168365.html
+
+https://www.dm.si/seinz-osvezilni-gel-za-tusiranje-3-v-1-z-meto-in-koriandrom-p4058172586439.html
+
+https://www.dm.si/seinz-gel-za-prhanje-sport-3-v-1-z-magnezijem-in-kumaro-p4058172586934.html"
+5.price field contains different
+format values,some are integers,
+some are float with single or double decimal
+points
+eg:0.3,1,0.35
+6.price_per unit contains extra characters
+eg:4.70 € za 1 kos  |<lineThrough>
+https://www.dm.si/catrice-glos-za-ustnice-underwater-secrets-02-got-a-secret-can-you-keep-it-p4059729545411.html
+
+
+6.ingradients is taken as country of origin
+eg:https://www.dm.si/balea-men-gel-za-britje-sensitive-p4058172925757.html
+"
+7.image urls present, file names are empty
+
+DataHut_SI_Mercator_FullDump_20250711.CSV
+-----------------------------------------
+"1.price_was contains
+values with integer,
+float with single and double decimal
+points.
+eg:1.1 ,12,1.57
+https://mercatoronline.si/izdelek/19839585/center-za-igro-morsko-zivljenje-avenli
+
+same in the case of regular ,promotion and selling prices
+https://mercatoronline.si/izdelek/17720502/maslo-mu-cuisine-20-g
+https://mercatoronline.si/izdelek/17337474/insekticid-zaz-liquid-35ml-polnilo
+
+2.price is missing in data, found in site
+line 7991
+https://mercatoronline.si/izdelek/18814327/cips-curvies-paprika-brez-glutena-schar-170-g
+
+
+"3."DataHut_SI_Mercator_FullDump_20250711.CSV
+date found as 11 insted of 10"
+4.file names are empty
+5."nutritional information is not taken as dictionary
+eg:energijska vrednost': '1838/440 kj/kcal', 'maščobe': '19 g', '— nasičene maščobe': '5,9 g', 'ogljikovi hidrati': '67 g', '— sladkorji': '2,1 g', 'prehranske vlaknine': '5 g', 'beljakovine': '7,7 g', 'sol': '0,3 g
+line 7992
+https://mercatoronline.si/izdelek/17917020/keksi-s-koscki-cokolade-brez-dodanega-sladkorja-misura-290-g
+"
