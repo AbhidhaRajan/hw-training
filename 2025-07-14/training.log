@@ -1,0 +1,218 @@
+DataHut_AT_Billa_PriceExtractions_20250714.CSV
+--------------------------------------------
+no issues
+
+DataHut_AT_Mueller_PriceExtractions_20250714.CSV
+------------------------------------------------
+"price missing in data, found in site
+https://www.mueller.at/p/hasbro-transformers-cyberworld-grimlock-chomp-battle-PPN3119747/?itemId=3119747
+
+https://www.mueller.at/p/hasbro-marvel-water-webs-ahoi-piratenschiff-mit-seifenblasen-PPN3119764/?itemId=3119764"
+
+DataHut_AT_Mpreis_PriceExtractions_20250714.CSV
+-----------------------------------------------
+"1.wrong product name found
+found as ""Ups!""
+in data
+Schinkenspeck in data
+https://www.mpreis.at/shop/p/greisinger-schinkenspeck-30014
+
+2.grammage quantity and unit found as 1 stuck in data,350g in site
+https://www.mpreis.at/shop/p/greisinger-schinkenspeck-30014
+
+"
+3.price_per-unit "found in site, missing in data
+https://www.mpreis.at/shop/p/greisinger-schinkenspeck-30014
+"
+4.site shown uom "found in site, missing in data
+https://www.mpreis.at/shop/p/greisinger-schinkenspeck-30014
+
+5."wrong breadcrumb
+found as ""Ups!""in data
+Startseite>Lebensmittel>Fleisch & Wurst>Speck>Schinkenspeck
+in site
+
+
+
+line 9752
+https://www.mpreis.at/shop/p/greisinger-schinkenspeck-30014
+"
+
+DataHut_AT_Fressnapf_PriceExtractions_20250714.CSV
+------------------------------------------------
+"1.grammage quantity found as 4kg
+in data, price_per unit is €19.49/kg
+price is 19.49. product name is
+""ARDAP Spot-On für Kleintiere von 1-4 kg""
+https://www.fressnapf.at/p/ardap-spot-on-fuer-kleintiere-von-1-4-kg-1201690/
+
+2.grammage quantity taken wrong. 12X100 g in data, but price taken and product name contain is 4X12X100 g.
+https://www.fressnapf.at/p/cesar-multipack-in-gelee-mit-huhn-karotten-rind-und-gemuese-4x12x100g-1394128/"
+
+DataHut_AT_Interspar_PriceExtractions_20250714.CSV
+--------------------------------------------------
+site shown uom found as  x 2
+https://www.interspar.at/shop/lebensmittel/sodastream-glasflaschen-duo-1l-x-2/p/2020003525827
+
+
+DataHut_AT_Bipa_PriceExtractions_20250714.CSV
+--------------------------------------------
+"breadcrumb found as 
+""Startseite"" in data,empty
+is site
+https://www.bipa.at/p/B3-439783
+
+https://www.bipa.at/p/B3-543233
+
+https://www.bipa.at/p/B3-774462"
+
+
+DataHut_AT_Dm_PriceExtractions_20250714.CSV
+-------------------------------------------
+"breadcrumb wrong
+""Startseite > Styleguide > Vorlagen Landin­g­pages > Nachhaltig inspiriert mit dm > Haushalt"" in data
+
+""Startseite>Nachhaltiger leben>Nachhaltig inspiriert mit dm>Haushalt"" in site
+
+https://www.dm.at/profissimo-klammern-aus-holz-mini-p4058172507182.html"
+
+DataHut_SI_Spar_PriceExtractions_20250714.CSV
+----------------------------------------------
+no issues
+
+DataHut_SI_Mercator_PriceExtractions_20250714.CSV
+------------------------------------------------
+no issues
+
+DataHut_AT_Lidl_FlyerExtractions_20250714.csv
+---------------------------------------------
+no issues
+
+DataHut_AT_Mueller_FlyerExtractions_20250714.csv
+------------------------------------------------
+no issues
+DataHut_AT_Penny_FlyerExtractions_20250714.csv
+--------------------------------------------
+no issues
+
+DataHut_CH_Denner_FullDump_20250711.CSV
+--------------------------------------
+"1.grammage unit found as 
+""gm""for line 398
+https://www.denner.ch/de/aktionen-und-sortiment/ip-suisse-bohnen~p818933?variant=47972c45-14e6-4d5e-a39f-e4d8c6c0d837
+
+2.no image found in site, image url found in data
+line 459,202,320
+ https://denner.imgix.net/assets/00000000-0000-1000-8000-000000000000/denner_d.png?auto=format,compress&crop=faces&w=620&h=730&fit=fill (Count: 3)
+
+3.price valid from found in two format
+eg: 11/07/25,11.07.2025
+line 11
+https://www.denner.ch/de/aktionen-und-sortiment/chirat-cornichons~p032131?variant=757348a8-fff0-4591-bf40-d1b54e1f6ab2
+
+4.site shown uom is taken as product description for more rows.
+eg:line 2
+https://www.denner.ch/de/aktionen-und-sortiment/ip-suisse-le-tradition~p802251?variant=992bef67-4a06-42e1-815f-9516df72e0ba
+5.unique_id found as 
+"" a451ab9c-f6c6-4ff4-a5ef-3df8e471bbc1P""
+line 1
+https://www.denner.ch/de/aktionen-und-sortiment/alle-chirat-produkte~pa451ab9c-f6c6-4ff4-a5ef-3df8e471bbc1?variant=99a7ece6-7c6f-40ca-a874-669fa86f015a
+also promotion dates found in data, empty in site
+6."DataHut_CH_Denner_FullDump_20250711.CSV
+date found wrong. 11 insted of 10"
+7."extraction date is wrong in one row.
+found as 2025-07-11
+line 370
+
+https://www.denner.ch/de/aktionen-und-sortiment/ip-suisse-zuckermais~p904788?variant=9067608a-8679-4ea7-80f5-76c9e4f583b3
+
+8."price field contains
+integer values and floating
+point values with single and double decimal points.
+eg:regular_price 8.4
+https://www.denner.ch/de/aktionen-und-sortiment/chirat-gurken~p032128?variant=3a3133e3-74f1-46e7-ae6c-0b11ea320ded
+regular_price is 46
+https://www.denner.ch/de/aktionen-und-sortiment/feldschloesschen-bier-original~p054824?variant=5af64548-699b-40a7-89e8-dd7e1555ecc3
+
+9."producthierarchy_level7
+is not empty
+
+
+'file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'image_url_4'
+is empty"
+10."breadcrumb missing for 1 row,found in site
+line 108
+https://www.denner.ch/de/aktionen-und-sortiment/steinhaus-pasta-classica-tortelloni-rindfleisch~p901499?variant=7fc9f9bf-72fb-49c0-8a54-417e6aba4f59
+"
+
+DataHut_CH_Coop_FullDump_20250711.CSV
+------------------------------------
+"1.price field contains
+integer values and floating
+point values with single and double decimal points.
+
+eg:https://www.coop.ch/de/weine/spezialitaeten/raritaeten/magnum-ticino-doc-merlot-quattromani/p/1016684005
+
+https://www.coop.ch/de/lebensmittel/suesses-snacks/schokolade-suessigkeiten/tafelschokolade/milch/halba-milch-kapellbruecke/p/6826516
+
+2.price found as zero for 26 rows
+"
+3."unique id repeated for two rows
+line 24209,24210
+https://www.coop.ch/de/haushalt-tier/haushalt-kueche/kuechenutensilien/kuechenhelfer/zyliss-trommelreibe-aluminium/p/5933508
+https://www.coop.ch/de/baby-kind/spielwaren/audio/hoerspiele/tonies-die-haeschenschule-die-neue-haeschenschule/p/7403836
+
+product unique key also repeated"
+
+4."DataHut_CH_Coop_FullDump_20250711.CSV
+date found as 11 insted of 10"
+5.filenames are empty
+
+6."promotion description found in data,
+missing in site,also promotion price not 
+found in data.
+line 25
+https://www.coop.ch/de/lebensmittel/fruechte-gemuese/wurzelgemuese/rueebli-pastinaken/naturaplan-bio-karotten/p/7019434
+"
+7."image found in site
+missing in data
+line 1206
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/desserts-creme/creme-mousse/gourmand-vegetal-kokos-pfirsich4x100g/p/7078056
+"
+DataHut_CH_Migros_FullDump_20250711.CSV
+--------------------------------------
+1.date is 11 in filename. DataHut_CH_Migros_FullDump_20250711.CSV
+2."producthierarchy_level5 is not empty.
+file_name_1 is empty"
+3.competitor name "wrong.
+found as migras
+for all rows"
+
+4."date found as 
+""'2025-08-10'""
+o8 insted of 07"
+
+5.site shown uom missing for 6714 rows
+6."product name found as 1.5L
+https://www.migros.ch/de/product/630554800000
+"
+7.breadcrumbs is missing for 9 rows.
+8.breadcrumb found as ""ppppppp""
+line 71
+https://www.migros.ch/de/product/265606702300
+
+9."price not found in site
+found in data
+https://www.migros.ch/de/product/mo/13215
+
+10."price field contains
+integer values and floating
+point values with single and double decimal points.
+
+https://www.migros.ch/de/product/220260010992
+"
+11."grammage quantity contains comma
+eg:55,0
+https://www.migros.ch/de/product/mo/66267
+"
+12.file_name_1 is empty
