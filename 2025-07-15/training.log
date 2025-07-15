@@ -1,0 +1,191 @@
+DataHut_SI_Spar_PriceExtractions_20250714.CSV
+---------------------------------------------
+"1.comma separated values
+found in both selling price and regular price of same row
+eg:7,19
+https://www.spar.si/online/barva-za-lase-brez-amoniaka-323-crna-cokolada-casting-creme-gloss-loreal/p/380227
+
+2.price_per_unit found as ""null"" found as 1,39 €/kos in site
+line 9120
+https://www.spar.si/online/svecka-za-torto-st40-vse-najboljse-11/p/519302
+
+3.price field contains
+integer values and floating
+point values with single and double decimal points.
+https://www.spar.si/online/gaia-naturelle-kolagen-shot-10000-500-ml/p/611473
+https://www.spar.si/online/jabolka-gala-1kg/p/296981
+
+
+4."not unique,one id repeated
+654275 for two rows,in which one id is mistakenly taken, original is 533043
+line 3,16846
+https://www.spar.si/online/tiramisu-con-savoiardi-spar-premium-500g/p/654275
+
+https://www.spar.si/online/petersilj-100g/p/533043
+
+5.breadcrumb is "missing for one row
+in data, found in site
+line 11110
+https://www.spar.si/online/paniran-ribji-file-dobrote-morja-kvibo-880g/p/652917
+
+
+DataHut_SI_Mercator_PriceExtractions_20250714.CSV
+------------------------------------------------
+"1.price_per_unit found 
+as "" null ""
+line 11442
+https://mercatoronline.si/izdelek/18605807/zobna-scetka-pulsar-medium-oral-b
+
+2.price field contains
+integer values and floating
+point values with single and double decimal points.
+https://mercatoronline.si/izdelek/5392027/konjak-courvoisier-40-alkohola-0-7-l
+https://mercatoronline.si/izdelek/19855153/alkoholna-pijaca-goool-spritz-vinakoper-0-75-l
+
+3.grammage quantity found as
+"gm",line 56
+https://mercatoronline.si/izdelek/5077098/kefir-krepki-suhec-1-5-m-m-krepko-750-g
+line 53
+https://mercatoronline.si/izdelek/5077098/kefir-krepki-suhec-1-5-m-m-krepko-750-g
+
+line 14662
+https://mercatoronline.si/izdelek/18493564/bio-mini-vaflji-iz-crnega-riza-trikotniki-80-g
+
+DataHut_SI_Dm_PriceExtractions_20250714.CSV
+-------------------------------------------
+"1.grammage quantity
+found as liter 
+line 21
+https://www.dm.si/alpro-ovseni-napitek-this-is-not-m-lk-barista-p5411188140146.html
+
+2.grammage quantity found as wrong
+eg:1364 in data,1.364 in site
+line 4206
+https://www.dm.si/silan-mehcalec-aromatherapy-fascinating-frangipani-p9000101582642.html
+
+3."unique id repeated
+""4058172936197"" for two rows.
+line 6,10226
+https://www.dm.si/no-planet-b-balzam-za-lase-intense-repair-p4058172936197.html
+https://www.dm.si/snails-otroski-lak-za-nohte-glitter-bomb-p5200384504742.html
+
+4."site shown uom found as 1.400 g,
+1.000 g.etc
+eg:
+line 10844
+https://www.dm.si/rok-s-arasidov-namaz-p3830066431053.html
+
+5.comma separated values
+found in selling price and regular 
+price for two rows
+https://www.dm.si/bh-cosmetics-svincnik-za-obrvi-brow-designer-ebony-p849953018867.html
+https://www.dm.si/trend-t-up-tekoce-crtalo-za-oci-dip-it-030-black-perfect-wing-p4066447014624.html
+
+6.price_per_unit found as ""null""in data,1,40 € za 100 ml in site
+line 9251
+https://www.dm.si/biobaza-losjon-za-telo-purple-freshness-p3856020905699.html
+
+7.price field contains
+integer values and floating
+point values with single and double decimal points.
+https://www.dm.si/bepanthol-bepanthol-kapljice-za-oci-p3838944237612.html
+https://www.dm.si/barebells-beljakovinska-ploscica-bela-cokolada-in-mandlji-p7340001801088.html
+
+
+DataHut_AT_Fressnapf_PriceExtractions_20250715.CSV
+--------------------------------------------------
+"1.grammage quantity and unit found as 1 000kg in data,
+price is taken for 1kg
+https://www.fressnapf.at/p/vitakraft-menu-vital-meerschweinchen-1000-kg-1004435/
+
+2.grammage quantity taken wrong. 12X100 g in data, but price taken and product name contain is 4X12X100 g.
+https://www.fressnapf.at/p/cesar-multipack-in-gelee-mit-huhn-karotten-rind-und-gemuese-4x12x100g-1394128/"
+
+DataHut_AT_Billa_PriceExtractions_20250715.CSV
+--------------------------------------------
+no issues
+
+DataHut_AT_Mueller_PriceExtractions_20250715.CSV
+-----------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_PriceExtractions_20250715.CSV
+-----------------------------------------------
+site shown uom missing for 542 rows.
+
+
+DataHut_CH_Lidl_PriceExtractions_20250715.CSV
+-------------------------------------------
+no issues
+
+DataHut_DE_Picnic_PriceExtractions_20250715.CSV
+----------------------------------------------
+1.Empty Columns 
+['price_valid_from', 'promotion_valid_from', 'promotion_valid_upto', 'pdp_url', 'region', 'pack_size']
+2.competitor_name 
+['picnic'] 
+
+3.currency EUR
+4. datacount 10923
+5.pdp url is empty, so random checking pending
+
+
+
+DataHut_DE_Rewe_FullDump_20250715.CSV
+-------------------------------------
+"feeding reccomendation found extra characters.
+""""<div id=""""responsive_table_wrapper_0""
+line 1349
+https://shop.rewe.de/p/zooroyal-mit-rinderherzen-400g/3279221
+
+line 1314
+<table class=""""tg"""">
+https://shop.rewe.de/p/zooroyal-wildpastete-auf-aspik-100g/2984000
+"
+
+DataHut_DE_Flaschenpost_FullDump_20250715.CSV
+----------------------------------------------
+1."price per unit field 
+contains double dot separated 
+values
+eg:36.900.00 €/kg
+https://www.flaschenpost.de/p/ostmann/ostmann-safran-gemahlen
+
+2.995.00 €/kg
+https://www.flaschenpost.de/p/ostmann/ostmann-feine-vanille-stange
+
+3."promotion description found in site as
+""Top-Angebot"" and in data
+""topangebot""
+https://www.flaschenpost.de/p/grossmann/grossmann-gourmetoliven-mix-gruen-schwarz"
+
+DataHut_AT_Lidl_FlyerExtractions_20250714.csv
+---------------------------------------------
+no issues
+
+DataHut_AT_Interspar_FlyerExtractions_20250715.CSV
+-------------------------------------------------
+1."promotion valid from
+found as 
+15-07-2025 in csv file,
+found as 14.7 in page 3"
+2."promotion valid upto 
+found as 
+20.09.2025
+in page 2"
+
+3.flyer url "found in another format
+https://flugblatt.interspar.at/salzburg/salzburg_kw29/GetPDF.ashx
+"
+
+bayut_uae_project_2025_07_03.json
+---------------------------------
+no issues
+
+dubizzle_egp_2025_07_03.json
+----------------------------
+"1.description found extra characters
+https://www.dubizzle.com.eg/en/ad/apartment-for-sale-prime-location-under-market-price-in-mountain-view-aliva-mostakbal-city-ID501952275.html"
+
+bayut_uae_2025_07_03.json
+-------------------------
