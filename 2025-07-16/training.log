@@ -1,0 +1,218 @@
+bayut_uae_2025_07_03.json
+-------------------------
+1."brn_register_number found as 
+""Sohail akhtar"" for two rows
+ Broker No.1669 (Count: 1)
+nothing (Count: 13)
++971 50 800 8784 (Count: 76)
+
+2.new fields are  """orn_number"",
+    ""bln_number"" ,
+    ""adm_number"" ,
+    ""3d_live"",
+    ""3d_image"" ,
+    ""2d_image"" ,
+""ded_number_2"",
+""ded_number_3"",
+""ded_number_4"",
+""trucheck_on"",""email"",""truboker"",""rating"",""no_of_reviews"",""property_of_the_week"""
+
+3.package type is "premium, hot, superhot only"
+
+DataHut_AT_Dm_PriceExtractions_20250716.CSV
+------------------------------------------
+"breadcrumb wrong
+""Startseite > Styleguide > Vorlagen Landin­g­pages > Nachhaltig inspiriert mit dm > Haushalt"" in data
+
+""Startseite>Nachhaltiger leben>Nachhaltig inspiriert mit dm>Haushalt"" in site
+
+https://www.dm.at/profissimo-klammern-aus-holz-mini-p4058172507182.html"
+
+DataHut_AT_Bipa_PriceExtractions_20250716.CSV
+---------------------------------------------
+"breadcrumb found as 
+""Startseite"" in data,empty
+is site
+https://www.bipa.at/p/B3-439783
+
+https://www.bipa.at/p/B3-543233
+
+https://www.bipa.at/p/B3-774462"
+
+
+DataHut_SI_Dm_PriceExtractions_20250716.CSV
+-------------------------------------------
+"site shown uom 
+is 1.000g ,but grammage 
+quantity and unit is 1000g.
+https://www.dm.si/babylove-bio-sadna-kasica-iz-jabolk-jagod-in-banan-s-pirinimi-in-ovsenimi-kosmici-10x100g-p2090000400182.html
+
+same issue found for 1.000kos,1.000ml etc"
+
+DataHut_SI_Spar_PriceExtractions_20250716.CSV
+---------------------------------------------
+no issues
+
+DataHut_SI_Mercator_PriceExtractions_20250716.CSV
+----------------------------------------------
+no issues
+
+DataHut_SI_Spar_FullDump_20250717.CSV
+------------------------------------
+1."file names and 
+producthierarch_level7 are empty."
+2."2025-07-16'
+format is correct
+date is 16"
+3.instock True only
+
+DataHut_SI_Dm_FullDump_20250717.CSV
+-----------------------------------
+"1.breadcrumb is
+Domov > Nega in dišave > Nega za moške > Moški geli za tuširanje
+
+in data only Domov in site.
+
+https://www.dm.si/balea-men-gel-za-tusiranje-z-oljem-planinskega-bora-in-metinim-kompleksom-p4067796168365.html
+
+https://www.dm.si/alverde-naturkosmetik-men-gel-za-tusiranje-4-v-1-ice-water-p4067796177848.html"
+
+2.'2025-07-16'
+format is correct
+date is 16"'
+
+DataHut_IT_Easycoop_FullDump_20250716.CSV
+---------------------------------------
+1.file_name_1, file_name_2, file_name_3, file_name_4, file_name_5, file_name_6 are empty.
+2."product name found
+wrong.
+""""le Ricette"" Kitten Pollo Life Cat Natural 150 G""
+in data, ""&quot;le Ricette&quot; Kitten Pollo Life Cat Natural 150 G""
+in site.
+
+https://www.easycoop.com/life-cat-le-ricette-kitten-pollo-life-cat-natural-150-g-4932973.html"
+
+3."date found as 
+""'2025-07-15""
+
+4."price_per_unit 
+found as 0.00 €/LT in data
+empty in site,also is found wrong while comapring with 
+grammage and price
+https://www.easycoop.com/gaza-cola-250ml-7972449.html
+
+5."promotion valid upto expired, hence price changes found
+https://www.easycoop.com/ragu-romagnolo-180g-spadoni-7818536.html
+
+https://www.easycoop.com/hamburger-di-bovino-con-bacon-e-cipolla-caramellata-200-g-3167200.html"
+
+DataHut_IT_Conad_FullDump_20250716.CSV.zip
+------------------------------------------
+1.file names are empty
+2."grammage quantity 
+wrong. 500g in data.
+price_per_unit is 
+0.00 €/Kg, price is 
+1.78 in data, 1.79 in site
+and in product name
+found that "" 4 500g""
+https://spesaonline.conad.it/p/limoni-eureka-argentina-cal-4-500-g-percorso-qualita-conad--10578538"
+
+3.image urls are present, file names are empty.
+4."promotion description
+missing in site, find in data
+https://spesaonline.conad.it/p/filetto-di-salmone-senza-pelle-0180-kg--50291523"
+
+DataHut_AT_Interspar_FullDump_20250717.CSV.zip
+----------------------------------------------
+"1.promotion valid upto expired14.07.2025 (Count: 43)
+ 15.07.2025 (Count: 694)
+
+
+2.promotion valid upto changed as ""06.08.2025""
+and promotion found as ""2 + 1 GRATIS - ab 3 Stück je 1,99""
+so price change found
+https://www.interspar.at/shop/haushalt/simpex-basic-flasche-mit-spangenverschluss-05l/p/2020000961673SG
+
+same date change found in site
+https://www.interspar.at/shop/haushalt/kelomat-bolero-schnellkochtopf-6-liter/p/6940508SG
+
+https://www.interspar.at/shop/haushalt/delonghi-entkalker-dlsc500-500-ml/p/1386820SG
+
+
+3.regular price found as zero
+https://www.interspar.at/shop/haushalt/miraplast-ablagekorb-a5/p/2020004229380"
+
+4."Replaced with \\
+in nutritional information.
+eg:{'Durchschnittliche Nährwerte': {'Biotin': '500 g \\| 1000 %', 'Zusatztext': 'Nahrungsergnzungsmittel sind kein Ersatz fr eine ausgewogene und abwechslungsreiche Ernhrung und eine gesunde Lebensweise.'}}
+https://www.interspar.at/shop/lebensmittel/doppelherz-kollagen-1000-biotin-q10-30-tabletten/p/2020003915048"
+
+5."site shown uom found as
+""x 2""
+https://www.interspar.at/shop/lebensmittel/sodastream-glasflaschen-duo-1l-x-2/p/2020003525827"
+
+6."DESCRIPTION FOUND AS PARAGRAPH
+https://www.interspar.at/shop/lebensmittel/yeauty-eye-pad-mask-deep-hydration/p/2020003779619"
+
+
+7."age_recommendations is not empty.
+
+file_name_1, file_name_2, file_name_3, file_name_4, file_name_5, file_name_6 are empty."
+
+DataHut_AT_Fressnapf_FullDump_20250717.CSV.zip
+----------------------------------------------
+"1.grammage quantity found as 4kg
+in data, price_per unit is €19.49/kg
+price is 19.49. product name is
+""""ARDAP Spot-On für Kleintiere von 1-4 kg""
+
+https://www.fressnapf.at/p/ardap-spot-on-fuer-kleintiere-von-1-4-kg-1201690/
+
+2.grammage quantity wrong. found as 9x12 g in data, 7x9x12g in site
+https://www.fressnapf.at/p/sheba-beutel-creamy-snacks-7x-9x12g-huhn-und-lachs-1706488/
+
+3..grammage quantity wrong. found as 6x15 g in data, 11x6x15g in site
+https://www.fressnapf.at/p/miamor-cat-snack-lachs-cream-11x6x15g-1265855/
+https://www.fressnapf.at/p/premiere-my-cream-11x6x15g-leberwurst-und-cranberries-1323977/
+https://www.fressnapf.at/p/premiere-my-cream-11x6x15g-huhn-und-heidelbeeren-1323976/"
+
+4."product_description found as
+ paragaraph
+
+https://www.fressnapf.at/p/happy-dog-sensible-trockenfutter-hund-adult-montana-10-kg-1293768/"
+
+5.dimensions is not empty.
+
+6.file names and net_content
+are empty"
+
+7."replaced with ""\\|""
+in special_nutrition_purpose .
+eg:Bio Barf Futteröl, kaltgepresst aus \\| Hanföl, Leinöl, Nachtkerzenöl, Chiaöl, Kürbiskernöl, Olivenöl \\| Bio aus Deutschland - reich an Vitamin-E, Barf Öl, DE-ÖKO-060
+https://www.fressnapf.at/p/wolfsbacher-natur-bio-barf-oel-100-ml-1678073/"
+
+8."image with both png and
+jpg formats found
+
+https://www.fressnapf.at/p/macs-nassfutter-hund-adult-huehnchen-und-cranberry-6x400-g-1382259/"
+
+DataHut_AT_Mpreis_FullDump_20250717.CSV.zip
+-------------------------------------------
+file_name_1 is empty
+
+
+DataHut_AT_Interspar_FlyerExtractions_20250716.csv
+-------------------------------------------------
+1.promotion valid from 
+for second row is found as
+10.12.2024 in page 6"
+
+2."found in another
+format
+https://flugblatt.spar.at/salzburg/spar/250717-1-flugblatt-kw-29/GetPDF.ashx
+
+
+
+DataHut_AT_Fressnapf_FlyerExtractions_20250716.csv
+DataHut_AT_Denns_FlyerExtractions_20250716.csv
