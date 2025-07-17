@@ -1,0 +1,159 @@
+DataHut_AT_Fressnapf_FlyerExtractions_20250716.csv
+-------------------------------------------------
+no issues
+
+DataHut_AT_Denns_FlyerExtractions_20250716.csv
+---------------------------------------------
+flyer url found as "https://view.publitas.com/92439/2352567/pdfs/03cff259-3650-4713-8a8f-0a64ac4fdff1.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Handzettel%2520%25C3%2596sterreich%2520-%2520Denns_BioMarkt_16s_HZ_AU_kw_29-30_2025.pdf"
+
+DataHut_CH_Denner_FullDump_20250717.CSV
+--------------------------------------
+"1.no image found in site,
+image url found for 3 rows without image.
+
+https://www.denner.ch/de/aktionen-und-sortiment/zuckermais-frisch~p801557?variant=d09cbacc-40b8-4138-b768-0fdaf846cf15"
+
+2.file_name_1, file_name_2, file_name_3, file_name_4, image_url_4 are also empty. 
+
+3.producthierarchy_level7 is not empty 
+
+DataHut_CH_Coop_FullDump_20250717.CSV
+-------------------------------------
+1.filenames are empty
+2.site shown uom missing for 4380 rows
+3.image found in site
+missing in data
+https://www.coop.ch/de/lebensmittel/getraenke/kalte-milchgetraenke/kaffeegetraenke-chai-latte/lattesso-fit-4x250ml/p/7373198
+
+https://www.coop.ch/de/lebensmittel/getraenke/kalte-milchgetraenke/schoko-milch/comella-schokoladen-drink-uht/p/3378920
+
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/desserts-creme/creme-mousse/high-protein-creme-choco-coco/p/7369016"
+
+DataHut_CH_Lidl_FullDump_20250717.CSV
+--------------------------------------
+1.file_names are empty
+2."2025-07-16,
+date wrong"
+3.instock True only
+4.promotion date not found in site
+https://sortiment.lidl.ch/de/catalog/product/view/id/14275/s/frischkaese-0074726/category/54/
+
+5.promotion valid upto found expired
+16.7.2025 (Count: 91)
+6."page not found
+https://www.lidl.ch/p/de-CH/nektarinen/p10038670
+https://www.lidl.ch/p/de-CH/tortilla-chips-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10038719
+
+
+DataHut_SI_Mercator_FullDump_20250717.CSV
+----------------------------------------
+1.file names are empty
+
+DataHut_SI_Dm_FullDump_20250717.CSV
+-----------------------------------
+1.file names are empty
+2."Domov > Nega in dišave > Nega za moške > Moški geli za tuširanje
+in data only Domov in site.
+
+https://www.dm.si/alverde-naturkosmetik-men-gel-za-tusiranje-4-v-1-ice-water-p4067796177848.html
+
+https://www.dm.si/balea-men-gel-za-tusiranje-z-oljem-planinskega-bora-in-metinim-kompleksom-p4067796168365.html
+
+https://www.dm.si/old-spice-gel-za-tusiranje-rockstar-p8700216232746.html"
+
+3.instock true only
+
+4."country of origin found
+as""AQUA, PALMITIC ACID, TRIETHANOLAMINE, OLETH - 20, ISOPENTANE, SORBITOL, LAURETH - 23, ALOE BARBADENSIS LEAF JUICE, COCAMIDE MIPA, ISOBUTANE, ISOPROPYL PALMITATE, HYDROGENATED, HYDROXYETHYLCELLULOSE, PARFUM, PHENOXYETHANOL ""
+
+https://www.dm.si/balea-men-gel-za-britje-sensitive-p4058172925757.html"
+
+DataHut_IT_Esselunga_FullDump_20250716.CSV
+-----------------------------------------
+"1.product no longer available
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/862004/esselunga-ombrello
+
+2.| is replaced with \\| in country of origin
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/721821/granarolo-mozzarella-fresca-peso-netto-conf-3x210-g-peso-netto-sgocc-conf-3x100-g
+
+3.date format wrong.
+price valid from is 01/03/2025
+
+4.promotion changed upto 30/07/2025 in site
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/676374/dash-power-detersivo-lavatrice-in-polvere-37-lavaggi
+
+5.promotion valid upto expired
+15/07/2025 (Count: 349)
+ 16/07/2025 (Count: 25202)
+"
+6."date is
+'2025-07-14, day found wrong"
+7.file names are empty
+
+DataHut_IT_Easycoop_FullDump_20250716.CSV
+-----------------------------------------
+1.file_name_1, file_name_2, file_name_3, file_name_4, file_name_5, file_name_6 are empty.
+2."product name found
+wrong.
+""""le Ricette"" Kitten Pollo Life Cat Natural 150 G""
+in data, ""&quot;le Ricette&quot; Kitten Pollo Life Cat Natural 150 G""
+in site.
+
+https://www.easycoop.com/life-cat-le-ricette-kitten-pollo-life-cat-natural-150-g-4932973.html"
+
+3.date is "2025-07-15"
+4."price_per_unit 
+found as 0.00 €/LT in data
+empty in site,also is found wrong while comapring with 
+grammage and price
+https://www.easycoop.com/gaza-cola-250ml-7972449.html
+
+5."promotion valid upto expired
+2025-07-14 (Count: 44)
+ 2025-07-16 (Count: 7337)
+so price change found 
+https://www.easycoop.com/mulino-bianco-gran-cereale-biscotti-gran-cereale-digestive-biscotti-con-malto-d-orzo-tubo-250-g-3396510.html
+
+https://www.easycoop.com/ragu-romagnolo-180g-spadoni-7818536.html"
+
+
+DataHut_AT_Fressnapf_FullDump_20250717.CSV
+-----------------------------------------
+1."promotion description found as 
+-1% in data, missing in site, 
+in site is found as ""Du sparst € 0,70""
+https://www.fressnapf.at/p/royal-canin-veterinary-urinary-so-small-dogs-8-kg-1302412/"
+
+2."image with both png and
+jpg formats found
+
+https://www.fressnapf.at/p/macs-nassfutter-hund-adult-huehnchen-und-cranberry-6x400-g-1382259/"
+
+DataHut_AT_Mueller_FullDump_20250717.CSV
+----------------------------------------
+1.file_names are empty
+2.product description is paragraph
+3.instock true and false only
+
+DataHut_AT_Interspar_FullDump_20250717.CSV
+------------------------------------------
+"1.promotion valid upto
+expired
+16.07.2025 (Count: 19)
+
+2..regular price found as zero
+https://www.interspar.at/shop/haushalt/miraplast-ablagekorb-a5/p/2020004229380
+
+3.site shown uom is 20 Beutel 380ml, grammage quantity and unit is 20 btl.
+https://www.interspar.at/shop/lebensmittel/toppits-mini-zip-beutel-20-beutel-150ml-20-beutel-380ml/p/6461553
+
+4."Replaced with \\
+in nutritional information.
+eg:{'Durchschnittliche Nährwerte': {'Biotin': '500 g \\| 1000 %', 'Zusatztext': 'Nahrungsergnzungsmittel sind kein Ersatz fr eine ausgewogene und abwechslungsreiche Ernhrung und eine gesunde Lebensweise.'}}
+https://www.interspar.at/shop/lebensmittel/doppelherz-kollagen-1000-biotin-q10-30-tabletten/p/2020003915048"
+
+
+DataHut_AT_Bipa_FullDump_20250717.CSV
+DataHut_AT_Billa_FullDump_20250717.CSV
+DataHut_AT_Mpreis_FullDump_20250717.CSV
+DataHut_AT_Dm_FullDump_20250717.CSV
