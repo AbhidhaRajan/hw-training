@@ -1,0 +1,202 @@
+DataHut_AT_Dm_PriceExtractions_20250718.CSV
+-------------------------------------------
+"1.breadcrumb taken wrong.
+Startseite > Baby & Kind > Ausstattung für Baby & Kind > Babyphones
+in data, Startseite in site
+https://www.dm.at/philips-avent-babyphone-dect-p8710103839545.html
+
+2.breadcrumb wrong
+""Startseite > Styleguide > Vorlagen Landin­g­pages > Nachhaltig inspiriert mit dm > Haushalt"" in data
+
+""Startseite>Nachhaltiger leben>Nachhaltig inspiriert mit dm>Haushalt"" in site
+
+https://www.dm.at/profissimo-klammern-aus-holz-mini-p4058172507182.html"
+
+DataHut_AT_Bipa_PriceExtractions_20250718.CSV
+---------------------------------------------
+1.breadcrumb found as 
+""""Startseite"""" in data,empty
+is site
+https://www.bipa.at/p/B3-439783
+
+https://www.bipa.at/p/B3-543233
+
+https://www.bipa.at/p/B3-774462"
+
+DataHut_SI_Dm_PriceExtractions_20250718.CSV
+--------------------------------------------
+"breadcrumb taken wrong. ""Domov > Nega in dišave > Nega za moške > Moški deodoranti"" in data, ""Domov"" in site
+
+https://www.dm.si/axe-deodorant-v-stiku-black-vanilla-p59004660.html
+https://www.dm.si/balea-men-antiperspirant-v-spreju-ultimate-dry-p4067796217759.html
+https://www.dm.si/old-spice-antiperspirant-v-stiku-sport-power-p8700216658867.html"
+
+DataHut_CH_Lidl_PriceExtractions_20250718.CSV
+--------------------------------------------
+no issues
+
+DataHut_SI_Spar_PriceExtractions_20250718.CSV
+--------------------------------------------
+"promotion description 
+found as ""GALBANI Ne velja za gratis in XXL pakiranja ter za izdelke,vključene v promocijo TRAJNO ZNIŽANO""
+but promotion price is not empty
+
+https://www.spar.si/online/sir-mozzarella-maxi-galbani-200g/p/258465
+
+https://www.spar.si/online/skuta-ricotta-galbani-250g/p/212570
+
+https://www.spar.si/online/sir-mozzarela-cucina-galbani-400g/p/258464"
+
+
+
+DataHut_SI_Mercator_PriceExtractions_20250718.CSV
+-------------------------------------------------
+no issues
+
+DataHut_AT_Mueller_PriceExtractions_20250718.CSV
+-----------------------------------------------
+"site cantbe reached
+https://www.mueller.at/p/primavera-raumspray-gluecksstern-2847722/?itemId=2847722"
+
+
+DataHut_AT_Billa_PriceExtractions_20250718.CSV
+----------------------------------------------
+"site shown uom is 
+22 Waschgang Beutel""
+gammage quantity and unit is
+1 stuck
+https://shop.billa.at/produkte/frosch-waschmittel-universal-00772746
+
+
+site shown uom is ""15 Beutel Packung"" but grammage unit and quantity is
+1 stuck
+https://shop.billa.at/produkte/teekanne-namastee-innere-waerme-00520766"
+
+
+DataHut_AT_Mpreis_PriceExtractions_20250718.CSV
+----------------------------------------------
+no issues
+
+DataHut_AT_Fressnapf_PriceExtractions_20250718.CSV
+-------------------------------------------------
+"1.grammage quantity found as 4kg
+in data, price_per unit is €19.49/kg
+price is 19.49. product name is
+""ARDAP Spot-On für Kleintiere von 1-4 kg""
+https://www.fressnapf.at/p/ardap-spot-on-fuer-kleintiere-von-1-4-kg-1201690/
+
+2.grammage quantity and unit found as 1 000kg in data,
+price is taken for 1kg
+https://www.fressnapf.at/p/vitakraft-menu-vital-meerschweinchen-1000-kg-1004435/
+
+3.grammage quantity taken wrong. eg: 6X15 g in data, but price taken is for 11X6X15 g
+
+https://www.fressnapf.at/p/miamor-cat-snack-lachs-cream-11x6x15g-1265855/
+https://www.fressnapf.at/p/premiere-my-cream-11x6x15g-leberwurst-und-cranberries-1323977/
+https://www.fressnapf.at/p/premiere-my-cream-11x6x15g-huhn-und-heidelbeeren-1323976/
+
+4.grammage quantity taken wrong. eg: 6x50 g in data, but price taken is for 8x6x50 g
+which is found in site.
+https://www.fressnapf.at/p/gourmet-mon-petit-intense-8x6x50g-mit-thunfisch-lachs-forelle-1207331/
+https://www.fressnapf.at/p/gourmet-mon-petit-intense-8x6x50g-mit-ente-huhn-truthahn-1207332/"
+
+
+machinerytrader_2025_07_18.csv
+------------------------------
+"1.two category column found.
+Category and category
+
+2.Vin and VIN fields found
+3.fields are "not in order and extra fields
+found"
+
+winparts_2025_07_18.csv
+-----------------------
+"1.catalogue price not found in site
+https://www.winparts.be/onderstel-aandrijving/druklager/c710/geleidehuls-koppeling-adbp330018-blue-print/p1997117.html
+
+2.catalogue price with single decimal point found
+eg;12.1
+https://www.winparts.be/koelsysteem-verwarming/koelwaterflens/c651/flens-koelvloeistof/p1733827.html"
+
+autoonderdelen24_2025_07_15.csv
+-------------------------------
+1.Change in net price
+found .10.43 in data,
+9,72 € in site.
+https://www.autoonderdelen24.be/blue-print-13914439.html"
+
+2."autoonderdelen24_2025_07_15.csv
+date found as 15"
+
+autoteiledirekt_2025_07_15.csv
+------------------------------
+"autoteiledirekt_2025_07_15.csv
+date found as 15"
+
+autodoc_2025_07_18.csv
+----------------------
+"found instock in site, outof stock in data
+https://www.autodoc.be/valeo/1075641"
+
+
+DataHut_AT_Bipa_FullDump_20250717.CSV
+-------------------------------------
+"breadcrumb found as 
+""Startseite"" for 3 rows
+in data.
+but missing in site
+
+https://www.bipa.at/p/B3-439783
+https://www.bipa.at/p/B3-543233
+https://www.bipa.at/p/B3-774462"
+
+DataHut_AT_Billa_FullDump_20250717.CSV
+-------------------------------------
+1.product description found as paragraph
+2.instructions and instructionforuse has same values.
+3.file_name_1, file_name_2, file_name_3, file_name_4, file_name_5, file_name_6, retail_limit are empty.
+
+DataHut_AT_Mpreis_FullDump_20250717.CSV
+--------------------------------------
+"1.page not found
+https://www.mpreis.at/shop/p/aprikose-miniglas-270262
+
+2.aktion tag not found din site, found in data
+https://www.mpreis.at/shop/p/air-wick-duftstecker-kirschbluete-320707"
+
+
+DataHut_AT_Dm_FullDump_20250717.CSV
+----------------------------------
+1.price per unit 
+contains comma
+separated values 
+insted of dot.
+eg:0,00 € je 1 St
+https://www.dm.at/mivolis-suessstoff-p4066447477337.html"
+
+2.instructions and instructionforuse has same values
+
+3."image not found
+eg: https://products.dm-static.com/images/f_auto,q_auto,c_fit,w_1200,h_1200/v1747406719/assets/pas/images/c0c6d061-f615-4ff1-a226-bf8305b805b9/maybelline-new-york-mascara-lash-sensational-sky-high (Count: 1)
+
+pdp_url
+https://www.dm.at/feschi-scrunchie-cozy-grey-p9120112141567.html"
+
+4.breadcrumb taken wrong.
+Startseite > Baby & Kind > Ausstattung für Baby & Kind > Babyphones
+in data, Startseite in site
+https://www.dm.at/philips-avent-babyphone-dect-p8710103839545.html
+
+5.breadcrumb wrong
+""""Startseite > Styleguide > Vorlagen Landin­g­pages > Nachhaltig inspiriert mit dm > Haushalt"""" in data
+
+""""Startseite>Nachhaltiger leben>Nachhaltig inspiriert mit dm>Haushalt"""" in site
+
+https://www.dm.at/profissimo-klammern-aus-holz-mini-p4058172507182.html"
+
+6."product description found as paragraph
+eg:https://www.dm.at/max-factor-mascara-masterpiece-2in1-lash-wow-001-black-p3616303408961.html"
+
+7."file_name_1, file_name_2, file_name_3, file_name_4, file_name_5, file_name_6 are empty.
+retail_limit is not empty"
