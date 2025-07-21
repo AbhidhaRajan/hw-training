@@ -1,0 +1,215 @@
+DataHut_AT_Dm_PriceExtractions_20250721.CSV
+-------------------------------------------
+"1.breadcrumb taken wrong.
+Startseite > Baby & Kind > Ausstattung für Baby & Kind > Babyphones
+in data, Startseite in site
+https://www.dm.at/philips-avent-babyphone-dect-p8710103839545.html
+
+2.breadcrumb wrong
+""Startseite > Styleguide > Vorlagen Landin­g­pages > Nachhaltig inspiriert mit dm > Haushalt"" in data
+
+""Startseite>Nachhaltiger leben>Nachhaltig inspiriert mit dm>Haushalt"" in site
+
+https://www.dm.at/profissimo-klammern-aus-holz-mini-p4058172507182.html"
+
+DataHut_AT_Mueller_PriceExtractions_20250721.CSV
+------------------------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250721.CSV
+---------------------------------------------
+"breadcrumb found as 
+""Startseite"" in data,empty
+is site
+https://www.bipa.at/p/B3-439783
+
+https://www.bipa.at/p/B3-543233
+
+https://www.bipa.at/p/B3-774462"
+
+DataHut_AT_Mpreis_PriceExtractions_20250721.CSV
+-----------------------------------------------
+no issues
+
+DataHut_AT_Fressnapf_PriceExtractions_20250721.CSV
+-------------------------------------------------
+"1.grammage quantity found as 4kg
+in data, price_per unit is €19.49/kg
+price is 19.49. product name is
+""""ARDAP Spot-On für Kleintiere von 1-4 kg""""
+https://www.fressnapf.at/p/ardap-spot-on-fuer-kleintiere-von-1-4-kg-1201690/
+
+2.grammage quantity and unit found as 1 000kg in data,
+price is taken for 1kg
+https://www.fressnapf.at/p/vitakraft-menu-vital-meerschweinchen-1000-kg-1004435/
+
+3.grammage quantity taken wrong. eg: 6X15 g in data, but price taken is for 11X6X15 g
+
+https://www.fressnapf.at/p/miamor-cat-snack-lachs-cream-11x6x15g-1265855/
+https://www.fressnapf.at/p/premiere-my-cream-11x6x15g-leberwurst-und-cranberries-1323977/
+https://www.fressnapf.at/p/premiere-my-cream-11x6x15g-huhn-und-heidelbeeren-1323976/
+
+4.grammage quantity taken wrong. eg: 6x50 g in data, but price taken is for 8x6x50 g
+which is found in site.
+https://www.fressnapf.at/p/gourmet-mon-petit-intense-8x6x50g-mit-thunfisch-lachs-forelle-1207331/
+https://www.fressnapf.at/p/gourmet-mon-petit-intense-8x6x50g-mit-ente-huhn-truthahn-1207332/
+
+5.grammage quantity taken wrong. eg: 8x5g in data, but price taken is for 7x8x5g
+https://www.fressnapf.at/p/multifit-fruity-meat-sticks-7x8x5g-huhn-und-apfel-1260565/
+https://www.fressnapf.at/p/multifit-bbq-meat-sticks-7x8x5g-haehnchen-1229783/
+https://www.fressnapf.at/p/multifit-bbq-meat-sticks-7x8x5g-lachs-1229785/"
+
+
+DataHut_SI_Dm_PriceExtractions_20250721.CSV
+------------------------------------------
+"1.breadcrumb taken wrong. ""Domov > Nega in dišave > Nega za moške > Moški deodoranti"" in data, ""Domov"" in site
+eg:
+https://www.dm.si/axe-deodorant-v-stiku-blue-lavender-p59002161.html
+
+https://www.dm.si/axe-deodorant-v-stiku-black-vanilla-p59004660.html
+
+https://www.dm.si/dove-men-care-antiperspirant-v-spreju-clean-comfort-p8720181284335.html"
+
+2."site shown uom contains
+dot. eg:1.000 g
+https://www.dm.si/babylove-bio-sadna-kasica-z-jagodami-borovnicami-in-jabolkom-10x100g-p2090000401714.html"
+
+DataHut_SI_Mercator_PriceExtractions_20250721.CSV
+------------------------------------------------
+"1.wrong grammage quantity and unit found.
+capacity is taken as grammage quantity and unti.
+https://mercatoronline.si/izdelek/19213706/loncek-snack-to-go-0-9-l"
+
+
+machinerytrader_2025_07_21.csv
+------------------------------
+"1.two category column found.
+Category and category
+
+2.Vin and VIN fields found
+
+3."not in order and extra fields
+found"
+
+4.total fields count is 631
+
+auto5be_bike_carriers_2025_07_21.csv
+-----------------------------------
+no issues
+
+auto5be_crossbar_2025_07_21.csv
+-------------------------------
+"1.found out of stock 
+in data, instock in site
+https://www.auto5.be/nl/p/compleet-pakket-2-met-bevestigingen-norauto-squarebar-staal-2391791.html
+
+https://www.auto5.be/nl/p/compleet-pakket-2-met-bevestigingen-thule-slidebar-aluminium-2275802.html
+
+
+auto5be_floormats_2025_07_21.csv
+--------------------------------
+Position is not empty
+
+auto5be_skiboxes_2025_07_21.csv
+-------------------------------
+no issues
+
+auto5be_towing_hitches_2025_07_21.csv
+-------------------------------------
+Catalogue price is empty
+
+auto5be_trunkliners_2025_07_21.csv
+----------------------------------
+Catalogue price is not empty
+
+rameder_bike_carriers_2025_07_21.csv
+-----------------------------------
+1."1.model selected
+found as ""Fabia III (NJ3) 08.14 -
+"" in data,""Skoda FABIA III (NJ3) 1.0""
+in site
+https://www.rameder.be/fietsendrager-thule-outway-179429-13331-1.html?force_sid=69gkftk82pg9tpa9d2nd3s5kkd
+
+2.model selectd found as ""A3 Sedan (8VS  8VM) 05.13 -"" in data,
+""Audi A3 Limousine (8VS, 8VM)"" in site.
+https://www.rameder.be/fietsendrager-thule-outway-179429-11282-1.html
+
+3. model number of most of the rows taken wrong
+
+
+4.data count is 64
+
+rameder_crossbar_2025_07_21.csv
+-------------------------------
+1.data count is 193
+2.model selected found as ""Skoda FABIA III (NJ3)""
+in site.""Fabia III (NJ3) 08.14 -"" in data
+https://www.rameder.be/dakdrager-menabo-203283-13331-1.html
+
+3.Catalogue price is empty
+
+rameder_towing_hitches_2025_07_21.csv
+-------------------------------------
+"1.found out of stock 
+in data, in stock in site
+https://www.rameder.be/trekhaak-afneembaar-100733-14350-7.html
+"
+
+https://www.rameder.be/erich-jaeger-elektrische-aansluitset-13polig-databus-specifiek-155857-38843-1.html?force_sid=ao1duic389fapoen73ap1rtt31
+
+2.net price is zero for 6 rows.
+https://www.rameder.be/brink-trekhaak-stijf-145040-11282-2.html
+
+
+rameder_trunkliners_2025_07_21.csv
+----------------------------------
+1.data count is 12
+2.model selected
+found as ""VW POLO VI (AW1, BZ1, AE1)""
+https://www.rameder.be/kofferbakbeschermer-198593-38138-1.html
+"
+
+dakkofferstore_crossbar_2025_07_21.csv
+-------------------------------------
+no issues
+
+dakkofferstore_skiboxes_2025_07_21.csv
+-------------------------------------
+1."input category found as 
+""Roofboxes"""
+
+autoonderdelen24_towing_hitches_2025_07_21.csv
+---------------------------------------------
+1.data count found as 1635.
+2.model selected 
+not found in site
+https://www.autoonderdelen24.be/frogum-13652222.html
+
+
+autoonderdelen24_bike_carriers_2025_07_21.csv
+--------------------------------------------
+1.datacount found as 990.
+
+autoonderdelen24_crossbar_2025_07_21.csv
+---------------------------------------
+no issues
+
+autoonderdelen24_floormats_2025_07_21.csv
+----------------------------------------
+"1.model selected 
+not found in site
+https://www.autoonderdelen24.be/frogum-13652222.html
+
+
+autoonderdelen24_skiboxes_2025_07_21.csv
+----------------------------------------
+"1.input category found as 
+Roofboxes
+
+2.description contains comma in site,
+missing in data.
+https://www.autoonderdelen24.be/atera-17000933.html
+"
+autoonderdelen24_trunkliners_2025_07_21.csv
+------------------------------------------
+no issues
