@@ -1,0 +1,252 @@
+DataHut_AT_Bipa_FullDump_20250724.CSV
+------------------------------------
+"1.drained weight is taken as
+dimensions for all fields.
+https://www.bipa.at/p/B3-434194
+
+
+2.instructionforuse and instruction
+found same.
+https://www.bipa.at/p/B3-559159"
+
+3.same image is taken as
+image_url 1 and 2.only single image
+found in site.
+https://www.bipa.at/p/B3-100435
+
+4.wrong image url 2 found.
+eg:https://www.bipa.at/on/demandware.static/-/Sites-catalog/de_AT/original/270451_swatch.png
+
+pdp url
+https://www.bipa.at/p/B3-270451
+https://www.bipa.at/p/B3-270454"
+
+5."breadcrumb found as 
+""""Startseite"""" for 3 rows
+in data.
+but missing in site
+
+https://www.bipa.at/p/B3-439783
+https://www.bipa.at/p/B3-543233
+https://www.bipa.at/p/B3-774462"
+
+6.file names are empty
+7.instock contains true and false
+
+
+DataHut_AT_Dm_FullDump_20250724.CSV
+-----------------------------------
+"1.breadcrumb wrong
+""""Startseite > Styleguide > Vorlagen Landin­g­pages > Nachhaltig inspiriert mit dm > Haushalt"""" in data
+
+""""Startseite>Nachhaltiger leben>Nachhaltig inspiriert mit dm>Haushalt"""" in site
+
+https://www.dm.at/profissimo-klammern-aus-holz-mini-p4058172507182.html
+
+2.breadcrumb found wrong.
+Startseite in data
+Startseite > Pflege & Parfum>Gesichtsreinigung> Waschgel in site
+https://www.dm.at/balea-med-waschgel-ultra-sensitive-p4067796106725.html
+
+same issue
+
+https://www.dm.at/inao-toner-spray-hydration-p4059729519719.html
+
+https://www.dm.at/nivea-mizellenwasser-derma-skin-clear-p9005800390130.html"
+
+3.file_name_1, file_name_2, file_name_3, file_name_4, file_name_5, file_name_6 are also empty
+4." product description found as paragraph
+https://www.dm.at/catrice-concealer-liquid-camouflage-high-coverage-001-fair-ivory-p4059729203229.html"
+
+5."image url not found
+eg: https://products.dm-static.com/f_auto,q_auto,c_fit,w_1200,h_1200/not-found/ (Count: 2)
+pdp_url
+https://products.dm-static.com/f_auto,q_auto,c_fit,w_1200,h_1200/not-found/
+https://www.dm.at/dmbio-schwarzer-johannisbeersaft-p4058172528705.html"
+
+6.instructionforuse and instruction
+found same
+https://www.dm.at/langhaarmaedchen-intense-repair-haaroel-kokosoel-und-buritioel-p4066447241679.html"
+
+DataHut_AT_Mpreis_FullDump_20250724.CSV
+---------------------------------------
+file names are empty
+
+DataHut_AT_Mueller_FullDump_20250724.CSV
+---------------------------------------
+1.file_names are empty
+2."product description is paragraph
+
+https://www.mueller.at/p/doppelherz-rachen-spray-mit-sanddorn-IPN2951705/?itemId=2951705"
+
+3.instock contains True,False
+4."instructionforuse and instruction
+found same
+https://www.mueller.at/p/doppelherz-rachen-spray-mit-sanddorn-IPN2951705/?itemId=2951705
+"
+
+nawy_egp_2025_07_04.json
+------------------------
+no issues
+
+dari_ae_2025_07_04.json
+------------------------
+no issues
+
+
+
+DataHut_AT_Interspar_FlyerExtractions_20250722.csv
+-------------------------------------------------
+1.promotion valid upto 
+found as 
+20.08.2025
+in page 5"
+2.flyer url found in another format
+https://flugblatt.interspar.at/salzburg/salzburg_kw30/GetPDF.ashx
+"
+
+DataHut_AT_Lidl_FlyerExtractions_20250722.csv
+--------------------------------------------
+no issues
+
+DataHut_CH_Lidl_PriceExtractions_20250722.CSV(15 minutes)
+---------------------------------------------
+"1.site cant be reached
+https://www.lidl.ch/p/de-CH/st-galler-klosterschinken/p10039001
+
+2.https://www.lidl.ch/p/de-CH/heidelbeeren-zum-aktuellen-tagespreis/p10038047"
+
+DataHut_SI_Spar_PriceExtractions_20250722.CSV(20 minutes)
+---------------------------------------------
+no issues
+
+DataHut_SI_Mercator_PriceExtractions_20250722.CSV(14 minutes)
+-----------------------------------------------
+"1.grammage quantity 
+taken wrong. 20g in data
+100g+20g in product name
+also price is taken for 120g
+https://mercatoronline.si/izdelek/16585168/narezek-savinjski-zelodec-z-apos-dezele-pakirano-100-g-20-g-gratis-maxx
+
+2.wrong grammage quantity and unit found.
+capacity is taken as grammage quantity and unti.
+https://mercatoronline.si/izdelek/19213706/loncek-snack-to-go-0-9-l"
+
+DataHut_SI_Dm_PriceExtractions_20250722.CSV (16 minutes)
+------------------------------------------
+"1.grammage quantity
+found as 1.5l in product 
+name and 1.500l in site,
+1500 l in data
+https://www.dm.si/denkmit-higienski-mehcalec-za-perilo-p4066447790399.html"
+
+2.breadcrumb taken wrong. """"Domov > Nega in dišave > Nega za moške > Moški deodoranti"""" in data, """"Domov"""" in site
+eg:
+https://www.dm.si/axe-deodorant-v-stiku-blue-lavender-p59002161.html
+
+https://www.dm.si/axe-deodorant-v-stiku-black-vanilla-p59004660.html
+
+https://www.dm.si/dove-men-care-antiperspirant-v-spreju-clean-comfort-p8720181284335.html"
+
+3."site shown uom contains
+dot. eg:1.000 g
+
+https://www.dm.si/dmbio-bio-drobni-polnozrnati-ovseni-kosmici-p4067796062113.html"
+
+
+DataHut_AT_Mueller_PriceExtractions_20250722.CSV
+-----------------------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250722.CSV
+---------------------------------------------
+"breadcrumb found as 
+""Startseite"" in data,empty
+is site
+https://www.bipa.at/p/B3-439783
+
+https://www.bipa.at/p/B3-543233
+
+https://www.bipa.at/p/B3-774462"
+
+DataHut_AT_Mpreis_PriceExtractions_20250722.CSV
+-----------------------------------------------
+site shown uom missing for 536 rows.
+
+
+bol_2025_07_22
+--------------
+bol_bike_carriers_2025_07_22.csv
+-------------------------------
+"1.found outofstock 
+in data, in stock in site
+and price found in site
+https://www.bol.com/nl/nl/p/thule-euroway-g2-922-fietsachterdrager-grijs-zwart/9200000027006696/
+
+https://www.bol.com/nl/nl/p/thule-velospace-xt-938-fietsendrager-13-polig-2-fietsen-zwart/9200000127713439/
+"
+
+bol_crossbar_2025_07_22.csv
+---------------------------
+1.data count found as 4744
+2.found instock
+in data, out of stock 
+in site.
+https://www.bol.com/nl/nl/p/dakdragers-geschikt-voor-de-seat-ibiza-5d-2009-t-m-2017-glad-dak-aluminium-hoog-laadvermogen-100kg-merk-farad/9300000152747825/
+"
+bol_floormats_2025_07_22.csv
+--------------------------
+1.data count found as 1365
+2.found out of stock in data
+in stock in site, and price is also found in site
+https://www.bol.com/nl/nl/p/mattenset-volkswagen-touran-2007-2015/9300000087049640/
+
+bol_skiboxes_2025_07_22.csv
+---------------------------
+"1.input category found as
+""Roofboxes""
+
+bol_towing_hitches_2025_07_22.csv
+--------------------------------
+"1.price change found.
+net price found as 54.99
+in data, 56.99 in site
+https://www.bol.com/nl/nl/p/vevor-23-7-x-9-5-x-18-cm-verstelbare-trekhaak-compatibele-balgrootte-van-2-5-16-inch-roestbestendig-maximaal-trekvermogen-is-6804-kg-laadvermogen-van-15000-lbs-naadloos-smeden-snelle-installatie/9300000224653281/
+"
+bol_trunkliners_2025_07_22.csv
+-----------------------------
+no issues
+
+
+aqarmap_egp_2025_07_04.json
+---------------------------
+"1.site cant be reached
+2.bathroom found as 001
+https://aqarmap.com.eg/en/listing/6124006-for-sale-cairo-el-sheikh-zayed-city-compounds-rytzy-blz-mwl-tybh-llstthmr-l-qry/
+
+3.phone number found as "" +undefined1552993258 ""
+ https://aqarmap.com.eg/en/listing/5819945-for-rent-cairo-ain-shams-ain-shams-el-sharkia-el-eshrein-stt/ 
+4.extra character in
+bathroom field
+eg:2د
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Aaqarmap_egp&fieldname=url&fieldvalue=https%3A//aqarmap.com.eg/en/listing/5727128-for-sale-cairo-mokattam-lhdb-l-ly-shareaa-9/
+
+5.broker and brokeer_display_name found as dots,user x, ???? etc.
+eg:- - -
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Aaqarmap_egp&fieldname=url&fieldvalue=https%3A//aqarmap.com.eg/en/listing/5890672-for-sale-north-sinai-arish-el-msaeid/"
+
+dubizzle_egp_2025_07_04.json
+----------------------------
+"1.description contains extra 
+lines
+https://www.dubizzle.com.eg/en/ad/apartment-for-sale-prime-location-under-market-price-in-mountain-view-aliva-mostakbal-city-ID501952275.html
+
+2.phone number missing in data, found in site
+https://www.dubizzle.com.eg/en/ad/furnished-apartment-for-daily-rent-sheraton-airport-ID502135042.html
+
+https://www.dubizzle.com.eg/en/ad/3-bedroom-apartment-140-square-meters-for-rent-in-dar-misr-al-qarnful-in-the-fifth-settlement-first-floor-ID502150659.html
+
+https://www.dubizzle.com.eg/en/ad/furnished-apartment-with-elevator-for-rent-in-banfsaj-buildings-first-settlement-ID502158729.html"
+
+
+
