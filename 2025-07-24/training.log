@@ -1,0 +1,112 @@
+DataHut_CH_Denner_FullDump_20250724.CSV
+--------------------------------------
+"1.no image found in site,
+image url found for 6 rows without image
+
+https://www.denner.ch/de/aktionen-und-sortiment/ip-suisse-mozzarelline~p902888?variant=309e8460-694b-4479-a2d9-3d77d444476e
+
+
+2.promotion description found as 20% in data,20% ab 2 Stück in site
+https://www.denner.ch/de/aktionen-und-sortiment/cirio-bohnen-cannellini~p032187?variant=f969337e-8928-4262-8a03-c0469937b29a"
+
+3."producthierarchy_level7'
+not empty"
+4.previous data count 1260, todays count 1230
+
+DataHut_CH_Coop_FullDump_20250724.CSV
+------------------------------------
+1."breadcrumb found as 
+"" Startseite > > Super Smash Bros. Ultimate [NSW] (Count: 1)
+https://www.coop.ch/de//super-smash-bros-ultimate-nsw/p/6789056
+ Startseite > > Unik Pro Carry Bag BE LOVE [NSW/NSW Lite] (Count: 1)""
+https://www.coop.ch/de//unik-pro-carry-bag-be-love-nswnsw-lite/p/6702742"
+
+2.promotion description present in data, missing in site
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/joghurt/joghurt-mit-geschmack/himbeer/skyr-joghurt-himbeere/p/6622072
+
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/joghurt/joghurt-mit-geschmack/schokolade-stracciatella/skyr-choco/p/6803939"
+
+3.image found in site
+missing in data
+
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/quark/quark-mit-geschmack/fruechtequark-aprikose-2x125g/p/4214663
+
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/joghurt/joghurt-mit-geschmack/wald-gartenbeeren/karma-bio-soja-waldbeeren/p/7232358
+
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/joghurt/joghurt-mit-geschmack/vanille-caramel-honig/lc1-jogurt-vanille-4x150g/p/3481313"
+
+DataHut_CH_Lidl_FullDump_20250724.CSV
+-------------------------------------
+1.instock true only
+2.previous data count 3170, todays 2999
+
+DataHut_CH_Migros_FullDump_20250724.CSV
+--------------------------------------
+no issues
+
+DataHut_AT_Bipa_FullDump_20250724.CSV
+--------------------------------------
+no issues
+
+DataHut_AT_Mpreis_FullDump_20250724.CSV
+---------------------------------------
+"1.aktion tag found in 
+data, not found in site
+
+https://www.mpreis.at/shop/p/parodontax-mundspuelung-active-repair-332426"
+
+2.description not found in site, found in data
+https://www.mpreis.at/shop/p/roemerquelle-still-05l-pet-ew-106199
+
+
+DataHut_AT_Action_FlyerExtractions_20250724.csv
+-----------------------------------------------
+no issues 
+
+DataHut_AT_Billa_FlyerExtractions_20250724.csv
+-----------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_FlyerExtractions_20250724.csv
+-----------------------------------------------
+no issues
+
+indeed_2025_07_24.CSV
+---------------------
+"1.original job  url found as 
+"" http://195.166.180.231/ban/""
+line 16308
+https://de.indeed.com/Zeige-Job?jk=d2327bbc07427773&from=serp&vjs=3
+
+2.incomplete phone number
+""+49 0 6202 • 92"" in data,""+49 (0) 6202 • 92 80 318"" in site
+line 9443
+https://de.indeed.com/Zeige-Job?jk=0d12c98cc883a777&from=serp&vjs=3
+
+same issue found for another rows
+https://de.indeed.com/Zeige-Job?jk=0f008c00ce912102&from=serp&vjs=3
+https://de.indeed.com/Zeige-Job?jk=4745349cb6553bf9&from=serp&vjs=3
+
+3."indeed_2025_07_24.CSV
+file found in csv format"
+
+4.previous month data count 29998, todays 23898
+
+5.extra character in address found
+"03222 Lübbenau\u002FSpreewald"
+line 6120
+https://de.indeed.com/Zeige-Job?jk=bb5cd8034de87260&from=serp&vjs=3
+
+DataHut_AT_Dm_FullDump_20250724.CSV
+----------------------------------
+1.retail_limit"" is not empty
+file names are empty"
+
+2."description found as 
+paragraph
+https://www.dm.at/hansaplast-pflaster-classic-1m-p4005800278549.html"
+
+3."image url foundas 
+"" https://products.dm-static.com/f_auto,q_auto,c_fit,w_1200,h_1200/not-found (Count: 2)
+""
+https://www.dm.at/dmbio-schwarzer-johannisbeersaft-p4058172528705.html"
