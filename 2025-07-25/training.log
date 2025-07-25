@@ -1,0 +1,82 @@
+DataHut_SI_Mercator_PriceExtractions_20250725.CSV
+------------------------------------------------
+"1.wrong grammage quantity and unit found.
+capacity is taken as grammage quantity and unit.
+
+https://mercatoronline.si/izdelek/19213706/loncek-snack-to-go-0-9-l
+
+2.grammage quantity 
+taken wrong. 20g in data
+100g+20g in product name
+also price is taken for 120g
+
+https://mercatoronline.si/izdelek/16585168/narezek-savinjski-zelodec-z-apos-dezele-pakirano-100-g-20-g-gratis-maxx
+"
+DataHut_SI_Dm_PriceExtractions_20250725.CSV
+------------------------------------------
+"site shown uom contains
+dot. eg:1.000 g
+
+https://www.dm.si/dmbio-bio-drobni-polnozrnati-ovseni-kosmici-p4067796062113.html"
+
+DataHut_CH_Lidl_PriceExtractions_20250725.CSV
+--------------------------------------------
+"promotion dates not found in site,found
+in data
+https://sortiment.lidl.ch/de/catalog/product/view/id/16545/s/pure-taste-pastete-0170850/category/54/
+
+https://sortiment.lidl.ch/de/catalog/product/view/id/15754/s/apfelsaft-5111229/category/54/"
+
+
+
+machinerytrader_2025_07_25.csv
+------------------------------
+"1.two category column found.
+Category and category
+
+2.Vin and VIN fields found
+"
+3."ProductConfiguration found as 155
+https://www.machinerytrader.com/listing/for-sale/242897141/2023-dynapac-ca2500pd-padfoot-compactors"
+
+4.fields are not in order and extra fields found
+
+DataHut_AT_Mpreis_PriceExtractions_20250725.CSV
+-----------------------------------------------
+no issues
+
+DataHut_AT_Mueller_PriceExtractions_20250725.CSV
+-----------------------------------------------
+no issues
+
+DataHut_AT_Billa_PriceExtractions_20250725.CSV
+----------------------------------------------
+no issues
+
+DataHut_AT_Interspar_PriceExtractions_20250725.CSV
+-------------------------------------------------
+"1.grammage quantity
+wrong, taken from product name.
+product name is ""Toppits Zipper Duo Packung 1L und 3L 12x 1L und 8x 3L""
+grammage quantity and unit is 12x 1 l in data.
+https://www.interspar.at/shop/lebensmittel/toppits-zipper-duo-packung-1l-und-3l-12x-1l-und-8x-3l/p/2020000701149
+
+
+2.capacity is taken as grammage quantity and unit
+https://www.interspar.at/shop/haushalt/alle-marken/glasslock-bowl-4000-ml/p/2020002412692"
+
+DataHut_AT_Fressnapf_PriceExtractions_20250725.CSV
+--------------------------------------------------
+"age is taken along with grammge 
+quantity
+https://www.fressnapf.at/p/royal-canin-veterinary-urinary-so-ageing-7-8-kg-1390503/"
+
+
+haraj_ksa_2025_08.json
+----------------------
+"1.broker,broker_display_name  and user_id found same
+for all rows
+https://haraj.com.sa/11151152799/2434"
+
+2.phone_number is empty
+
