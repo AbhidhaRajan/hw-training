@@ -1,0 +1,155 @@
+DataHut_AT_Dm_PriceExtractions_20250728.CSV
+-------------------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250728.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Mueller_PriceExtractions_20250728.CSV
+------------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_PriceExtractions_20250728.CSV
+-----------------------------------------------
+no issues
+
+DataHut_AT_Fressnapf_PriceExtractions_20250728.CSV
+--------------------------------------------------
+"age is taken along with grammge 
+quantity
+
+https://www.fressnapf.at/p/royal-canin-veterinary-urinary-so-ageing-7-8-kg-1390503/"
+
+DataHut_AT_Billa_PriceExtractions_20250728.CSV
+---------------------------------------------
+"1.site shown uom is
+22 Waschgang Beutel
+but grammage quantity
+and unit is 1 stuck.
+https://shop.billa.at/produkte/frosch-waschmittel-universal-00772746
+
+2.site shown uom is ""2 Beutel Paket""
+but grammage quantity
+and unit is 1 stuck.
+https://shop.billa.at/produkte/dr-oetker-flana-schokopudding-008508
+
+https://shop.billa.at/produkte/dr-oetker-flana-vanillepudding-008528
+
+
+DataHut_CH_Lidl_PriceExtractions_20250728.CSV
+---------------------------------------------
+"promotion dates not found in site,found
+in data
+
+https://sortiment.lidl.ch/de/catalog/product/view/id/19116/s/grillspeck-gewuerzt-paprika--5113308/category/54/
+
+https://sortiment.lidl.ch/de/catalog/product/view/id/13624/s/spezialbier-0031322/category/54/
+
+https://sortiment.lidl.ch/de/catalog/product/view/id/18728/s/galiamelone-0080545/category/54/"
+
+
+DataHut_AT_Interspar_PriceExtractions_20250728.CSV
+-------------------------------------------------
+"1.promotion ""5% Rabatt 6 Flaschen""
+found in site, missing in data
+https://www.interspar.at/shop/weinwelt/hagn-cuve-colloredo-2021/p/2020002644109
+
+same iisue
+https://www.interspar.at/shop/weinwelt/lex-langmann-schilcher-klassik-weststeiermark-dac-2024/p/4932659"
+
+2.grammage quantity
+wrong, taken from product name.
+product name is """"Toppits Zipper Duo Packung 1L und 3L 12x 1L und 8x 3L""""
+grammage quantity and unit is 12x 1 l in data.
+
+https://www.interspar.at/shop/lebensmittel/toppits-zipper-duo-packung-1l-und-3l-12x-1l-und-8x-3l/p/2020000701149
+
+
+3.capacity is taken as grammage quantity and unit
+https://www.interspar.at/shop/haushalt/alle-marken/glasslock-bowl-4000-ml/p/2020002412692.
+
+same issue
+https://www.interspar.at/shop/haushalt/alle-marken/bosch-waschmaschine-wgg244a20-serie-6-9-kg/p/2020004170774
+
+https://www.interspar.at/shop/haushalt/alle-marken/bosch-waschmaschine-wge0241h-7-kg/p/2020005407312"
+
+DataHut_AT_Lidl_FlyerExtractions_20250728.csv
+---------------------------------------------
+no issues
+
+DataHut_AT_Mueller_FlyerExtractions_20250728.csv
+-----------------------------------------------
+no issues
+
+DataHut_AT_Penny_FlyerExtractions_20250728.csv
+---------------------------------------------
+no issues
+
+
+ajmanded_uae_2025_08.json
+-------------------------
+date found as "2025-07-25"
+
+servicesbahrain_bah_2025_08.json
+-------------------------------
+"1.invalid telephone number
+found in data, but same found in site.
+eg:0,973NA,0000000 etc"
+
+wasalt_ksa_2025_08.json
+----------------------
+1.previous month data count is "19542", todays "15447"
+2."price_per is سنة in data, found as Year in site.
+eg:
+https://wasalt.com/en/property/rent/furnished-apartment-61-sqm-with-2-bedrooms-158999"
+
+3."user_id", "amenities" are also empty
+4."""project"",
+""rega_ad_license_no"",
+""fal_license_number" are new fields.
+
+aqar_ksa_2025_08.json
+---------------------
+1.price is not found in site, found as
+""1"" in data
+https://sa.aqar.fm/%D8%A3%D8%B1%D8%A7%D8%B6%D9%8A-%D9%84%D9%84%D8%A8%D9%8A%D8%B9/%D8%A7%D9%84%D9%85%D8%AC%D9%85%D8%B9%D8%A9/%D8%AD%D9%8A-%D8%A7%D9%84%D8%B1%D9%88%D8%B6%D8%A9/%D8%B4%D8%A7%D8%B1%D8%B9-%D8%B9%D9%85%D8%B1-%D8%A7%D9%84%D8%AD%D9%85%D9%88%D9%8A-%D8%AD%D8%B1%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%AC%D9%85%D8%B9%D8%A9-6228963
+
+
+2.ad closed
+https://sa.aqar.fm/%D8%B4%D9%82%D9%82-%D9%84%D9%84%D8%A5%D9%8A%D8%AC%D8%A7%D8%B1/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6/%D8%B4%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6/%D8%AD%D9%8A-%D8%A7%D9%84%D8%B9%D8%A7%D8%B1%D8%B6/%D8%B4%D8%A7%D8%B1%D8%B9-%D8%B3%D8%A7%D9%84%D9%85-%D8%A8%D9%86-%D8%B9%D9%85%D9%8A%D8%B1-%D8%A7%D9%84%D8%A7%D9%88%D8%B3%D9%8A-%D8%AD%D9%8A-%D8%A7%D9%84%D8%B9%D8%A7%D8%B1%D8%B6-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-6161112
+
+https://sa.aqar.fm/%D8%B4%D9%82%D9%82-%D9%84%D9%84%D8%A5%D9%8A%D8%AC%D8%A7%D8%B1/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6/%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6/%D8%AD%D9%8A-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D9%81%D9%8A%D8%B5%D9%84/%D8%B4%D8%A7%D8%B1%D8%B9-%D8%A7%D9%84%D8%A7%D9%85%D9%8A%D8%B1-%D8%A8%D9%86%D8%AF%D8%B1-%D8%A8%D9%86-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2-%D8%AD%D9%8A-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D9%81%D9%8A%D8%B5%D9%84-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-6228164
+
+
+https://sa.aqar.fm/%D8%B4%D9%82%D9%82-%D9%84%D9%84%D8%A5%D9%8A%D8%AC%D8%A7%D8%B1/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6/%D8%B4%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6/%D8%AD%D9%8A-%D8%A7%D9%84%D9%82%D9%8A%D8%B1%D9%88%D8%A7%D9%86/%D8%B4%D8%A7%D8%B1%D8%B9-%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A-%D8%AD%D9%8A-%D8%A7%D9%84%D9%82%D9%8A%D8%B1%D9%88%D8%A7%D9%86-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-6170740
+
+
+3.price taken wrong. 1.8 in data, 1350000 in site
+https://sa.aqar.fm/%D9%81%D9%84%D9%84-%D9%84%D9%84%D8%A8%D9%8A%D8%B9/%D8%B9%D9%86%D9%8A%D8%B2%D8%A9/%D8%AD%D9%8A-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D9%81%D9%87%D8%AF/%D8%AD%D9%8A-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D9%81%D9%87%D8%AF-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%B9%D9%86%D9%8A%D8%B2%D9%87-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D9%82%D8%B5%D9%8A%D9%85-6179132
+
+
+4.price per found as ""يومي (my day)"" in data,/سنوي in site(annual)
+https://sa.aqar.fm/%D8%B9%D9%85%D8%A7%D8%A6%D8%B1-%D9%84%D9%84%D8%A5%D9%8A%D8%AC%D8%A7%D8%B1/%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85/%D8%AD%D9%8A-%D8%A7%D9%84%D9%86%D8%B2%D9%87%D8%A9/%D8%B4%D8%A7%D8%B1%D8%B9-%D8%B7%D8%B1%D9%8A%D9%82-%D8%A7%D9%84%D8%A7%D9%85%D9%8A%D8%B1-%D9%86%D8%A7%D9%8A%D9%81-%D8%A8%D9%86-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2-%D8%AD%D9%8A-%D8%A7%D9%84%D9%88%D8%A7%D8%AD%D8%A9-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-5912746
+
+5.price and price per not found in site, found in data
+https://sa.aqar.fm/%D8%B4%D8%A7%D9%84%D9%8A%D9%87-%D9%84%D9%84%D8%A5%D9%8A%D8%AC%D8%A7%D8%B1/%D8%A7%D9%84%D8%AE%D8%A8%D8%B1/%D8%AD%D9%8A-%D8%A7%D9%84%D9%85%D8%B1%D8%AC%D8%A7%D9%86/%D8%B4%D8%A7%D8%B1%D8%B9-10247151-%D8%AD%D9%8A-%D8%B4%D8%A7%D8%B7%D8%A6-%D9%86%D8%B5%D9%81-%D8%A7%D9%84%D9%82%D9%85%D8%B1-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-6282580"
+
+6.previous month data count is"125074" todays "103099"
+7.new fields are """advertising_license"",
+""advertiser"" "
+
+bayut_uae_project_2025_07_05.json
+---------------------------------
+no issues
+
+DataHut_AT_Mueller_FullDump_20250731.CSV
+---------------------------------------
+1."product description is paragraph
+
+https://www.mueller.at/p/bburago-1-24-bmw-m3-e30-1988-2830984/?itemId=2830984"
+
+2.instock True,False
+3.organic type : Non-Organic only
+4."regular and selling price are
+empty for 18 rows"
