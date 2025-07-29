@@ -1,0 +1,166 @@
+DataHut_AT_Mpreis_PriceExtractions_20250729.CSV(15 mnts)
+-----------------------------------------------
+site shown uom missing for 560 rows
+
+DataHut_AT_Fressnapf_PriceExtractions_20250729.CSV(22 mnts)
+--------------------------------------------------
+"1.age is taken along with grammge 
+quantity
+
+https://www.fressnapf.at/p/royal-canin-veterinary-urinary-so-ageing-7-8-kg-1390503/
+
+2.logical error. grammage quantity found as 104kg. price per kg found as € 56,93/kg
+and price is found as € 40,99.
+https://www.fressnapf.at/p/dogsn-tiger-leckere-stueckchen--huhn-huhn-104-kg-1733883/"
+
+DataHut_AT_Mueller_PriceExtractions_20250729.CSV(12 mnts)
+---------------------------------------------------------
+no issues
+
+DataHut_AT_Billa_PriceExtractions_20250729.CSV(15 mnts)
+----------------------------------------------
+"1.site shown uom is
+22 Waschgang Beutel
+but grammage quantity
+and unit is 1 stuck.
+https://shop.billa.at/produkte/frosch-waschmittel-universal-00772746
+
+2.site shown uom is ""2 Beutel Paket""
+but grammage quantity
+and unit is 1 stuck.
+https://shop.billa.at/produkte/dr-oetker-flana-schokopudding-008508
+
+https://shop.billa.at/produkte/dr-oetker-flana-vanillepudding-008528
+3.site shown uom is ""50 Beutel Rolle"" but grammage  unit is stuck
+
+https://shop.billa.at/produkte/clever-muellbeutel-mit-griff-25l-00345571
+
+4.site shown uom is"" 2 Beutel Paket"",but grammage  unit is stuck
+https://shop.billa.at/produkte/dr-oetker-flana-schokopudding-008508
+https://shop.billa.at/produkte/dr-oetker-flana-vanillepudding-008528
+
+
+DataHut_AT_Dm_PriceExtractions_20250729.CSV(15 mnts)
+-----------------------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250729.CSV(16 mnts)
+-----------------------------------------------
+no issues
+
+DataHut_CH_Lidl_PriceExtractions_20250729.CSV(16 mnts)
+---------------------------------------------
+"regular price and selling price
+is empty for 4 rows.
+eg:https://www.lidl.ch/p/de-CH/erdbeeren-zum-aktuellen-tagespreis/p10038046"
+
+aqarmap_egp_2025_07_05.json(40 mnts)
+--------------------------
+"1.site cant be reached.
+2.bathroom found as 001
+https://aqarmap.com.eg/en/listing/6124006-for-sale-cairo-el-sheikh-zayed-city-compounds-rytzy-blz-mwl-tybh-llstthmr-l-qry/
+
+3.phone number found as "" +undefined1552993258 ""
+https://aqarmap.com.eg/en/listing/5819945-for-rent-cairo-ain-shams-ain-shams-el-sharkia-el-eshrein-stt/
+
+4.extra character in
+bathroom field
+eg:2د
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Aaqarmap_egp&fieldname=url&fieldvalue=https%3A//aqarmap.com.eg/en/listing/5727128-for-sale-cairo-mokattam-lhdb-l-ly-shareaa-9/"
+
+5."listing_type', 'depth', 'seller_role'
+are empty"
+
+
+DataHut_AT_Interspar_FlyerExtractions_20250729.csv
+--------------------------------------------------
+1."promotion valid from found as ""28-07""
+in page 1 for line one.
+line 1 flyer url is 
+https://flugblatt.interspar.at/salzburg/salzburg_kw31/GetPDF.ashx
+"
+
+2."promotion valid upto
+found as ""20-08"" in page 17
+for line 1.
+flyer url is
+https://flugblatt.interspar.at/salzburg/salzburg_kw31/GetPDF.ashx
+"
+DataHut_AT_Lidl_FlyerExtractions_20250729.csv
+-------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_FullDump_20250731.CSV
+--------------------------------------
+1.site shown uom missing for 549 rows
+2.file_name_1 is empty
+
+
+emlakjet_tur_2025_08.json
+------------------------
+"1.agent name found as phone number,dots,comma
+and other values.
+https://www.emlakjet.com/ilan/uskudar-bulgurlu-da-firsat-satilik-31-daire-17559251/
+
+2.bed rooms found as 1.5+1,2.5+1 etc
+https://www.emlakjet.com/ilan/denize-2-parsel-yolun-alti-mustakil-1250-m2-arsali-villa-17687422/
+
+3.broker name and broker_display_name are found as phone numbers
+https://www.emlakjet.com/ilan/satilik-zeytinlik-17446351/
+
+4.price field is having more than one dot.
+eg:1.185.000.000 
+https://www.emlakjet.com/ilan/riva-gymdn-mugla-datca-kizlan-turizm-ve-tatil-koyu-imarli-17219321/
+
+5.user id is missing for 122 rows."
+
+baity_bah_2025_08.json
+---------------------
+"1.property not available
+https://baity.bh/properties/apartment-in-al-juffair-34514
+
+https://baity.bh/properties/land-in-tubli-40280
+
+https://baity.bh/properties/villa-in-maqabah-33057
+
+https://baity.bh/properties/apartment-in-al-juffair-35676
+
+2.phone number found in site, empty in data
+https://baity.bh/properties/villa-in-damistan-32653
+
+https://baity.bh/properties/land-in-hamala-32672"
+
+
+DataHut_AT_Bipa_FullDump_20250731.CSV
+------------------------------------
+"1.drained weight is taken as
+dimensions for all fields.
+https://www.bipa.at/p/B3-292825"
+
+2.instock is true and false
+
+DataHut_AT_Interspar_FullDump_20250731.CSV
+------------------------------------------
+"1.price valid upto found as 
+expired.
+ 28.07.2025 (Count: 47)
+
+2.promotion valid upto found as
+28.07.2025 in data,27.08.2025 in site
+https://www.interspar.at/shop/haushalt/alle-marken/bormioli-rocco-einkochglas-fido-075l/p/8208262SG
+
+https://www.interspar.at/shop/haushalt/alle-marken/bormioli-rocco-vorratsglas-fido-5-liter/p/2011530SG
+
+https://www.interspar.at/shop/haushalt/alle-marken/bormioli-rocco-vorratsglas-fido-3-liter/p/2020004148483SG"
+
+3."""|' replaced by '\\|' in nutritional information.
+https://www.interspar.at/shop/lebensmittel/doppelherz-kollagen-1000-biotin-q10-30-tabletten/p/2020003915048"
+
+4."product description
+found as paragraph.
+and extra character in 
+description found
+https://www.interspar.at/shop/lebensmittel/spar-alufolie-50-m/p/2020003827426"
+
+5.age_recommendations is not empty.
+
