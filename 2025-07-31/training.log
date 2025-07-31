@@ -1,0 +1,163 @@
+DataHut_AT_Mueller_FullDump_20250731.CSV
+--------------------------------------
+1."product description is paragraph
+
+https://www.mueller.at/p/bburago-1-24-bmw-m3-e30-1988-2830984/?itemId=2830984"
+
+2.organuc type Non-organic only
+3.instock true and false
+
+DataHut_AT_Bipa_FullDump_20250731.CSV
+-------------------------------------
+"1.drained weight is taken as
+dimensions for all fields.
+https://www.bipa.at/p/B3-292825"
+
+DataHut_AT_Fressnapf_FullDump_20250731.CSV
+----------------------------------------
+"1.feeding_reccomendation 
+previous count;2464
+todays count:3412
+
+2.net content empty in previous data,
+found single value in todays data
+
+"
+3."also image url with png
+format found.
+
+https://www.fressnapf.at/p/nobleza---kuehlmatte-print-fuer-hunde-und-katzen-m-1869403/"
+
+4."replaced by '\\|' in special nutrition purpose
+
+https://www.fressnapf.at/p/wolfsbacher-natur-bio-barf-oel-1-l-1678075/"
+
+5."grammage qunatity taken wrong. 400g in data,product name contains
+2x400g and price taken for 2X400 g.
+
+https://www.fressnapf.at/p/beaphar-multi-frisch-fuer-katzentoiletten-400g-2xfrische-brise-2x-1332868/"
+
+6."product descriprtion 
+found as paragraph
+
+7.dimensions is not empty
+
+https://www.fressnapf.at/p/4pets-transportbox-caree-anthrazit-grau-1313739/"
+
+DataHut_AT_Dm_FullDump_20250731.CSV
+---------------------------------
+1."""retail_limit"" is not empty
+file names are empty"
+
+2."description found as 
+paragraph
+
+https://www.dm.at/mivolis-venengel-p4066447249330.html"
+
+3.extraction date is 2025-07-28
+
+4.image url found as https://products.dm-static.com/f_auto,q_auto,c_fit,w_1200,h_1200/not-found for 2 rows
+
+
+DataHut_AT_Mpreis_FullDump_20250731.CSV
+---------------------------------------
+no issues
+
+hepsiemlak_tur_2025_08.json
+-------------------------
+"1.sale completed, so price is not found in sitehttps://www.hepsiemlak.com/en/proje/antalya-alanya/emerald-park-projesi-3976
+
+https://www.hepsiemlak.com/en/proje/canakkale-canakkale-merkez/solo-dagci-apartmani-projesi-5963
+
+https://www.hepsiemlak.com/en/proje/gaziantep-sehitkamil/dragos-gaziantep-projesi-4314
+
+https://www.hepsiemlak.com/en/proje/izmir-gaziemir/aryom-koru-aryom-insaat-projesi-331
+
+2.price change found
+270.000.000 TRY in site,300000000.0 in data
+https://www.hepsiemlak.com/en/adana-ceyhan-mercimek-satilik/tarla/114240-408
+
+3.category found as 
+ "For Rent 
+ For Sale 
+ Projects
+ Seasonal Rental "
+
+dubizzle_qat_2025_08.json
+-------------------------
+1."description found in malayalam.
+https://www.dubizzle.qa/en/ad/kerala-bed-space-available-in-bin-mahmoud-ID120308400.html"
+
+2.depth is Not empty
+
+DataHut_AT_Billa_FlyerExtractions_20250731.csv
+---------------------------------------------
+no issues
+
+DataHut_AT_Bipa_FlyerExtractions_20250731.csv
+--------------------------------------------
+"promotion valid upto found as
+27.08.2025 in page 6.
+
+https://bipaviewer.aktionsfinder.at
+
+file url is 
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_07_31/DataHut_AT_Bipa_FlyerExtractions_20250731.CSV"
+
+DataHut_AT_Lidl_FlyerExtractions_20250731.csv
+--------------------------------------------
+"failed to load pdf 
+file.
+https://object.storage.eu01.onstackit.cloud/leaflets/pdfs/01983750-e4f4-7b23-8d16-c8490c7ea56d/Ab-Donnerstag-31-7-Flugblatt-10.pdf
+
+file url is:
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_07_31/DataHut_AT_Lidl_FlyerExtractions_20250731.CSV"
+
+DataHut_AT_Mpreis_FlyerExtractions_20250731.csv
+----------------------------------------------
+no issues
+
+dubizzle_bah_2025_08.json
+-------------------------
+1.Data count :3746 
+2.reference_number,price_per,rera_permit_number,dtcm_licence,user_id,sub_category_2,agent_name are empty
+
+3.category 
+ rent 
+ sale
+
+4.currency
+   BHD
+
+5.ad no longer available
+
+ https://www.dubizzle.com.bh/en/ad/fully-serviced-private-office-space-for-you-and-your-team-in-bahrain-ID104141094.html
+
+
+ https://www.dubizzle.com.bh/en/ad/bedspace-available-for-bachelor-50bd-ID105345278.html
+
+ https://www.dubizzle.com.bh/en/ad/land-for-sale-hidd-highway-ID105413977.html
+
+ https://www.dubizzle.com.bh/en/ad/unlimited-office-access-in-bahrain-united-tower-ID104141048.html
+
+ https://www.dubizzle.com.bh/en/ad/nice-clean-flats-near-megamart-muharraq-market-ID105109582.html
+
+6.phone number found in site, missing in data
+  https://www.dubizzle.com.bh/en/ad/special-price-monthly-for-rent-commercial-office-address-only-75-bhd-ID104968613.html
+
+  https://www.dubizzle.com.bh/en/ad/for-rent-ID104666441.html
+
+7.sub_category_1 :
+ Commercial 
+ Residential
+
+indeed_2025_07_31.xlsx
+----------------------
+1.data count is 20425
+
+2."1.website found as 1-2-3.tv
+
+https://de.indeed.com/Zeige-Job?jk=a477107e021b8dfe&from=serp&vjs=3
+2."
+
+
