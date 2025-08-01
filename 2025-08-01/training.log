@@ -1,0 +1,154 @@
+DataHut_SI_Spar_PriceExtractions_20250801.CSV
+---------------------------------------------
+"1.promotion description is 
+""PAKIRANI SIRI Popust ne velja za izdelke vključene v promocijo TRAJNO ZNIŽANO""
+but promotion price is not empty
+https://www.spar.si/online/sir-mozzarella-brez-laktoze-v-slanici-despar-free-from-220g/p/456662
+
+https://www.spar.si/online/mascarpone-brez-laktoze-minusl-250g/p/515055
+
+https://www.spar.si/online/sir-mozzarela-cucina-galbani-400g/p/2584641.
+
+2..promotion description is 
+""PAKIRANI SIRI Popust ne velja za izdelke vključene v promocijo TRAJNO ZNIŽANO. Promocija velja ob nakupu nad 0,10 EUR.""but promotion price is not empty.
+https://www.spar.si/online/francoski-sir-brie-spar-180g/p/534512"
+
+
+DataHut_SI_Mercator_PriceExtractions_20250801.CSV
+-------------------------------------------------
+no issues
+
+DataHut_CH_Lidl_PriceExtractions_20250801.CSV
+--------------------------------------------
+1."site shown uom found as 
+description in site. missing in data
+
+
+https://www.lidl.ch/p/de-CH/baguette-croustille/p10039666"
+
+2."regular price and selling price
+is empty for 4 rows.
+eg:
+https://www.lidl.ch/p/de-CH/himbeeren-zum-aktuellen-tagespreis/p10038048"
+
+DataHut_SI_Dm_PriceExtractions_20250801.CSV
+-------------------------------------------
+no issues
+
+kw_set_1/evrealestate_2025_08_05.json
+-------------------------------------
+
+1.city found as ""
+    "city": "Colonia Centro Cp. 77710 Playa del Carmen, Quintana Roo",
+    "profile_url": "https://www.evrealestate.com/en/our-advisors/edgar-pacheco/67bd974a-1a3a-4f3a-b908-ad82f0317693?userId=67bd974a-1a3a-4f3a-b908-ad82f0317693"
+
+2.data count : 5740
+
+3.title found as 
+ Mr. (Count: 1)
+ None (Count: 3)
+ jeffsaid.evrealeastate.ca (Count: 1)
+ matthewdibble.chime.me (Count: 1)
+ stevekepler.evrealestate (Count: 1)
+
+
+
+
+kw_set_1/ewm_2025_08_05.json
+---------------------------
+"1.title is taken along with first name.
+""first_name"": ""Evelyn TRINIDAD, MS, REALTOR"",
+    ""profile_url"": ""https://www.ewm.com/agents/1776905/Evelyn+TRINIDAD%2C+MS%2C+REALTOR""
+
+2.        ""title"": ""DDAJANI.COM"",
+
+""profile_url"": ""https://www.ewm.com/agents/1777294/David+Dajani+P.A.""
+"
+
+kw_set_1/home_realestate_2025_08_05.json
+---------------------------------------
+"1.wrong url
+    ""profile_url"": ""https://BobTallichet.homerealestate.com""
+
+
+2.image found in site, missing in data
+    ""profile_url"": ""https://sheymagvozdik.homerealestate.com""
+
+3."empty dict found in social field
+""social"": {},
+    ""profile_url"": ""https://lisalorenz.homerealestate.com""
+
+4."description found in site,
+missing in data
+    ""profile_url"": ""https://chelseadavis.homerealestate.com""
+
+5."languages is found as empty list.
+email is empty"
+
+6.city is Lincoln only
+
+DataHut_AT_Dm_FlyerExtractions_20250801.csv
+------------------------------------------
+1.promotion valid upto is empty in data.
+  in 6th page of pdf , its found that " * Gültig von 01.08.2025 bis 31.08.2025. Alle Infos und Bedingungen zu den jeweiligen Coupons finden Sie
+ während des Gültigkeitszeitraums in der Mein dm-App und unter www.dm.at/punktehit"
+
+ flyer_url is:https://view.publitas.com/90794/2369359/pdfs/77bfb36c-6280-49f8-970e-6dc6238980ce.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27dmAT%2520Journal%2520Express%2520-%2520Journal%2520Express%2520Juli%25202025.pdf
+file_url :http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_01/DataHut_AT_Dm_FlyerExtractions_20250801.CSV
+
+DataHut_AT_Billa_FullDump_20250731.CSV
+--------------------------------------
+1."file_names and retail_limit
+are empty"
+2."product description found as paragraph
+
+https://shop.billa.at/produkte/oatly-haferdrink-voll-00720396
+"
+3.drained weight is taken as
+dimensions for all rows.
+
+https://shop.billa.at/produkte/exotic-food-chili-in-salzlake-00337633"
+
+
+kw_set_2/iowarealty_2025_08_05.json
+-----------------------------------
+"office phone number
+found as empty list"
+
+
+kw_set_2/longandfoster_2025_08_05.json
+--------------------------------------
+no issues
+
+kw_set_2/royallepage_2025_08_05.json
+-----------------------------------
+"1.agent_phone_number
+found as ""['123'] "" for 6
+rows.(fax is taken as agent_phone_number)
+
+    ""profile_url"": ""https://www.royallepage.ca/en/agent/alberta/calgary/mackenzie-hare/94099/""
+    ""profile_url"": ""https://www.royallepage.ca/en/agent/ontario/oakville/evangeline-sy/94424/""
+
+
+
+
+2.page not found
+    ""profile_url"": ""https://www.royallepage.ca/en/agent/ontario/oakville/farah-khan/94428/""
+3.website found as
+""    ""website"": ""http://2508836401"",
+    ""profile_url"": ""https://www.royallepage.ca/en/agent/british-columbia/victoria/paula-brown/3528/""
+"
+
+
+kw_set_2/sutton_2025_08_05.json
+------------------------------
+"1.same phone number is
+taken repeatedly in same row as
+agent phone number.
+eg:['604-723-2470', '6047232470']
+    ""profile_url"": ""https://www.sutton.com/ca/agent/parveen-khan-68982""
+2.website found as 
+""    ""website"": ""https://instagram.com/angela_vanrealtor?igshid=MXI3aW01ZzEzcjVlaQ%3D%3D&utm_source=qr"",
+""
+    ""profile_url"": ""https://www.sutton.com/ca/agent/angela-pan-118834""
+"
