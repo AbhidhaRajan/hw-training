@@ -1,0 +1,155 @@
+DataHut_AT_Billa_PriceExtractions_20250804.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Mueller_PriceExtractions_20250804.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Bipa_PriceExtractions_20250804.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Dm_PriceExtractions_20250804.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_PriceExtractions_20250804.CSV
+----------------------------------------------
+site shown uom missing for 557 rows
+
+DataHut_AT_Mpreis_FullDump_20250807.CSV
+----------------------------------------
+site shown uom missing for 556 rows
+
+DataHut_CH_Lidl_PriceExtractions_20250804.CSV
+---------------------------------------------
+"site shown uom found as 
+description in site. missing in data
+
+
+https://www.lidl.ch/p/de-CH/cottowuerfeli/p10039577"
+
+DataHut_AT_Lidl_FlyerExtractions_20250804.csv
+---------------------------------------------
+1."promotion valid from of line 2 found as 
+03.07.2025 in page 35.
+
+flyer_url is
+https://object.storage.eu01.onstackit.cloud/leaflets/pdfs/01985b18-8cc1-7825-b70a-817c9c5d12cb/Ab-Donnerstag-7-8-Flugblatt-03.pdf
+
+data url
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_04/DataHut_AT_Lidl_FlyerExtractions_20250804.CSV"
+
+2."promotion valid upto of line 2 found as 
+20.08.2025 in page 35.
+
+flyer_url is
+https://object.storage.eu01.onstackit.cloud/leaflets/pdfs/01985b18-8cc1-7825-b70a-817c9c5d12cb/Ab-Donnerstag-7-8-Flugblatt-03.pdf
+
+data url
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_04/DataHut_AT_Lidl_FlyerExtractions_20250804.CSV"
+
+
+DataHut_SI_Spar_PriceExtractions_20250804.CSV
+---------------------------------------------
+no issues
+
+houlihanlawrence_2025_08_05.json
+-------------------------------
+"1.agent phone number contains extra characters
+['914-328-8400  ext. 15222']
+
+https://www.houlihanlawrence.com/bio/GeoffreyBerry
+
+2.description is empty in data ,found in site
+https://www.houlihanlawrence.com/bio/tiffanybauman 
+
+https://www.houlihanlawrence.com/bio/DebbieDoern"
+
+3.languages found as empty list
+
+kentwood_2025_08_05.json
+------------------------
+"1.in social fields 
+empty fields found 
+as empty {}.
+
+2. in language field
+empty fields are found as
+empty list []."
+
+3.wrong url found
+https://www.kentwood.com/bio/AnaJ"
+
+4.city found as
+ Colorado Springs (Count: 1)
+https://www.kentwood.com/bio/JessicaPaulucci
+
+ Dillon (Count: 1)
+https://www.kentwood.com/bio/Soley
+
+5.description found as "More information about me"
+in site, empty in data
+https://www.kentwood.com/bio/elise
+https://www.kentwood.com/bio/MATT
+
+
+coldwellbanker_us_2025_08_05.json
+---------------------------------
+"1.extra characters in office_phone number
+eg: ""['+10131403891;ext=2', '+12017670550']""
+
+https://www.coldwellbanker.com/nj/closter/agents/martin-huguley/aid-P00200000FSjy1TFh6B9jj5CnNzmoRVJ5QXBwYsM
+
+2.website found as "" http//:AlohaBrandon.com""
+https://www.coldwellbanker.com/hi/lahaina/agents/brandon-watson/aid-P00200000FDdqVDzR3nmClnOyjWGJ0AwlTFhNP9d
+
+3.website found as "" http//www:facebookk.com/ann.derosa.3""
+https://www.coldwellbanker.com/ny/shoreham/agents/ann-derosa/aid-P00200000GUk0VMrjRoqhe3hM4g6wuB9NUO61Q9F
+
+
+"" www.https://JenOlin.com""
+https://www.coldwellbanker.com/nc/charlotte/agents/jennifer-olin/aid-P00200000FSk0xoxtwmnJqnzU9lGurXFxp7e74uH"
+
+
+
+sothebysrealty_2025_08_05.json
+------------------------------
+1.Data Count: 18996
+2.city,state found empty in data, found in site. zipcode taken wrong also
+  https://www.sothebysrealty.com/eng/associate/180-a-82371-69146470/david-ashmore
+
+3.licence number found as title for few rows
+
+4.website found as wrong for some rows.
+  eg:http://01071901
+  https://www.sothebysrealty.com/eng/associate/180-a-df190819201110851202/adam-isaacson
+
+aqarmap_egp_2025_08_01.json
+--------------------------
+"1.site cant be reached.
+2.extra character in
+bathroom field
+eg:2د
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=propertyfinder-weekly%3Aaqarmap_egp&fieldname=url&fieldvalue=https%3A//aqarmap.com.eg/en/listing/5727128-for-sale-cairo-mokattam-lhdb-l-ly-shareaa-9/
+
+3.broker name found as ""CONTACT NUM IN EGYPT (NAYEL ABDU) - CONTACT NUM IN SAUDIA ARABIA (JAMAL MOHAMAD)""
+https://aqarmap.com.eg/en/listing/6038247-for-sale-ismailia-el-qantara/
+
+4.details found empty for single row
+https://aqarmap.com.eg/en/listing/6155942-for-rent-asyut-asyut-city-el-gomhoreya-st/"
+
+5.depth', 'seller_role', 'listing_type' are empty
+
+dari_ae_2025_08_01.json
+-----------------------
+no issues
+
+bayut_uae_project_2025_08_01.json
+--------------------------------
+date found as 2025-08-05
+
+nawy_egp_2025_08_01.json
+-----------------------
+no issues
