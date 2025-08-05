@@ -1,0 +1,207 @@
+DataHut_AT_Mpreis_PriceExtractions_20250805.CSV
+-----------------------------------------------
+site shown uom missing for 560 rows
+
+DataHut_AT_Billa_PriceExtractions_20250805.CSV
+----------------------------------------------
+"1.site shown uom is missing for 7 rows
+in data.
+
+2.site shown uom missing in data, found in site
+
+https://shop.billa.at/produkte/ja-natuerlich-hendlruecken-00240470
+
+https://shop.billa.at/produkte/ja-natuerlich-hendlkeulen-00420732
+
+https://shop.billa.at/produkte/ja-natuerlich-hendlfluegerl-00420731"
+
+
+DataHut_AT_Mueller_PriceExtractions_20250805.CSV
+----------------------------------------------
+"regular and selling price anre empty for
+7 rows"
+
+DataHut_AT_Bipa_PriceExtractions_20250805.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Fressnapf_PriceExtractions_20250805.CSV
+-------------------------------------------------
+no issues
+
+bayut_egp_2025_08_01.json
+--------------------------
+"1. number of photos found empty in data,
+found a photo in site
+https://www.bayut.eg/en/property/details-502303759.html"
+
+2."date found as
+2025-08-04"
+
+3.broker_display_name,broker and depth are not empty
+
+4.price per found as Monthly,daily,weekly,yearly
+5."Two new fields ""completion_status"",
+""ownership"""
+
+6.id is number found in url, not from reference number
+
+dubizzle_uae_2025_08_01.json
+----------------------------
+"1.agent found empty in data, found in site
+https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2025/7/30/on-the-park-twin-villa-4br-2-374/
+
+
+https://fujairah.dubizzle.com/property-for-sale/residential/villahouse/2025/6/8/-13-362/
+
+2.phone number found as + in data, no number is available in site
+https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/6/4/spacious-living-upgraded-stunning-terra-2-149697/
+
+3.phone number found as  ""+9714 (Count: 36)""
+full number found in site
+https://dubai.dubizzle.com/property-for-rent/residential/villahouse/2025/7/14/vacant-now-upgraded-private-pool-single-2-222434/
+
+https://dubai.dubizzle.com/property-for-rent/residential/penthouse/2024/8/9/ultra-luxury-penthouse-with-private-pool-2-106/
+
+4.phone number found as ""052 965 4662"" in data,
++971529654662 in site
+https://dubai.dubizzle.com/property-for-rent/rooms-for-rent-flatmates/apartmentflat/2025/7/19/bedspace-metrotrambalaconystudyliving-area-2-395/"
+
+5.listed_by is empty
+
+DataHut_AT_Lidl_FlyerExtractions_20250805.csv
+-------------------------------------------
+
+
+1."promotion valid from  found as 
+03.07.2025 in page 35.
+
+flyer url is
+https://object.storage.eu01.onstackit.cloud/leaflets/pdfs/01985b18-8cc1-7825-b70a-817c9c5d12cb/Ab-Donnerstag-7-8-Flugblatt-06.pdf
+
+data url is 
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_05/DataHut_AT_Lidl_FlyerExtractions_20250805.CSV"
+
+2."promotion valid upto  found as 
+20.08.2025 in page 35.
+
+flyer url is
+https://object.storage.eu01.onstackit.cloud/leaflets/pdfs/01985b18-8cc1-7825-b70a-817c9c5d12cb/Ab-Donnerstag-7-8-Flugblatt-06.pdf
+
+data url is 
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_05/DataHut_AT_Lidl_FlyerExtractions_20250805.CSV"
+
+kw/realliving_realestate_2025_08_05.json
+-------------------------------------
+"1.site cant be reached
+for two rows.
+profile urls are
+
+https://www.reallivingrealestatesolutions.com/douglas.clement
+
+https://www.reallivingrealestatesolutions.com/bill.kolb
+
+2.in some rows same number is taken as agent and office phone number
+and in some rows is only taken as agent phone number ,office phn number found empty.
+
+https://www.realliving.com/natalie.lochte
+
+https://reallivingimages.fnistools.com/images/uploads/agents/22801374/22801374.jpg"
+
+3."office name found as 
+Real Living Real Estate Solutions
+in site,
+""Real Living Real Estate Solutions - Orlando""
+in data.
+
+https://www.realliving.com/lizjennifer.vazquez"
+
+4.fields are not in order
+5.empty fields in languages
+and numbers
+found as empty list[]
+
+6.empty fields in social found 
+as empty dict {}"""
+
+
+kw/coldwellbankerinternational_2025_08_05.json
+----------------------------------------------
+"1.agent phone number found as 
+'+5555011525541621000175""
+https://www.coldwellbankerinternational.com/agent/fNCAmu6
+
+2.city found as ""B"" in data
+https://www.coldwellbankerinternational.com/agent/D4FwkygHv
+
+3.office phone number found as +34 for 9 rows
+https://www.coldwellbankerinternational.com/agent/NsfqMHi
+
+4.phone number format found different for all rows.
+eg:in site number found as ""+34 602 50 13 38""
+in data is ""+34602501338""
+
+5.zipcode found as "" LE 0836/1900055"" in data, in site 
+address found as ""Via Trento e Trieste, 22 - Maglie, LE 73024
+Maglie, LE 0836/1900055, Italy""
+https://www.coldwellbankerinternational.com/agent/GhCqpI5D"
+
+6.fields are not in order
+
+
+kw/reecenichols_2025_08_05.json
+-------------------------------
+"1.full name is taken as first name.
+name is ""Derks & Associates""
+https://www.reecenichols.com/bio/derksassociates
+
+same issue
+https://www.reecenichols.com/bio/loriandelizabeth
+
+
+2.in social field, in other url category, urls are taken twice
+in all data, also urls are not properly separated.
+
+eg:{'facebook_url': '', 'linkedin_url': '', 'twitter_url': '', 'other_urls': ['https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.instagram.com%2Fraymondlclay%3Figsh%3DMXVkaWp0NGR4', 'https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.instagram.com%2Fraymondlclay%3Figsh%3DMXVkaWp0NGR4']}
+
+https://www.reecenichols.com/bio/raymondclay"
+
+3."""email"" is  empty
+office_phone_numbers
+  is not empty"
+
+kw/berkshirehathaways_2025_08_05.json
+------------------------------------
+"1.first name found as
+""Website Design Two - Calm Website Design Two - Calm Website Design Two - Calm""
+in data. ""Website Design Two - Calm"" in site
+https://www.bhhs.com/grayling-properties-ak702/grayling/website-design-two---calm/cid-3062331
+
+same issue 
+https://www.bhhsrobertpaul.com/osterville/vicky-whittier/cid-3023242
+https://www.bhhs.com/california-properties-ca305/whittier/vanessa-rocha/cid-3070725"
+
+2."website found as "" htp://www.kellieaguilarproperties.com""
+https://www.bhhs.com/arizona-properties-california-properties-and-nevada-properties-nv301/indian-wells/kellie-aguilar/cid-1120474
+
+"" htps://arinacukar.bhhsfloridaproperties.com ""
+https://www.bhhs.com/florida-properties-group-fl302/clearwater/arina-cukar/cid-3070328"
+
+bayut_uae_2025_08_01.json
+-------------------------
+1.data count found as "461839" count in 22-07 is "473134"
+2.phone number found as orn number.
+for some rows
+eg:https://www.bayut.com/property/details-9859274.html"
+
+3.new fields are  "orn_number",
+""""bln_number"""",
+""""adm_number"""",
+""""3d_live"""",""""3d_image"""",
+""""2d_image"""",
+""""ded_number_2"""",
+""""ded_number_3"""",
+""""ded_number_4"""",
+""""trucheck_on"""",
+""""email"""",""""trubroker""rating"""",""""no_of_reviews"""",
+""""property_of_the_week""
