@@ -1,0 +1,128 @@
+DataHut_AT_Mueller_PriceExtractions_20250806.CSV
+----------------------------------------------
+1.data count yestrdy :94319  today:83092
+2."regular and selling price anre empty for
+26 rows"
+
+DataHut_AT_Bipa_PriceExtractions_20250806.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Dm_PriceExtractions_20250806.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_PriceExtractions_20250806.CSV
+----------------------------------------------
+site shown uom missing for 559 rows
+
+DataHut_SI_Spar_PriceExtractions_20250806.CSV
+---------------------------------------------
+no issues
+
+DataHut_SI_Dm_FullDump_20250807.CSV
+-----------------------------------
+1.file names are empty
+2."extraction_date 
+['2025-08-06']
+
+3.instock is True only
+
+
+DataHut_AT_Billa_PriceExtractions_20250806.CSV
+-----------------------------------------------
+1.site shown uom is missing for 7 rows
+in data.
+
+DataHut_CH_Lidl_PriceExtractions_20250806.CSV
+---------------------------------------------
+"site shown uom found as 
+description in site. missing in data
+
+
+https://www.lidl.ch/p/de-CH/cottowuerfeli/p10039577"
+
+
+DataHut_IT_Easycoop_PriceExtractions_20250806.CSV
+-------------------------------------------------
+"1.grammage quantity found wrong.
+1 x 120g in data, product name is ""RIO MARE Tonno All'olio Di Oliva 2 + 1 X 120 G"" , price is also taken for 240g
+
+https://www.easycoop.com/tonno-oo-rio-mare-120gx2-1-7700797.html
+
+2.grammage quantity and unit found as 11 pz in data, price per unit is 8.19 €/PZ and price is 8.19.
+https://www.easycoop.com/huggies-huggies-little-swimmers-pannolino-costumino-5-6-12-18kg-11-pz-6926099.html"
+
+3.date is ['2025-08-05']
+
+4."promotion valid upto 2025-08-03,
+2025-08-04 ,2025-08-05
+expired. so price change found
+
+https://www.easycoop.com/coop-filetto-di-orata-italiana-4479456.html
+
+https://www.easycoop.com/aia-aia-salamelle-gia-aperte-con-pollo-tacchino-e-suino-0-340-kg-2946974.html"
+
+DataHut_AT_Interspar_FlyerExtractions_20250806.csv
+--------------------------------------------------
+"promotion valid upto of line 1
+found as ""27.8"" in page 15,16.
+
+flyer url is 
+https://flugblatt.interspar.at/salzburg/salzburg_kw32/GetPDF.ashx
+
+data url
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_06/DataHut_AT_Interspar_FlyerExtractions_20250806.CSV"
+
+DataHut_SI_Mercator_PriceExtractions_20250806.CSV
+-------------------------------------------------
+"1.logical error.
+price per unit found as
+""0.08€ / kos"", grammage 
+found as 1 kos,but price found as 
+""1.69""
+https://mercatoronline.si/izdelek/1005979/damski-vlozki-slip-flexi-carefree-18-1
+
+2.grammage quantity found wrong. capacity is taken as grammage unit and quantity.
+https://mercatoronline.si/izdelek/19102368/pampers-hlacne-plenice-maxi-pack-s3-6-11-kg-56-1"
+
+DataHut_IT_Esselunga_PriceExtractions_20250806.CSV
+------------------------------------------------
+1.brand is not empty
+2.unique id is not unique
+3.2025-08-05' extraction date
+4."date format is
+01/01/2026 
+
+DataHut_CH_Lidl_FullDump_20250807.CSV
+--------------------------------------
+1."1.extra ccharacters in product
+description found.(unique id is taken along)
+eg:
+
+https://www.lidl.ch/p/de-CH/aprikosen-croissant/p10039639"
+
+2.extraction date is "2025-08-06"
+3.Instock  True only
+
+costplusdrugs_2025_08_06.csv
+---------------------------
+1.Total data Count: 6375
+2.no issues found
+
+DataHut_CH_Denner_FullDump_20250807.CSV
+--------------------------------------
+1.data count is 998
+2.no image found in site,
+image url found for 3 rows without image.
+
+eg:https://www.denner.ch/de/aktionen-und-sortiment/ip-suisse-mozzarelline~p902888?variant=309e8460-694b-4479-a2d9-3d77d444476e
+
+3."producthierarchy_level7'
+not empty
+
+'file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'image_url_4'
+are empty"
+
+4."extraction_date found as
+['2025-08-06']"
