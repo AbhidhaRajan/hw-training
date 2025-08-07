@@ -1,0 +1,194 @@
+DataHut_AT_Mpreis_FullDump_20250807.CSV
+---------------------------------------
+site shown uom missing for 553 rows
+
+DataHut_AT_Fressnapf_FullDump_20250807.CSV
+-----------------------------------------
+"""1.dimensions is not empty.
+
+2.file_names  are empty."""
+
+3."product descriprtion 
+found as paragraph
+https://www.fressnapf.at/p/select-gold-medica-nassfutter-hund-adult-harnsteindiaet-urat---cystin-mit-huhn-24x400-g-1956009/"
+
+4."replaced by '\\|' in special nutrition purpose
+
+https://www.fressnapf.at/p/wolfsbacher-natur-haut--fell-leckerli-4x-2078184/"
+
+5."also image url with png
+format found.
+https://www.fressnapf.at/p/select-gold-medica-nassfutter-hund-adult-harnsteindiaet-urat---cystin-mit-huhn-24x400-g-1956009/"
+
+6.grammage quantity 
+taken wrong. 1 000kg in data
+price is taken for 1 kg.
+https://www.fressnapf.at/p/vitakraft-menu-vital-meerschweinchen-1000-kg-1004435/"
+
+
+DataHut_AT_Bipa_FullDump_20250807.CSV
+------------------------------------
+"1.drained weight is taken as
+dimensions for all fields.
+https://www.bipa.at/p/B3-292825"
+
+2."image found in site
+image url is empty in data
+
+https://www.bipa.at/p/B3-537363
+
+https://www.bipa.at/p/B3-537365"
+
+3.instock is true and false
+
+DataHut_CH_Coop_FullDump_20250807.CSV
+--------------------------------------
+1.site shown uom missing for 4399 rows
+2.price per unit contains '. eg: 5’050.00/100kg. url: https://www.coop.ch/de/lebensmittel/fleisch-fisch/abgepacktes-frischfleisch/rind/naturafarm-rindsbraten-stotzen-ca/p/5845607 
+
+3.regular price is empty
+but promotion price and selling price is in data
+
+https://www.coop.ch/de/kiosk/spirituosen/alle-spirituosen/whisky/aus-schottland/blended-scotch/johnnie-walker-black-label-old-scotch-whisky-12-years/p/3051191
+
+https://www.coop.ch/de/kiosk/spirituosen/alle-spirituosen/rum-cachaca/rum/rum-havana-club-especial/p/7353014"
+
+4."product instock is false in data, but product available in site
+
+https://www.coop.ch/de/lebensmittel/fruechte-gemuese/fruechte/steinobst/pfirsichen-flach/p/7137875"
+
+DataHut_SI_Mercator_FullDump_20250807.CSV
+----------------------------------------
+1."logical issue.
+price per unit found as 
+0,22€ / kos, grammage quantity and 
+unit found as ""1 kos"", but price found as 
+2.59.
+
+https://mercatoronline.si/izdelek/5238667/prepelicja-jajca-redek-12-1"
+
+2.instock true only
+
+
+DataHut_AT_Action_FlyerExtractions_20250807.csv
+-----------------------------------------------
+no issues
+
+DataHut_AT_Billa_FlyerExtractions_20250807.csv
+-----------------------------------------------
+no issues
+
+DataHut_AT_Denns_FlyerExtractions_20250807.csv
+-----------------------------------------------
+"promotion_valid_upto found as 
+""19.08"" in page 2.
+
+flyer url
+https://view.publitas.com/92439/2378925/pdfs/44154cfe-a5cf-4126-a597-473f37dc9cd2.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Handzettel%2520%25C3%2596sterreich%2520-%2520Denns_BioMarkt_12s_HZ_AU_kw_31-32_2025.pdf
+
+data url
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_07/DataHut_AT_Denns_FlyerExtractions_20250807.CSV
+
+DataHut_AT_Lidl_FlyerExtractions_20250807.csv
+---------------------------------------------
+1."promotion valid from  found as 
+03.07.2025 in page 35.
+
+flyer url
+https://object.storage.eu01.onstackit.cloud/leaflets/pdfs/01985b18-8cc1-7825-b70a-817c9c5d12cb/Ab-Donnerstag-7-8-Flugblatt-07.pdf
+
+data url
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_07/DataHut_AT_Lidl_FlyerExtractions_20250807.CSV"
+
+2."promotion valid upto  found as 
+20.08.2025 in page 35.
+
+flyer url
+https://object.storage.eu01.onstackit.cloud/leaflets/pdfs/01985b18-8cc1-7825-b70a-817c9c5d12cb/Ab-Donnerstag-7-8-Flugblatt-07.pdf
+
+data url
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_07/DataHut_AT_Lidl_FlyerExtractions_20250807.CSV"
+
+DataHut_AT_Mpreis_FlyerExtractions_20250807.csv
+----------------------------------------------
+no issues
+
+
+DataHut_AT_Billa_FullDump_20250807.CSV
+--------------------------------------
+1."aktion tag present in site
+missing in data
+https://shop.billa.at/produkte/billa-mozzarella-00953957
+
+https://shop.billa.at/produkte/die-grillerei-focaccia-teig-00297282
+
+https://shop.billa.at/produkte/acquesi-asti-spumante-viticoltori-docg-00664171
+
+https://shop.billa.at/produkte/voeslauer-prickelnd-00884881"
+
+2."product description found as paragraph
+
+https://shop.billa.at/produkte/nivea-men-pflegedusche-sensitive-00903856"
+
+3."file_names and retail_limit
+are empty"
+
+4.site shown uom is missing for 7 rows
+
+DataHut_AT_Mueller_FullDump_20250807.CSV
+------------------------------------------
+1."found product description as paragraph
+
+https://www.mueller.at/p/paw-patrol-rescue-wheels-superloop-tower-extragrosser-tower-mit-startrampe-und-looping-licht-geraeuscheffekten-PPN3086681/?itemId=3086681"
+
+2."replaced with \\ in varients
+https://www.mueller.at/p/alessandro-striplac-uv-colour-nagellack-PPN3092247/?itemId=3092326"
+
+3.instock found as true and false
+
+4."invalid image url
+found for two rows.
+
+image url is 
+""https://www.mueller.at/_next/image/?url=https%3A%2F%2Fstatic.prod.ecom.mueller.de%2FProduct%2520Assets%2520Importer%2FProdukt%2520Vorderansicht%2F4004182519813F.png&w=750&q=75""
+
+data url
+
+""https://www.mueller.at/p/avery-zweckform-namens-etiketten-15-x-31-mm-a6-48-etiketten-2-boegen-PPN3104936/?itemId=3104936"""
+
+indeed_2025_08_07.xlsx
+-----------------------
+"1.job expired
+
+https://de.indeed.com/Zeige-Job?jk=3170f5b5a31ad451&from=serp&vjs=3
+2.fax number is taken as phone number
+
+https://de.indeed.com/Zeige-Job?jk=8d3d63860d20b13f&from=serp&vjs=3
+
+3.same number is repeatdly taken 
+https://de.indeed.com/Zeige-Job?jk=0114412db748afe2&from=serp&vjs=3
+
+same issue for other rows too
+https://de.indeed.com/Zeige-Job?jk=8cb473073e7a892f&from=serp&vjs=3
+
+
+https://de.indeed.com/Zeige-Job?jk=675a43c8cf20953a&from=serp&vjs=3
+
+https://de.indeed.com/Zeige-Job?jk=10e87f5196692d93&from=serp&vjs=3
+
+https://de.indeed.com/Zeige-Job?jk=e7fad4d4814018bb&from=serp&vjs=3
+
+4.wrong number is taken as phone number. original phone number found in site
+https://de.indeed.com/Zeige-Job?jk=12e40b0819226e7d&from=serp&vjs=3
+
+5.ad number is taken as phone number for few rows
+
+https://de.indeed.com/Zeige-Job?jk=864d6a62c478a39a&from=serp&vjs=3
+
+
+6.position contains extra characters
+https://de.indeed.com/Zeige-Job?jk=173cc6f224ab215b&from=serp&vjs=3
+
+7.website found as ""1000hands.de""
+https://de.indeed.com/Zeige-Job?jk=e0e7abde3c75cb73&from=serp&vjs=3
+"
