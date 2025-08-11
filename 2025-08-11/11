@@ -1,3 +1,4 @@
+Preparing QA task data
 DataHut_AT_Billa_PriceExtractions_20250811.CSV
 DataHut_AT_Mueller_PriceExtractions_20250811.CSV
 DataHut_AT_Mpreis_PriceExtractions_20250811.CSV
@@ -10,3 +11,5 @@ DataHut_SI_Mercator_PriceExtractions_20250811.CSV
 DataHut_SI_Spar_PriceExtractions_20250811.CSV
 machinerytrader_2025_08_11.csv
 nawy_egp_2025_08_02.json
+DataHut_AT_Mueller_FlyerExtractions_20250811.csv
+DataHut_AT_Lidl_FlyerExtractions_20250811.csv
