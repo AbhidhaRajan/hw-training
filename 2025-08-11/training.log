@@ -1,0 +1,109 @@
+DataHut_AT_Billa_PriceExtractions_20250811.CSV
+----------------------------------------------
+"1.site shown uom is missing for 9 rows
+in data."
+
+2."site shown uom
+is ""40 Beutel Packung,
+20 Beutel Packung""
+but grammage unit is not btl
+https://shop.billa.at/produkte/toppits-gefrierbeutel-1l-00101511
+https://shop.billa.at/produkte/toppits-gefrierbeutel-6-lit-00101513
+"
+
+DataHut_AT_Mueller_PriceExtractions_20250811.CSV
+-----------------------------------------------
+1.regular and selling price anre empty for
+33 rows
+
+DataHut_AT_Mpreis_PriceExtractions_20250811.CSV
+-----------------------------------------------
+site shown uom missing for 567 rows
+
+DataHut_AT_Bipa_PriceExtractions_20250811.CSV
+-------------------------------------------
+no issues
+
+DataHut_AT_Interspar_PriceExtractions_20250811.CSV
+--------------------------------------------------
+1."site shown uom contains
+comma
+eg:https://www.interspar.at/shop/lebensmittel/eigenmarken/spar-vital-pure-kalium-kapseln-60-stueck/p/2020005034587"
+
+2.regular price and selling price is 0.00 for 4 rows
+
+DataHut_AT_Dm_PriceExtractions_20250811.CSV
+-------------------------------------------
+"breadcrumb found as 
+""Startseite > dm-med > Nahrungsergänzungsmittel > Vitaminpräparate""
+in data
+""Startseite"" in site
+https://www.dm.at/nature-love-pflanzenstoff-komplex-l-tryptophan-rosenwurz-und-gruentee-p4260488135007.html"
+
+DataHut_AT_Fressnapf_PriceExtractions_20250811.CSV
+-------------------------------------------
+no issues
+
+DataHut_SI_Dm_PriceExtractions_20250811.CSV
+-------------------------------------------
+no issues
+
+DataHut_SI_Mercator_PriceExtractions_20250811.CSV
+-------------------------------------------
+no issues
+
+DataHut_SI_Spar_PriceExtractions_20250811.CSV
+-------------------------------------------
+no issues
+
+machinerytrader_2025_08_11.csv
+-------------------------------
+no issues
+
+nawy_egp_2025_08_02.json
+-------------------------------
+no issues
+
+DataHut_AT_Mueller_FlyerExtractions_20250811.csv
+-----------------------------------------------
+no issues
+
+
+DataHut_AT_Lidl_FlyerExtractions_20250811.csv
+-------------------------------------------
+1."promotion valid from  found as 
+03.07.2025 in page 27.
+
+
+flyer url
+
+https://object.storage.eu01.onstackit.cloud/leaflets/pdfs/01987df2-ac6e-7556-a678-fa6605c13c88/Ab-Donnerstag-14-8-Flugblatt-01.pdf
+
+data url
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_11/DataHut_AT_Lidl_FlyerExtractions_20250811.CSV
+"
+
+2."promotion valid upto  found as 
+24.08.2025 in page 32.
+
+flyer url
+
+https://object.storage.eu01.onstackit.cloud/leaflets/pdfs/01987df2-ac6e-7556-a678-fa6605c13c88/Ab-Donnerstag-14-8-Flugblatt-01.pdf
+
+data url
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_11/DataHut_AT_Lidl_FlyerExtractions_20250811.CSV
+
+dari_ae_2025_08_02.json
+-----------------------
+no issues
+
+bayut_egp_2025_08_02.json
+------------------------
+1."date is not delivery date
+found as ""2025-08-11"""
+
+2.depth,broker_display_name,broker are not empty
+3."Two new fields ""completion_status"",
+""ownership"""
+
+4.price per found as "Monthly,daily,weekly,yearly"

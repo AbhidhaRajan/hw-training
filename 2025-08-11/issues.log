@@ -1,0 +1,21 @@
+Issues of billa
+---------------
+1.line 60 Teebeutel--btl-- changed to stuck
+2.line 9 Extraction date-- changed to 2025-08-05
+3.line 13 competitor_name-- changed to billaa
+4.line 170 unique_id  removed "0017407"
+5.line 7125 product name removed   "MAGGI Lachs - Sahne Gratin 1 stk"
+6.line 12 grammage_unit changed to "m"  from l
+7.line 24,regular price changed to 19.9 from 19.99
+8.line 43,selling_price changed to 11.9 from 11.99
+9.line 4,replace . with , in price_per_unit (1 Stk 1,06 €)
+10.line 84, promotion_description contains aktion,single price was in data, so regular price was 
+empty. added regular price to 0.97
+
+11.line 3, currency changed to eur
+
+12.line 232 , breadcrumb changed to "Alle Kategorien >> Tiefkühl > Pizza, Baguette & Gebäck > Tiefkühl Baguette"  extra > added
+
+13.line 12290, pdp_url changed to "https:///shop.billa.at/produkte/handl-tyrol-tiroler-chiliwurzerl-00202785"
+
+14.file name changed to Datahut_At_Billa_PriceExtractions_20250806.csv
