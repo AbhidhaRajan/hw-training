@@ -1,0 +1,216 @@
+DataHut_SI_Spar_PriceExtractions_20250813.CSV
+---------------------------------------------
+"grammage quantity 
+found as 1125l in product name
+in site, in data is taken from net content and is 
+1.13l. price is also taken for 1125l
+
+https://www.spar.si/online/tekoci-detergent-color-ariel-25-pranj-1125l/p/659340"
+
+DataHut_AU_Coles_FullDump_20250813.CSV
+--------------------------------------
+"1.price and price per unit
+found changes.
+
+https://www.coles.com.au/product/wildly-good-biteables-loaded-potato-rostis-6-pack-210g-9106645
+
+2.size and site shown uom found same for all rows
+
+
+3.product size is taken as varients for all rows.
+
+4.price and price per unit found in data, missing in site
+https://www.coles.com.au/product/coles-mild-hungarian-salami-200g-1003810
+
+5.'store_name', 'store_state', 'store_postcode', 'producthierarchy_level1', 'producthierarchy_level2', 'producthierarchy_level3', 'promotion_price', 'promotion_type', 'promotion_description', 'multi_buy_item_count', 'multi_buy_items_price_total', 'breadcrumb', 'labelling', 'file_name_1', 'promo_limit', 'multibuy_items_pricesingle', 'retail_limit'
+are empty"
+
+6.date found as 2025-08-13 in both file name and extraction date.
+
+
+
+
+
+DataHut_AT_Bipa_PriceExtractions_20250813.CSV
+-------------------------------------------
+no issues
+
+DataHut_AT_Dm_PriceExtractions_20250813.CSV
+------------------------------------------
+"breadcrumb found as 
+""Startseite > dm-med > Nahrungsergänzungsmittel > Vitaminpräparate""
+in data
+""Startseite"" in site
+https://www.dm.at/nature-love-pflanzenstoff-komplex-l-tryptophan-rosenwurz-und-gruentee-p4260488135007.html"
+
+DataHut_AT_Mpreis_PriceExtractions_20250813.CSV
+----------------------------------------------
+site shown uom missing for 569 rows
+
+DataHut_SI_Dm_FullDump_20250814.CSV
+-----------------------------------
+1."site shown uom contains
+both dot and comma separated values.
+
+eg:1.000g,0,32kg"
+
+2."2025-08-13'
+extraction date"
+
+3.instock true only
+
+
+DataHut_AT_Mueller_PriceExtractions_20250813.CSV
+------------------------------------------------
+"regular and selling price anre empty for
+41 rows
+"
+
+DataHut_AT_Interspar_FullDump_20250814.CSV
+-----------------------------------------
+"1.drained weight contains comma sepaarated values
+https://www.interspar.at/shop/lebensmittel/gioiella-burrata/p/2020005386914
+
+2.promotion valid upto found as expired and will be expire today
+ 12.08.2025 (Count: 618)
+ 13.08.2025 (Count: 936)
+
+3.price is taken wrong for many rows. 
+eg:original price is 219.90 but is taken as 21990.00
+https://www.interspar.at/shop/weinwelt/perrier-jouet-champagner-belle-epoque-blanc-2014/p/2020003933066"
+
+4.image url is empty for 1205 rows
+5."image found in site
+missing in data.
+
+https://www.interspar.at/shop/haushalt/vog-geradehalsflasche/p/1652000SG
+
+https://www.interspar.at/shop/haushalt/delonghi-wasserfilter-dlsc002/p/2020002678265SG
+
+https://www.interspar.at/shop/haushalt/bormioli-rocco-einkochglas-fido-05l/p/8208248SG"
+
+6."|' replaced by '\\\\|' in nutritional information
+
+https://www.interspar.at/shop/lebensmittel/doppelherz-kollagen-1000-biotin-q10-30-tabletten/p/2020003915048"
+
+7.instock contains True, False
+8."product description
+found as paragraph.
+
+https://www.interspar.at/shop/weinwelt/a-vogel-herbamare-fuer-fleisch-gefluegel/p/2020001866168"
+
+9.age_recommendations is not empty.
+
+DataHut_AT_Fressnapf_FullDump_20250814.CSV
+----------------------------------------
+"1.dimensions is not empty.
+
+2.file_names  are empty."
+3."product description 
+found as paragraph
+https://www.fressnapf.at/p/4cats-pet-airs-schutzkragen-xs-1269007/
+
+4."comma found in grammage quantity
+insted of dots.
+https://www.fressnapf.at/p/orijen-small-breed-18-kg-1350899/"
+
+5."replaced by '\\|' in special nutrition purpose
+
+https://www.fressnapf.at/p/wolfsbacher-natur-bio-barf-oel-1-l-1678075/"
+
+6."also image url with png
+format found.
+https://www.fressnapf.at/p/select-gold-medica-nassfutter-hund-adult-harnsteindiaet-urat---cystin-mit-huhn-24x400-g-1956009/"
+
+7..empty key found in 
+feeding reccomendation
+
+http://192.81.217.205:8000/QA_TEMPLETES/index.html?collection=tcs%3Aaldi_austria-weekly%3Afressnapf%3Aqa_partial&fieldname=pdp_url&fieldvalue=https%3A//www.fressnapf.at/p/select-gold-light-maxi-12kg-1001492008/
+
+
+DataHut_AT_Denns_FlyerExtractions_20250813.csv
+-----------------------------------------------
+no issues 
+DataHut_AT_Interspar_FlyerExtractions_20250813.csv
+-------------------------------------------------
+"promotion valid from and promotion valid upto
+for line 3 is not found in site, found in data.
+
+flyer url
+https://flugblatt.spar.at/salzburg/eurospar/250814-2-alles-fuer-den-haushalt-kw-33/GetPDF.ashx
+
+data url
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_13/DataHut_AT_Interspar_FlyerExtractions_20250813.CSV"
+
+
+DataHut_AT_Billa_FullDump_20250814.CSV
+--------------------------------------
+"1.site shown uom is 1 Packung Beutel,
+grammage quantity and unit is 1 btl.
+""https://shop.billa.at/produkte/knorr-basis-fuer-faschiertes-0011080""
+
+but for site shown uom like 
+""20 Beutel Packung,50 Beutel Rolle,
+40 Beutel Packung"" site shown uom is not btl
+
+""https://shop.billa.at/produkte/clever-muellbeutel-mit-griff-25l-00345571
+""
+
+2.product name and site shown uom contains extra characters,also grammage quantity
+found as 750g in data,1 kg in site and price change found
+
+https://shop.billa.at/produkte/wurstschinkenplatte-00529271
+"
+
+3."file_names and retail_limit
+are empty"
+
+4."product description found as paragraph
+
+https://shop.billa.at/produkte/sunnypepp-mit-frischkaese-die-kaesemacher-00899608"
+
+5.site shown uom is missing for 9 rows
+
+
+indeed_2025_08_14.xlsx
+----------------------
+"1.email id repeatedly
+taken,
+
+https://de.indeed.com/Zeige-Job?jk=aecc37eabd6bd439&from=serp&vjs=3
+
+https://de.indeed.com/Zeige-Job?jk=b4d3a0585f2ddadf&from=serp&vjs=3
+
+2.phone number repeatdly taken ""+49 0 75 24  707 – 270""
+
+https://de.indeed.com/Zeige-Job?jk=44986d0210da019a&from=serp&vjs=3
+
+""https://de.indeed.com/Zeige-Job?jk=0055f8242839b7f0&from=serp&vjs=3
+https://de.indeed.com/Zeige-Job?jk=feac214e062aacdc&from=serp&vjs=3
+
+https://de.indeed.com/Zeige-Job?jk=5e7afcfe5d811ad7&from=serp&vjs=3
+
+3.phone number taken wrong
+
+https://de.indeed.com/Zeige-Job?jk=f59f8d8ffb575137&from=serp&vjs=3
+
+https://de.indeed.com/Zeige-Job?jk=9298168331ee974c&from=serp&vjs=3
+https://de.indeed.com/Zeige-Job?jk=0d190e9eaebb2fe9&from=serp&vjs=3
+
+4.currant data count:19591 previous data count:20811
+
+5.4.webiste domain found as 
+"1000hands.de"
+ 11880.com"
+
+groceryoutlet_2025_08_13.csv
+---------------------------
+1.Total data count:3419
+2. Total empty fields are "'style', 'image_url_5', 'perfect_match', 'allergens', 'organictype', 'instructions', 'producthierarchy_level1', 'store_suburb', 'storage_instructions', 'producthierarchy_level2', 'multibuy_items_pricesingle', 'standard_drinks', 'promotion_type', 'processed_food', 'fit_guide', 'store_addressline1', 'vitamins', 'heel_height', 'beer_deg', 'producthierarchy_level6', 'country_of_origin', 'promotion_price', 'file_name_1', 'handmade', 'pdp_url', 'store_addressline2', 'environmental', 'retail_limit', 'product_description', 'currency', 'instructionforuse', 'dietary_lifestyle', 'dimensions', 'max_heating_temperature', 'return_address', 'cooking_part', 'barcode', 'producthierarchy_level7', 'file_name_3', 'servings_per_pack', 'price_was', 'dosage_recommendation', 'special_nutrition_purpose', 'competitor_product_key', 'netweight', 'material_composition', 'material', 'per_unit_sizedescription', 'manufacturer_address', 'food_preservation', 'variants', 'color', 'file_name_2', 'price_valid_from', 'distributor_address', 'features', 'preparationinstructions', 'netcontent', 'package_sizeof_sellingprice', 'size', 'feeding_recommendation', 'age_recommendations', 'region', 'promo_limit', 'product_unique_key', 'ingredients', 'promotion_valid_from', 'model_number', 'rating', 'recycling_information', 'heel_type', 'image_url_6', 'multi_buy_items_price_total', 'image_url_4', 'usp', 'file_name_4', 'occasion', 'review', 'price_per_unit', 'packaging', 'random_weight_flag', 'multi_buy_item_count', 'producthierarchy_level4', 'image_url_2', 'vinification_details', 'warning', 'age_of_the_product', 'instock', 'suitable_for', 'grade', 'frozen', 'grape_variety', 'image_url_3', 'nutritional_information', 'label_information', 'tasting_note', 'flavour', 'promotion_valid_upto', 'nutritions', 'alchol_by_volume', 'producthierarchy_level3', 'file_name_5', 'chilled', 'special_information', 'drained_weight', 'care_instructions', 'producthierarchy_level5', 'importer_address', 'breadcrumb', 'warranty', 'promotion_description', 'receipies', 'labelling', 'file_name_6', 'brand_type'"
+
+3.extraction_date:
+['2025-08-13']
+
+4.in line 12 regular price and selling price is found as "0.5" in some other rows integers found
+5.wrong image url found
+ https://s3-us-west-2.amazonaws.com/wowimages.groceryoutlet.com/prod/00000000000662.jpg
