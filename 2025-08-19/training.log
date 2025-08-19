@@ -1,0 +1,255 @@
+DataHut_AT_Dm_PriceExtractions_20250819.CSV
+-------------------------------------------
+1. breadcrumb found as 
+""Startseite > dm-med > Nahrungsergänzungsmittel > Vitaminpräparate""
+in data
+""Startseite"" in site
+https://www.dm.at/nature-love-pflanzenstoff-komplex-l-tryptophan-rosenwurz-und-gruentee-p4260488135007.html"
+
+DataHut_AT_Mueller_PriceExtractions_20250819.CSV
+-----------------------------------------------
+"regular and selling price anre empty for
+38 rows
+"
+
+DataHut_AT_Mpreis_PriceExtractions_20250819.CSV
+----------------------------------------------
+site shown uom missing for 564 rows
+
+DataHut_AT_Bipa_PriceExtractions_20250819.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Billa_PriceExtractions_20250819.CSV
+---------------------------------------------
+"1.site shown uom is missing for 8 rows
+in data."
+
+DataHut_SI_Dm_PriceExtractions_20250819.CSV
+-------------------------------------------
+1."site shon uom found as 
+2.000g in data
+grammage quantity and unit found as
+2000g.
+https://www.dm.si/babylove-zacetno-mleko-za-dojencke-1-0-m-4x500g-p2090000399875.html"
+
+2."breadcrumb found as
+""Domov > Gospodinjstvo > Dekoracija > Jesenska dekoracija"" in data
+""Domov "" in site
+https://www.dm.si/profissimo-dekoracija-v-obliki-buce-iz-papirja-p4066447608748.html"
+
+DataHut_SI_Spar_PriceExtractions_20250819.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Interspar_PriceExtractions_20250819.CSV
+--------------------------------------------------
+1.regular price and selling price is 0.00 for 4 rows
+
+2."product name found as 
+""Karotten lose 100g"" in data
+""Karotten lose"" in site
+
+https://www.interspar.at/shop/lebensmittel/karotten-lose/p/6640354"
+
+3."site shown uom contains
+comma
+
+https://www.interspar.at/shop/lebensmittel/eigenmarken/spar-vital-pure-zink-mit-natuerlichem-vitamin-c-60-kapseln/p/2020005042544"
+
+DataHut_AT_Fressnapf_PriceExtractions_20250819.CSV
+--------------------------------------------------
+"site shown uom found as 
+""Earth Rated Kotbeutelspender inklusive 15 Beuteln""
+but grammage quantity and unit is 1 stuck
+
+https://www.fressnapf.at/p/earth-rated-kotbeutelspender-inklusive-15-beuteln-1495282/"
+
+
+DataHut_AT_Interspar_FullDump_20250821.CSV
+------------------------------------------
+"1.price is taken wrong for many rows.
+found as 9.99 in site, 999.00 in data
+
+https://www.interspar.at/shop/weinwelt/hersteller/torres-miguel-natureo-muscat/p/4017660
+
+2.selling and promotion price is taken wrong
+https://www.interspar.at/shop/haushalt/alle-marken/hisense-kuehl-und-gefrierkombination-rb440n4aca/p/2020004970428
+
+3.promotion valid upto changed, so price change found 
+https://www.interspar.at/shop/weinwelt/hersteller/dockner-gemischter-satz-dock-2024/p/2020002825461
+
+4."|' replaced by '\\\\|' in nutritional information
+
+https://www.interspar.at/shop/lebensmittel/doppelherz-aktiv-eisen-femin-folsaeure-direct-20-beutel/p/2020002014377
+
+5.""|"" replaced with ""\\|"" in special information
+
+https://www.interspar.at/shop/lebensmittel/all-in-light-protein-water-maracuja/p/2020002713782"
+
+6."product description
+found as paragraph.
+and extra characters found
+
+https://www.interspar.at/shop/haushalt/alle-marken/swirl-staubsaugerbeutel-m504/p/2020001693436"
+
+7.instock contains true anf false
+
+8.age_recommendations is not empty.
+
+
+DataHut_AT_Interspar_FlyerExtractions_20250819.csv
+-------------------------------------------------
+"promotion valid upto
+found as 10.9 in page 
+15.
+
+flyer url
+
+https://flugblatt.interspar.at/salzburg/salzburg_kw34/GetPDF.ashx
+
+flyer_pdf url
+
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_pdf_2025_08_19/interspar/
+
+data url
+
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_19/DataHut_AT_Interspar_FlyerExtractions_20250819.CSV"
+
+
+DataHut_AT_Lidl_FlyerExtractions_20250819.csv
+--------------------------------------------
+1."promotion valid from found as 
+18.08 in page number 45.
+
+flyer url
+https://object.storage.eu01.onstackit.cloud/leaflets/pdfs/0198a200-bc27-705a-a8cd-623aa1bdec04/Ab-Donnerstag-21-8-Flugblatt-08.pdf
+
+
+pdf_url
+
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_pdf_2025_08_19/lidl/DataHut_AT_Lidl_FlyerExtractions_20250819.PDF
+
+data url
+
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_19/DataHut_AT_Lidl_FlyerExtractions_20250819.CSV"
+
+
+2."promotion valid upto found as 
+01.10.2025 in page number 33.
+
+flyer url
+https://object.storage.eu01.onstackit.cloud/leaflets/pdfs/0198a200-bc27-705a-a8cd-623aa1bdec04/Ab-Donnerstag-21-8-Flugblatt-08.pdf
+
+
+pdf_url
+
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_pdf_2025_08_19/lidl/DataHut_AT_Lidl_FlyerExtractions_20250819.PDF
+
+data url
+
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_19/DataHut_AT_Lidl_FlyerExtractions_20250819.CSV"
+
+
+DataHut_SI_Mercator_PriceExtractions_20250819.CSV
+------------------------------------------------
+no issues
+
+DataHut_AT_Mueller_FullDump_20250821.CSV
+----------------------------------------
+1.file names are empty
+2."found product description as paragraph
+
+https://www.mueller.at/p/silit-pfanne-messino-24cm-2243076/?itemId=2243076"
+
+3."replaced with \\ in varients
+
+https://www.mueller.at/p/alessandro-striplac-uv-colour-nagellack-PPN3092247/?itemId=3092427"
+
+4."regular and selling price is empty for 35
+rows"
+
+5.instock contains true anf false
+
+
+dubizzle_egp_2025_08_03.json
+----------------------------
+
+"1. ad no longer available
+https://www.dubizzle.com.eg/en/ad/62-sqm-clinic-in-the-largest-medical-complex-directly-in-front-of-zewail-university-in-the-heart-of-october-gardens-5-minutes-from-mall-of-egypt-ID502020853.html
+
+https://www.dubizzle.com.eg/en/ad/shop-for-sale-24-meters-in-the-most-important-projects-of-6-october-mall-3lamat-town-ID502247128.html
+
+https://www.dubizzle.com.eg/en/ad/land-for-sale-in-sheikh-zayed-ready-and-prime-location-ID500911249.html
+
+
+2.phone number found in site
+missing in data.
+https://www.dubizzle.com.eg/en/ad/land-for-sale-allocation-of-a-mini-compound-of-villas-in-sheikh-zayed-ID502346446.html
+
+https://www.dubizzle.com.eg/en/ad/rare-opportunity-full-building-by-el-saied-club-ID502299554.html"
+
+
+bayut_uae_2025_08_03.json
+------------------------
+1.data count in first week 461839, 3rd week 406828
+2."""orn_number"",
+""bln_number"",
+""adm_number"",
+""3d_live"",""3d_image"",
+""2d_image"",
+""ded_number_2"",
+""ded_number_3"",
+""ded_number_4"",
+""trucheck_on"",
+""email"",""trubroker"",""rating"",""no_of_reviews"",
+""property_of_the_week"" are additional fieds"
+
+
+3.publish at found as 
+""5 August 2025"" in data
+""
+6 August 2025"" in site.
+
+https://www.bayut.com/property/details-12430702.html
+
+4.property no longer available
+https://www.bayut.com/property/details-12441017.html
+
+https://www.bayut.com/property/details-11602521.html
+
+https://www.bayut.com/property/details-8603016.html"
+
+
+
+dubizzle_uae_2025_08_03.json
+----------------------------
+"1.phone number found as +
+in 6 rows
+
+https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/7/16/prime-location-i-burj-view-i-fully-furn-2-709463/
+
+
+2.phone number found as +9714 in data, +9719714 in site
+https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/5/9/luxury-waterfront-prime-location-high-r-2-952525/"
+
+3.listed_by is empty
+
+aqarmap_egp_2025_08_03.json
+--------------------------
+"1.phone number found as ""+20""
+for 14 rows
+
+https://aqarmap.com.eg/en/listing/6200703-for-rent-cairo-faisal-el-maryotyah-el-mansheya-el-gadid-st/
+
+2.bedrooms found as 02 in data, in site rooms is found as 02
+
+https://aqarmap.com.eg/en/listing/6220601-projects-beta-residence-october/
+
+3.bathroom count taken wrong.
+found as 95 in data, 1 in site
+
+https://aqarmap.com.eg/en/listing/6221289-for-sale-gharbia-tanta/
+
+4.depth', 'seller_role', 'listing_type' are empty
+
