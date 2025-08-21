@@ -1,0 +1,230 @@
+DataHut_CH_Denner_FullDump_20250821.CSV
+--------------------------------------
+"1.brand found as 
+""['Manufacturer Brand', 'Denner']""
+
+2.no image found in site,
+image url found for 2 rows without image.
+
+https://www.denner.ch/de/aktionen-und-sortiment/cailler-tafelschokolade-schweizer-alpenmilch~p024021?variant=cfb8bece-0183-4896-98cd-a2b675b8dcc3"
+
+3.'producthierarchy_level7'
+not empty
+
+DataHut_CH_Coop_FullDump_20250821.CSV
+--------------------------------------
+"1.promotion description found as 66% in data, 68 % in site
+
+https://www.coop.ch/de/aktionen/aktuelle-trophy/beilagenteller-2-stueck/p/7370682
+
+2.promotion found as 63% in data, 62% in site, also promotion price not found in site
+
+https://www.coop.ch/de/aktionen/aktuelle-trophy/mueeslischuessel-2-stueck/p/7370510
+
+3.promotion found as 72% in data, 71% in site, also promotion price not found in site
+
+https://www.coop.ch/de/aktionen/aktuelle-trophy/kaffeeloeffel-4-stueck/p/7370506
+"
+4.site shown uom missing for 4525 rows
+
+5."image is present in
+site, missing in data
+
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/quark/quark-mit-geschmack/fairtrade-fruechtequark-banane-2x125g/p/5671754
+
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/joghurt/joghurt-nature/fage-total-griechischer-joghurt-2-fett/p/6973891
+
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/joghurt/joghurt-mit-geschmack/schokolade-stracciatella/hirz-joghurt-0-stracciatella/p/6860562"
+
+
+DataHut_SI_Mercator_FullDump_20250821.CSV
+----------------------------------------
+1."promotion missing in site
+found in data
+
+https://mercatoronline.si/izdelek/18487841/toaletni-papir-exclusive-paloma-3-slojni-10-1"
+
+2.instock True only.
+
+DataHut_SI_Dm_FullDump_20250821.CSV
+----------------------------------
+1.file names are empty
+2.instock True only
+
+
+
+DataHut_AT_Bipa_FullDump_20250821.CSV
+-------------------------------------
+1."wrong url
+
+https://www.bipa.at/p/B3-552876"
+
+2.instock True and False
+
+3."image found in site
+missing in data
+
+https://www.bipa.at/p/B3-630786"
+
+4."replaced with
+""\|\|"" in ingradients
+
+https://www.bipa.at/p/B3-297999"
+
+
+DataHut_AT_Interspar_FullDump_20250821.CSV
+------------------------------------------
+1."promotion found in data
+and site, but promotion price found empty
+in data for some rows.
+
+https://www.interspar.at/shop/haushalt/oral-b-aufsteckbuersten-pro-sensitive-clean-4er/p/2020004729460
+
+https://www.interspar.at/shop/weinwelt/jacobs-cronat-kraeftig/p/7497704SG
+
+https://www.interspar.at/shop/haushalt/american-tourister-soundbox-hartschalenkoffer-lavender-77cm/p/2020004623461"
+
+2."promotion valid upto expired
+so not found in site
+
+https://www.interspar.at/shop/lebensmittel/ferrero-kuesschen-vanilla-ice/p/2020005831384"
+
+3."|' replaced by '\\\\|' in nutritional information
+
+https://www.interspar.at/shop/lebensmittel/doppelherz-aktiv-eisen-femin-folsaeure-direct-20-beutel/p/2020002014377
+
+4.""|"" replaced with ""\\|"" in special information
+
+https://www.interspar.at/shop/lebensmittel/all-in-light-protein-water-maracuja/p/2020002713782"
+
+5."product description
+found as paragraph.
+and extra characters found
+
+https://www.interspar.at/shop/haushalt/alle-marken/swirl-staubsaugerbeutel-m504/p/2020001693436"
+
+6.instock True and False
+
+7.age_recommendations is not empty.
+8."meat product found, but price, site shown uom ,grammage is not taken for 1 kg.
+
+https://www.interspar.at/shop/lebensmittel/beyond-meat-beyond-burger-2-patties/p/2020003133619"
+
+
+DataHut_AT_Fressnapf_FullDump_20250821.CSV
+------------------------------------------
+"1.dimensions is not empty.
+
+2.file_names  are empty."
+
+3."product description 
+found as paragraph
+https://www.fressnapf.at/p/royal-canin-coat-care-adult-mousse-12x85-g-1317076/
+"
+4."replaced by '\\|' in special nutrition purpose
+
+https://www.fressnapf.at/p/wolfsbacher-natur-bio-barf-oel-1-l-1678075/"
+
+5."https://www.fressnapf.at/p/more-liegeplatz-simplicity-couchette-grau-l-1338177/
+
+also image url with png
+format found"
+
+
+DataHut_SI_Spar_FullDump_20250821.CSV
+-------------------------------------
+1.file_name_1, file_name_2, file_name_3, file_name_4, file_name_5, file_name_6, producthierarchy_level7 are empty.
+
+2.instock True only 
+
+DataHut_CH_Migros_FullDump_20250821.CSV
+--------------------------------------
+1.site shown uom missing for 6985 rows
+2."producthierarchy_level5 is not empty.
+file_name_1 is empty"
+
+3."breadcrumb is missing for 
+9 rows"
+
+4."price and price per unit
+found in data, missing in site
+
+https://www.migros.ch/de/product/mo/229656
+
+https://www.migros.ch/de/product/mo/72513"
+
+DataHut_AT_Mpreis_FullDump_20250821.CSV
+--------------------------------------
+"1.aktion found in data
+missing in site
+
+https://www.mpreis.at/shop/p/pantene-haarspray-ultra-strong-hold-335496
+
+2.promotion found in data, missing in site
+hence price change found
+
+https://www.mpreis.at/shop/p/schwechater-bier-bier-05-liter-dose-107017
+
+https://www.mpreis.at/shop/p/schwechater-bier-alkoholfrei-05-liter-107015
+
+https://www.mpreis.at/shop/p/loewenbraeu-weissbier-05-liter-107080
+
+https://www.mpreis.at/shop/p/lays-cheetos-cheese-710844"
+
+3."image url is missing for
+2562 rows.
+
+4.site shown uom missing for 558 rows
+
+
+DataHut_AT_Billa_FullDump_20250821.CSV
+--------------------------------------
+"1.aktion tag found in site
+missing in data
+
+https://shop.billa.at/produkte/eskimo-erdbeer-combino-vorratspackung-00431999
+
+https://shop.billa.at/produkte/eskimo-cornetto-classico-00420538
+
+https://shop.billa.at/produkte/red-bull-energy-drink-pink-edition-waldbeere-sugarfree-00769062
+
+https://shop.billa.at/produkte/aborigines-weckerl-mehl-aus-oesterreich-00440879
+
+https://shop.billa.at/produkte/cremeschnitte-00771929
+
+so price is taken wrong"
+
+2."image url is missing for
+161 rows."
+
+3."site shown uom is 
+missing for 7 rows"
+
+4."product description found as paragraph
+
+https://shop.billa.at/produkte/billa-bio-cashewkerne-geroestet-und-gesalzen-00443132"
+
+5..site shown uom is
+""22 Waschgang Beutel
+"" but grammage unit is
+stuck
+
+https://shop.billa.at/produkte/frosch-waschmittel-universal-00772746
+
+
+6.site shown uom is ""20 Beutel Paket"" but grammage unit is stuck
+
+https://shop.billa.at/produkte/teekanne-foursenses-alpenkraeuter-00892452
+
+7."file_names and retail_limit
+are empty"
+
+DataHut_AT_Cleverleben_FullDump_20250821.CSV
+--------------------------------------------
+1.Total data count:705
+2.empty columns are
+
+  ['store_name', 'store_addressline1', 'store_addressline2', 'store_suburb', 'store_state', 'store_postcode', 'store_addressid', 'brand', 'brand_type', 'producthierarchy_level4', 'producthierarchy_level5', 'producthierarchy_level6', 'producthierarchy_level7', 'price_was', 'promotion_price', 'promotion_valid_from', 'promotion_valid_upto', 'promotion_type', 'percentage_discount', 'promotion_description', 'package_sizeof_sellingprice', 'per_unit_sizedescription', 'price_valid_from', 'price_per_unit', 'multi_buy_item_count', 'multi_buy_items_price_total', 'variants', 'instructions', 'storage_instructions', 'preparationinstructions', 'instructionforuse', 'country_of_origin', 'age_of_the_product', 'age_recommendations', 'flavour', 'nutritions', 'vitamins', 'labelling', 'grade', 'region', 'packaging', 'receipies', 'processed_food', 'barcode', 'frozen', 'chilled', 'organictype', 'cooking_part', 'handmade', 'max_heating_temperature', 'special_information', 'label_information', 'dimensions', 'special_nutrition_purpose', 'feeding_recommendation', 'warranty', 'color', 'model_number', 'material', 'usp', 'dosage_recommendation', 'tasting_note', 'food_preservation', 'size', 'rating', 'review', 'file_name_1', 'file_name_2', 'image_url_2', 'file_name_3', 'image_url_3', 'file_name_4', 'image_url_4', 'file_name_5', 'image_url_5', 'file_name_6', 'image_url_6', 'competitor_product_key', 'fit_guide', 'occasion', 'material_composition', 'style', 'care_instructions', 'heel_type', 'heel_height', 'upc', 'features', 'dietary_lifestyle', 'manufacturer_address', 'importer_address', 'distributor_address', 'vinification_details', 'recycling_information', 'return_address', 'alchol_by_volume', 'beer_deg', 'netweight', 'random_weight_flag', 'instock', 'promo_limit', 'multibuy_items_pricesingle', 'perfect_match', 'servings_per_pack', 'warning', 'suitable_for', 'standard_drinks', 'environmental', 'grape_variety', 'retail_limit']
+
+3. breadcrumb not found in site
+   https://www.cleverleben.at/produkt/zwetschkenschnaps-35vol-1l-2712699
