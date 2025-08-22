@@ -1,0 +1,132 @@
+DataHut_AT_Dm_PriceExtractions_20250822.CSV
+------------------------------------------
+"1. breadcrumb found as 
+""Startseite > Styleguide > Vorlagen Landin­g­pages > Nachhaltig inspiriert mit dm > Haushalt"" in data
+""Startseite > Nachhaltiger leben > Nachhaltig inspiriert mit dm >Haushalt"" in site
+
+https://www.dm.at/profissimo-klammern-aus-holz-mini-p4058172507182.html
+
+2.breadcrumb found as 
+""""Startseite > dm-med > Nahrungsergänzungsmittel > Vitaminpräparate""""
+in data
+""""Startseite"""" in site
+https://www.dm.at/nature-love-pflanzenstoff-komplex-l-tryptophan-rosenwurz-und-gruentee-p4260488135007.html"
+
+DataHut_AT_Bipa_PriceExtractions_20250822.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_PriceExtractions_20250822.CSV
+-----------------------------------------------
+site shown uom missing for 575 rows
+
+DataHut_SI_Spar_PriceExtractions_20250822.CSV
+--------------------------------------------
+"site shown uom contains comma
+
+https://www.spar.si/online/krema-baby-za-ritko-diaper-nivea-100-ml/p/650586"
+
+
+
+DataHut_SI_Dm_PriceExtractions_20250822.CSV
+--------------------------------------------
+"breadcrumb found as
+""Domov > Foto > Foto pripomočki > Ideje za fotografije""
+in data """"Domov"""" in site
+
+
+https://www.dm.si/paradies-podloga-z-vpenjalno-sponko-p4066447441871.html
+
+https://www.dm.si/paradies-dekorativna-tabla-s-crkami-love-p4066447266092.html"""
+
+
+DataHut_SI_Mercator_PriceExtractions_20250822.CSV
+-------------------------------------------------
+no issues
+
+DataHut_CH_Lidl_PriceExtractions_20250822.CSV
+--------------------------------------------
+"site shown uom found in
+description in site. missing in data
+
+https://www.lidl.ch/p/de-CH/cervelas/p10039878
+
+site shown uom contains comma 
+
+https://sortiment.lidl.ch/de/catalog/product/view/id/13675/s/prosecco-doc-0127982/category/54/"
+
+
+DataHut_AT_Billa_FlyerExtractions_20250822.csv
+-----------------------------------------------
+"promotion valid from of line 1
+found as  14. 08. 2025 in page 21.
+
+flyer url
+
+https://view.publitas.com/91215/2411696/pdfs/47859e46-9307-4275-870e-a6d7c3aedf31.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27BILLA%2520Plus%2520-%2520BILLA%2520PLUS%2520Wien.pdf
+
+data url
+
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_22/DataHut_AT_Billa_FlyerExtractions_20250822.CSV
+
+pdf url
+
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_pdf_2025_08_22/DataHut_AT_Billa_FlyerExtractions_20250822_1.PDF
+
+
+DataHut_AT_Mueller_PriceExtractions_20250822.CSV
+-----------------------------------------------
+"regular and selling price anre empty for
+52 rows
+
+samsclub_2025_08_22.csv
+----------------------
+"1.found out of stock in
+data, but instock in site
+
+https://www.samsclub.com/p/ge-profile-opal-nugget-ice-maker-with-side-tank-countertop-icemaker-stainless-st/P990346122
+
+
+https://www.samsclub.com/p/ge-profile-opal-nugget-ice-maker-with-side-tank-countertop-icemaker-stainless-st/P990346122
+
+2.found as OSS in site, instock in data
+
+ https://www.samsclub.com/p/member-s-mark-mesh-ring-floats/P03013597 (Count: 2)
+
+3. url not unique
+ https://www.samsclub.com/p/member-s-mark-mesh-ring-floats/P03013597 (Count: 2)
+
+4."plan 1 price found as 
+""Allstate 3-Year Protection Plan, General Merchandise $300 to $399.99 plan - $39.99""
+in site. not found in data.
+
+https://www.samsclub.com/p/ge-profile-opal-nugget-ice-maker-with-side-tank-countertop-icemaker-stainless-st/P990346122"
+
+
+DataHut_DE_Dm_FullDump_20250828.CSV
+-----------------------------------
+1.data count : 21068
+
+2. Empty columns detected in dataset: ['store_name', 'store_addressline1', 'store_addressline2', 'store_suburb', 'store_state', 'store_postcode', 'store_addressid', 'brand_type', 'producthierarchy_level5', 'producthierarchy_level6', 'producthierarchy_level7', 'promotion_valid_upto', 'promotion_type', 'percentage_discount', 'promotion_description', 'package_sizeof_sellingprice', 'per_unit_sizedescription', 'multi_buy_item_count', 'multi_buy_items_price_total', 'age_of_the_product', 'grade', 'region', 'receipies', 'processed_food', 'barcode', 'frozen', 'chilled', 'cooking_part', 'handmade', 'max_heating_temperature', 'dimensions', 'special_nutrition_purpose', 'warranty', 'model_number', 'usp', 'dosage_recommendation', 'food_preservation', 'size', 'file_name_1', 'file_name_2', 'file_name_3', 'file_name_4', 'file_name_5', 'file_name_6', 'competitor_product_key', 'fit_guide', 'occasion', 'material_composition', 'style', 'care_instructions', 'heel_type', 'heel_height', 'upc', 'dietary_lifestyle', 'manufacturer_address', 'importer_address', 'distributor_address', 'vinification_details', 'recycling_information', 'return_address', 'alchol_by_volume', 'beer_deg', 'netcontent', 'netweight', 'random_weight_flag', 'promo_limit', 'multibuy_items_pricesingle', 'perfect_match', 'servings_per_pack', 'suitable_for', 'standard_drinks', 'environmental', 'grape_variety']
+
+3.extraction_date 
+  ['2025-08-22']
+
+4.image url found as 
+   "https://products.dm-static.com/f_auto,q_auto,c_fit,w_1200,h_1200/not-found (Count: 4)"
+  
+  https://www.dm.de/essie-taeschchen-lieblingsmensch-p4084200319687.html
+
+5.| is replaced with \\| in ingradients,materials , special_information and product description
+
+  https://www.dm.de/hansaplast-wundspray-p4005800197277.html
+  https://www.dm.de/moskinto-insektenstich-soforthilfe-pflaster-family-box-p4260310411828.html
+  https://www.dm.de/medela-brusthaube-fuer-hands-free-milchpumpe-gr-l-27mm-p7612367084895.html
+
+6.site shown uom and grammage quantity and unit taken wrong in data,
+  found in site.
+
+  https://www.dm.de/super-pop-erfrischungsgetraenk-super-pop-pomegranate-raspberry-p4260705333599.html
+  https://www.dm.de/super-pop-erfrischungsgetraenk-super-pop-passionfruit-mango-p4260705333612.html
+  https://www.dm.de/super-pop-erfrischungsgetraenk-super-pop-citrus-lemongras-ginger-p4260705333582.html
+
