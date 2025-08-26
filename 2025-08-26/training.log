@@ -1,0 +1,264 @@
+DataHut_AT_Dm_PriceExtractions_20250826.CSV
+-------------------------------------------
+"breadcrumb found as 
+""""Startseite > dm-med > Nahrungsergänzungsmittel > Vitaminpräparate""""
+in data
+""""Startseite"""" in site
+https://www.dm.at/nature-love-pflanzenstoff-komplex-l-tryptophan-rosenwurz-und-gruentee-p4260488135007.html"
+
+
+DataHut_AT_Mpreis_PriceExtractions_20250826.CSV
+-----------------------------------------------
+site shown uom missing for 577 rows
+
+DataHut_AT_Bipa_PriceExtractions_20250826.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Cleverleben_PriceExtractions_20250826.CSV
+---------------------------------------------------
+1.data count : 703
+2.Empty Columns 
+['price_valid_from', 'price_per_unit', 'percentage_discount', 'promotion_price', 'promotion_valid_from', 'promotion_valid_upto', 'promotion_description', 'region', 'pack_size']
+
+3.competitor_name 
+['cleverleben'] 
+
+4.extraction_date 
+['2025-08-26']
+
+5.breadcrumb not found in site
+
+DataHut_AT_Mueller_PriceExtractions_20250826.CSV
+------------------------------------------------
+1.regular and selling price anre empty for
+120 rows
+
+2. pack size is empty
+
+
+DataHut_AT_Billa_PriceExtractions_20250826.CSV
+---------------------------------------------
+"1.site shown uom found as 
+""2 Beutel Paket"" but grammage unit is stuck.
+
+https://shop.billa.at/produkte/dr-oetker-flana-schokopudding-008508
+
+https://shop.billa.at/produkte/dr-oetker-flana-vanillepudding-008528
+
+2.site shown uom is ""20 Beutel Paket""  but grammage unit is stuck.
+
+https://shop.billa.at/produkte/teekanne-foursenses-alpenkraeuter-00892452
+
+https://shop.billa.at/produkte/teekanne-foursenses-beerenauslese-00892455
+
+https://shop.billa.at/produkte/teekanne-foursenses-hochland-gruentee-00892457
+
+https://shop.billa.at/produkte/teekanne-foursenses-royal-earl-grey-00892458
+
+3.site shown uom is missing for 9 rows
+in data."
+
+DataHut_SI_Dm_PriceExtractions_20250826.CSV
+-------------------------------------------
+"breadcrumb found as
+""Domov > Foto > Foto pripomočki > Ideje za fotografije""
+in data """"Domov"""" in site
+
+
+https://www.dm.si/paradies-podloga-z-vpenjalno-sponko-p4066447441871.html
+
+https://www.dm.si/paradies-dekorativna-tabla-s-crkami-love-p4066447266092.html"""
+
+DataHut_SI_Spar_PriceExtractions_20250826.CSV
+---------------------------------------------
+"site shown uom contains comma
+
+https://www.spar.si/online/krema-baby-za-ritko-diaper-nivea-100-ml/p/650586"
+
+DataHut_DE_Picnic_PriceExtractions_20250826.CSV
+--------------------------------------------
+1."site shown uom found as 
+""250g • 10 Stück"", grammge quantity and unit 
+found as 10 stuck, but price per unit found as
+in kg, €9.96/kg.
+unique id : s1031222"
+
+2."site shown uom contains
+comma separated values"
+
+DataHut_AU_Coles_FullDump_20250827.CSV
+-------------------------------------
+"1.'store_name', 'promotion_description', 'promotion_type', 'producthierarchy_level3', 'producthierarchy_level2', 'producthierarchy_level1', 'multi_buy_item_count', 'multibuy_items_pricesingle', 'labelling', 'store_state', 'multi_buy_items_price_total', 'retail_limit', 'breadcrumb', 'store_postcode', 'promotion_price', 'file_name_1', 'promo_limit' and regular_price are empty.
+
+2. price is empty in data, found in site
+https://www.coles.com.au/product/bundaberg-and-cola-bottle-345ml-6-pack-1015430
+
+https://www.coles.com.au/product/champteloup-rose-d%27anjou-750ml-1-each-1015513
+
+https://www.coles.com.au/product/bundaberg-and-cola-bottle-345ml-24-pack-1015423
+
+3.price and price per unit found changed
+
+https://www.coles.com.au/product/coles-gourmet-fresh-tomatoes-loose-approx.-130g-4597109
+
+4.product unavilable in site, found price in data, missing in site
+
+https://www.coles.com.au/product/scotts-osmocote-plus-organics-plant-food-800g-2602412"
+
+5.site shown uom "missing for 290
+fields"
+
+
+DataHut_AT_Interspar_FlyerExtractions_20250826.csv
+--------------------------------------------------
+"promotion valid upto
+found as 17.09 in page 
+14,15,17,19.
+
+flyer url
+
+https://flugblatt.interspar.at/salzburg/salzburg_kw35/GetPDF.ashx
+
+data url
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_08_26/DataHut_AT_Interspar_FlyerExtractions_20250826.CSV
+
+pdf url
+
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_pdf_2025_08_26/interspar/DataHut_AT_Interspar_FlyerExtractions_20250826.PDF
+"
+
+kw_set_1/century21_us_2025_09_05.json
+-------------------------------------
+"1.agent phone number
+found as ""0"",""7"",""0889""
+
+eg:    ""profile_url"": ""https://www.century21.com/real-estate-agent/profile/antoinette-francis-P25350875""
+
+
+2.last name found as ""^ (Count: 2)
+ ` ""
+
+3.social found as empty dict {}
+
+4.office name found as ""of CENTURY""  (Count: 2)
+
+eg:    ""profile_url"": ""https://www.century21.com/real-estate-agent/profile/irena-mccoy-of-mccoy-team-21-of-mccoy-team-21-P25340964""
+
+5."3 rows found same
+
+    ""profile_url"": ""https://www.century21.com/real-estate-agent/profile/maureen-brehmer-of-3-sisters-realty-of-3-sisters-realty-P400992403""
+
+    ""profile_url"": ""https://www.century21.com/real-estate-agent/profile/michele-panico-of-3-sisters-realty-of-3-sisters-realty-P400992402""
+
+    ""profile_url"": ""https://www.century21.com/real-estate-agent/profile/marlene-laurich-of-3-sisters-realty-of-3-sisters-realty-P400992401""
+
+
+kw_set_1/compass_2025_09_05.json
+--------------------------------
+"1.image url found as 
+    ""image_url"": ""https://www.compass.com/"",
+ ""profile_url"": ""https://www.compass.com/agents/test-test1/""
+
+"
+
+kw_set_1/evrealestate_2025_09_05.json
+------------------------------------
+"1.city found as 
+""Colonia Centro Cp. 77710 Playa del Carmen, Quintana Roo""
+for 19 rows.
+
+eg:    ""profile_url"": ""https://www.evrealestate.com/en/our-advisors/alan-villegas/44f8f7b5-8968-4e3f-aea4-c7efef94fb3f?userId=44f8f7b5-8968-4e3f-aea4-c7efef94fb3f""
+
+2.description found as "" test"" 
+
+    ""profile_url"": ""https://www.evrealestate.com/en/our-advisors/tim-braun/ebfe393b-3555-435d-9525-705214aace53?userId=ebfe393b-3555-435d-9525-705214aace53""
+
+3.title found as ""Mr"",matthewdibble.chime.me (Count: 1)
+ stevekepler.evrealestate (Count: 1)
+"
+
+kw_set_1/ewm_2025_09_05.json
+----------------------------
+"1. title taken along with 
+first name
+""Evelyn TRINIDAD, MS, REALTOR""
+    ""profile_url"": ""https://www.ewm.com/agents/1776905/Evelyn+TRINIDAD%2C+MS%2C+REALTOR""
+
+2.in languages empty list found
+
+kw_set_1/globalremax_2025_09_05.json
+-----------------------------------
+"1.address found as "" .. 1 ""
+for 7 rows
+   eg:
+ ""profile_url"": ""https://global.remax.com/en/agents/mexico/celaya/eura-castro-lozano/1001099042""
+
+2. country found as """"country"": ""Micronesia, Federated States of"",for 32 rows.
+
+eg:    ""profile_url"": ""https://global.remax.com/en/agents/micronesia-federated-states-of/tamuning/jared-andrada/1054004010""
+
+3.description found as
+#corretandoporai (Count: 1)
+ #ensenadaelmejorlugarparavivir#ensenadaunbonitolugarparavivir#ensenadarealstatebussineswoman (Count: 1)
+ #nonrestareimmobile (Count: 1)
+
+4.first name found as number, start with  number etc.
+eg:1. vodja poslovalnice urška hočevar (Count: 1)
+ 11 (Count: 1)
+ 113 (Count: 1)
+
+5.office name found as 1000 (Count: 10)
+    ""profile_url"": ""https://global.remax.com/en/agents/portugal/vila-nova-de-milfontes/duarte-cruz/122741054""
+
+6.other urls found as 'http://0'
+    ""profile_url"": ""https://global.remax.com/en/agents/brazil/sao-paulo-santana/joao-carlos-meza/601311010""
+7.website found as ""http://inn"" for 70 rows
+    ""profile_url"": ""https://global.remax.com/en/agents/portugal/leiria-pousos-barreira-e-cortes/misael-abreu/123531824""
+
+8.website found as  ""https:www.instagram.com/douglascostamoreira?igshid=YzVkODRmOTdmMw=="",""
+
+    ""profile_url"": ""https://global.remax.com/en/agents/brazil/hortolandia/douglascostamoreiradossantos/690531039""
+9.zipcode contains other language characters. eg:""האומן 8 אזור תע""
+    ""profile_url"": ""https://global.remax.com/en/agents/israel/hadera/רחל-אלישבע-בן-גיגי-rachel-elisheva-benguigui/831241473""
+
+
+aqarmap_egp_2025_08_04.json
+--------------------------
+"1.phone number found as +20 for 18 rows
+eg:https://aqarmap.com.eg/en/listing/6120614-for-rent-monufia-shibin-el-kom/
+
+2.price found empty for 3339 rows.
+
+3.site cant be reached"
+
+4.depth', 'seller_role', 'listing_type' are empty
+
+bayut_uae_2025_08_04.json
+--------------------------
+"1. property no longer avilable
+
+https://www.bayut.com/property/details-12216075.html
+
+https://www.bayut.com/property/details-12333467.html
+
+https://www.bayut.com/property/details-12333466.html
+
+2.phone number found as ""+971589984876"" in data
+""+971-4-5884513"" in site
+
+https://www.bayut.com/property/details-11350587.html"
+
+3."""orn_number"",
+""bln_number"",
+""adm_number"",
+""3d_live"",""3d_image"",
+""2d_image"",
+""ded_number_2"",
+""ded_number_3"",
+""ded_number_4"",
+""trucheck_on"",
+""email"",""trubroker"",""rating"",""no_of_reviews"",
+""property_of_the_week"" are additional fieds"
+
+4.package type values "hot, premium, superhot, only"
