@@ -1,0 +1,190 @@
+baity_bah_2025_09.json
+----------------------
+"1.phone number found in site, empty in data
+
+https://baity.bh/properties/villa-in-malkiya-35915
+
+https://baity.bh/properties/villa-in-barbar-40006
+
+https://baity.bh/properties/land-in-askar-40127
+
+2.phone number missing in site, found in data
+
+https://baity.bh/properties/land-in-buri-33422"                                                                                                                                                                                                                                                                                                                                              
+qatarliving_qat_2025_09.json
+----------------------------
+"1.in bedrooms found extra keywords ""1 Bed apartment""
+https://qlp.qatarliving.com/en/properties/rent/residential/hotel-stay/la-villa-inn-hotel-apartment/977708
+
+2.ad not available
+https://qlp.qatarliving.com/en/properties/rent/residential/apartment/apartment_for_rent_in_porto_arabia/136314
+
+https://qlp.qatarliving.com/en/properties/rent/residential/apartment/stylish_1br_with_balcony_and_stunning_city_view/85160
+
+https://qlp.qatarliving.com/en/properties/rent/residential/apartment/free_utilities_plus_internet_furnished_1br/75923
+
+3.amenities found empty in data, found in site
+https://qlp.qatarliving.com/en/properties/rent/residential/apartment/family_studio_at_thumama_near_al_meera/95208
+https://qlp.qatarliving.com/en/properties/rent/residential/apartment/big_1_bhk_family_thumama_b_square_mall/87341
+
+4.depth is not empty.
+
+aqar_ksa_2025_09.json
+---------------------
+"1.price taken wrong. 1.8 in data, 1350000 in site
+
+https://sa.aqar.fm/%D9%81%D9%84%D9%84-%D9%84%D9%84%D8%A8%D9%8A%D8%B9/%D8%B9%D9%86%D9%8A%D8%B2%D8%A9/%D8%AD%D9%8A-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D9%81%D9%87%D8%AF/%D8%AD%D9%8A-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D9%81%D9%87%D8%AF-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%B9%D9%86%D9%8A%D8%B2%D9%87-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D9%82%D8%B5%D9%8A%D9%85-6179132
+
+2. price found as 1 in data, not found in site
+https://sa.aqar.fm/%D8%A3%D8%B1%D8%A7%D8%B6%D9%8A-%D9%84%D9%84%D8%A8%D9%8A%D8%B9/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6/%D8%AC%D9%86%D9%88%D8%A8-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6/%D8%AD%D9%8A-%D8%B9%D8%B1%D9%8A%D8%B6/%D8%B4%D8%A7%D8%B1%D8%B9-%D8%B9%D8%A8%D8%A7%D8%AF-%D8%A8%D9%86-%D8%B2%D9%8A%D8%A7%D8%AF-%D8%AD%D9%8A-%D8%B9%D8%B1%D9%8A%D8%B6-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-6234411"
+
+3.new fields """advertising_license"",
+""advertiser"" "
+
+bayut_ksa_2025_09.json
+---------------------
+"1.details found empty in data,
+found in description in site
+
+https://www.bayut.sa/en/property/details-87700162.html
+
+2.title found as . (dot) for 4 rows
+eg:https://www.bayut.sa/en/property/details-87685524.html
+
+3.title found as ""None "" for 4 rows
+
+eg:https://www.bayut.sa/en/property/details-87685325.html
+
+4.title and description found as null 
+https://www.bayut.sa/en/property/details-87496980.html
+
+5.advertiser_designation, reference_number are empty.
+6.depth is not empty
+7.new fields are  "completion_status", "advertiser_designation", "ad_license_number", "fal_license_number"
+
+bahrainfinder_bah_2025_09.json
+------------------------------
+1.furnished and depth are not empty.
+2."bedrooms found as 1.5
+https://bahrainfinder.bh/en/property/apartment-for-rent-in-juffair-692/"
+
+servicesbahrain_bah_2025_09.json
+--------------------------------
+"1.mail id found as 
+""A.AMAN@DG.BH""
+
+2.telephone number found as
+""(+973)"" (Count: 48),
++973 (Count: 2),
++973NA (Count: 6)
+ 0 (Count: 226)
+ 0000000 (Count: 4)
+
+3.website found as 
+""https://http://www.olivevfm.com
+
+
+DataHut_AT_Billa_PriceExtractions_20250827.CSV
+----------------------------------------------
+"1.site shown uom found as 
+""22 Waschgang Beutel"" but grammage unit found as
+stuck.
+https://shop.billa.at/produkte/frosch-waschmittel-universal-00772746
+
+
+2.site shown uom is """"20 Beutel Paket""""  but grammage unit is stuck.
+
+https://shop.billa.at/produkte/teekanne-foursenses-alpenkraeuter-00892452
+
+https://shop.billa.at/produkte/teekanne-foursenses-beerenauslese-00892455
+
+https://shop.billa.at/produkte/teekanne-foursenses-hochland-gruentee-00892457
+
+https://shop.billa.at/produkte/teekanne-foursenses-royal-earl-grey-00892458
+
+3.site shown uom found as 
+""""2 Beutel Paket"""" but grammage unit is stuck.
+
+https://shop.billa.at/produkte/dr-oetker-flana-schokopudding-008508
+
+https://shop.billa.at/produkte/dr-oetker-flana-vanillepudding-008528
+"
+4.site shown uom is missing for 9 rows.
+
+DataHut_AT_Bipa_PriceExtractions_20250827.CSV
+---------------------------------------------
+no issues
+
+DataHut_AT_Mpreis_PriceExtractions_20250827.CSV
+-----------------------------------------------
+site shown uom missing for 581 rows
+
+DataHut_AT_Dm_PriceExtractions_20250827.CSV
+-------------------------------------------
+"breadcrumb found as 
+""""Startseite > dm-med > Nahrungsergänzungsmittel > Vitaminpräparate""""
+in data
+""""Startseite"""" in site
+https://www.dm.at/nature-love-pflanzenstoff-komplex-l-tryptophan-rosenwurz-und-gruentee-p4260488135007.html"
+
+DataHut_AT_Mueller_PriceExtractions_20250827.CSV
+----------------------------------------------
+"1.price is empty in data,
+found in site
+
+https://www.mueller.at/p/verdammt-die-zombies-kommen-PPN3133935/?itemId=3133935
+
+2.regular, selling and promotion price ,and promotion description found in site, missing 
+in data
+
+https://www.mueller.at/p/the-accountant-2-PPN3134244/?itemId=3134244
+
+3.regular and selling price anre empty for
+136 rows
+
+4.pack size is empty
+
+
+DataHut_AT_Fressnapf_PriceExtractions_20250827.CSV
+-------------------------------------------------
+no issues
+
+DataHut_AT_Interspar_PriceExtractions_20250827.CSV
+--------------------------------------------------
+1.capacity is taken as
+grammage quantity and unit
+
+https://www.interspar.at/shop/haushalt/rotho-daily-becken-8-l-34x34cm-daily/p/2020004199997"
+2.regular price and selling price is 0.00 for 4 rows
+
+DataHut_AT_Cleverleben_PriceExtractions_20250827.CSV
+---------------------------------------------------
+no issues'
+
+
+DataHut_AT_Fressnapf_FullDump_20250828.CSV
+-----------------------------------------
+"1.dimensions is not empty.
+
+2.file_names  are empty."
+
+3."product description 
+found as paragraph
+
+https://www.fressnapf.at/p/anione-pepe--kitty-spielzeugball-1655205/"
+
+4."replaced by '\\|' in special nutrition purpose
+
+https://www.fressnapf.at/p/wolfsbacher-natur-vorteils-set-trippel-2098568/"
+
+5."image with .png format
+also found.
+
+https://www.fressnapf.at/p/anione-pepe--kitty-spielzeugball-1655205/"
+
+6.feeding recommendation found as 
+{'': {'Gewicht des Tieres_4 kg': 'Futtermenge pro Tag_1,5 - 2 Dosen'}}
+
+https://www.fressnapf.at/p/miamor-feine-filets-naturell-mixpaket-12x156g-1336202/
+
+"
