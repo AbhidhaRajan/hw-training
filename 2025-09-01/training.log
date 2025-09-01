@@ -1,0 +1,326 @@
+
+QA-TASK STATUS
+*********************
+completed
+==================
+RT
+----
+propertfinder monthly
+ 3 sites
+
+kw monthly
+ 
+ 4 sites
+
+TAT
+----
+tcs_aldi_austria
+ 8 sites
+
+FRT
+------
+
+Pending
+===============
+
+
+
+DataHut_SI_Dm_PriceExtractions_20250901.CSV 68b519b7d5ac20dfb291bdaf
+------------------------------------------
+
+DataHut_SI_Spar_PriceExtractions_20250901.CSV  68b51e03d5ac20dfb291bdd3 
+
+DataHut_SI_Mercator_PriceExtractions_20250901.CSV
+
+"logical error.
+price per unit found as 
+""1.70€ / kos"", price found as ""3.39""
+grammage quantity and unit found as ""1 kos""
+https://mercatoronline.si/izdelek/37043/papirnate-brisace-multi-fun-paloma-2-slojne-2-1"
+
+
+ 68b522aad5ac20dfb291bdfc
+
+
+
+
+kw_set_3/ebby_2025_09_05.json   68b52957d5ac20dfb291be3b
+-------------------------------
+1.office name distinct percentage
+      current : 2.12%   previous:77.10 %
+
+2.website      
+       current : 94.46%  previous :98.68%
+
+3.email
+
+     current : 99.92% previous : 0%
+
+
+4.image not found in site, image url found in data
+  https://jorgegoldsmit.ebby.com/
+
+
+name taken together as firstname, so middle and lst name found empty
+eg: 
+https://www.ebby.com/bio/therobichauxgroup
+
+office_name found as ""_Reliance Setup Office""
+missing in site
+https://www.ebby.com/bio/kimberlywashington
+
+facebook url found as ""https://www.facebook.com/www.facebook.com/slaneysilguero""
+https://www.ebby.com/bio/lynn
+
+website found as "" http://	https://www.karinanunezrealtor.com""
+https://www.ebby.com/bio/karinanunez"
+
+
+languages not empty
+
+
+kw_set_3/home_realestate_2025_09_05.json  
+----------------------------------------
+1.office name distinct , current percentage:1.95% previous :84.91%
+2.image url distinct, current percentage :95.45%    previous :99.35%
+3.city distinct, current percentage : 1.30% previous : 0.62%
+
+"city found as "": () -""
+and address found as ,NE
+same found in site too
+https://zachhamling.homerealestate.com/
+
+url found wrong
+https://www.homerealestate.com/roster/agents/8
+
+https://www.homerealestate.com/roster/agents/11
+
+image url found as ""https://content.mediastg.net/media/global/agent-roster-redesign/no-agent-photo.png"" for 8 rows.
+eg:https://marionpolivka.homerealestate.com/
+
+office phone number found as ""['_Reliance Setup Office'] ""
+https://zachhamling.homerealestate.com/
+
+name is taken as title and also different phone number found in site
+https://www.homerealestate.com//bio/RandyandRoma"
+
+
+kw_set_3/iowarealty_2025_09_05.json 
+-----------------------------------
+"wrong profile_urls
+https://www.iowarealty.com/roster/agents/8
+https://www.iowarealty.com/roster/agents/18
+https://www.iowarealty.com/roster/agents/38
+"
+
+office phone numbers found as empty list
+
+
+kw_set_3/robertsbrothers_2025_09_05.json  
+----------------------------------------
+"office phone numbers found as 
+empty list for all rows"
+
+
+
+kw_set_4/harrynorman_2025_09_05.json 
+--------------------------------------
+1.social disctinct, previous count :31.44% current :24.88%
+
+"wrong profile url
+https://www.harrynorman.com/roster/agents/5
+https://www.harrynorman.com/roster/agents/7
+https://www.harrynorman.com/roster/agents/48
+
+social(linkedIn)found in site, missing in data
+https://www.harrynorman.com/bio/BrentMcSpadden
+https://www.harrynorman.com/bio/AlexisHill
+
+social(facebook) found in site, missing in data
+https://www.harrynorman.com/bio/DanaHogue
+
+full name is taken as first name, so middle and last names are empty
+
+https://www.harrynorman.com/bio/wollnergroup
+https://www.harrynorman.com/bio/ThereseMcLean
+https://www.harrynorman.com/bio/theschubertgroup
+https://www.harrynorman.com/bio/thegareygroup
+
+office phone is taken as agent phone
+https://www.harrynorman.com/bio/lucretiawatts"
+
+kw_set_4/huff_realty_2025_09_05.json 
+-------------------------------------
+"social found in site missing in data 
+https://bethwatkins.huff.com/
+ description taken wrong
+https://carolrodgers.huff.com/ 
+
+description found in site, wrongly taken in data
+https://abbyhall.huff.com/
+
+same issue
+https://ashleybaldock.huff.com/
+https://aprilbarrera.huff.com/
+https://www.listwithlisk.com/
+
+description found as ""welcome""
+https://www.listwithlisk.com/
+
+full name is taken as fiest name, so last name found empty
+https://thereseclark.huff.com/
+
+image url found as ""https://content.mediastg.net/media/global/agent-roster-redesign/no-agent-photo.png"" for 35 rows
+eg:https://sadiearnett.huff.com/
+
+in social , facebook url found as ""https://www.facebook.com/www.facebook.com/DaveBarnesHuffrealty""
+also linkedin found in site missing in data
+https://davidbarnes.huff.com/
+
+wrong profile url
+https://www.huff.com/roster/agents/23
+https://www.huff.com/roster/agents/46"
+
+kw_set_4/realtysouth_2025_09_05.json  
+-----------------------------------
+"wrong profile urls
+https://www.realtysouth.com/roster/agents/13 (Count: 1)
+ https://www.realtysouth.com/roster/agents/16 (Count: 1)
+ https://www.realtysouth.com/roster/agents/17 (Count: 1)
+ https://www.realtysouth.com/roster/agents/18 (Count: 1)
+ https://www.realtysouth.com/roster/agents/21 (Count: 1)
+ https://www.realtysouth.com/roster/agents/24 (Count: 1)
+ https://www.realtysouth.com/roster/agents/25 (Count: 1)
+ https://www.realtysouth.com/roster/agents/27 (Count: 1)
+ https://www.realtysouth.com/roster/agents/37 (Count: 1)
+ https://www.realtysouth.com/roster/agents/4 (Count: 1)
+ https://www.realtysouth.com/roster/agents/46 (Count: 1)
+ https://www.realtysouth.com/roster/agents/5 (Count: 1)
+ https://www.realtysouth.com/roster/agents/52 (Count: 1)
+ https://www.realtysouth.com/roster/agents/58 (Count: 1)
+ https://www.realtysouth.com/roster/agents/6 (Count: 1)
+ https://www.realtysouth.com/roster/agents/60 (Count: 1)
+ https://www.realtysouth.com/roster/agents/65 (Count: 1)
+ https://www.realtysouth.com/roster/agents/66 (Count: 1)
+ https://www.realtysouth.com/roster/agents/67 (Count: 1)
+ https://www.realtysouth.com/roster/agents/7 (Count: 1)
+ https://www.realtysouth.com/roster/agents/8 (Count: 1)
+ https://www.realtysouth.com/roster/agents/9 (Count: 1)
+
+
+description taken wrong and also phone number format found wrong
+https://annallen.realtysouth.com/
+https://kendallearly.realtysouth.com/
+https://bobbysmith.realtysouth.com/
+
+full name is taken as first name
+https://www.realtysouth.com/bio/theresaharris
+https://www.realtysouth.com/bio/thelmamiller
+
+social found in site, missing in data
+https://www.realtysouth.com/bio/annavines
+https://www.realtysouth.com/bio/angelkimmons
+
+in social facebook url found as ""httpswww.facebook.com/profile.php?id=61558680755814&mibextid=LQQJ4d""
+httpswww.facebook.com/profile.php?id=61558680755814&mibextid=LQQJ4d"
+
+
+kw_set_4/semonin_realtors_2025_09_05.json 
+----------------------------------------
+website,distinct percentage, previous : 100% current :98.99 %
+
+image_url,distinct percentage, previous : 100% current :95.45%
+
+"extra number found in agent_phonje_number
+https://alansprowles.semonin.com/
+
+description found as ""~""
+https://jasminepresley.semonin.com/
+
+first name found as ""Laura Grubb, ABR, CRS, GRI, PSA""
+https://www.semonin.com/bio/lauragrubb
+
+full name is taken as first name
+https://results.semonin.com/
+https://village.semonin.com/
+https://www.semonin.com/bio/TheresaGraham
+
+image_url found as "" https://content.mediastg.net/media/global/agent-roster-redesign/no-agent-photo.png"" for 19 rows
+eg:https://adamkaplan.semonin.com/"
+
+kw_set_5/longrealty_2025_09_05.json  
+-----------------------------------
+in description percentage of data field not available
+   previous percentage: 5.13%      current percentage: 48.41%
+
+
+"description found wrong, found other characters
+https://www.longtucsontradition.com/
+
+full name is taken as first name 
+https://www.longrealty.com/bio/TheOrcuttTeamOld
+
+same person with two profiles found
+https://theorcuttteamold.longrealty.com/bio/TheOrcuttTeam
+https://www.longrealty.com/bio/TheOrcuttTeamOld
+
+other url found as ""http://#SirKaz1"" found wrong in many rows
+https://juancazares.longrealty.com/bio/juancazares
+
+title found as ""LC707363000""
+https://www.longrealty.com/bio/oldtowncareers
+
+profile url found as
+
+https://idp.armls.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DAK24rggHYwaJtJe54T8xaMLdMB/bio/GingerSnyder"
+
+
+languages not empty
+
+
+kw_set_5/rector_hayden_2025_09_05.json  
+--------------------------------------
+"description found in site
+missing in data
+http://www.kentuckyhorseland.com/
+https://joshuabiancardi.rhr.com/
+
+description incomplete
+https://thejusticegroup.rhr.com/
+
+image url found as ""https://content.mediastg.net/media/companyset/rhnr/noagentphoto.jpg"" for 12 rows
+facebook url found as
+'https://www.facebook.com/www.facebook.com/Thebellsrealestateprofessionals
+https://www.makinglexingtonkyhome.com/."
+
+agent phone number is taken as office phone number
+https://danrudd.rhr.com/
+
+kw_set_5/remax_us_2025_09_05.json 
+---------------------------------
+"agent phone number found as ""(973) 598-1700 EXT318']""
+https://www.remax.com/real-estate-agents/stephen-filson-flanders-nj/100071535
+same issue is there for some other rows too
+
+""(DRE) :01-7482'"" https://www.remax.com/real-estate-agents/sue-vaterlaus-pacifica-ca/100010131
+
+""Youn Kyeng ""Julie"" Song"" name is taken as ""Youn Kyeng ""Julie"" "" as first name and ""song"" as last name
+https://www.remax.com/real-estate-agents/youn-kyeng-julie-song-palisades-park-nj/102417604
+
+title found along with some last names, eg: , Realtors,
+Alvanzo & Associates, LLC 
+https://www.remax.com/real-estate-agents/gary-coats-melissa-sisneros-roseville-ca/102183158
+
+email found in other urls , eg:https://tl3sons@gmail.com'
+https://tl3sons@gmail.com
+
+office phone numbers not found in site
+
+extra space found in title
+"" ASSOCIATE REALTOR Michigan            BROKER/OWNER FLORIDA""
+    ""profile_url"": ""https://www.remax.com/real-estate-agents/deborah-jalaba-bloomfield-hills-mi/102077388""
+"
+
+
+
+
