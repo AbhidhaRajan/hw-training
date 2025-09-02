@@ -1,0 +1,294 @@
+intero_realestate_2025_09_05.json  
+.................................
+"same phone number repeatdly taken as agent phone number, also profile url leads to agent searching page
+https://www.intero.com/directory/agents/shaili-anant-1
+
+description found wrong, found another description in site. and also agent phone number repeatdly taken
+https://www.intero.com/directory/agents/roger-malech
+
+description missing in data, found in site
+https://www.intero.com/directory/agents/rain-young
+
+runtime error found in profile url 
+https://www.intero.com/directory/agents/janice-van-dyck-1
+https://www.intero.com/directory/agents/andrew-yen
+
+description taken wrong
+https://www.intero.com/directory/agents/barbara-kuang
+
+extra space found ahead of first name 
+eg:https://www.intero.com/directory/agents/hema-jagtiani
+
+invalid image url found for 181 rows
+"" https://i16.moxi.onl/img-pr/i/b7d976b71c3fe96cd8568fab3899157c74cb7d1b/0_2_raw.jpg ""
+eg:https://www.intero.com/directory/agents/balwinder-singh-1
+
+extra characters found in languages
+""Old French\xa0(842—Ca.\xa01400""
+also profile url found wrong
+https://www.intero.com/directory/agents/stav-weiss-1
+
+in data languages found as ""['Swiss German,\xa0Alemannic,\xa0Alsatian', 'German', 'French', 'Germanic Languages']
+and in site found as ""English, German, French""
+https://www.intero.com/directory/agents/erich-sonnberger
+
+
+in data languages found as ""['Syriac\xa0(Northeastern Neo-Aramaic)', 'English']"" empty in site
+https://www.intero.com/directory/agents/stella-benjamin
+
+phone number found along with title
+""MA JD LL.M e-Pro© | Broker Associate & Realtor© | 650.430.6500""
+https://www.intero.com/directory/agents/mike-foor
+
+website found as ""http:////awright.intero.com""
+https://www.intero.com/directory/agents/a-chris-wright
+
+
+edinarealty_2025_09_05.json 
+---------------------------
+"name found wrong ""C.I. ""Nouk"" I Haschka"" in data
+""Nouk Haschka"" in site 
+https://www.edinarealty.com/ci-nouk-haschka-realtor
+
+address taken wrong. ""Mortgage Consultant"" address is taken 
+https://www.edinarealty.com/ci-nouk-haschka-realtor
+
+other_urls in social found as ""https://715-760-1300"" also facebook url
+found in site, missing in data
+https://www.edinarealty.com/rick-coltrain-realtor
+
+
+
+facebook url taken as website for 10 rows
+eg:https://www.edinarealty.com/josh-mandel-realtor"
+
+
+coldwellbanker_us_2025_09_05.json  
+---------------------------------
+"agent phone number is taken as 
+office number and also extra number found in site
+missing in data
+https://www.coldwellbanker.com/nh/center-harbor/agents/andrea-didonato/aid-P00200000GABnj1A9CkHm1UETL3o8TI920vnVgWZ
+
+https://www.coldwellbanker.com/ca/south-lake-tahoe/agents/sam-holmes/aid-P00200000FDtFMgq8Es2Oz2g21a6KLt6EMeGlphG
+
+agent phone number taken as office phone number
+https://www.coldwellbanker.com/al/dothan/agents/mariah-crockett/aid-P00200000GW2oGqFh2sD3SjHBCug0wupchgi3HYB
+
+office phone number found extra characters,""+10156777881;ext=2'""
+same found in site too 
+https://www.coldwellbanker.com/nj/closter/agents/georgia-zafiris/aid-P00200000FSjyC1t1jVrqZXJgq5LjrjwtaC4axpQ
+
+office phone number having extra characters, not found in site ""15083312721;ext=1']""
+https://www.coldwellbanker.com/ma/leominster/agents/richard-lane/aid-P00200000FSjyei0zyBsggHViKImk0Cp1Rn3i3rv
+same issue for some other rows too
+
+other urls in social found as ""https://kim'srelistings"",""http://@laogas27'"" etc. eg url
+https://www.coldwellbanker.com/me/brunswick/agents/kim-hanscom/aid-P00200000FSjx7XSWemtuNbGURgMzHTcDk5XONvA
+
+facebook url taken as website "" http//www:facebookk.com/ann.derosa.3 ""
+https://www.coldwellbanker.com/ny/shoreham/agents/ann-derosa/aid-P00200000GUk0VMrjRoqhe3hM4g6wuB9NUO61Q9F"
+
+
+kw_set_6/century21global_2025_09_05.json
+---------------------------------------- 
+in middle name, data field not available percentage
+previous:99.28%   current:76.25%
+
+in last name
+
+ previous: 0.00% current: 10.27%
+
+image_url
+
+  previous:0.00% current :14.37%
+
+"office location found in site
+missing in data
+https://www.century21global.com/en/agents/rl-135723221
+
+extra characters in agent_phone_numbers found, ""['(1) 809-889 x8686'""
+https://www.century21global.com/en/agents/rl-133736298
+
+description found in site, missing in data
+https://www.century21global.com/en/agents/rl-135723216
+https://www.century21global.com/en/agents/rl-135723214
+https://www.century21global.com/en/agents/rl-135723221
+https://www.century21global.com/en/agents/rl-134159783
+
+last name found as  . for 9 rows, & for 2 rows, numbers for few rows etc
+eg:https://www.century21global.com/en/agents/rl-134851755
+"
+
+
+kentwood_2025_09_05.json 
+------------------------
+"website url found in invalid format for 12 rows. eg:
+""https://www.http://denversfinehomes.com""
+https://www.kentwood.com/bio/jrhye
+
+
+reecenichols_2025_09_05.json  
+----------------------------
+"description found in site
+missing in data
+
+https://www.reecenichols.com/bio/meganmackey
+
+description found as ""sign me up for HOME MATCH"" in data, last sentance of the description found in site.
+https://www.reecenichols.com/bio/griderhomegroup
+
+description found as ""Meet Adrienne and Amy""
+https://www.reecenichols.com/bio/fisherhilesteam
+
+full name is taken as first name and also office name is missing in data, found in website
+https://www.reecenichols.com/bio/RankRoberts
+
+in social, other_url , instagram link repeatdely taken in same row
+""https://instagram.com/omar.kclifestyle""
+https://www.reecenichols.com/bio/omarali
+same issue found for other some other rows too
+eg:https://www.reecenichols.com/bio/raymondclay
+
+https://www.reecenichols.com/bio/zacharykelly
+
+title found as ""theportfolioreecenicholscom""
+https://www.reecenichols.com/bio/stacyanderson
+
+extra characters such as place,city found along with title, 
+eg:REALTOR Specializing in the Kansas City Metropolitan Area
+https://www.reecenichols.com/bio/tracyksearles"
+
+
+
+houlihanlawrence_2025_09_05.json  
+---------------------------------
+"address contains , in last
+eg:""1 wood Avenue ,""
+also the address in site found as ""1 Pelhamwood Avenue""
+https://www.houlihanlawrence.com/bio/petermonaco
+
+extra characters in agent phone number found ""'914-328-8400  ext. 15222""
+https://www.houlihanlawrence.com/bio/GeoffreyBerry
+
+no image found in site, and image url found as""https://content.mediastg.net/Dynamic/RealEstate/company/662/account/651739/651739_08152025173513.jpeg""
+https://www.houlihanlawrence.com/bio/deborahaidinis"
+
+
+woodsbros_2025_09_05.json
+---------------------------- 
+"in social , twitter link found in site, missing in data
+https://johnjanovy.woodsbros.com/
+
+description found as ""Call me today at 402-430-7506""
+https://dennisflesner.woodsbros.com/
+
+""Call today | 402-432-5943""
+https://louisekirkbride.woodsbros.com/
+
+wrong profile urls found for 4 rows
+https://www.woodsbros.com/roster/agents/0 
+ https://www.woodsbros.com/roster/agents/11
+ https://www.woodsbros.com/roster/agents/12
+ https://www.woodsbros.com/roster/agents/18
+
+description found in site, missing in data
+http://aprilbohling.com/
+agent phone number found in site, missing in data
+https://www.sandraharder.com/"
+
+
+
+realliving_realestate_2025_09_05.json 
+------------------------------------
+
+"two profile urls cant reached
+https://www.reallivingrealestatesolutions.com/bill.kolb
+https://www.reallivingrealestatesolutions.com/douglas.clement
+
+image_url missing in data, image found in site
+https://www.realliving.com/natalie.lochte
+
+office phone number is missing for two rows of data, in other rows
+agent phone number is taken as both agent and office phone numbers
+
+https://www.realliving.com/meredith.timulty
+https://www.realliving.com/natalie.lochte"
+
+
+berkshirehathaways_2025_09_05.json 
+-----------------------------
+"description found as 
+""www.jackienelson.com""
+https://www.bhhs.com/starck-real-estate-il303/crystal-lake/jackie-nelson/cid-58510
+
+description found as 
+""https://www.bhhsneproperties.com/real-estate-agent/3437/laura-ballirano (Count: 1)
+ https://www.estatesofsantabarbara.com/about/ (Count: 1)
+ https://www.facebook.com/NathalieMocklerRealtor
+excellent posture (Count: 1)
+ https://bettinasellstampa.com/ (Count: 1)
+
+last name found as ""1""
+https://www.bhhs.com/fox-and-roach-realtors-pa301/mullica-hill/tacuma-hambeau-1/cid-1001992
+
+description found in site, missing in data
+https://www.commonmoves.com/natick/commonwealth-staff/cid-3047675"
+
+
+
+coldwellbankerinternational_2025_09_05.json 
+------------------------------------------
+"description repeatdlt taken
+https://www.coldwellbankerinternational.com/agent/QWGhRtQ
+
+description found as ""ssdsf dfsfs fsafsafsafsafsafd sa""
+for two rows
+https://www.coldwellbankerinternational.com/agent/ONV6Ex0MSG
+https://www.coldwellbankerinternational.com/agent/nGz4u8foz
+
+description found as ""blah blah""
+https://www.coldwellbankerinternational.com/agent/n51IZLe
+
+first line taken two times in description
+https://www.coldwellbankerinternational.com/agent/GVwNLq9
+
+Lastname found as ""Zakharycheva@coldwellbanker.es""
+https://www.coldwellbankerinternational.com/agent/NBcmM21s7i
+
+office phone number found as ['+34'] for 9 rows
+eg:https://www.coldwellbankerinternational.com/agent/qQA3INle
+
+complete address is taken in address fields including state, city and zipcode in all rows"
+
+
+kw_set_7/sothebysrealty_2025_09_05.json  
+--------------------------------------
+"website found as
+""http://01071901 (Count: 1)
+ http://06181979 (Count: 1)
+ http://12023214928 (Count: 1)
+
+eg:https://www.sothebysrealty.com/eng/associate/180-a-df190819201110851202/adam-isaacson
+
+facebook link is taken as website for two rows
+eg:https://www.facebook.com/heath.joshi.3?mibextid=llqqj4d 
+https://www.sothebysrealty.com/eng/associate/180-a-df221013132710863312/heath-joshi
+https://www.sothebysrealty.com/eng/associate/180-a-df2304111647107382/peter-spangehl"
+
+
+"description found as ""tbd"" for some rows
+eg:""https://www.sothebysrealty.com/eng/associate/180-a-df180801161710843154/maureen-clark""
+"" to follow""
+eg:""https://www.sothebysrealty.com/eng/associate/180-a-df25030513101028144001/sydney-sims""
+
+description found as  ""rgdhrjr6ksmrm"", ""m"",""na"",""remarks"", bio to come (Count: 1)
+ coming soon (Count: 1)
+ enter profile here... (Count: 1)
+
+"
+"""Toll Free: 1.877.236.8800"" found along with address in 18 rows
+eg:https://www.sothebysrealty.com/eng/associate/180-a-df1908211347105861/victoria-dupont"
+
+
+
