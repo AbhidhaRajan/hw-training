@@ -1,0 +1,56 @@
+DataHut_AT_Billa_PriceExtractions_20250903.CSV 
+
+DataHut_AT_Cleverleben_PriceExtractions_20250903.CSV 
+DataHut_AT_Bipa_PriceExtractions_20250903.CSV 
+
+DataHut_AT_Mpreis_PriceExtractions_20250903.CSV 
+
+"only single price found in site, 1 stk price is taken as
+regular price and selling price, the price found in site is taken as 
+promotion price
+
+https://www.mpreis.at/shop/p/felix-barbecue-original-sauce-159556
+https://www.mpreis.at/shop/p/knorr-die-schnelle-feine-tomatencremesuppe-287504
+https://www.mpreis.at/shop/p/knorr-die-schnelle-feine-spargelcremesuppe-287592"
+
+
+DataHut_AT_Dm_PriceExtractions_20250903.CSV 
+
+DataHut_AT_Fressnapf_PriceExtractions_20250903.CSV
+
+DataHut_AT_Interspar_PriceExtractions_20250903.CSV 
+
+"site shown uom is
+""SIMPEX BASIC Vakuumiergerät inkl. 5 Vakuumier-Beutel""
+grammage unit and quantity 1 stuck
+https://www.interspar.at/shop/haushalt/alle-marken/simpex-basic-vakuumiergeraet-inkl-5-vakuumier-beutel/p/2020002879266"
+
+DataHut_AT_Mueller_PriceExtractions_20250903.CSV  
+
+
+DataHut_AT_Cleverleben_FullDump_20250904.CSV 
+
+DataHut_AT_Billa_FullDump_20250904.CSV 
+
+DataHut_AT_Dm_FullDump_20250904.CSV  
+-----------------------------------
+retail_limit is empty
+
+"decription found as paragraph
+https://www.dm.at/dmbio-getreide-gerstengraupen-p4066447728453.html"
+
+"image is empty in site,but image url found in data
+"" https://products.dm-static.com/f_auto,q_auto,c_fit,w_1200,h_1200/not-found ""
+for 4 rows. eg:https://www.dm.at/nestle-beba-anfangsmilch-expert-ha1-von-geburt-an-p8445290917607.html"
+
+"feeding reccomendation incomplete
+eg:https://www.dm.at/vitakraft-nassfutter-katze-poesie-classique-poultry-choice-p4008239589798.html
+
+extra character found in nutritional_informations,""_1'""
+eg:Brennwertpro 100 g*_1': '1 402 kJ / 332 kcal'
+https://www.dm.at/dmbio-getreide-gerstengraupen-p4066447728453.html"
+
+
+DataHut_CH_Denner_FullDump_20250904.CSV  
+
+extraction date :['2025-09-03']
