@@ -1,0 +1,99 @@
+DataHut_SI_Dm_PriceExtractions_20250908.CSV 
+-------------------------------------------
+"site shown uom contains dot
+https://www.dm.si/dmbio-bio-polnozrnati-zitni-kosmici-za-kaso-z-orescki-maxi-pakiranje-p4066447851434.html
+
+https://www.dm.si/trend-t-up-paleta-sencil-za-veke-pastel-dream-p4067796070972.html"
+
+
+DataHut_SI_Mercator_PriceExtractions_20250908.CSV 
+
+DataHut_SI_Spar_PriceExtractions_20250908.CSV 
+
+bayut_uae_project_2025_09_02.json 
+---------------------------------
+"progress not found in site
+https://www.bayut.com/for-sale/off-plan/property/dubai/dubai-marina/marina-living
+
+unit_area_in_sqft and unit_size found incomplete
+https://www.bayut.com/for-sale/off-plan/property/dubai/dubai-islands/rixos-dubai-islands-hotel-residences
+
+unit type incomplete
+https://www.bayut.com/for-sale/off-plan/property/dubai/jumeirah-village-circle-jvc/jvc-district-12/le-parc-homes"
+
+DataHut_AT_Penny_FlyerExtractions_20250908.csv
+---------------------------------------------
+error in pdf url found
+
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_pdf_2025_09_08/penny/DataHut_AT_Penny_FlyerExtractions_20250908_1.PDF
+
+
+DataHut_AT_Lidl_FlyerExtractions_20250908.csv
+----------------------------------------------
+1."promotion valid from found as 21-08, in page number 35
+
+flyer url
+https://object.storage.eu01.onstackit.cloud/leaflets/pdfs/01990d16-4540-775d-8874-4f6455d5de1d/Ab-Donnerstag-11-9-Flugblatt-03.pdf
+
+pdf url
+
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_pdf_2025_09_08/lidl/DataHut_AT_Lidl_FlyerExtractions_20250908.PDF
+
+data url
+
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_09_08/DataHut_AT_Lidl_FlyerExtractions_20250908.CSV"
+
+
+2."promotion valid upto found as 01-10-2025, in page number 35
+
+promotion valid upto found as 21-09, in page number 32
+
+flyer url
+https://object.storage.eu01.onstackit.cloud/leaflets/pdfs/01990d16-4540-775d-8874-4f6455d5de1d/Ab-Donnerstag-11-9-Flugblatt-03.pdf
+
+pdf url
+
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_pdf_2025_09_08/lidl/DataHut_AT_Lidl_FlyerExtractions_20250908.PDF
+
+data url
+
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_csv_files_2025_09_08/DataHut_AT_Lidl_FlyerExtractions_20250908.CSV"
+
+
+3.error in pdf url
+
+http://192.81.217.205:8000//Tcs_aldi_data/Austria/flyer_pdf_2025_09_08/lidl/
+DataHut_AT_Lidl_FlyerExtractions_20250908.PDF
+
+
+
+dari_ae_2025_09_02.json  
+-----------------------
+phone_number_2 not found in site
+but present in data
+
+eg:https://www.dari.ae/en/app/directory/profession?id=28269
+
+
+DataHut_AT_Bipa_FullDump_20250911.CSV 
+------------------------------------
+1.image found in site,missing in data
+
+  https://www.bipa.at/p/B3-630786
+
+
+nawy_egp_2025_09_02.json  
+
+DataHut_AT_Dm_FullDump_20250911.CSV  
+-----------------------------------
+1.brand is found empty
+
+2.nutritional_information contains extra characters, "_1"
+eg:{'Durchschnittliche Nährwertangaben': {'Brennwertpro 1 Portion_1': '< 38 kJ / 9 kcal'}}
+  https://www.dm.at/lebenskraftpur-zahnkristalle-vitanur-xylit-p4251523600468.html
+
+
+3.product description found as paragraph
+
+ https://www.dm.at/max-factor-mascara-masterpiece-2in1-lash-wow-001-black-p3616303408961.html
+
