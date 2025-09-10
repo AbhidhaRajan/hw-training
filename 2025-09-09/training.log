@@ -1,0 +1,70 @@
+
+DataHut_AT_Mpreis_PriceExtractions_20250909.CSV
+DataHut_AT_Bipa_PriceExtractions_20250909.CSV
+
+DataHut_AT_Billa_PriceExtractions_20250909.CSV
+DataHut_AT_Mueller_PriceExtractions_20250909.CSV
+DataHut_AT_Fressnapf_PriceExtractions_20250909.CSV
+
+DataHut_AT_Fressnapf_FullDump_20250911.CSV
+-----------------------------------------
+"description found as paragraph
+eg:https://www.fressnapf.at/p/mera-all-cats-adult-12x85g-rind-1361919/"
+
+"replaced with \\ in special_nutrition_purpose
+eg:https://www.fressnapf.at/p/wolfsbacher-natur-bio-barf-oel-100-ml-1678073/
+
+replaced with \\\\| in feeding recommendations
+eg:https://www.fressnapf.at/p/hills-science-plan-perfect-digestion-adult-mit-huhn-12x370g-1391226/"
+
+
+"empty key found in feedong recommendations
+eg: 
+ {'': {'2-3 kg_4-5 kg': 'bis 2_bis 3', '2-3 kg_6-8 kg': 'bis 2_bis 4', '2-3 kg_Angaben sind Richtwerte': 'bis 2_'}} 
+
+https://www.fressnapf.at/p/mera-all-cats-adult-12x85g-rind-1361919/"
+
+
+machinerytrader_2025_09_09.csv
+
+DataHut_HU_Wolt_FullDump_20250901.CSV
+-------------------------------------
+logical error found, price per unit found as 4999/l, grammage quantity and unit found as 1 l
+but price found as 5049 ft, also in site grammage found as 1 l and 15 vol
+
+https://wolt.com/hu/hun/budapest/venue/interspar-allee/martini-bianco-edes-vermut-15-1-l-itemid-66c5851e4ce8f79271916efd
+
+price per unit found as "2099 Ft/kg"in site,:2099.0 Ft/kg" in data
+https://wolt.com/hu/hun/budapest/venue/interspar-allee/bontott-pecsenyekacsa-itemid-67ad253e1af9fcb37885ca4e
+
+warning found as "-" for 89472 rows
+
+
+aqarmap_egp_2025_09_02.json
+--------------------------
+"phone number found as 
+""+971971551457940""
+https://aqarmap.com.eg/en/listing/5973179-for-sale-cairo-mokattam-el-hadabah-el-wosta-6th-zone/"
+
+
+ bayut_uae_2025_09_02.json
+ ------------------------
+ "published_at found as
+14 July 2025 in data 
+but in site is found as 15 July 2025, 
+https://www.bayut.com/property/details-12226871.html
+
+brn_registration_number found as 0,phone numbers,N/A,nothing etc
+eg:https://www.bayut.com/property/details-10110555.html
+
+bln_number found as dubai,ajman etc
+
+property no longer available
+https://www.bayut.com/property/details-12311892.html
+
+orn_number found as 0,phone numbers,.....,,1,s,nullable etc
+
+title found as ""22 , ⏳ ⏳| , same found in site too"
+
+
+price_per missing percentage is higher than previous iteration, previous count 42.08%, currant :51.72%
