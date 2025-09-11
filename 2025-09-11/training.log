@@ -1,0 +1,325 @@
+
+TASK UPDATE
+============
+
+
+
+Task        : [datahut-]-[]-[meeting]-[mng qa meeting]  
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+
+
+
+
+
+Task        : [datahut-]-[]-[doc-update]-[generating previous day qa report status] 
+Status      : doing
+ETD         : 00:15
+Assigned By : revathy
+Priority    : p1
+
+
+
+
+
+
+
+Task        : [datahut-]-[]-[tcs_aldi-Mpreis]-[tcs daily qa validation and sheet updation]
+Status      : doing
+ETD         : 00:15
+Assigned By : revathy
+Priority    : p1
+
+
+
+Task        : [tcs:aldi_austria:price-daily]-[https://fressnapf.at]-[qa-validation]-[daily full data  testing and qa sheet updation]
+Status      : doing
+ETD         : 00:15
+Assigned By : revathy
+Priority    : p1
+
+completed
+
+starting time : 10:15 AM
+
+Task        : [tcs:aldi_austria:price-daily]-[https://interspar.at]-[qa-validation]-[daily full data  testing and qa sheet updation]
+Status      : doing
+ETD         : 00:15
+Assigned By : revathy
+Priority    : p1
+
+KW
+---
+
+Task        : [KW-monthly]-[https://www.sothebysrealty.com]-[qa-validation]-[monthly full data testing, qa sheet updation and validation sheet checking]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+
+
+Task        : [tcs:aldi_austria-weekly]-[https://www.dm.at]-[qa-validation]-[weekly partial data testing and qa sheet updation]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+
+Task        : [tcs:aldi_switzerland-weekly]-[https://www.denner.ch]-[qa-validation]-[weekly partial data testing and qa sheet updation]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+
+https://www.denner.ch
+
+
+
+Task Manager Rules:
+===================
+https://docs.google.com/document/d/1F7g_jXsoQB3QPiIRlZgPBappLxWNMIM6GHYDern2LSY/edit?tab=t.dn4f9fof8qqp#heading=h.w8kfs7dd0s94
+
+
+
+Weekly Task Schedule sheet : 
+===========================
+https://docs.google.com/spreadsheets/d/1TRAZzu1j9LOf92sLyoayy9d9WVTeY8m0m68YdGzUyIs/edit?gid=1030573758#gid=1030573758
+
+
+task manager updating sheet
+===========================
+https://docs.google.com/spreadsheets/d/1zcS_4SWM9i2ngoBa2M_ChnUgzJTD7UhMRk5Ac_RlD7Y/edit?gid=0#gid=0
+
+TCS Aldi Slovenia, success list
+------------------------------
+
+https://docs.google.com/spreadsheets/d/1r6T8T-mepmyP_7qPQphKFfIyOS5oqUipRyfLkWR15Kc/edit?gid=358160831#gid=358160831
+
+tcs:aldi_slovenia-daily
+-----------------------
+Q/A sheet : https://docs.google.com/spreadsheets/d/1H8F9kzs20q8iUNzsIS04PLtpxiw-uAoREzt1TinT7DQ/edit?gid=0#gid=0
+Tcs sheet : https://docs.google.com/spreadsheets/d/1r6T8T-mepmyP_7qPQphKFfIyOS5oqUipRyfLkWR15Kc/edit?gid=358160831#gid=358160831
+
+
+tcs:aldi_austria-daily
+-----------------------
+Q/A sheet : https://docs.google.com/spreadsheets/d/1QwB8oZLP98_G1Ai9vx6bmzgjSLaB-dykIGSgo1pAd3k/edit?gid=930244733#gid=930244733
+Tcs sheet : https://docs.google.com/spreadsheets/d/1RBDCT7J1j2J4xB84stUJdZzUrUdMj5dgyttxYVb9xnE/edit?gid=910046178#gid=910046178
+
+
+tcs_aldi_switzerland_daily:
+ ------------------------
+ Q/A sheet : https://docs.google.com/spreadsheets/d/1_WA-zqDK-LauNhrMhfUiijMfiALxQ3yZZpM3CcZGyPE/edit?gid=0#gid=0
+ Tcs sheet : https://docs.google.com/spreadsheets/d/1Jt6W02O0vBiEp4RX4QhKS-DeF_P_Nd77-90XoZZ2Rqw/edit?gid=404764119#gid=404764119
+
+
+
+
+68b51350d5ac20dfb291bd43
+
+68b51508d5ac20dfb291bd7e
+
+tcs:aldi_asutria:price-daily: fressnapf : completed
+
+tcs:aldi_slovenia:price-daily: dm : completed
+
+tcs:aldi_austria:flyer-daily: dm : completed
+
+
+
+
+Task        : [tcs:aldi_slovenia:price-daily]-[https://www.spar.si]-[qa-validation]-[daily full data  testing and qa sheet updation]
+Status      : doing
+ETD         : 00:20
+Assigned By : revathy
+Priority    : p1
+
+68be632e5f1415c1c5f748f6
+
+
+
+Task        : [KW-monthly]-https://www.remax.com]-[qa-validation]-[monthly full data testing, qa sheet updation and validation sheet checking]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+
+
+Task       : [tcs:aldi_austria:flyer-daily]-[]-[qa-validation]-[flyer pdf and csv file testing and qa sheet updations]
+Status     : doing
+ETD        : 00:30
+Assigned By : revathy
+Priority   : p1
+
+68c27f124289b95b6dbeceb2:
+
+
+Task        : [tcs:aldi_austria:price-daily]-[https://www.cleverleben.at]-[qa-validation]-[issue rechecking and qa sheet updation]
+Status      : doing
+ETD         : 00:10
+Assigned By : revathy
+Priority    : p1
+
+
+QA-TASK STATUS
+*********************
+completed
+==================
+RT
+----
+propertyfinder-monthly
+ 2 sites
+kw monthly
+ 2 sites
+TAT
+----------
+tcs:aldi_switzerland:price-daily
+ all sites
+tcs:aldi_slovenia:price-daily
+all sites
+tcs:aldi_hungary-quarterly
+all sites
+FRT
+------
+
+=============
+Pending
+===============
+
+
+pf
+===
+
+Task        : [propertyfinder-weekly]-[https://www.bayut_uae.com]-[qa-validation]-[weekly full data testing, qa sheet updation and validation sheet checking]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+
+
+Task       : [tcs:aldi_austria:flyer-daily]-[]-[qa-validation]-[flyer pdf and csv file testing and qa sheet updations]
+Status     : doing
+ETD        : 00:30
+Assigned By : revathy
+Priority   : p1
+
+
+Task       : [tcs:aldi_austria:flyer-daily]-[]-[qa-validation]-[flyer pdf and csv file testing and qa sheet updations]
+Status     : doing
+ETD        : 00:30
+Assigned By : revathy
+Priority   : p1
+
+
+
+68be733a5f1415c1c5f74982
+
+
+Task        : [tcs:aldi_austria:flyer-daily]-[]-[issue-fix]-[inspecting issue mentioned qa , verify and fixing it and assign for re-qa]
+Status      : doing
+ETD         : 00:10
+Assigned By : revathy
+Priority    : p1
+
+68be880d5f1415c1c5f74a06
+
+
+
+Task       : [tcs:aldi_austria-weekly]-[https://www.interspar.at]-[qa-validation]-[weekly partial data testing and qa sheet updation]
+Status      : doing
+ETD         : 00:40
+Assigned By : revathy
+Priority    : p1
+
+
+
+austria partial
+---------------
+https://docs.google.com/spreadsheets/d/1DpLYD18dcX96WDhnXESDndSRuQjwcje5QNm9abtmXCU/edit?pli=1&gid=506317102#gid=506317102
+
+https://docs.google.com/spreadsheets/d/1RBDCT7J1j2J4xB84stUJdZzUrUdMj5dgyttxYVb9xnE/edit?gid=984141687#gid=984141687
+
+
+
+Task        : [datahut]-[]-[doc-update]-[data quality issue sheet updation]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+
+
+Task        : [mascus-daily]-[https://www.machinerytrader.com]-[qa-validation]-[daily full data weekly once testing and qa sheet updation]
+Status      : doing
+ETD         : 00:40
+Assigned By : revathy
+Priority    : p1
+
+
+
+Task       : [tcs:aldi_hungary-quarterly]-[https://www.fressnapf.at]-[qa-validation]-[weekly partial data testing and qa sheet updation]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+
+http://192.81.217.205:8000/QA_DATA/tcs:aldi_hungary-quarterly/DataHut_HU_Wolt_FullDump_20250901.CSV.zip
+
+
+
+Task        : [tcs:aldi_austria:price-daily]-[https://billa.at]-[qa-validation]-[daily full data  testing and qa sheet updation]
+Status      : doing
+ETD         : 00:15
+Assigned By : revathy
+Priority    : p1
+
+
+Task        : [zenjobs-weekly]-[https://de.indeed.com]-[qa-validation]-[weekly full data testing, qa sheet updation and validation sheet checking]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+68c15e582ef1559f7e14ec34
+
+Task      : [datahut-]-[]-[sheet-update]-[ Weekly Task Schedule updation]
+Status    : doing
+ETD       : 00:30
+Assigned By : revathy
+Priority  : p1
+
+
+Task       : [tcs:aldi_austria-weekly]-[https://www.interspar.at]-[qa-validation]-[weekly partial data testing and qa sheet updation]
+Status      : doing
+ETD         : 00:40
+Assigned By : revathy
+Priority    : p1
+
+Task        : [tcs:aldi_uk-poc]-[https://www.aldi.co.uk/]-[qa-validation]-[re qa and qa sheet updation]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+
+Task        : [tcs:aldi_uk-poc]-[https://www.tesco.com/]-[qa-validation]-[weekly partial data testing and qa sheet updation]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+Task        : [tcs:aldi_uk-poc]-[https://www.tesco.com/]-[qa-validation]-[weekly full data testing and qa sheet updation]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+68c2a9414289b95b6dbecfb6 :
