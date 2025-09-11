@@ -1,0 +1,112 @@
+
+DataHut_AT_Fressnapf_PriceExtractions_20250910.CSV
+
+"white space found between numbers in grammage quantity
+""14x8 5""  
+https://www.fressnapf.at/p/yarrah-bio-pouch-filets-in-sosse-14x8-5g-truthahn-1838898/"
+
+
+DataHut_AT_Interspar_PriceExtractions_20250910.CSV
+
+DataHut_AT_Bipa_PriceExtractions_20250910.CSV
+
+DataHut_AT_Cleverleben_PriceExtractions_20250910.CSV
+
+DataHut_AT_Mpreis_PriceExtractions_20250910.CSV
+DataHut_AT_Dm_PriceExtractions_20250910.CSV
+
+DataHut_AT_Billa_PriceExtractions_20250910.CSV
+
+
+DataHut_AT_Billa_FullDump_20250911.CSV  
+
+DataHut_AT_Interspar_FullDump_20250911.CSV
+-----------------------------------------
+"symbol found ahead of country of origin
+Hergestellt in Österreich mit Rohstoff aus Österreich und der EU
+
+https://www.interspar.at/shop/lebensmittel/loidl-salami-sticks/p/2020003192586
+
+
+white space found ahead of special_information"
+
+"replaced with  \\\\| in nutritional informations
+eg:https://www.interspar.at/shop/lebensmittel/doppelherz-aktiv-kollagen-1000-biotin-q10-30-tabletten/p/2020003915048
+
+replaced with \\| in special_information"
+eg:https://www.interspar.at/shop/lebensmittel/all-in-light-protein-water-maracuja/p/2020002713782
+
+retail limit almost empty
+
+description not line by line
+
+
+
+machinerytrader_2025_09_10.csv
+-------------------------------
+"format differnce found
+in site  compant phone number found as 
++1 888 -281-3726 and in data is found as 
+(888) 281-3726
+https://www.machinerytrader.com/listing/for-sale/240377949/2015-altec-am55mh-mounted-on-2015-freightliner-business-class-m2-106-bucket-trucks-slash-service-trucks-cranes"
+
+
+indeed_2025_09_11.xlsx
+----------------------
+
+"error found in original job url
+ad url is
+https://de.indeed.com/Zeige-Job?jk=9b2bc87504e6047d&from=serp&vjs=3
+original job ul is
+http://10.10.10.1:8090/ips/block/error?e=h2_clear&pl=1&lu=0&url=aHR0cDovL2RlLmluZGVlZC5jb20vcmMvY2xrP2prPTliMmJjODc1MDRlNjA0N2QmYmI9MC1DMHFMNWlEUDRIU1FhN2lDSFUxOVlGNEZiZ2hheUVUWVlwY3dBa0E0N2l0LUFrejJUaGN3VjVaaHlORnpvUmRieWVtZFlSZVRqdnF6SVZZQ2o4eTVfVXFXLUUxTFNWJnhrY2I9U29ESjY3TTN0VzAzLWRUN2lKMERiemtkQ2RQUA~~
+
+phone_numbers repeatdly taken
+https://de.indeed.com/Zeige-Job?jk=c2554d1385ef52ea&from=serp&vjs=3
+same issue
+https://de.indeed.com/Zeige-Job?jk=006ffc4ef19c4537&from=serp&vjs=3
+https://de.indeed.com/Zeige-Job?jk=595ce93fe10e9026&from=serp&vjs=3
+https://de.indeed.com/Zeige-Job?jk=6f5a1b25821a4f7c&from=serp&vjs=3
+https://de.indeed.com/Zeige-Job?jk=68ca25f316008b98&from=serp&vjs=3
+
+website domain found as ""1-2-3.tv"",""1sp.agency "" etc
+https://de.indeed.com/Zeige-Job?jk=093844e78d3c2187&from=serp&vjs=3
+
+DataHut_UK_Aldi_FullDump_20250911.CSV
+--------------------------------------
+extraction date is '2025-09-10'
+
+
+DataHut_UK_Tesco_FullDump_20250910.CSV
+-------------------------------------
+"DataHut_UK_Tesco_FullDump_20250910.CSV
+day found wrong"
+
+
+"allegens found as comma
+https://www.tesco.com/groceries/en-GB/products/316942260
+
+distibutor address found as n/a for 2 rows
+
+product name found as ""Tesco Ashbeck Sparkling Water 4X2ltr""
+but grammage unit and qunatity is 1 pc
+https://www.tesco.com/groceries/en-GB/products/258016788
+
+ values in net content found as each,g,count 4 , single etc
+
+in nutritional_information extra characters found
+eg:{'-_Typical Values_100ml': '916kJ/221kcal'} 
+https://www.tesco.com/groceries/en-GB/products/317747461
+
+preparationinstructions found as x6
+
+storage_instructions found as  null,not,n/a etc
+
+warning found as {l} for 9 rows,n/a n/a etc"
+
+price_valid_from', 'promotion_valid_from', 'promotion_valid_upto found empty
+
+"extraction_date :
+['2025-09-10']"
+
+"image found in site, missing in data
+https://www.tesco.com/groceries/en-GB/products/277809714"
