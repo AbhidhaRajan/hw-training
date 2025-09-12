@@ -1,0 +1,44 @@
+tcs_slovenia  Daily
+------------------
+Mercator
+-------
+1)separate rows for regular and selling price
+
+selling_price : should not contain any comma(,) it should be replaced with dot(.)
+                must be in float with 2 decimal places
+
+                if Trajno znižano in promotion_description then the regular price and  selling price should be the discounted price and the promotion price should be empty
+
+                site updated on 2024_09_05
+                The promotion_description field has a minor site update, the keyword Trajno znižano has been changed to Znižano 
+                The pricing conditions for Znižano remain the same as those for Trajno znižano.
+
+
+
+regular_price : should not contain any comma(,) it should be replaced with dot(.)
+                must be in float with 2 decimal places
+
+                if Trajno znižano in promotion_description then the regular price and  selling price should be the discounted price and the promotion price should be empty
+
+                site updated on 2024_09_05
+                The promotion_description field has a minor site update, the keyword Trajno znižano has been changed to Znižano 
+                The pricing conditions for Znižano remain the same as those for Trajno znižano.
+
+
+
+
+2)Field should be empty if value not available	
+
+
+same in the case of spar
+
+
+tcs_slovenia  Weekly
+----------------------
+1)same in the case for fulldump too. it should have been better if add selling and regular price columns separately.. 
+
+2) |' should be replaced with '\|' in data values  
+
+
+
+

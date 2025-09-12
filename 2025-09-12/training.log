@@ -1,0 +1,73 @@
+DataHut_SI_Dm_PriceExtractions_20250912.CSV   
+------------------------------------------
+"breadcrumb in data found as
+""Domov > Lasje > Lasna kozmetika za moške > Oblikovanje las za moške""
+but in site is found as ""Domov ""
+https://www.dm.si/balea-men-mat-vosek-za-oblikovanje-priceske-p4058172623936.html"
+
+
+DataHut_SI_Mercator_PriceExtractions_20250912.CSV  
+DataHut_SI_Spar_PriceExtractions_20250912.CSV
+
+DataHut_AT_Billa_PriceExtractions_20250912.CSV  
+
+"aktion found in site, missing in data
+https://shop.billa.at/produkte/waldquelle-mineralwasser-spritzig-008095"
+
+
+DataHut_AT_Bipa_PriceExtractions_20250912.CSV
+
+DataHut_AT_Interspar_PriceExtractions_20250912.CSV
+-----------------------------------------------------
+promotion_description
+
+Data field not available % , previous:98.82%    todays:92.36%
+
+
+DataHut_AT_Fressnapf_PriceExtractions_20250912.CSV
+-------------------------------------------------
+price_per_unit
+
+Data field not available % , previous:34.66%    todays:37.14%
+
+DataHut_AT_Bipa_PriceExtractions_20250912.CSV
+--------------------------------------------
+
+promotion_price
+
+Data field not available % , previous:78.43%   todays:88.01%
+
+promotion_description
+
+Data field not available % , previous:76.48%   todays:85.59%
+
+
+machinerytrader_2025_09_12.csv
+------------------------------
+"34 images found in data, but only 32 images found in site
+
+https://www.machinerytrader.com/listing/for-sale/218937065/2023-hyundai-hx140al-crawler-excavators"
+
+
+
+walmart_2025_09_12.csv
+----------------------
+
+Item 
+
+Data field not available % , previous:0.81%  todays:0.96%
+
+Bushnell Velocity Speed Gun Speed Gun Gray (count:1)	
+
+
+
+samsclub_2025_09_12.csv
+-----------------------
+"price found in data, missing in site
+https://www.samsclub.com/ip/Roku-Express-HD-Streaming-Device-with-High-Speed-HDMI-Cable-and-Simple-Remote-Guided-Setup-and-Fast-Wi-Fi/13605052405?classType=REGULAR
+
+price change found 
+https://www.samsclub.com/ip/Laser-X-Ultra-200-Laser-Tag-Blaster-4-pk/13896206348?classType=REGULAR
+
+found oss in data, instock in site
+https://www.samsclub.com/ip/Rubbermaid-Brilliance-StainShield-14-Piece-Plastic-Food-Storage-Containers/13652307837?classType=REGULAR"
