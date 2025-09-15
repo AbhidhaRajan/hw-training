@@ -1,0 +1,105 @@
+
+
+
+
+DataHut_AT_Cleverleben_PriceExtractions_20250915.CSV
+
+DataHut_AT_Mueller_PriceExtractions_20250915.CSV
+DataHut_AT_Interspar_PriceExtractions_20250915.CSV
+DataHut_AT_Bipa_PriceExtractions_20250915.CSV
+
+DataHut_AT_Billa_PriceExtractions_20250915.CSV
+----------------------------------------------
+regular_price
+
+Data field not available % , previous:15.80%    todays:7.41%
+
+promotion_price
+
+Data field not available % , previous:80.05%   todays:88.44%
+
+
+promotion_description
+
+Data field not available % , previous:80.10%    todays:88.50%
+
+autoteiledirekt_2025_09_15.csv
+-----------------------------
+"price change found, 0.96 in data, 0.89 in site
+https://www.autoteiledirekt.de/bosch-7144514.html
+
+same issue
+https://www.autoteiledirekt.de/bosch-7611434.html
+https://www.autoteiledirekt.de/bosch-716966.html
+https://www.autoteiledirekt.de/hella-18747415.html
+https://www.autoteiledirekt.de/ina-7103931.html
+https://www.autoteiledirekt.de/febi-bilstein-16180468.html
+https://www.autoteiledirekt.de/febi-bilstein-1870348.html
+https://www.autoteiledirekt.de/van-wezel-21479127.html"
+
+autodoc_2025_09_15.csv
+
+
+
+
+bayut_uae_project_2025_09_03.json
+--------------------------------
+"double comma found in unit_type.
+eg:1003, Type A2 - Units 302, 701, Type A - Units 202, 1405,, 702, 602, 502, 406, 901, 402, 902, 1402,, 501, 802, 603, Type A1 - Units 301, 1002, 1202 - Mirrored, 606, Type B1 ( with pool ) - Units 206, 1006, 1205, Type B - Units 203, 403, 806, 803.
+also unit_type and unit area incomplete , max_area_in_sqft found wrong
+
+https://www.bayut.com/for-sale/off-plan/property/dubai/al-furjan/primero-residences-by-main-realty
+
+unit_size, unit_type,unit_area_in_sqft,count_of_unit_types, incomplete and max_area_in_sqft taken wrong
+
+https://www.bayut.com/for-sale/off-plan/property/dubai/palm-jumeirah/como-residences
+
+unit_type,unit_area_in_sqft insomplete, count_of_unit_types,max_area_in_sqft found wrong
+https://www.bayut.com/for-sale/off-plan/property/ajman/ajman-free-zone/ajman-creek-towers"
+
+
+dari_ae_2025_09_03.json
+-------------------------
+"extra white space found in name
+""  EXECUTIVE GULF PROPERTIES        - L.L.C - S.P.C""
+https://www.dari.ae/en/app/directory/profession?id=28491
+
+same issue
+'NOUR PLAZA REAL ESTATE MANAGEMENT & GENERAL MAINTENANCE    - L.L.C""
+
+https://www.dari.ae/en/app/directory/profession?id=9050"
+
+
+aqarmap_egp_2025_09_03.json
+--------------------------
+"phone number found as "" xxxx "" for 23 rows, also all phone numbers end with xxxx. eg:
+""+20155032xxxx""
+https://aqarmap.com.eg/en/listing/5727128-for-sale-cairo-mokattam-lhdb-l-ly-shareaa-9/
+
+broker name found as 
+"" HTTPS://WEB.FACEBOOK.COM/GROUPS/379292702450288/USER/100002867294144/?__CFT__[0]=AZVV0SN2JQQEVPYLQY3"" for 2 rows
+https://aqarmap.com.eg/en/listing/6097051-for-sale-red-sea-el-ahyaa/
+
+https://aqarmap.com.eg/en/listing/6096980-for-sale-red-sea-el-ahyaa/
+
+white space found in broker and broker_broker_display name.
+eg:‏‎https://aqarmap.com.eg/en/listing/6245365-for-sale-dakahlia-mit-ghamr/"
+
+
+
+DataHut_AT_Bipa_FullDump_20250918.CSV
+
+
+DataHut_AT_Dm_FullDump_20250918.CSV
+------------------------------------
+
+"nutritional_information contains extra characters, ""_1""
+eg:{'Durchschnittliche Nährwertangaben': {'Brennwertpro 1 Portion_1': '< 38 kJ / 9 kcal'}}
+  https://www.dm.at/lebenskraftpur-zahnkristalle-vitanur-xylit-p4251523600468.html
+
+
+"product description found as paragraph
+
+ https://www.dm.at/catrice-concealer-liquid-camouflage-high-coverage-020-light-beige-p4250947544686.html"
+
+ retail_limit' is empty
