@@ -1,0 +1,13 @@
+cleverleben
+===========
+
+New Requirement :   "- If site_shown_uom contains "" Packung"" , ""Teebeutel"" , ""Beutel"", ""Btl""     
+                    ""Teebeutel Karton"" ,""Teebeutel Paket"" or ""Packung Beutel"", then:
+                      - grammage unit should be ""btl""
+                      - grammage quantity should match the corresponding value shown on the site.
+                     -If site_shown_uom contains ""Portion Packung"" or ""ANW"", then:
+                       - grammage unit should be  ""stuck""
+                       - grammage quantity should match the corresponding value shown on the site.
+                     -The keyword 'wg' or 'Waschgänge', then:
+                       - grammage unit should be  ""wg""
+                       - grammage quantity should match the corresponding value shown on the site."
