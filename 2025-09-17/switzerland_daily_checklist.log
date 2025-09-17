@@ -1,0 +1,7 @@
+PDP Mandatory fields  : not added
+Random data check count : not added
+
+selling price / regular price : "should not contain any comma(,)
+                                 it should be replaced with dot(.) 
+                                 if no regular_price then assign selling_price as regular_price.
+                                 If promotion description is not present but selling price and regular price is present, then promotion price & selling price will be selling price and regular price will be regular price         "
