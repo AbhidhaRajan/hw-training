@@ -1,128 +1,39 @@
 
-DataHut_AT_Cleverleben_PriceExtractions_20250916.CSV
-DataHut_AT_Bipa_PriceExtractions_20250916.CSV
-DataHut_AT_Mueller_PriceExtractions_20250916.CSV
-DataHut_AT_Dm_PriceExtractions_20250916.CSV
+DataHut_AT_Cleverleben_PriceExtractions_20250917.CSV
+DataHut_AT_Dm_PriceExtractions_20250917.CSV
+DataHut_AT_Interspar_PriceExtractions_20250917.CSV
+DataHut_AT_Bipa_PriceExtractions_20250917.CSV
+DataHut_AT_Mueller_PriceExtractions_20250917.CSV
+------------------------------------------------
+regular/selling price
 
-DataHut_AT_Fressnapf_PriceExtractions_20250916.CSV
---------------------------------------------------
-"grammage quantity and unit is 
-1 000 kg in data, price per unit is €4.49/kg
-and price is 4.49.
+Data field not available   previous:88  current:114
 
-https://www.fressnapf.at/p/vitakraft-menu-vital-meerschweinchen-1000-kg-1004435/"
-
-
-DataHut_AT_Billa_PriceExtractions_20250916.CSV
-
-DataHut_AT_Interspar_PriceExtractions_20250916.CSV
--------------------------------------------------
-"site shown uom taken wrong.
-found as ""100% Pflanzenöl""
-product name is ""Hofer-Kerzen Grabkerze 3 Tage Premium rot 100% Pflanzenöl""
-https://www.interspar.at/shop/lebensmittel/hofer-kerzen-grabkerze-3-tage-premium-rot-100-pflanzenoel/p/8209245"
+"price found in site, missing in data
+https://www.mueller.at/p/die-reifepruefung-collectors-edition-4k-ultra-hd-blu-ray-cd-PPN3137916/?itemId=3137916"
 
 
-"product name is
-""Toppits Zipper Duo Packung 1L und 3L 12x 1L und 8x 3L""
-grammage quantity and unit is 12x1L
-https://www.interspar.at/shop/lebensmittel/toppits-zipper-duo-packung-1l-und-3l-12x-1l-und-8x-3l/p/2020000701149"
+DataHut_AT_Billa_PriceExtractions_20250917.CSV
+DataHut_AT_Mpreis_PriceExtractions_20250917.CSV
 
-
-nawy_egp_2025_09_03.json
+carrefour_2025_09_17.xlsx
 -------------------------
-"details missing in data, found in site. 
-https://www.nawy.com/compound/1239-elan/property/79158-apartment-for-sale-in-elan-with-1-bedroom-in-new-cairo-by-madinet-masr
+"ingradients incomplete, starting with comma found for some rows
+eg:https://www.carrefour.fr/p/amandes-gout-fume-seeberger-4008258039007?t=1908
+starting with , , 
+https://www.carrefour.fr/p/noix-de-cajou-vinaigre-herbes-de-provence-et-sesame-supernuts-3760279580197?t=2118
+"
 
-https://www.nawy.com/compound/1642-saltshore-salt/property/91406-townhouse-for-sale-in-saltshore-salt-with-3-bedrooms-in-ras-el-hekma-by-tatweer-misr
-
-https://www.nawy.com/compound/927-salt/property/71720-villa-for-sale-in-salt-with-3-bedrooms-in-ras-el-hekma-by-tatweer-misr
-
-price missing,
-https://www.nawy.com/compound/927-salt/property/71720-villa-for-sale-in-salt-with-3-bedrooms-in-ras-el-hekma-by-tatweer-misr
-
-https://www.nawy.com/compound/1642-saltshore-salt/property/91406-townhouse-for-sale-in-saltshore-salt-with-3-bedrooms-in-ras-el-hekma-by-tatweer-misr
-
-price and max_price missing
-
-https://www.nawy.com/compound/1239-elan/property/79158-apartment-for-sale-in-elan-with-1-bedroom-in-new-cairo-by-madinet-masr"
-
-data count : 18934
-
-DataHut_AT_Mpreis_PriceExtractions_20250916.CSV
-
-dubizzle_uae_2025_09_03.json
-----------------------------
-"agent name contains white space
-""     ⁠Danylo Katarin"",
-    ""url"": ""https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/9/8/vida-interiors-close-to-the-mall-good-p-2-802263/"",
-page not available
-https://abudhabi.dubizzle.com/property-for-rent/rooms-for-rent-flatmates/apartmentflat/2025/8/13/private-room-available-for-couples-keralit-3-172/
-
-https://ajman.dubizzle.com/property-for-sale/residential/apartment/2025/8/18/vital-location-high-roi-immediate-deliv-14-753194/
-
-https://dubai.dubizzle.com/property-for-rent/rooms-for-rent-flatmates/apartmentflat/2025/6/25/single-lady-only-bedroom-with-own-washroom-2-927/
-
-phone number found as + for 7 rows, empty in site 
-https://dubai.dubizzle.com/property-for-rent/residential/apartmentflat/2025/7/3/sea-facing-fully-furnished-all-bills-in-2-711725/
-
-white space found between numbers in phone number.
-https://dubai.dubizzle.com/property-for-rent/rooms-for-rent-flatmates/apartmentflat/2024/12/2/exicutive-bedspace-available-for-keralites-2-373/
-
-reference number found as ...... , .......... , 100//Beach///,10.bedroom.brand.new.luxury.modern.2.villa.sale.2.hall.Majlis.5m  etc
-
-rera_permit_number found as dot , - , n/a, unknown etc
-
-rera_registration_number found as - for 7 rows, 
-
-title contains white space
-eg: ‏""     Luxury 1BHK Apartment in Al Nahda | AED 32K |  30 Free Days ‪ ‬  ""
- "
-
- "price per found as 
- سنويا"
-
-
-dubizzle_egp_2025_09_03.json
----------------------------
-"ad no longer available
-https://www.dubizzle.com.eg/en/ad/luxury-garden-apartment-fifth-square-negotiable-price-ID502320735.html
-
-broker name found as dots. eg: ""."" .""..."".
-and white space found. eg:AMR ABOELENEEN (          ‫عمرو أبو العينين‬‎     ) 
-
-location contains white space in the begining
-""         Pearl des Rois, 5th Settlement""
-https://www.dubizzle.com.eg/en/ad/for-rent-a-fully-finished-office-with-air-conditioning-prime-location-ID502545845.html
-
-phone number found in site,missing in data
-https://www.dubizzle.com.eg/en/ad/own-a-chalet-with-a-roof-ready-for-viewing-with-a-fantastic-sea-view-with-installments-over-8-years-in-kali-coast-north-coast-ID502423111.html
-
-https://www.dubizzle.com.eg/en/ad/luxurious-fully-finished-standalone-villa-for-sale-with-installments-till-2030-in-soul-by-emaar-north-coast-ID502410358.html"
+"ingradients is taken as product description  for some rows
+eg:https://www.carrefour.fr/p/mini-moelleux-citron-pavot-200g-bonneterre-3396411227424?t=35095&s=4383  (same as site)
 
 
 
-DataHut_AT_Fressnapf_FullDump_20250918.CSV
------------------------------------------
-"product description found as paragraph 
-https://www.fressnapf.at/p/smoothiedog-sensitivo-3x-250-ml--immunio-3x-250-ml-1707466/"
+DataHut_AT_Cleverleben_FullDump_20250918.CSV
 
 
 
 
-bayut_uae_2025_09_03.json
--------------------------
-price_per 
-
-Data field not available % : previous 51.72%  current: 60.53%
 
 
-machinerytrader_2025_09_16.csv
-------------------------------
-Data count : 8820
-
-No of fields : 606
-
-
-DataHut_AT_Billa_FullDump_20250918.CSV
 
