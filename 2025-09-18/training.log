@@ -1,0 +1,163 @@
+
+
+
+DataHut_AT_Mpreis_FullDump_20250918.CSV
+---------------------------------------
+"promotion missing in site, so
+promotion price not found and change in price_per_unit and price
+https://www.mpreis.at/shop/p/fanta-orange-033-liter-dose-106187
+
+https://www.mpreis.at/shop/p/coca-cola-light-033-liter-dose-106155
+
+https://www.mpreis.at/shop/p/sprite-033-liter-106254
+https://www.mpreis.at/shop/p/melitta-bella-crema-la-crema-149997
+
+https://www.mpreis.at/shop/p/starkenberger-bier-gold-spezial-dunkel-tray-6x-05-liter-817149
+https://www.mpreis.at/shop/p/starkenberger-bier-heimatbier-tray-6x-05-liter-817131
+
+https://www.mpreis.at/shop/p/ariel-all-in-1-pods-universal-53-waschgaenge-435663
+https://www.mpreis.at/shop/p/mohnschnecke-mit-oesterreichischem-mohn-843450
+
+https://www.mpreis.at/shop/p/teekanne-bio-kindertee-bibo-beeren-294489
+https://www.mpreis.at/shop/p/knorr-kuechenkraeuter-143005"
+
+
+DataHut_AT_Cleverleben_FullDump_20250918.CSV
+DataHut_AT_Bipa_FullDump_20250918.CSV
+
+DataHut_AT_Mueller_FullDump_20250918.CSV
+---------------------------------------
+"price found in site, empty in data
+
+https://www.mueller.at/p/k-on-gesamtausgabe-staffel-1-2-8-dvds-PPN3146215/?itemId=3146215
+
+page not found 
+https://www.mueller.at/p/air-wick-automatisches-duftspray-freshmatic-max-nachfueller-seide-lilienfrische-PPN2905437/?itemId=2905437"
+
+
+DataHut_AT_Interspar_FullDump_20250918.CSV
+------------------------------------------
+"page not found
+
+https://www.interspar.at/shop/weinwelt/jacobs-cronat-loeskaffee-kraeftig/p/7497704SG
+
+promotion change found 17.09.2025 in data 18.09.2025 in site
+
+https://www.interspar.at/shop/lebensmittel/s-budget-energy-drink-1001-nacht/p/2020005354340
+
+https://www.interspar.at/shop/lebensmittel/s-budget-energydrink-juneberry/p/2020005357877
+
+https://www.interspar.at/shop/lebensmittel/s-budget-energy-drink-sour-ananas/p/2020005351950"
+
+
+
+DataHut_AT_Billa_FullDump_20250918.CSV
+-------------------------------------
+regular price
+
+Data field not available % : previous :18.96%  current: 7.40%
+
+promotion_price
+
+Data field not available % : previous :76.95%  current: 88.05%
+
+
+promotion_description
+
+Data field not available % : previous :76.96%  current: 88.10%
+
+
+
+DataHut_AT_Fressnapf_FullDump_20250918.CSV
+
+
+DataHut_AT_Interspar_FullDump_20250918.CSV
+-------------------------------------------
+price_was
+
+Data field not available % : previous :83.24% current: 87.01%
+
+promotion_price
+
+Data field not available % : previous :83.24% current: 87.01%
+
+
+promotion_valid_upto
+
+Data field not available % : previous :84.34% current: 89.85%
+
+
+promotion_description
+
+Data field not available % : previous :92.38% current: 97.51%
+
+
+multibuy_items_pricesingle
+
+Data field not available % : previous :92.38% current: 97.51%
+
+
+rameder_bike_carriers_2025_09_18.csv
+-------------------------------------
+"Model Selected
+ incomplete
+
+https://www.rameder.be/fietsendrager-thule-outway-179429-13331-1.html?force_sid=ee25fov1h53aillb357tbgro72
+
+space missing in Load Capacity
+eg:30kg"
+
+rameder_crossbar_2025_09_18.csv
+-------------------------------
+"Model Selected
+ incomplete
+
+https://www.rameder.be/dakdrager-menabo-omega-plus-212767-14382-1.html
+
+space missing in Load Capacity
+eg:50kg
+
+instock in site, out of stock in data
+https://www.rameder.be/dakdrager-menabo-203276-39208-1.html
+https://www.rameder.be/dakdrager-menabo-203279-39208-1.html
+
+https://www.rameder.be/dakdrager-menabo-omega-plus-212772-39209-1.html
+"
+
+rameder_towing_hitches_2025_09_18.csv
+------------------------------------
+"Model Selected
+ incomplete
+eg:https://www.rameder.be/brink-trekhaak-complete-set-152009-08636-1.html
+
+instock in site, out of stock in data
+https://www.rameder.be/erich-jaeger-elektrische-aansluitset-13polig-databus-specifiek-106163-14350-2.html
+
+same data repeatdly taken"
+eg:https://www.rameder.be/bosstow-trekhaak-stijf-incl-trail-tec-elektrische-set-7polig-specifiek-185565-10126-1.html
+
+
+rameder_trunkliners_2025_09_18.csv
+
+
+
+auto5be_bike_carriers_2025_09_18.csv
+auto5be_crossbar_2025_09_18.csv
+auto5be_floormats_2025_09_18.csv
+auto5be_skiboxes_2025_09_18.csv
+auto5be_towing_hitches_2025_09_18.csv
+auto5be_trunkliners_2025_09_18.csv
+
+
+
+
+
+
+
+
+
+Task        : [tcs:aldi_austria-weekly]-[https://www.interspar.at]-[qa-validation]-[weekly full data checking and qa sheet updation]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1

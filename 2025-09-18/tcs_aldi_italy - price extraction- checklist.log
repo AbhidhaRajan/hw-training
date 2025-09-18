@@ -1,0 +1,26 @@
+
+conad
+======
+
+selling/ regular price and price_per_kg/l field  : should not contain any comma(,) it should be replaced with dot(.) must be in float with 2 decimal places
+
+
+easycoop
+========
+selling/ regular price and price_per_kg/l field  : should not contain any comma(,) it should be replaced                                             with dot(.) must be in float with 2 decimal places
+
+
+Field should be empty if value not available	should not contain {}/None
+
+esselunga
+=========
+selling/ regular price and price_per_kg/l field  : should not contain any comma(,) it should be replaced with dot(.) must be in float with 2 decimal places
+
+"grammage_quantity , grammage_unit
+(default 1 pz)"	                      :Check if there are any unwanted characters other than quantity   and unit.
+
+Field should be empty if value not available	should not contain {}/None
+
+
+
+
