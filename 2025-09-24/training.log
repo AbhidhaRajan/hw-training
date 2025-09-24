@@ -1,0 +1,78 @@
+DataHut_AT_Cleverleben_PriceExtractions_20250924.CSV
+DataHut_AT_Bipa_PriceExtractions_20250924.CSV
+DataHut_AT_Dm_PriceExtractions_20250924.CSV
+DataHut_AT_Billa_PriceExtractions_20250924.CSV
+
+DataHut_AT_Interspar_PriceExtractions_20250924.CSV
+DataHut_AT_Mueller_PriceExtractions_20250924.CSV
+
+DataHut_AT_Mpreis_PriceExtractions_20250924.CSV
+---------------------------------------------
+"change in price and price per unit
+found. also aktion present in site, missing in data
+https://www.mpreis.at/shop/p/red-bull-dose-24x025-liter-110968"
+
+DataHut_IT_Esselunga_PriceExtractions_20250924.CSV
+-------------------------------------------------
+"yesterdays date found as extraction date
+''2025-09-23'"
+
+
+"breadcrumb in site found as
+""Home  /  
+SUPERMERCATO  /  
+Patatine e Dolciumi  /  
+Cioccolato  /  
+Tavolette  ""
+
+in data ""HOME > SUPERMERCATO > Patatine e Dolciumi > Cioccolato"" last word missing
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/253187/lindt-gamme-bleue-tavoletta-stracciatella-cioccolato-bianco-con-cioccolato-fondente-100-g
+
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/253951/esselunga-cioccolato-finissimo-al-latte-100-g"
+
+
+
+"promotion expired, so
+price change found
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/720297/good-green-mopur-crunch-scagliette-100-vegetali-al-gusto-di-pollo-80-g
+
+same issue
+
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/305014/parmalat-chef-besciamella-500-ml
+
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/303035/parmalat-chef-panna-uht-conf-3x125-ml"
+
+
+DataHut_DE_Decathlon_FullDump_20250924.CSV
+-----------------------------------------
+"grammage quantity and unit wrong
+found as ""2310143 l"" is model
+https://www.decathlon.de/p/mp/le-coq-sportif/sneakers-le-coq-sportif-modell-2310143l-classic-soft-w-farbe-weiss/_/R-p-66b25711-3793-4b98-81b7-13368842126a?mc=66b25711-3793-4b98-81b7-13368842126a_c4&c=WEISS
+
+similar issue find for many other rows
+https://www.decathlon.de/p/fc-porto-2004-cl-finale-retro-fussballtrikot/_/R-p-831b84db-52d3-48c5-88d8-f5299990c6c1?mc=831b84db-52d3-48c5-88d8-f5299990c6c1_c5&c=BLAU
+
+capacity is taken as grammage
+https://www.decathlon.de/p/mp/lineaeffe/lineaeffe-take-akashi-fluorocarbon-50m-0-50mm-29-0kg-ultraclear/_/R-p-debb34fb-fadb-4a21-b024-1dc299ded8fc?mc=debb34fb-fadb-4a21-b024-1dc299ded8fc_novar
+
+change in product name and price change found.
+in site product name is ""&#8203;Schwalbe Racing Ray 29x2.25"" (57-622), faltbarer MTB-Reifen, TLR, HS48...""
+in data is ""​Schwalbe Racing Ray 29x2.25"" (57-622), faltbarer MTB-Reifen, TLR, HS48...
+""https://www.decathlon.de/p/mp/schwalbe/und-8203-schwalbe-racing-ray-29x2-25-57-622-faltbarer-mtb-reifen-tlr-hs48/_/R-p-258353a4-0cce-429f-8675-fae07a2ebc81?mc=258353a4-0cce-429f-8675-fae07a2ebc81_c1c1&c=SCHWARZ_SCHWARZ"
+
+
+
+"product taken wrong, ""PERSONALIZED GIFT CERTIFICATE"" taken as product
+https://www.decathlon.de/p/personalisierter-geschenkgutschein/_/R-p-X8fa692e1-8a42-4432-9095-24ab331b100f?mc=8fa692e1-8a42-4432-9095-24ab331b100f
+
+wrong url ,taken into another page
+https://www.decathlon.de/p/medaillenband-10-mm-blau/_/R-p-X8594467?mc=8594467"
+
+"multiple dots found in price per unit for 386 rows 
+eg:1.445.00 €/Stück
+https://www.decathlon.de/p/mp/kite-optics/fernglas-apc-stabilized-schwarz/_/R-p-efa6b2c4-8dce-4f80-95fb-13d9d933a106?mc=efa6b2c4-8dce-4f80-95fb-13d9d933a106_c1&c=SCHWARZ"
+
+DataHut_AT_Cleverleben_FullDump_20250925.CSV
+
+DataHut_AT_Billa_FullDump_20250925.CSV
+
