@@ -1,0 +1,64 @@
+cleverleben
+===========
+PDP Mandatory fields   :  not added
+|' should be replaced with '\|' in data values : not aedded
+
+updated_requiremnet	-variant data is also included
+	"- If site_shown_uom contains ""Teebeutel Packung"",""Beutel"",""Btl"",""Teebeutel Karton"",""Teebeutel Paket"" , ""Teebeutel"" or Packung Beutel, then:
+     - grammage unit should be ""btl""
+     - grammage quantity should match the corresponding value shown on the site.
+-If site_shown_uom contains ""Portion Packung"" or ""ANW"", then:
+    - grammage unit should be  ""stuck""
+    - grammage quantity should match the corresponding value shown on the site.
+-if site shown uom contains 'Waschgang','WG' and 'Waschgänge' then
+     - grammage unit should be  ""wg""
+    - grammage quantity should match the corresponding value shown on the site."         : not added
+
+
+
+issue fixed :	partial data issue fixed     : not added
+
+
+
+
+
+spar_at 
+=======
+PDP Mandatory fields   :  not added
+|' should be replaced with '\|' in data values : not aedded
+
+updated_requiremnet	-variant data is also included
+	"- If site_shown_uom contains ""Teebeutel Packung"",""Beutel"",""Btl"",""Teebeutel Karton"",""Teebeutel Paket"" , ""Teebeutel"" or Packung Beutel, then:
+     - grammage unit should be ""btl""
+     - grammage quantity should match the corresponding value shown on the site.
+-If site_shown_uom contains ""Portion Packung"" or ""ANW"", then:
+    - grammage unit should be  ""stuck""
+    - grammage quantity should match the corresponding value shown on the site.
+-if site shown uom contains 'Waschgang','WG' and 'Waschgänge' then
+     - grammage unit should be  ""wg""
+    - grammage quantity should match the corresponding value shown on the site."         : not added
+
+
+
+issue fixed :	partial data issue fixed     : not added
+
+competitor_name  : not added
+
+pdp_url	: should have value    :not added
+
+breadcrumb	breadcrumb should not be empty  :not added
+
+site shown uom added	yes   :not added
+
+extracted_date 	yyyy-mm-dd (date of delivery)  :not added
+
+pdp_url	should have value  :not added
+
+
+
+
+currency is not added in sheet
+
+
+
+

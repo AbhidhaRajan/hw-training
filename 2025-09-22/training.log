@@ -1,0 +1,94 @@
+DataHut_AT_Cleverleben_PriceExtractions_20250922.CSV
+DataHut_AT_Dm_PriceExtractions_20250922.CSV
+DataHut_AT_Billa_PriceExtractions_20250922.CSV
+DataHut_AT_Bipa_PriceExtractions_20250922.CSV
+DataHut_AT_Mueller_PriceExtractions_20250922.CSV
+DataHut_AT_Mpreis_PriceExtractions_20250922.CSV
+
+nawy_egp_2025_09_04.json
+------------------------
+"change in max price, 9,734,000 in data 9,607,000 in site
+https://www.nawy.com/compound/1635-park-side-residences/property/98133-Serviced%20Studio-for-sale-in-Park%20Side%20Residences-with-26-bedrooms-in-El%20Sheikh%20Zayed-by-Ora%20Developers
+
+details max_price and price missing in data, found in site
+
+https://www.nawy.com/compound/1427-patio-vida/property/75137-apartment-for-sale-in-patio-vida-with-3-bedrooms-in-new-cairo-by-la-vista-developments
+
+https://www.nawy.com/compound/1032-hills-of-one/property/79653-apartment-for-sale-in-hills-of-one-with-1-bedroom-in-new-zayed-by-people-places
+
+details and price missing in data, found in site
+https://www.nawy.com/compound/874-boardwalk/property/59592-apartment-ground-for-sale-in-boardwalk-with-4-bedrooms-in-new-capital-city-by-atric-developments 
+
+Bathrooms found as 2 in data, 3 in site
+https://www.nawy.com/compound/874-boardwalk/property/59592-apartment-ground-for-sale-in-boardwalk-with-4-bedrooms-in-new-capital-city-by-atric-developments"
+
+
+DataHut_DE_Decathlon_FullDump_20250922.CSV
+------------------------------------------
+"grammage quantity found as 
+""3.5.8.10.15"",""10.15.20.30"",""3.5.8.10.15.20.30"",""11.6915.009.000.5""
+https://www.decathlon.de/p/mp/storfisk-fishing-und-more/5-hartschaum-raubfischposen-3-5-8-10-15-g-in-kegelform/_/R-p-679805d9-21db-459a-b42a-f298215587c9?mc=679805d9-21db-459a-b42a-f298215587c9_c4&c=WEISS
+
+https://www.decathlon.de/p/mp/storfisk-fishing-und-more/4-hartschaum-raubfischposen-10-15-20-30-g-in-kegelform/_/R-p-259467a4-5041-43da-8da9-8850c6a22399?mc=259467a4-5041-43da-8da9-8850c6a22399_c4&c=WEISS
+
+https://www.decathlon.de/p/mp/storfisk-fishing-und-more/7-hartschaum-raubfischposen-3-5-8-10-15-20-30-g-in-kegelform/_/R-p-68a0763d-d395-4dc8-a63c-3a4f83f5f43d?mc=68a0763d-d395-4dc8-a63c-3a4f83f5f43d_c4&c=WEISS
+
+https://www.decathlon.de/p/mp/sram/sram-kettenblattschrauben-truvativ-11-6915-009-000-5-stueck-m8-alu-schwarz/_/R-p-7c595e66-2a56-48fa-b57e-4a8b4e8e008a?mc=7c595e66-2a56-48fa-b57e-4a8b4e8e008a_c1&c=SCHWARZ
+
+grammage quantity and unit taken wrong, 05 l in data, 
+product name is ""Tommy Hilfiger TH 2208/S 05L Damen Sonnenbrille Größe 53mm""
+https://www.decathlon.de/p/mp/tommy-hilfiger/tommy-hilfiger-th-2208-s-lhf-damen-sonnenbrille-groesse-53mm/_/R-p-2ed03089-bf1b-49ba-b7be-2169646be937?mc=2ed03089-bf1b-49ba-b7be-2169646be937_c255c5&c=bunt_BLAU
+
+color found as -, - / -- / -- etc, same found in sitegrammage quantity found as 0 for 30 rows
+eg:https://www.decathlon.de/p/mp/kentucky-horsewear/regencape-fuer-hunde-kentucky-0g/_/R-p-3601ea03-0665-4d80-8ec8-627ac60253a5?mc=3601ea03-0665-4d80-8ec8-627ac60253a5_c5&c=BLAU
+
+grammage quantity found as ""0256"" 
+https://www.decathlon.de/p/mp/klickfix/klickfix-satteltasche-norco-ohio-road-schwarz-0-3-ltr-ca-50g-0256-g/_/R-p-235c04e0-f018-423f-bed5-a1ed99abe3c4?mc=235c04e0-f018-423f-bed5-a1ed99abe3c4_c251&c=grau
+same issue found for other two rows too
+
+grammage quantity found as ""1.000""
+https://www.decathlon.de/p/mp/messingschlager/messingschlager-trinkflasche-pbo-1000-m-wave-kunststoff-1-000ml-schwarz/_/R-p-18d77748-e49c-4a97-b2d7-70a9cdd9bb0f?mc=18d77748-e49c-4a97-b2d7-70a9cdd9bb0f_c1&c=SCHWARZ
+
+wrong grammage quantity found fpr many rows
+eg:1365461,1365462
+https://www.decathlon.de/p/mp/under-armour/under-armour-clean-up-1365461-xxl-schwarz-gold/_/R-p-449dab44-1279-40ae-b829-325781260ecc?mc=449dab44-1279-40ae-b829-325781260ecc_c255c14c1&c=bunt_ROT_SCHWARZ
+
+manufacturer_address found as , and image urls
+eg:https://www.decathlon.de/p/mp/insportline/unisex-climatex-veni-handschuhe-2xl-atmungsaktiv-und-warm/_/R-p-3584f6ec-4a93-4d54-abae-017e2da1dbb5?mc=3584f6ec-4a93-4d54-abae-017e2da1dbb5_c1&c=SCHWARZ
+
+
+size found as dot, eg: . , .....
+
+
+2025-09-22' date wrong
+
+"unique id found as,""820ec775-fb7e-4bdd-a4d5-1e22c4de11ee_novar""
+https://www.decathlon.de/p/mp/superb/super-b-reinigungsbuerste-tb-1711-classic-880106/_/R-p-820ec775-fb7e-4bdd-a4d5-1e22c4de11ee?mc=820ec775-fb7e-4bdd-a4d5-1e22c4de11ee_novar
+"
+price_per_unit contains comma insted of dots for all rows
+
+"producthierarchy_level7', 'special_information'  not empty
+
+ 'instructions', 'storage_instructions', 'preparationinstructions', 'instructionforuse' are empty"
+
+"DataHut_DE_Decathlon_FullDump_20250922.CSV
+day wrong"
+
+
+
+dari_ae_2025_09_04.json
+
+bayut_egp_2025_09_04.json
+------------------------
+number_of_photos   Missing Count previous:0 current : 1
+depth              Missing Count previous:0 current : 2
+
+"depth found as premium, empty in data
+https://www.bayut.eg/en/property/details-502236201.html
+
+https://www.bayut.eg/en/property/details-502235799.html"
+
+
+
+
+
