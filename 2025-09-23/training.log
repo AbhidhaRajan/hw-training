@@ -1,0 +1,65 @@
+DataHut_AT_Mueller_PriceExtractions_20250923.CSV
+DataHut_AT_Cleverleben_PriceExtractions_20250923.CSV
+DataHut_AT_Interspar_PriceExtractions_20250923.CSV
+DataHut_AT_Billa_PriceExtractions_20250923.CSV
+DataHut_AT_Bipa_PriceExtractions_20250923.CSV
+DataHut_AT_Mpreis_PriceExtractions_20250923.CSV
+DataHut_AT_Dm_PriceExtractions_20250923.CSV
+
+
+dubizzle_egp_2025_09_04.json
+
+---------------------------
+
+"price change found.""17,000"" in site, 18,000 in data
+https://www.dubizzle.com.eg/en/ad/%D8%B4%D9%82%D8%A9-%D9%85%D9%81%D8%B1%D9%88%D8%B4%D8%A9-%D9%85%D9%83%D9%8A%D9%81%D8%A9-2-%D9%86%D9%88%D9%85-%D9%88-2-%D8%A8%D9%84%D9%83%D9%88%D9%86-%D8%A7%D9%84%D8%AD%D9%8A-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-6%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1-ID202094775.html
+
+bullet points in description is taken as characters. eg:""oInsurance: 2 Months oEscalation Rate: 10 % oPayment Terms: Quarterly""
+    ""url"": ""https://www.dubizzle.com.eg/en/ad/opprtunity-office-for-rent-in-cfc-ID502306532.html"",
+
+white space found in location
+eg:""location"":""    ‎Pearl des Rois, 5th Settlement""
+https://www.dubizzle.com.eg/en/ad/for-rent-fully-furnished-office-meeting-room-pearl-mall-ID502308987.html
+
+phone number found in site, missing in data
+https://www.dubizzle.com.eg/en/ad/apartment-for-rent-in-mountain-view-icity-2-rooms-6th-of-october-giza-mountain-view-icity-bargain-price-ID502571155.html
+
+https://www.dubizzle.com.eg/en/ad/ready-to-viewing-medical-clinic-fully-finished-mange-by-cleopatra-group-for-sale-by-lowest-price-in-heart-of-new-cairo-mall-voke-ID502558117.html
+
+price change found. ""1"" in data,""36,192,000"" in site
+https://www.dubizzle.com.eg/en/ad/one-story-villa-lake-view-new-giza-ID502584264.html
+
+same issue
+https://www.dubizzle.com.eg/en/ad/directly-from-the-owner-a-ground-chalet-in-marina-2-for-3000-egp-ID205408453.html
+
+https://www.dubizzle.com.eg/en/ad/%D8%A8%D9%88%D8%B1%D8%AA%D9%88-%D9%85%D8%A7%D8%B1%D9%8A%D9%86%D8%A7-%D8%AC%D9%88%D9%84%D9%81-%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A%D9%86-ID205179023.html
+
+title found as  ""………. /""
+    ""url"": ""https://www.dubizzle.com.eg/en/ad/-ID205745117.html"",
+
+
+
+
+DataHut_AT_Bipa_FullDump_20250925.CSV
+
+DataHut_AT_Fressnapf_FullDump_20250925.CSV
+
+
+DataHut_AT_Mpreis_FullDump_20250925.CSV
+
+DataHut_AT_Mueller_FullDump_20250925.CSV
+-------------------------------------
+"replaced with  \\| in varients
+
+eg:https://www.mueller.at/p/alessandro-striplac-uv-colour-nagellack-PPN3092247/?itemId=3092301"
+
+
+DataHut_AT_Dm_FullDump_20250925.CSV
+-----------------------------------
+"breadcrumb in site found as ""Startseite > Vorlagen Landin­g­pages > Nachhaltig inspiriert mit dm > Haushalt"" and in data ""Startseite > Styleguide > Vorlagen Landin­g­pages > Nachhaltig inspiriert mit dm > Haushalt"".. so producthierarchy_level2 not found in site,
+
+https://www.dm.at/profissimo-klammern-aus-holz-mini-p4058172507182.html"
+
+
+
+
