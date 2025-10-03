@@ -1,0 +1,120 @@
+
+
+
+DataHut_SI_Mercator_PriceExtractions_20250926.CSV
+------------------------------------------------
+"logical error.
+grammage quantity found as
+0.5kg, selling price found as  6,49€
+and price per unit found as
+6.49€ / 1kg
+
+https://mercatoronline.si/izdelek/8199184/pecenica-mercator-pakirano-cca-0-5-kg-cena-za-kg"
+
+
+DataHut_SI_Spar_PriceExtractions_20250926.CSV
+DataHut_SI_Dm_PriceExtractions_20250926.CSV
+
+DataHut_AT_Cleverleben_PriceExtractions_20250926.CSV
+
+DataHut_AT_Fressnapf_PriceExtractions_20250926.CSV
+
+DataHut_AT_Interspar_PriceExtractions_20250926.CSV
+
+bayut_bah_2025_10.json
+---------------------
+"white space found in agent name
+""""          ‫ عبدالله البابطين‬‎""
+https://www.bayut.bh/en/property/details-105553257.html
+
+published_at found as 9 June 2025 in data, 
+10 June 2025 in site
+https://www.bayut.bh/en/property/details-105401263.html"
+
+bayut_bah_2025_10.json  validation sheet
+------------------------------------------
+bedrooms
+
+Data field not available %  previous:66.81%  current:71.19%
+
+bathrooms
+
+Data field not available %  previous:65.28%  current:69.53%
+
+amenities
+
+Data field not available %  previous:4.08%  current:6.18%
+
+
+baity_bah_2025_10.json
+
+bayut_ksa_2025_10.json
+----------------------
+"amenities incomplete
+https://www.bayut.sa/en/property/details-87646652.html"
+
+price
+number of empty fields .previous:0 current:4
+
+previous month data count : 37266  current:56248
+
+broker_display_name,broker
+
+Data field not available %  previous:6.47%  current:11.60%
+
+bedrooms
+
+Data field not available %  previous:30.92%  current:51.03%
+
+
+bathrooms
+
+Data field not available %  previous:26.77%  current:48.06%
+
+furnished
+
+Data field not available %  previous:3.23% current:11.98%
+
+number_of_photos
+
+Data field not available %  previous:25.60% current:38.45%
+
+user_id
+
+Data field not available %  previous:6.63% current:11.71%
+
+completion_status
+
+Data field not available %  previous:35.54% current:42.04%
+
+
+
+
+Task        : [propertyfinder-monthly]-[https://www.bayut.sa]-[qa-validation]-[monthly validation sheet and validation report testing]
+Status      : doing
+ETD         : 00:10
+Assigned By : revathy
+Priority    : p1
+
+Task        : [propertyfinder-monthly]-[https://www.bayut.sa]-[qa-validation]-[monthly full data testing and qa sheet updation]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+
+
+
+Task        : [datahut-]-[]-[discussion]-[preperation of qa task data]
+Status      : doing
+ETD         : 01:00
+Assigned By : revathy
+Priority    : p1
+
+
+
+Task        : [datahut-]-[]-[discussion]-[checking PF Monthly checklists for missing requirements]
+Status      : doing
+ETD         : 01:00
+Assigned By : revathy
+Priority    : p1

@@ -1,0 +1,61 @@
+Mercator
+--------
+1.line 3010 , unique id missing :  18793377
+
+2.line 9610 , competitor_name  : Mercator
+
+3.line 19 , product_name missing :Prepeličja jajca, 12/1
+
+4.line 125 , grammage_unit changed to m from ml.
+
+5.line 16452, regular and selling price , dot replaced with comma : 1.89 -- 1,89
+
+6.line 16237, pdp_url removed : https://mercatoronline.si/izdelek/17547209/bio-limonin-sok-jardin-bio-250-ml
+
+7.line 149 , extraction date missing -- 2025-09-26
+
+
+
+Spar
+----
+1.filename changed to Datahut_SI_spar_PriceExtraction_20250925.CSV
+  (H small in DataHut ,S small in Spar , s missing in PriceExtractions, Day changed to 25 )
+
+2.line 660 ,promotion description is SPAR PLUS POPUST Trajno znižano
+
+  promotion price is added as 1.48
+
+3.in line 16794, dot is replaced with comma in price_per_unit
+   6.98€/l --- 6,98€/l
+
+4.line 13,percentage_discount, % is added, 15 -- 15%
+
+5.line 100, currency changed EUR -- eur
+
+6.line 1,site_shown_uom missing  8kos
+
+7.line 10 ,breadcrumb missing --  Domov > VSE ZA OTROKA > Prehrana otroka > Otroški čaji > INSTANT ČAJ JABOLKO IN MELISA, BEBIVITA, 200G
+
+
+Dm
+==
+1.filename changed to DataHut_SI_DM_PriceExtractons-20250926.CSV
+
+  (Dm -- DM ,i missing in PriceExtractions, _ changed to -, CSV changed to csv)
+
+2.line 21 , competitor_name missing
+
+3.line 12357, added > in  breadcrumb  Domov to  Domov> 
+
+4.line 89, grammage quantity contains comma, 0.75 to 0,75
+
+5.line 12 , regular and selling price missing  3.10	,3.10
+
+6.line 5400,5401 currency missing  EUR , EUR
+
+7.line 1, pdp_url changed to  https:////www.dm.si/catrice-rdecilo-za-ustnice-high-shine-gloss-espresso-yourself-02-mocha-mousse-p4059729552846.html
+(extra // added)
+
+
+
+
