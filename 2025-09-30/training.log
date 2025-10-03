@@ -1,0 +1,138 @@
+
+
+
+Task        : [tcs:aldi_austria:price-daily]-[https://billa.at]-[qa-validation]-[daily full data  testing and qa sheet updation]
+Status      : doing
+ETD         : 00:20
+Assigned By : revathy
+Priority    : p1
+
+
+DataHut_AT_Cleverleben_PriceExtractions_20250930.CSV
+DataHut_AT_Mpreis_PriceExtractions_20250930.CSV
+
+DataHut_AT_Mueller_PriceExtractions_20250930.CSV
+------------------------------------------------
+"price found in site
+missing in data
+
+https://www.mueller.at/p/polly-pocket-wicked-schatulle-PPN3111120/?itemId=3111120"
+
+
+DataHut_AT_Interspar_PriceExtractions_20250930.CSV
+-------------------------------------------------
+"small change in product name found
+""SPAR Tomate Rispe per kg 100g"" in data
+""SPAR Tomate Rispe per kg "" in site
+https://www.interspar.at/shop/lebensmittel/eigenmarken/spar-tomate-rispe-per-kg/p/6718381"
+
+DataHut_AT_Bipa_PriceExtractions_20250930.CSV
+DataHut_AT_Fressnapf_PriceExtractions_20250930.CSV
+DataHut_AT_Dm_PriceExtractions_20250930.CSV
+
+DataHut_AT_Billa_PriceExtractions_20250930.CSV
+
+
+dubizzle_egp_2025_09_05.json
+----------------------------
+"extra comma found in description
+eg:"", Fully Finished, Ready-to-Move Apartment for...
+https://www.dubizzle.com.eg/en/ad/the-lowest-price-and-installments-in-fustat-downtown-immediate-delivery-finished-apartment-for-sale-on-salah-salem-street-islamic-style-ID502578831.html
+same issue found for some other rows too
+https://www.dubizzle.com.eg/en/ad/the-lowest-price-and-installments-in-fustat-downtown-immediate-delivery-finished-apartment-for-sale-on-salah-salem-street-islamic-style-ID502578779.html
+
+phone number found in site, missing in data
+https://www.dubizzle.com.eg/en/ad/code-esr281-apartment-for-rent-in-eastown-ID502580269.html
+
+https://www.dubizzle.com.eg/en/ad/chalet-garden-for-sale-fully-finished-with-acs-open-view-direct-lagoon-down-payment-and-installments-in-azha-north-coast-ras-al-hekma-ID502580958.html
+
+wrong url, leads into another page
+https://www.dubizzle.com.eg/en/ad/industrial-administrative-building-for-sale-in-alif-factory-area-ID205913571.html"
+
+
+dubizzle_egp_2025_09_05.json
+----------------------------
+description missing count
+
+previous 1, current 3
+
+DataHut_AT_Interspar_FullDump_20251002.CSV
+-----------------------------------------
+
+retail_limit is empty
+
+"description not line by line
+https://www.interspar.at/shop/haushalt/alle-marken/kapla-bauset-200-bausteine/p/2020003490187"
+
+"promotion valid upto changed to 07-10-2025
+https://www.interspar.at/shop/lebensmittel/spar-haselnuss-kerne-500g/p/513098
+
+
+ promotion valid upto changed to  22.10.2025
+
+https://www.interspar.at/shop/haushalt/alle-marken/beko-waschmaschine-bm3wfu39413w/p/2020005810242"
+
+
+
+DataHut_AT_Fressnapf_FullDump_20251002.CSV
+------------------------------------------
+"feeding_recommendation contains extra characters in data, not found in site
+eg:feeding_suggestions'
+https://www.fressnapf.at/p/mypetclub-junior-trockenfutter-getreidefrei-mit-lachs-1897042/"
+
+
+bayut_uae_2025_09_05.json
+------------------------
+
+package_type - values  
+
+hot, premium, superhot, only 
+
+
+"completion_status found as 
+""off-plan resale"" in data ""off-plan "" in site
+https://www.bayut.com/property/details-12189172.html
+
+number of photos missing in data, found in site
+https://www.bayut.com/property/details-12889999.html"
+
+
+email empty data count
+
+previous: 30  current :823
+
+
+price_per , data field not available
+
+previous % : 54.57%    current % : 61.29%
+
+DataHut_AT_Mueller_FullDump_20251002.CSV
+
+
+coldwellbankerinternational_2025_10_05.json
+------------------------------------------
+"address contains white space
+""Unidad funcional   12   y   12A, R. Caamaño 662, Villa Rosa, Provincia de Buenos Aires""
+https://www.coldwellbankerinternational.com/agent/VatT3EykTb"
+
+
+
+Task        : [KW-monthly]-[https://www.coldwellbankerinternational.com]-[qa-validation]-[weekly full data testing, qa sheet updation and validation sheet checking]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+
+Task        : [propertyfinder-weekly]-[https://www.dubizzle.com.eg]-[qa-validation]-[weekly validation sheet checking]
+Status      : doing
+ETD         : 00:10
+Assigned By : revathy
+Priority    : p1
+
+
+Task        : [tcs:aldi_austria-weekly]-[https://www.mueller.at]-[qa-validation]-[weekly partial data checking and qa sheet updation]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
