@@ -1,0 +1,50 @@
+
+
+
+
+DataHut_SI_Mercator_FullDump_20250925.CSV
+DataHut_SI_Dm_FullDump_20250925.CSV
+------------------------------------
+"breadcrumb in data found as
+""Domov > Dojenček in otrok > Otroška hrana in napitki > Kašice za dojenčke in otroke v kozarčkih""
+but in site is found as ""Domov ""
+https://www.dm.si/dmbio-bio-sadni-pripravek-z-jogurtom-in-polnozrnatimi-ziti-p4066447626643.html
+
+
+DataHut_SI_Spar_FullDump_20250925.CSV
+-------------------------------------
+"extra characters found in product description
+eg:""Nao ponudbo nagrajenih kruhkov smo razirili z novim članom druine, karamelizirano čebulo, ki bo zagotovo navduila vae brbončice.
+https://www.spar.si/online/ovseni-krekerji-s-karamelizirano-cebulo-schnitzer-150g/p/663870
+
+
+DataHut_AT_Interspar_FullDump_20250925.CSV
+-----------------------------------------
+"promotion valid upto not found in site,
+found as ""24.09.2025"" in data for 3 rows
+eg:https://www.interspar.at/shop/lebensmittel/spar-veggie-veganer-bio-tofu-natur/p/1090161"
+
+
+DataHut_CH_Coop_FullDump_20250925.CSV
+-----------------------------------
+"image found in site, missing in data
+
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/milch/kokosmilch/blue-elephant-thai-coconut-milk/p/7221487
+
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/joghurt/joghurt-nature/prix-garantie-joghurt-nature-35/p/7341118
+
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/joghurt/spezialjoghurt-mueesli/country-crunchy-joghurt-classic-mueesli/p/7169192"
+
+
+baity_bah_2025_10.json
+
+sedd_uae_2025_10.json
+---------------------
+
+"extra white space in name
+""AAR REAL ESTATE INVESTMENTS CO.   L.L.C""
+    ""license_number"": ""923263"",
+"
+
+
+

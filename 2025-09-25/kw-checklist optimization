@@ -1,0 +1,48 @@
+evrealestate
+============
+
+Fields- Spelling	as per Fields   ; not added
+Fields- Order	as per Fields       ; not added
+
+Check the field name cases(lower and upper)	
+check all the field name are in correct lower    ; not added
+case and underscore                                   
+
+Count matched between site and data file	Matched
+	                                        Not Matched    ;not added
+
+sothebysrealty
+=============
+
+
+Fields- Spelling	as per Fields   ; not added
+Fields- Order	as per Fields       ; not added
+
+Check the field name cases(lower and upper)	
+check all the field name are in correct lower    ; not added
+case and underscore       
+
+
+Count matched between site and data file	Matched
+	                                        Not Matched    ;not added                            
+
+
+alliebeth,iowarealty,home_realestate,ewm,ebby,harrynorman,longrealty,intero_realestate,
+firstweber,huff_realty,longandfoster,rector_hayden,woodbros,robertsbrothers,semonin_realtors,
+realtysouth,houlihanlawrence,reecenichols,coldwellbankerinternational,bhgre,century21_us,sutton,
+century21global,exprealty,royallepage,edinarealty,realliving_realestate,compass,remax_us_,
+globalremax,berkshirehathaways,coldwellbanker_us,kentwood
+==========================================================================================
+
+social	              :    "if value it should be list of dict.
+                          if no value it should be empty dict"
+
+languages, 
+office_phone_numbers,         "if value it should be in a list 
+agent_phone_numbers,"	 :    if no value it should be empty list"
+
+
+
+inactive_pages in sheet
+-------------------------
+rubina_realestate,wrrealtors,guarantee,global_remax
