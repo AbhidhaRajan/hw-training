@@ -1,0 +1,165 @@
+
+
+DataHut_CH_Denner_FullDump_20251002.CSV
+---------------------------------------
+producthierarchy_level5
+
+Data field not available % previous: 66.32%  current :62.37%
+
+producthierarchy_level6
+
+Data field not available % previous: 66.32%  current :62.37% 
+
+producthierarchy_level7
+
+Data field not available % previous: 66.40%  current :62.45%
+
+DataHut_CH_Migros_FullDump_20251002.CSV
+DataHut_SI_Mercator_FullDump_20251002.CSV
+DataHut_SI_Dm_FullDump_20251002.CSV
+----------------------------------
+"retail limit found as 130 in site
+131 in data
+https://www.dm.si/ebelin-kozmeticne-blazinice-iz-100-bombaza-p4058172178481.html
+
+same issue, retail limit is 171 in site, 172 in data
+https://www.dm.si/ebelin-vatirane-palcke-vec-barv-p4066447016734.html"
+
+
+DataHut_SI_Spar_FullDump_20251002.CSV
+
+DataHut_CH_Coop_FullDump_20251002.CSV
+-------------------------------------
+"image found in site, missing in data
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/abgepackter-kaese/kaesesnack-apero/emmi-luzerner-rahmkaese-sticks-5-stueck/p/5799961
+
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/abgepackter-kaese/frischkaese-mozzarella/frischkaese-aufstrich/tartare-frischkaese-kraeuter-knoblauch-8-portionen/p/3658297
+
+https://www.coop.ch/de/lebensmittel/milchprodukte-eier/abgepackter-kaese/weichkaese/weissschimmelkaese/naturaplan-bio-le-moelleux/p/3543018"
+
+
+"white space missing in dimensions.
+values found as single 
+eg: 0.10cmx4cmx1.500cm
+https://www.coop.ch/de/haushalt-tier/buero-papeterie/kleber-schnur/tesa-poster-strips-weiss-20-stueck/p/3267260"
+
+
+
+"extra character found in
+price_per_unit
+eg:4’750.00/100kg, 5’050.00/100kg 
+https://www.coop.ch/de/lebensmittel/fleisch-fisch/abgepacktes-frischfleisch/metzgete-innereien/hirschschnitzel-ca/p/4160239"
+
+
+
+
+woodsbros_2025_10_05.json
+-------------------------
+fields are not in order
+
+"description contains white space.
+eg:""Lou Villalobos 
+The Right Choice for Real Estate.""
+in site. "". Lou V illalobos The Right Choice for Real Estate."" in data
+https://louvillalobos.woodsbros.com/
+
+languages found as ""'Relocation Specialist', 'Lead Team Certified"" etc
+https://www.woodsbros.com/bio/ashleyterry
+
+wrong profile url
+https://www.woodsbros.com/roster/agents/11
+
+description incomplete, facebook url found in site, missing in data
+https://alyssawallace.woodsbros.com/
+
+description incomplete
+https://luxe.woodsbros.com/
+
+https://www.woodsbros.com/bio/ruthfandrey"
+
+
+
+kw_set_4/century21global_2025_10_05.json
+---------------------------------------
+fields are not in order
+data count is : 24902
+
+"
+""description"" contains white space
+eg:""""  342200234Mais do que vender casas""
+    ""profile_url"": ""https://www.century21global.com/en/agents/rl-135463205"",
+
+wrong image url found
+""    ""image_url"": ""https://www.century21global.com/FAILED_MIGRATION"",
+    ""profile_url"": ""https://www.century21global.com/en/agents/rl-135424206"",
+"
+
+kw_set_4/century21_us_2025_10_05.json
+------------------------------------
+"full name taken as 
+first name
+""The Mills Group""
+https://www.century21.com/real-estate-agent/profile/kevin-mills-of-the-mills-group-of-the-mills-group-P25382693"
+
+zipcode
+
+Data field not available  previous:0  current : 34
+
+kw_set_4/longandfoster_2025_10_05.json
+--------------------------------------
+"wrong facebook url found
+        ""facebook_url"": ""https://www.facebook.com\\MikeSandiferRealEstate"",
+    ""profile_url"": ""https://www.longandfoster.com/AgentSearch/MikeSandifer-10448811""
+
+listing not available
+https://www.longandfoster.com/AgentSearch/SaraAsgari-13346455
+
+https://www.longandfoster.com/AgentSearch/AmeeBresnahan-14139230
+
+description incomplete,complete description found in site
+https://www.longandfoster.com/AgentSearch/BarbaraMcKnight-10447435
+
+extra characters found in description 
+eg:.MsoNormal { color: #2a72b8; } 
+https://www.longandfoster.com/AgentSearch/NancySteorts-10483355"
+
+woodsbros_2025_10_05.json(validation sheet)
+-----------------------
+
+description
+
+Data field not available  previous:27  current : 8
+
+title
+
+Data field not available  previous:0  current : 6
+
+
+kw_set_5/globalremax_2025_10_05.json
+-----------------------------------
+"""white space found in city names in some rows
+eg:    """"city"""": """"Sao Joao da Boa Vista                  """",
+    """"profile_url"""": """"https://global.remax.com/en/agents/brazil/sao-joao-da-boa-vista-jardim-santo-andre/monique-canestri/780291011""""
+same issue find for some other rows too
+""""Vitoria                                 """"
+description found incomplte
+https://global.remax.com/en/agents/brazil/nova-friburgo-centro/walcirleyfreiredelimaesilva-monicamartinsnicolaute/630551024
+
+https://global.remax.com/en/agents/poland/bielsko-biala/ewelina-gieldon/470131047
+
+address found in site, missing in site
+https://global.remax.com/en/agents/albania/piazza-scanderbeg/xhino-abedinaj/530281026
+
+wrong website found in some rows.
+eg:http://320868 
+profile url """"https://global.remax.com/en/agents/israel/jerusalem-malcha-manahat/alon-ben-david/830501212""""
+
+"""
+
+
+
+Task        : [KW-monthly]-[https://www.globalremax.com]-[qa-validation]-[weekly full data testing, qa sheet updation and validation sheet checking]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
