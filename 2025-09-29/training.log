@@ -1,0 +1,102 @@
+
+
+DataHut_SI_Spar_PriceExtractions_20250929.CSV
+DataHut_AT_Cleverleben_PriceExtractions_20250929.CSV
+
+DataHut_AT_Mueller_PriceExtractions_20250929.CSV
+-----------------------------------------------
+datacount 
+
+previous : 100526          current:95248
+
+
+DataHut_AT_Bipa_PriceExtractions_20250929.CSV
+
+DataHut_AT_Mpreis_PriceExtractions_20250929.CSV
+DataHut_AT_Interspar_PriceExtractions_20250929.CSV
+
+nawy_egp_2025_09_05.json
+-----------------------
+
+
+"price and details found in site
+missing in data
+https://www.nawy.com/compound/488-tonino-lamborghini-residences/property/90167-en
+
+price, max price and details found in site, missing in data
+https://www.nawy.com/compound/1303-el-patio-sola/property/64335-apartment-ground-for-sale-in-el-patio-sola-sherouk-with-4-bedrooms-in-el-shorouk-by-la-vista-developments
+
+finishing found as ""white_box "" for 10 rows, same found in site too"
+
+finishing found as white box in site, empty in data
+https://www.nawy.com/compound/197-the-capitalway/property/98407-Apartment-for-sale-in-The%20Capitalway%20-with-21-bedrooms-in-New%20Capital%20City-by-The%20Waterway%20Developments
+
+bayut_uae_project_2025_09_05.json
+-----------------------------------
+
+"white space found in
+""developer_name"":""MASKAN MS CONTRACTING AND   REAL ESTATE DEVELOPMENT - L.  L.   C - S.  P.  C"",
+
+https://www.bayut.com/for-sale/off-plan/property/abu-dhabi/al-shamkha/al-reeman-1/nourwatan"
+
+
+
+dubizzle_uae_2025_09_05.json
+---------------------------
+
+
+"phone number missing in site, found in data
+https://rak.dubizzle.com/property-for-sale/commercial/commercial-building/2025/8/29/burhan-1-11-983912/
+
+https://rak.dubizzle.com/property-for-rent/short-term/apartmentflat/2024/3/18/villa-11-700/
+
+page cant be reached
+https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/8/21/vacant-spacious-studio-low-floor-furnis-2-293414/
+
+https://ajman.dubizzle.com/property-for-rent/commercial/commercial-villa/2025/9/16/-for-rent-commercial-villa-in-al-rawda--14-440710/
+
+phone number found as + in data, empty in site
+https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/8/15/motivated-seller-1-bed-furnished-vacant-2-303890/
+
+last update changed to 2025-09-29
+https://dubai.dubizzle.com/property-for-rent/rooms-for-rent-flatmates/villahouse/2025/9/19/family-room-available-2-869/
+
+price change found,""4498"" in site, 4298 in data
+https://dubai.dubizzle.com/property-for-rent/short-term/apartmentflat/2025/2/12/well-furnished-1bhk-ii-monthly-payment--2-208616/"
+
+datacount difference
+previous week : 298495   current week: 290245
+
+
+bayut_egp_2025_09_05.json
+
+DataHut_AT_Bipa_FullDump_20251002.CSV
+
+
+
+
+Task        : [tcs:aldi_austria-weekly]-[https://www.bipa.at]-[qa-validation]-[weekly partial data checking and qa sheet updation]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+
+Task        : [datahut-]-[]-[discussion]-[checking PF Monthly checklists for missing requirements]
+Status      : doing
+ETD         : 0:45
+Assigned By : revathy
+Priority    : p1
+
+Task        : [propertyfinder-weekly]-[https://www.bayut.eg]-[qa-validation]-[weekly validation sheet checking]
+Status      : doing
+ETD         : 00:15
+Assigned By : revathy
+Priority    : p1
+
+
+Task        : [propertyfinder-weekly]-[https://www.bayut.eg]-[qa-validation]-[weekly full data testing, qa sheet updation and validation sheet checking]
+Status      : doing
+ETD         : 00:40
+Assigned By : revathy
+Priority    : p1
