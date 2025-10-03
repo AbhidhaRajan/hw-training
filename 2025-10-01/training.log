@@ -1,0 +1,58 @@
+DataHut_AT_Mpreis_PriceExtractions_20251001.CSV
+DataHut_AT_Cleverleben_PriceExtractions_20251001.CSV
+DataHut_AT_Interspar_PriceExtractions_20251001.CSV
+DataHut_AT_Bipa_PriceExtractions_20251001.CSV
+DataHut_AT_Billa_PriceExtractions_20251001.CSV
+DataHut_AT_Dm_PriceExtractions_20251001.CSV
+DataHut_AT_Billa_FullDump_20251002.CSV
+DataHut_AT_Dm_FullDump_20251002.CSV
+
+DataHut_AT_Cleverleben_FullDump_20251002.CSV
+
+longrealty_2025_10_05.json
+--------------------------
+"languages found as 
+""'Accredited Buyer Representative (ABR)"",""Associate Broker (AB)'
+etc
+
+eg:https://www.longrealty.com/bio/AnnMcDermott
+
+wrong url
+https://www.longrealty.com/roster/agents/3
+
+https://www.longrealty.com/roster/agents/4
+
+404 error
+https://adriannerosko.longrealty.com/bio/AdrianneRosk
+o
+
+facebook url found in site,missing in data
+https://www.nancystewart.com/bio/nancy
+
+title found as "" LC707363000""
+    ""profile_url"": ""https://www.longrealty.com/bio/oldtowncareers"",
+ ""title"": ""SA692313000"",
+    ""profile_url"": ""https://www.longrealty.com/bio/TheOrcuttTeamOld"",
+    
+coldwellbanker_us_2025_10_05.json
+
+Task        : [tcs:aldi_austria:price-daily]-[https://billa.at]-[qa-validation]-[daily full data  testing and qa sheet updation]
+Status      : doing
+ETD         : 00:20
+Assigned By : revathy
+Priority    : p1
+
+
+Task        : [tcs:aldi_austria-weekly]-[https://www.cleverleben.at]-[qa-validation]-[weekly partial data checking and qa sheet updation]
+Status      : doing
+ETD         : 00:40
+Assigned By : revathy
+Priority    : p1
+
+
+
+Task        : [KW-monthly]-[https://www.woodsbros.com]-[qa-validation]-[validation sheet checking]
+Status      : doing
+ETD         : 00:10
+Assigned By : revathy
+Priority    : p1
