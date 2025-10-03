@@ -1,0 +1,206 @@
+QA-TASK STATUS
+*********************
+completed
+==================
+RT
+----
+
+kw-monthly
+5 sites + validation sheet
+
+
+
+TAT
+----
+
+
+tcs_aldi_australia weekly 
+ 1 re qa
+
+tcs_aldi_slovenia weekly 
+ 3 site
+
+tcs_aldi_switzerland weekly 
+ 3 site + 1 re qa
+
+FRT
+------
+
+Pending
+===============
+
+
+DataHut_SI_Mercator_PriceExtractions_20251003.CSV
+DataHut_SI_Spar_PriceExtractions_20251003.CSV
+DataHut_SI_Dm_PriceExtractions_20251003.CSV
+
+DataHut_CH_Lidl_PriceExtractions_20251003.CSV
+-------------------------------------------
+"promotion description found as 
+""-3 Fr. | TV-Highlight ""
+https://www.lidl.ch/p/de-CH/parkside-arbeitsbundhose/p10042341"
+
+
+"breadcrumb empty for 1 row
+https://www.lidl.ch/p/de-CH/parkside-digitaler-reifenfueller/p10042235"
+
+
+DataHut_AT_Cleverleben_PriceExtractions_20251003.CSV
+DataHut_AT_Bipa_PriceExtractions_20251003.CSV
+
+
+kw_set_5/remax_us_2025_10_05.json
+-------------------------------
+"white space found infront of address 
+in some rows
+""address"": ""  511 North Indian River Drive, Suite A,"",
+    ""profile_url"": ""https://www.remax.com/real-estate-agents/andraya--bell-fort-pierce-fl/102419746""
+
+description incomplete
+https://www.remax.com/real-estate-agents/leigh--barefoot-yorktown-va/102287092
+
+extra characters found in description, 
+eg:\""/u003e u003c/au003e
+    ""profile_url"": ""https://www.remax.com/real-estate-agents/davide--salafia-rochester-ny/100025594""
+
+ same issue found for some other rows too
+""https://www.remax.com/real-estate-agents/angela--hart-lees-summit-mo/101952339
+
+extra character found infront of description in many rows
+eg:""https://www.remax.com/real-estate-agents/stephanie--strader-jacksonville-nc/102208939
+
+https://www.remax.com/real-estate-agents/susan--luggisi-katy-tx/100028134
+
+first name found as "" Will Landay u0026 Rachael Ridaught Landay u0026 Rachael Ridaught""
+https://www.remax.com/real-estate-agents/will--landay-u0026-rachael-ridaught-ponte-vedra-beach-fl/100033426""
+same issue found for some other rows too
+
+office name found as ""RE/MAX Coast u0026 Island ""
+also wrong url found
+https://www.remax.com/real-estate-agents/stephanie--reinhardt-north-charleston-sc/102204737
+
+titlr found as ""Broker - Certified New Home Specialist u0026 Residential Construction Certified""
+https://www.remax.com/real-estate-agents/shelley--tuxworth-new-albany-in/100089146
+
+website found as ""javascript:openNewWindow('http://Jennifer-Shipman.remax-midstates.com')
+ javascript:openNewWindow('http://Roxanne-Corbello.remax-louisiana.com')
+eg:https://www.remax.com/real-estate-agents/roxanne--corbello-longville-la/102098152
+
+extra t is added infront of website in some rows
+eg:thttps://brendanmeehan.remax.com
+profile_url"": ""https://www.remax.com/real-estate-agents/brendan--meehan-killingly-ct/100068585
+
+"
+
+realliving_realestate_2025_10_05.json
+------------------------------------
+"image found in site
+missing in data
+https://www.realliving.com/natalie.lochte"
+
+
+kentwood_2025_10_05.json
+------------------------
+"instagram url taken twice in data, also
+youtube and facebook urls found in site, missing in data
+    ""profile_url"": ""https://www.kentwood.com/bio/Tom"",
+
+
+social: not in same order. different order in different rows"
+
+
+edinarealty_2025_10_05.json
+
+berkshirehathaways_2025_10_05.json
+---------------------------------
+"first name found as ""Monica Courtman Monica Courtman Monica Courtman""
+""Monica Courtman"" in site
+https://www.bhhsdrysdale.com/healdsburg/monica-courtman/cid-1127610
+ 
+same issue
+https://www.bhhskeerealty.com/saint-clair-shores/nadir-ali/cid-3037284
+
+404 error
+https://www.bhhs.com/starck-real-estate-il303/crystal-lake/jackie-nelson/cid-58510
+https://www.bhhs.com/arizona-properties-california-properties-and-nevada-properties-nv301/las-vegas/dr-jan-duffy/cid-3042332
+
+https://www.bhhs.com/a-action-realtors-tx311/mesquite/abdullah-mamun/cid-3071480
+
+
+profile url taken as image url
+
+ https://www.firstrealtorsks.com/topeka/annie-foust/cid-1121712/en3.thumb.800.480.png?ck=1757781464
+
+title found along with office name.  eg:""Beazley, REALTORS""
+https://www.bhhsbeazleyrealtors.com/aiken/brittany-thomas/cid-3073723"
+
+
+houlihanlawrence_2025_10_05.json
+--------------------------------
+"address contains , in last
+eg:""1 wood Avenue ,""
+also the address in site found as ""1 Pelhamwood Avenue""
+https://www.houlihanlawrence.com/bio/petermonaco
+
+in social field, data is not orderly taken, in some rows facebook urls comes first, in some fields insta urls taken first and so on"
+
+fields are not in order
+
+state contains CT and NY only
+
+
+
+KW validation report
+--------------------
+1.bhgre_2025_10_05.json
+  ----------------------
+
+   zipcode,state 
+
+  Data field not available  
+  previous count:1  current :7
+
+
+
+2.remax_us_2025_10_05.json
+  -------------------------
+
+  image_url
+
+   Data field not available  
+  previous count:2979  current : 3803
+
+  website
+
+    Data field not available  
+  previous count:542  current : 15372
+
+
+3.coldwellbanker_us_2025_10_05.json
+ -----------------------------
+
+ image_url
+
+   Data field not available  
+  previous count:4868  current : 5114
+
+  
+
+Task        : [tcs:aldi_slovenia:price-daily]-[https://www.spar.si]-[qa-validation]-[daily full data  testing and qa sheet updation]
+Status      : doing
+ETD         : 00:15
+Assigned By : revathy
+Priority    : p1
+
+Task        : [tcs:aldi_austria:price-daily]-[https://bipa.at]-[qa-validation]-[daily full data  testing and qa sheet updation]
+Status      : doing
+ETD         : 00:15
+Assigned By : revathy
+Priority    : p1
+
+
+Task        : [KW-monthly]-[https://www.houlihanlawrence.com]-[qa-validation]-[Monthly full data checking and sheet updation]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
