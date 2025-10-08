@@ -1,0 +1,44 @@
+dari_ae_2025_10_01.json  
+-----------------------
+1) dari_ae_2025_10_01.json changed to dari-ae_2025_10_02.json  
+    _ changed to - , iteration changed to 02 
+
+2)line 944, "profession":"Brokers" changed to "profession":"Broker"   {"url":"https://www.dari.ae/en/app/directory/profession?id=9277"}
+
+3)line 850 ,  url missing , "https://www.dari.ae/en/app/directory/profession?id=28780"
+
+4)line 16 , "phone_number_1":"971503171296"  changed to "phone_number_1":"Johnasim33@gmail.com" {"url":"https://www.dari.ae/en/app/directory/profession?id=29487"}
+
+
+nawy_egp_2025_10_01.json
+-------------------------
+
+1)nawy_egp_2025_10_01.json  changed to Nawy_egp_2025_10_02.JSON
+
+  n changed to N , iteration changed to 02 , .json changed to .JSON
+
+2)line 3 , "title":"Apartment for sale in Core with 1 bedroom in October Gardens by Orascom Development Egypt"  removed
+title empty {"url":"https://www.nawy.com/compound/1701-core/property/96512-Apartment-for-sale-in-Core-with-21-bedrooms-in-October Gardens-by-Orascom Development Egypt"}
+
+3)line 15343 ,"type":"Property" changed to "type":"Rent"  {"url":"https://www.nawy.com/compound/7-mountain-view-hyde-park/property/90690-i-villa-garden-for-sale-in-mountain-view-hyde-park-new-cairo"}
+
+
+4)line 19452 "bedrooms":"2" changed to "bedrooms":"2232323"  {"url":"https://www.nawy.com/compound/87-telal-sokhna/property/78959-chalet-for-sale-in-telal-sokhna"}
+
+
+bayut_uae_project_2025_10_01.json
+---------------------------------
+
+1)bayut_uae_project_2025_10_01.json  changed to Bayut-UAE-project-2024-10-01.json
+ 
+ b changed to B ,all _ changed to - ,uae changed to UAE, 2025 changed to 2024
+
+2)line 1510 url removed, url":"https://www.bayut.com/for-sale/off-plan/property/dubai/palm-jumeirah/serenia-living/serenia-living-tower-2
+
+
+3)line 79 ,  "handover":"Q4 2028", changed to "handover":"ZERO"  {"url":"https://www.bayut.com/for-sale/off-plan/property/dubai/dubai-hills-estate/club-place/club-place-tower-c"}
+
+4)line 20 , "date":"2025-10-07" changed to "date":"2025-09-07"
+
+ {"url":"https://www.bayut.com/for-sale/off-plan/property/dubai/dubailand/ghaf-woods/capria-west"}
+

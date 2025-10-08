@@ -1,0 +1,126 @@
+
+
+DataHut_AT_Interspar_PriceExtractions_20251007.CSV
+DataHut_AT_Cleverleben_PriceExtractions_20251007.CSV
+DataHut_AT_Mueller_PriceExtractions_20251007.CSV
+DataHut_AT_Bipa_PriceExtractions_20251007.CSV
+DataHut_AT_Mpreis_PriceExtractions_20251007.CSV
+DataHut_AT_Fressnapf_PriceExtractions_20251007.CSV
+DataHut_AT_Dm_PriceExtractions_20251007.CSV
+DataHut_AT_Billa_PriceExtractions_20251007.CSV
+
+dubizzle_egp_2025_10_01.json
+----------------------------
+"AD NO LONGER AVAILABLE.
+so broker name not found in site
+https://www.dubizzle.com.eg/en/ad/%D8%B4%D9%82%D8%A9-%D8%B3%D9%88%D8%A8%D8%B1-%D9%84%D9%88%D9%83%D8%B3-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-%D9%84%D9%84%D8%A7%D9%8A%D8%AC%D8%A7%D8%B1-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A-ID193999195.html"
+
+DataHut_AT_Fressnapf_FullDump_20251009.CSV
+-------------------------------------------
+"feeding_recommendation contains extra characters in data, not found in site
+eg:feeding_suggestions'.
+same issue found for some other rows too
+https://www.fressnapf.at/p/premiere-bonies-grain-free-175g-gefluegel-1194816001/"
+
+
+bayut_uae_2025_10_01.json - validation report
+---------------------------------------------
+
+details
+
+Data field not available  previous : 0 , current : 1
+
+rera_registration_number
+
+Data field not available  previous : 168640 , current : 172102
+
+
+broker_display_name,broker
+
+Data field not available  previous : 177, current : 190
+
+
+Task        : [tcs:aldi_austria:price-daily]-[https://fressnapf.at]-[qa-validation]-[daily full data  testing and qa sheet updation]
+Status      : doing
+ETD         : 00:15
+Assigned By : revathy
+Priority    : p1
+
+
+Task        : [propertyfinder-weekly]-[]-[qa-validation]-[internal coverage and property coverage sheet analysis]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+Task        : [datahut-]-[]-[discussion]-[preperation of qa task for trainee]
+Status      : doing
+ETD         : 01:00
+Assigned By : revathy
+Priority    : p1
+
+
+bayut_uae - % of data vs site shown count
+rent/residential-plots/
+previous - 100, now - 0
+
+sale/residential-floors/ - % of data vs site shown count
+previous - 111.11, now - 73.33
+
+dubizzle_uae
+rent/bulk-unit - % of data vs site shown count
+previous - 100, now - 80
+
+rent/mixed-use-land - % of data vs site shown count
+previous - 100, now - 66.67
+
+rent/shop - % of data vs site shown count
+previous - 100, now - 0
+
+
+
+DataHut_AT_Penny_FullDump_20251010.CSV
+--------------------------------------
+1."DataHut_AT_Penny_FullDump_20251010.CSV
+date found wrong"
+
+2.brand', 'drained_weight', 'producthierarchy_level4', 'producthierarchy_level5', 'price_was', 'promotion_price', 'promotion_valid_from', 'price_valid_from', 'currency', 'variants', 'instructions', 'storage_instructions', 'preparationinstructions', 'instructionforuse', 'country_of_origin', 'allergens', 'age_recommendations', 'flavour', 'nutritions', 'nutritional_information', 'vitamins', 'labelling', 'packaging', 'organictype', 'special_information', 'label_information', 'feeding_recommendation', 'color', 'material', 'tasting_note', 'rating', 'review', 'image_url_3', 'image_url_4', 'image_url_5', 'image_url_6', 'features', 'site_shown_uom', 'ingredients', 'instock', 'warning', 'retail_limit'   are empty
+
+
+3."breadcrumb contains other characters in some rows.
+eg:PENNY - Josefinengasse > TK - SÃ¼Ãspeisen & Eis > Eskimo Cremissimo Pistazie Vanille Nougat 1l
+in data
+
+PENNY - Josefinengasse >
+TK - Süßspeisen & Eis >
+Eskimo Cremissimo Pistazie Vanille Nougat 1l in site
+
+https://www.foodora.at/shop/jrii/penny-josefinengasse/product/25145686
+
+same issue found for some other rows too.
+
+producthierarchy_level2 ,producthierarchy_level3 having same issue"
+
+4."grammage quantity taken wrong, extra character taken
+eg: 
+
+2022 0.75""
+https://www.foodora.at/shop/jrii/penny-josefinengasse/product/25148102
+
+same issue found for some other rows too , 
+
+x 1.5 
+
+https://www.foodora.at/shop/jrii/penny-josefinengasse/product/25358855
+
+grammage quantity and unit found as ""2 pack"" , taken wrong , product name is ""Lion 2Pack Classic Schokoriegel 60g""
+https://www.foodora.at/shop/jrii/penny-josefinengasse/product/25147575
+
+
+5."extraction_date 
+['2025-10-10']"
+
+6."image url found as
+""https://foodora.dhmedia.io/image/darsktores-no/SeptemberUpdate/5011053024283_A1N1_600px.jpg.png""
+https://www.foodora.at/shop/jrii/penny-josefinengasse/product/25147884
+"
