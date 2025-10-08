@@ -1,0 +1,67 @@
+DataHut_AT_Cleverleben_PriceExtractions_20251006.CSV
+DataHut_AT_Mueller_PriceExtractions_20251006.CSV
+DataHut_AT_Interspar_PriceExtractions_20251006.CSV
+DataHut_AT_Bipa_PriceExtractions_20251006.CSV
+DataHut_AT_Fressnapf_PriceExtractions_20251006.CSV
+DataHut_AT_Dm_PriceExtractions_20251006.CSV
+DataHut_AT_Mpreis_PriceExtractions_20251006.CSV
+DataHut_AT_Billa_PriceExtractions_20251006.CSV
+---------------------------------------------
+"regular price missing in data
+but found in  2025-10-01 data
+https://shop.billa.at/produkte/buttertopfenkranz-00385756
+https://shop.billa.at/produkte/schwarz-welschriesling-suedsteiermark-dac-00471340
+https://shop.billa.at/produkte/billa-salsa-dip-leicht-scharf-00771741
+
+
+dari_ae_2025_10_01.json
+
+
+dubizzle_uae_2025_10_01.json
+----------------------------
+"price chnage found, and also ded_licence_no found in backend
+https://sharjah.dubizzle.com/property-for-sale/residential/townhouse/2025/10/2/prime-3br-corner-villa-forest-living-be-12-216797/
+
+ description found as  ! , same found in site too
+https://ajman.dubizzle.com/property-for-sale/residential/apartment/2025/7/26/1-bedroom-for-sale-close-kitchen-open-v-14-291242/"
+
+
+bayut_egp_2025_10_01.json
+------------------------
+depth 
+
+Data field not available  previous : 0 , current : 1
+
+DataHut_AT_Interspar_FullDump_20251009.CSV
+
+DataHut_AT_Mpreis_FullDump_20251009.CSV
+
+DataHut_AT_Bipa_FullDump_20251009.json
+
+
+Task        : [tcs:aldi_austria:price-daily]-[https://billa.at]-[qa-validation]-[re Qa ]
+Status      : doing
+ETD         : 00:10
+Assigned By : revathy
+Priority    : p1
+
+
+
+Task        : [propertyfinder-weekly]-[https://www.bayut.eg]-[qa-validation]-[weekly full data testing, qa sheet updation and validation sheet checking]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+Task        : [propertyfinder-weekly]-[https://www.bayut.uae]-[qa-validation]-[weekly validation sheet and report checking]
+Status      : doing
+ETD         : 00:20
+Assigned By : revathy
+Priority    : p1
+
+
+Task       : [tcs:aldi_austria-weekly]-[https://www.bipa.at]-[qa-validation]-[weekly partial data testing and qa sheet updation]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
