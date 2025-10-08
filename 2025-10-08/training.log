@@ -1,0 +1,63 @@
+
+
+
+Task       : [tcs:aldi_austria-weekly]-[https://www.penny.at]-[qa-validation]-[re qa]
+Status      : doing
+ETD         : 00:20
+Assigned By : revathy
+Priority    : p1
+
+
+
+Task        : [tcs:aldi_slovenia:price-daily]-[https://www.dm.si]-[qa-validation]-[daily full data  testing and qa sheet updation]
+Status      : doing
+ETD         : 00:15
+Assigned By : revathy
+Priority    : p1
+
+
+Task        : [tcs:aldi_austria:price-daily]-[]-[qa-validation]-[validation sheet checking]
+Status      : doing
+ETD         : 00:15
+Assigned By : revathy
+Priority    : p1
+
+
+Task        : [tcs:aldi_italy-poc]-[https://spesaonline.esselunga.it]-[qa-validation]-[weekly full data testing and qa sheet updation]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+DataHut_SI_Mercator_PriceExtractions_20251008.CSV
+DataHut_SI_Spar_PriceExtractions_20251008.CSV
+DataHut_SI_Dm_PriceExtractions_20251008.CSV
+DataHut_AT_Billa_PriceExtractions_20251008.CSV
+DataHut_AT_Bipa_PriceExtractions_20251008.CSV
+DataHut_AT_Fressnapf_PriceExtractions_20251008.CSV
+DataHut_AT_Interspar_PriceExtractions_20251008.CSV
+DataHut_IT_Esselunga_PriceExtractions_20251008.CSV
+-------------------------------------------------
+"promotion expired, so price change found
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/156070/mulino-bianco-sgranocchi-sfiziosi-grissini-con-riso-avena-mais-e-semi-di-sesamo-210g
+
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/156365/panealba-crostini-mediterraneo-con-olio-di-oliva-6-x-30-g
+
+promotion changed, also price change found
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/381027/calve-fresca-ma-yo-250-ml
+
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/681379/chanteclair-sgrassatore-universale-profumo-di-marsiglia-800-ml
+
+grammage quantity found as 0.3l in data, 0.3l x 2 found in product name
+https://spesaonline.esselunga.it/commerce/nav/drive/store/prodotto/843351/mp-bergamo-ciotola-dora-doppia-03-l-x-2"
+
+
+
+DataHut_AT_Cleverleben_FullDump_20251009.CSV
+
+
+Task        : [datahut-]-[]-[discussion]-[checking pf weekly checklists for missing requirements]
+Status      : doing
+ETD         : 01.00
+Assigned By : revathy
+Priority    : p1
