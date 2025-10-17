@@ -1,0 +1,68 @@
+
+
+Task        : [propertyfinder-weekly]-[https://www.bayut.eg]-[qa-validation]-[weekly full data testing, qa sheet updation and validation sheet checking]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+nawy_egp_2025_10_02.json
+----------------------
+"price and details missing in data
+found in site
+https://www.nawy.com/compound/202-bloomfields/property/77212-apartment-for-sale-in-bloomfields-with-3-bedrooms-in-mostakbal-city-by-tatweer-misr
+
+price max price and details missing in data
+found in site
+https://www.nawy.com/compound/927-salt/property/84766-villa-for-sale-in-salt-with-3-bedrooms-in-ras-el-hekma-by-tatweer-misr"
+
+
+validation report
+-----------------
+title   
+
+missing count :  previous:0  current : 173 
+
+price
+
+missing count :  previous:2  current : 27
+
+details
+
+missing count :  previous:28  current : 51
+
+delivery_in
+
+missing count :  previous:26  current : 2
+
+
+dari_ae_2025_10_02.json
+
+dubizzle_uae_2025_10_02.json-- validation report
+-----------------------
+
+number_of_photos
+
+missing count :  previous:26  current : 30
+
+
+
+bayut_egp_2025_10_02.json
+-------------------------
+
+reference_number contains white space
+
+""url"":""https://www.bayut.eg/en/property/details-502244506.html"""
+
+phone_number
+
+missing count :  previous:83 current : 123
+
+
+
+
+Task        : [propertyfinder-weekly]-[https://abudhabi.dubizzle.com]-[qa-validation]-[validation report checking]
+Status      : doing
+ETD         : 00:10
+Assigned By : revathy
+Priority    : p1
