@@ -1,0 +1,90 @@
+QA-TASK STATUS
+*********************
+completed
+==================
+RT
+----
+tcs:aldi_austria:price-daily
+ 2 sites
+
+tcs:aldi_austria:weekly partial
+ 1 site
+
+pf-weekly 
+2 site + 4 validation report
+
+TAT
+----
+tcs:aldi_austria:price-daily
+ 3 sites
+
+tcs:aldi_austria:weekly partial
+ 2 sites + 1 re qa
+
+tcs:aldi_australia:weekly partial
+ 1 site
+
+
+FRT
+------
+
+Pending
+===============
+
+autodoc_2025_10_15.csv
+----------------------
+previous data count: 22901
+current: 22202
+
+autoonderdelen24_2025_10_15.csv
+------------------------------
+"previous data count: 21184
+current: 20267"
+
+
+
+autoteiledirekt_2025_10_15.csv
+-------------------------------
+"previous data count: 22806
+current: 22086"
+
+description
+
+missing count : previous: 709  current: 729
+
+DataHut_AT_Spar_FullDump_20251016.CSV
+------------------------------------
+"extra characters found in country of origin
+eg:Hergestellt in Österreich mit Rohstoff aus Österreich und der EU
+https://www.spar.at/produktwelt/loidl-salami-sticks-p2020003192586
+
+
+brand found as ""1/2 Hendel     gegrillt p.Stk.""
+same as product name. same issue found for some other rows too
+
+https://www.spar.at/produktwelt/1-2-hendel-gegrillt-p-stk-p6665371
+
+""Alp.Breg. Berg-kaese 4M ca3,5k "",Anker Semmel - broesel 400g "" etc found as brand
+
+"
+
+"price found in site
+missing in data
+https://www.spar.at/produktwelt/kneipp-lippenpflege-hyaluron-4-7g-p2020006008570"
+
+
+indeed_2025_10_16.xlsx
+----------------------
+"phone number incomplete
+found as ""+4909912702–117"" in data
+Tel.: +49 (0) 991 / 27 02 – 117 oder -123. in site
+
+https://de.indeed.com/Zeige-Job?jk=40437578b31825fb&from=serp&vjs=3
+
+
+
+Task        : [theconsultants:parts-monthly]-[https://www.autoteiledirekt.de]-[qa-validation]-[daily full data testing and qa sheet updation]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
