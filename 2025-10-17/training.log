@@ -1,0 +1,163 @@
+
+
+Task        : [tcs:aldi_italy-poc]-[https://laspesaonline.eurospin.it/]-[qa-validation]-[Re QA]
+Status      : doing
+ETD         : 00:20
+Assigned By : revathy
+Priority    : p1
+
+DataHut_IT_Eurospin_FullDump_20251016.CSV
+-----------------------------------------
+extra character removed in promotion description, but price change found
+https://laspesaonline.eurospin.it/product/nduja-di-spilinga
+
+issue found in features for other row is fixed,but features found incomplte for the following url
+https://laspesaonline.eurospin.it/product/cabernet-veneto-igt-750ml
+
+
+DataHut_SI_Spar_PriceExtractions_20251017.CSV
+--------------------------------------------
+"previous data count : 16411(daily) 16966(weekly)
+current : 16014"
+
+DataHut_SI_Dm_PriceExtractions_20251017.CSV
+--------------------------------------------
+"previous data count : 12378
+current : 12259"
+
+
+DataHut_AT_Mueller_PriceExtractions_20251017.CSV
+DataHut_AT_Bipa_PriceExtractions_20251017.CSV
+DataHut_AT_Spar_PriceExtractions_20251017.CSV
+DataHut_AT_Cleverleben_PriceExtractions_20251017.CSV
+DataHut_AT_Interspar_PriceExtractions_20251017.CSV
+DataHut_AT_Fressnapf_PriceExtractions_20251017.CSV
+DataHut_AT_Mpreis_PriceExtractions_20251017.CSV
+DataHut_AT_Dm_PriceExtractions_20251017.CSV
+DataHut_CH_Lidl_PriceExtractions_20251017.CSV
+--------------------------------------------
+"white space is missing in price_per_unit, issue found for some rows
+eg: price_per_unit is  ""pro 5stück"" in data  ""pro 5 Stück"" in site
+
+https://sortiment.lidl.ch/de/catalog/product/view/id/16129/s/schwammtuecher-0182886/category/54/"
+
+DataHut_AT_Billa_PriceExtractions_20251017.CSV
+------------------------------------------------
+"regular price for unique id :00-940929 found as 0.97 in ""tcs_aldi_austria_daily_2025_10_15""
+and selling price for todays data is 0.35"
+
+Task        : [tcs:aldi_slovenia:price-daily]-[]-[qa-validation]-[validation sheet checking]
+Status      : doing
+ETD         : 00:15
+Assigned By : revathy
+Priority    : p1
+
+
+Task        : [tcs:aldi_austria:price-daily]-[https://billa.at]-[qa-validation]-[daily full data  testing and qa sheet updation]
+Status      : doing
+ETD         : 00:20
+Assigned By : revathy
+Priority    : p1
+
+Task       : [tcs:aldi_switzerland:price-daily]-[https://sortiment.lidl.ch]-[qa-validation]-[daily full data  testing and qa sheet updation]
+Status      : doing
+ETD         : 00:20
+Assigned By : revathy
+Priority    : p1
+
+
+regular price for unique id :00-940929 found as 0.97 in "tcs_aldi_austria_daily_2025_10_15"
+and selling price for todays data is 0.35
+
+
+
+Task        : [theconsultants:accessories-monthly]-[https://www.bol.be]-[qa-validation]-[re qa]
+Status      : doing
+ETD         : 00:20
+Assigned By : revathy
+Priority    : p1
+
+
+rameder_2025_10_17/rameder_bike_carriers_2025_10_17.csv
+-----------------------------------------------------
+"dot missing in engine
+found as "" 3 0 TDI 4Motion 170 kW"" in data
+"" 3.0 TDI 4Motion 170 kW"" in site
+
+eg:https://www.rameder.be/fietsendrager-thule-outway-179429-38671-1.html
+same for ""1 4 TSI 110 kW"" in engine
+
+
+Model Selected
+ incomplete
+eg""https://www.rameder.be/fietsendrager-thule-outway-179429-10734-1.html
+
+white space missing in load capacity. found as 30 kg in site, 30kg in data
+
+https://www.rameder.be/fietsendrager-thule-outway-179429-10734-1.html
+"
+
+rameder_2025_10_17/rameder_crossbar_2025_10_17.csv
+-----------------------------------------------
+"engine not found in site
+found as ""30 TDI 85kW"" in data
+"" 30 TDI 90 kW"" in site
+https://www.rameder.be/dakdrager-menabo-203282-14695-1.html
+
+dot missing in engine
+found as ""1 4 TSI 110 kW"" in data
+"" 1.4 TSI 110 kW"" in site
+
+https://www.rameder.be/dakdrager-menabo-203448-10734-1.html
+
+white space missing in load capacity
+50kg in data, 50 kg in site
+https://www.rameder.be/dakdrager-menabo-203448-10734-1.html
+"
+
+
+rameder_2025_10_17/rameder_towing_hitches_2025_10_17.csv
+------------------------------------------------------
+"dot missing in engine
+found as ""3 0 TDI 120 kW"" in data
+"" 3.0 TDI 120 kW"" in site
+https://www.rameder.be/brink-trekhaak-complete-set-152009-08636-1.html
+ "
+
+
+dakkofferstore_2025_10_17/dakkofferstore_crossbar_2025_10_17.csv
+---------------------------------------------------------------
+only single price found in site,taken as both catelogue and net price
+https://www.dakkofferstore.com/stangenset-flush-s24w-950-1000-mm-yakima
+
+
+dakkofferstore_2025_10_17/dakkofferstore_skiboxes_2025_10_17.csv
+
+
+
+autoonderdelen24_2025_10_17/autoonderdelen24_bike_carriers_2025_10_17.csv
+autoonderdelen24_2025_10_17/autoonderdelen24_crossbar_2025_10_17.csv
+autoonderdelen24_2025_10_17/autoonderdelen24_floormats_2025_10_17.csv
+autoonderdelen24_2025_10_17/autoonderdelen24_skiboxes_2025_10_17.csv
+autoonderdelen24_2025_10_17/autoonderdelen24_towing_hitches_2025_10_17.csv
+autoonderdelen24_2025_10_17/autoonderdelen24_trunkliners_2025_10_17.csv
+
+
+bol_crossbar_2025_10_17.csv
+--------------------------
+mentioned issue solved
+
+found Universel vs Specific as Universel for some rows but specific in data
+
+https://www.bol.com/nl/nl/p/dakdragers-geschikt-voor-skoda-octavia-wagon-2005-t-m-2009-open-dakrailing-aluminium-hoog-laadvermogen-100kg-wingbar-zwart-merk-farad/9300000154302909/
+
+https://www.bol.com/nl/nl/p/farad-dakdragers-audi-q5-vanaf-2017-gesloten-dakrail-100kg-laadvermogen-aluminium-wingbar-luxset/9300000020898516/
+
+https://www.bol.com/nl/nl/p/dakdragers-geschikt-voor-skoda-octavia-wagon-2005-t-m-2009-open-dakrailing-aluminium-hoog-laadvermogen-100kg-wingbar-grijs-merk-farad/9300000157549776/
+
+
+Task        : [Theconsultants:accessories-monthly]-[]-[qa-validation]-[merged file data checking]
+Status      : doing
+ETD         : 00:15
+Assigned By : revathy
+Priority    : p1
