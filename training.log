@@ -1,224 +1,112 @@
-bayut_egp_2025_07_04.json
--------------------------
-"1.3 phone numbers found in data
-only two found in site
-https://www.bayut.eg/en/property/details-502254303.html
+QA-TASK STATUS
+*********************
+completed
+==================
+RT
+----
 
-https://www.bayut.eg/en/property/details-502165043.html
-
-https://www.bayut.eg/en/property/details-502250447.html"
-
-2.broker_display_name,broker,depth are not empty.
-3.price_per is Monthly,daily,weekly,yearly
-4."Two new fields ""completion_status"",
-""ownership"""
-
-bayut_uae_2025_07_04.json
--------------------------
-"1.phone number found as orn number.
-eg:+971 50 800 8784
-https://www.bayut.com/property/details-11321139.html"
-
-2."""""""orn_number"""",
-""""bln_number"""",
-""""adm_number"""",
-""""3d_live"""",""""3d_image"""",
-""""2d_image"""",
-""""ded_number_2"""",
-""""ded_number_3"""",
-""""ded_number_4"""",
-""""trucheck_on"""",
-""""email"""",""""trubroker"""",""""rating"""",""""no_of_reviews"""",
-""""property_of_the_week"""" are additional fieds"
-3."property_of_the_week is included in
-boolean fields"
-
-DataHut_AT_Fressnapf_PriceExtractions_20250723.CSV(19 minutes)
---------------------------------------------------
-"1.grammage quantity found as 4kg
-in data, price_per unit is €19.49/kg
-price is 19.49. product name is
-""""ARDAP Spot-On für Kleintiere von 1-4 kg""""
-https://www.fressnapf.at/p/ardap-spot-on-fuer-kleintiere-von-1-4-kg-1201690/
-
-2.grammage quantity and unit found as 1 000kg in data,
-price is taken for 1kg
-https://www.fressnapf.at/p/vitakraft-menu-vital-meerschweinchen-1000-kg-1004435/
-
-3.size is taken along grammage quantity. 60X90 50 stück in data.
-https://www.fressnapf.at/p/anione-training-pads-60x90-50-stueck-1309637/"
-
-DataHut_AT_Mpreis_PriceExtractions_20250723.CSV(13 minutes)
-----------------------------------------------
-no issues
-
-DataHut_AT_Mueller_PriceExtractions_20250723.CSV(17 minutes)
------------------------------------------------
-no issues
-
-DataHut_AT_Billa_PriceExtractions_20250723.CSV(15 minutes)
-----------------------------------------------
-"1.site shown uom is 
-10 Beutel Packung
-but grammage quantity
-and unit is 1 stuck
-https://shop.billa.at/produkte/doppelherz-heisse-cranberry-00773284
-
-2.site shown uom is ""100 Waschgang Packung""
-but grammage quantity
-and unit is 1 stuck.
-https://shop.billa.at/produkte/ariel-color-pulver-waschmittel-grosspackung-00360202"
-
-DataHut_CH_Lidl_PriceExtractions_20250723.CSV(17 minutes)
---------------------------------------------
-no issues
-
-DataHut_AT_Bipa_PriceExtractions_20250723.CSV(17 minutes)
---------------------------------------------
-1.breadcrumb found as 
-""Startseite"" in data,empty
-is site
-https://www.bipa.at/p/B3-439783
-
-https://www.bipa.at/p/B3-543233
-
-https://www.bipa.at/p/B3-774462"
-
-2."aktion tag found in data,
-missing in site
-https://www.bipa.at/p/B3-469882"
+tcs_aldi_australia daily 
+2 site + validation sheet
 
 
-DataHut_AT_Dm_PriceExtractions_20250723.CSV(23 minutes)
-------------------------------------------"
-1.breadcrumb taken wrong.
-1.Startseite > Baby & Kind > Ausstattung für Baby & Kind > Babyphones
-in data, Startseite in site
-https://www.dm.at/philips-avent-babyphone-dect-p8710103839545.html
-
-2.breadcrumb wrong
-""Startseite > Styleguide > Vorlagen Landin­g­pages > Nachhaltig inspiriert mit dm > Haushalt"" in data
-
-""Startseite>Nachhaltiger leben>Nachhaltig inspiriert mit dm>Haushalt"" in site
-
-https://www.dm.at/profissimo-klammern-aus-holz-mini-p4058172507182.html
+TAT
+----
+tcs_aldi_slovenia daily 
+ 3 sites + validation sheet
 
 
-3.breadcrumb found as ""Startseite > Ernährung > Soße & Gewürze"" in data
-""Startseite "" in site
-https://www.dm.at/dmbio-ratatouille-p4067796202854.html"
+tcs_aldi_australia daily 
+  2 sites + validation sheet
+
+tcs_aldi_australia weekly partial
+1 site
+
+tcs_aldi_italy weekly 
+1 site
 
 
-DataHut_SI_Spar_PriceExtractions_20250723.CSV(14 minutes)
--------------------------------------------
-no issues
+FRT
+------
 
-DataHut_SI_Dm_PriceExtractions_20250723.CSV(10 minutes)
+Pending
+===============
+
+
+Task       : [tcs:aldi_austria-weekly]-[https://www.penny.at]-[qa-validation]-[re qa]
+Status      : doing
+ETD         : 00:20
+Assigned By : revathy
+Priority    : p1
+
+
+Task        : [datahut-]-[]-[discussion]-[trying tcs project optimization]
+Status      : doing
+ETD         : 00:20
+Assigned By : revathy
+Priority    : p1
+
+
+Task        : [tcs:aldi_austria-weekly]-[https://www.interspar.at]-[qa-validation]-[weekly partial data checking and qa sheet updation]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+
+DataHut_AT_Interspar_FullDump_20251009.CSV
 ------------------------------------------
-"1.grammage quantity
-found as 1.5l in product 
-name and 1.500l in site,
-1500 l in data
-https://www.dm.si/denkmit-higienski-mehcalec-za-perilo-p4066447790399.html"
 
-2.breadcrumb taken wrong. """"""""Domov > Nega in dišave > Nega za moške > Moški deodoranti"""""""" in data, """"""""Domov"""""""" in site
-eg:
-https://www.dm.si/axe-deodorant-v-stiku-blue-lavender-p59002161.html
+"product not available
+https://www.interspar.at/shop/lebensmittel/persil-fluessigwaschmittel-kraft-gel-100wg/p/2020003282560
 
-https://www.dm.si/axe-deodorant-v-stiku-black-vanilla-p59004660.html
+promotion date not available in site(promotion expired)
 
-https://www.dm.si/dove-men-care-antiperspirant-v-spreju-clean-comfort-p8720181284335.html
+https://www.interspar.at/shop/lebensmittel/despar-all-natural-ice-cream-stracciatella/p/2020003239090
 
-3."""site shown uom contains
-dot. eg:1.000 g
+https://www.interspar.at/shop/lebensmittel/despar-mozzarella-grande/p/7984884
 
-https://www.dm.si/dmbio-bio-drobni-polnozrnati-ovseni-kosmici-p4067796062113.html"""
+https://www.interspar.at/shop/lebensmittel/despar-pizza-prosciutto-e-pesto/p/2020003109591"
 
 
-DataHut_AT_Denns_FlyerExtractions_20250723.csv(18 miutes)
------------------------------------------------
-no issues
 
-DataHut_AT_Interspar_FlyerExtractions_20250723.csv(34 minutes)
--------------------------------------------------
-"""promotion valid upto 
-found as 
-20.08.2025
-in page 5,7
-https://flugblatt.spar.at/salzburg/spar/250724-1-flugblatt-kw-30/GetPDF.ashx
-line 2"
-
-DataHut_AT_Lidl_FlyerExtractions_20250723.csv(21 minutes)
------------------------------------------------
-1."error found for flyer_url(line 2)
-https://object.storage.eu01.onstackit.cloud/leaflets/pdfs/01981379-f9ed-7bd3-a746-44358e20e3e7/Ab-Donnerstag-24-7-Flugblatt-08.pdf
-"
-
-DataHut_AT_Billa_FullDump_20250724.CSV
---------------------------------------
-"1.drained weight is taken as
-dimensions for all rows
-https://shop.billa.at/produkte/exotic-food-chili-in-salzlake-00337633
-
-2.instructions and instructionforuse has same values.
-https://shop.billa.at/produkte/cynar-leggermente-amaro-00303204"
-
-3."product description found as paragraph
-https://shop.billa.at/produkte/prickler-blaufraenkisch-classic-mittelburgenland-dac-00518022"
-
-4.site shown uom is
-""76 Waschgang Stück""
-grammage quantity and unit
-is 1 stuck,price_per_unit is
-""1 Waschgang 0.35€""
-https://shop.billa.at/produkte/ariel-all-in-one-color-waschmittelpods-00495445"
-
-DataHut_AT_Fressnapf_FullDump_20250724.CSV
-------------------------------------------
-1."dimensions is not empty.
-
-file_name_1, file_name_2, file_name_3, file_name_4, file_name_5, file_name_6, netcontent are empty."
-
-2."product descriprtion 
-found as paragraph
-https://www.fressnapf.at/p/4cats-pet-airs-schutzkragen-xs-1269007/"
-
-3.size is taken along grammage quantity. 60X90 50 stück in data.
-https://www.fressnapf.at/p/anione-training-pads-60x90-50-stueck-1309637
-
-4.logical error. price per unit is found as €21.95/l,grammage quantity and unit
-is 3x250 ml. price is €43.89
-https://www.fressnapf.at/p/smoothiedog-huhn-3x-250-ml--ente-3x-250-ml--eisform-1710727/
-
-5."image url with png
-format found.
-https://www.fressnapf.at/p/real-nature-naturstreu-54-kg-1321697/"
-
-6.replaced by '\\\\|' in feeding recommendation. url: https://www.fressnapf.at/p/hills-science-plan-perfect-digestion-adult-mit-huhn-12x370g-1391226/ 
+DataHut_AT_Bipa_FullDump_20251009.CSV
+------------------------------------
+previous data count : 19655     current:19817
 
 
-DataHut_AT_Interspar_PriceExtractions_20250723.CSV
--------------------------------------------------
-1."breadcrumb is
-""Startseite > Produkte > Wurst, Fleisch & Fisch > Wurst & Selchwaren > Salami > DESPAR Antipasto Misto 150 G
-""
-price and grammage quantity and unit  is not taken from price per unit
-https://www.interspar.at/shop/lebensmittel/despar-antipasto-misto/p/7301247
+DataHut_AT_Mueller_FullDump_20251009.CSV
+----------------------------------------
+special_information
 
-same issue
-https://www.interspar.at/shop/lebensmittel/imperial-haehnchen-salami-100/p/8163653
+Data field not available  previous: 3135     current:1276
 
 
-2."regular price found as 
-zero for single row.
+DataHut_CH_Lidl_FullDump_20251009.CSV
+-----------------------------------
+previous data count : 3578     current:3307
 
-3.prices are found in different format.
-some prices are in float with single decimal place, some are float
-with two decimal points and others are found as integers.
+price_per_unit 
 
-https://www.interspar.at/shop/haushalt/new-york-professional-koffer-softschale-pink-55cm/p/2020005008113
-https://www.interspar.at/shop/haushalt/vossen-handtuch-2er-fiesta-50x100cm/p/2020005594838
-https://www.interspar.at/shop/haushalt/caso-entsafter-juice-fit-3512/p/2020005806047
+Data field not available  previous: 644     current: 361
 
-4."
-site shown uom is """"x 2"""". url: https://www.interspar.at/shop/lebensmittel/sodastream-glasflaschen-duo-1l-x-2/p/2020003525827 """
+image_url_1
+
+Data field not available  previous: 134     current: 137
+
+site_shown_uom
+
+Data field not available  previous: 644     current: 361
+
+
+
+
+
+
+
+
+
+Task        : [tcs:aldi_switzerland-weekly]-[]-[qa-validation]-[weekly validation sheet checking]
+Status      : doing
+ETD         : 00:20
+Assigned By : revathy
+Priority    : p1
