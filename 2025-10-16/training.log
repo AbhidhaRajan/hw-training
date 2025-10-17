@@ -1,0 +1,100 @@
+
+
+DataHut_SI_Spar_FullDump_20251016.CSV
+-------------------------------------
+"extra character found in product description
+eg:""Nao ponudbo nagrajenih kruhkov smo razirili z novim članom druine, karamelizirano čebulo, ki bo zagotovo navduila vae brbončice.
+
+https://www.spar.si/online/ovseni-krekerji-s-karamelizirano-cebulo-schnitzer-150g/p/663870
+"
+
+DataHut_SI_mercator_FullDump_20251016.CSV
+
+DataHut_AT_Mpreis_FullDump_20251016.CSV
+--------------------------------------
+"white space missing in distributor_address
+eg:""AB InBev Austria GmbHMargaretenstrasse 70, 1050 Wien, Austria"" in data
+""AB InBev Austria GmbH
+Margaretenstrasse 70, 1050 Wien, Austria"" in site
+same issue found for some other rows too
+https://www.mpreis.at/shop/p/loewenbraeu-weissbier-05-liter-107080
+
+promotion missing in site, so price change found
+https://www.mpreis.at/shop/p/haribo-apfelringe-sauer-176659"
+
+DataHut_AT_Cleverleben_FullDump_20251016.CSV
+DataHut_AT_Dm_FullDump_20251016.CSV
+-----------------------------------
+producthierarchy_level5 is empty
+
+DataHut_AT_Billa_FullDump_20251016.CSV
+
+DataHut_AT_Interspar_FullDump_20251016.CSV
+----------------------------------------
+"only single price is found in sit and data.
+but in data same price is taken as regular price,selling price,promotion price and price_was
+
+https://www.interspar.at/shop/haushalt/alle-marken/barbecue-holzbriketts/p/7413421SG"
+
+
+DataHut_AT_Mueller_FullDump_20251016.CSV
+---------------------------------------
+"price missing in data
+found in site
+https://www.mueller.at/p/my-hero-academia-staffel-5-gesamtausgabe-4-dvds-PPN3151050/?itemId=3151050"
+
+
+DataHut_AT_Spar_FullDump_20251016.CSV
+-------------------------------------
+"https://www.spar.at/produktwelt/muehlv-kartoff-mehl-8kg-ew-hermes-p2020005234963
+
+price found in site, missing in data"
+
+
+DataHut_AT_Bipa_FullDump_20251016.CSV
+-------------------------------------
+"aktion tag missing in site but found in data and
+and Dauertiefpreis found in site
+
+https://www.bipa.at/p/B3-361028"
+
+
+DataHut_AT_Fressnapf_FullDump_20251016.CSV
+------------------------------------------
+"previous data count :13636
+current data count : 13465
+
+
+white space missing in feeding_reccomendations
+
+eg:https://www.fressnapf.at/p/real-nature-wilderness-trockenfutter-hund-junior-maxi-pure-duck-2x12-kg-1370498/
+
+""'Monate25kg295395420g415g400gAdultAdult30kg315g440g470g480g485gAdultAdult35kg330g485g530g540g540g530gAdult40kg345g535g585g600g600g585g565g45kg360g580g635g650g655g655g630g50kg370g620g685g705g710g710g685g60kg395g700g790g805g815g810g785g70kg420g780g885g905g915g910g880g80kg440g885g980g1000g1010g1005g970gAngaben sind Richtwerte. Der tatschliche Bedarf richtet sich nach Rasse, Alterund Aktivitt. Immer frisches Trinkwasser bereitstellen. Bei Zuftterung von SnacksFuttermenge entsprechend reduzieren.'""  in data
+
+""Endgewicht 2 Monate 3-5 Monate 6-7 Monate 8-10 Monate 11-14 Monate 15-17 Monate 18-24 Monate 25kg295395420g415g400gAdultAdult 30kg315g440g470g480g485gAdultAdult 35kg330g485g530g540g540g530gAdult 40kg345g535g585g600g600g585g565g 45kg360g580g635g650g655g655g630g 50kg370g620g685g705g710g710g685g 60kg395g700g790g805g815g810g785g 70kg420g780g885g905g915g910g880g 80kg440g885g980g1000g1010g1005g970g
+
+Angaben sind Richtwerte. Der tatsächliche Bedarf richtet sich nach Rasse, Alter und Aktivität. Immer frisches Trinkwasser bereitstellen. Bei Zufütterung von Snacks Futtermenge entsprechend reduzieren."" in site"
+
+Task        : [tcs:aldi_austria-weekly]-[https://www.interspar.at]-[qa-validation]-[re QA]
+Status      : doing
+ETD         : 00:15
+Assigned By : revathy
+Priority    : p1
+
+
+
+
+1)DataHut_SI_mercator_FullDump_20251016.CSV
+========================================
+Start time  : 2025-10-16 09:03 AM
+End time    : 2025-10-16 09:26 AM
+
+Total time taken : 23 mnts
+
+2)DataHut_SI_Spar_FullDump_20251016.CSV
+========================================
+
+Start time  : 2025-10-16 09:28 AM
+End time    : 2025-10-16 09:47 AM
+
+Total time taken : 19 mnts
