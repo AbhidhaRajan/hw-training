@@ -1,0 +1,94 @@
+
+
+
+DataHut_AT_Cleverleben_PriceExtractions_20251014.CSV
+DataHut_AT_Interspar_PriceExtractions_20251014.CSV
+DataHut_AT_Bipa_PriceExtractions_20251014.CSV
+DataHut_AT_Fressnapf_PriceExtractions_20251014.CSV
+DataHut_AT_Dm_PriceExtractions_20251014.CSV
+DataHut_AT_Mpreis_PriceExtractions_20251014.CSV
+DataHut_AT_Billa_PriceExtractions_20251014.CSV
+
+bayut_uae_project_2025_10_02.json
+--------------------------------
+"Unit type, unit size,
+unit_area_in_sqft incomplete
+
+https://www.bayut.com/for-sale/off-plan/property/dubai/mohammed-bin-rashid-city/district-11/gate-eleven-residences/gate-eleven-building-1"
+
+DataHut_AT_Interspar_FullDump_20251016.CSV
+----------------------------------------
+
+"promotion valid upto changed
+https://www.interspar.at/shop/weinwelt/hersteller/polz-sekt-brut-ros/p/7581670
+
+https://www.interspar.at/shop/weinwelt/hersteller/polz-sekt-brut-blanc/p/8117458
+
+https://www.interspar.at/shop/weinwelt/hersteller/polz-sekt-brut-muskateller/p/2020002750008"
+
+
+DataHut_AT_Mueller_FullDump_20251016.CSV
+----------------------------------------
+"color found as ""$ellout"" in data
+$ellout - e17a75 in site
+https://www.mueller.at/p/mac-lustreglass-lipstick-7032949201/?itemId=2744435
+
+same issue, color taken incomplete
+https://www.mueller.at/p/giorgio-armani-concealer-power-fabric-high-coverage-stretchable-IPN2872999/?itemId=2872976
+https://www.mueller.at/p/lana-grossa-wolle-basics-the-look-fine-IPN3033003/?itemId=3032999
+
+white space missing in color found as ""schwarzrotblaugrüngelborangebraunviolettpinkhellblau"" in data
+"" schwarz rot blau grün gelb orange braun violett pink hellblau"" in site
+https://www.mueller.at/p/edding-brushpen-1340-zendoodle-colouring-10er-set-2367799/?itemId=2367799"
+
+dubizzle_egp_2025_10_02.json
+---------------------------
+"phone number found in site
+missing in data
+
+https://www.dubizzle.com.eg/en/ad/duplex-with-a-fantastic-view-of-the-landscape-in-club-side-taj-city-ID501480318.html
+
+url not found
+
+https://www.dubizzle.com.eg/en/ad/private-office-space-for-3-persons-in-cairo-airport-ID500683320.html"
+
+
+validation report
+-----------------
+broker_display_name,broker
+
+Missing Count previous: 5841 current: 7490
+
+phone_number
+
+Missing Count previous: 79331 current: 86078
+
+depth
+
+Missing Count previous: 134885 current: 140997
+
+DataHut_AT_Bipa_FullDump_20251016.CSV
+
+DataHut_AU_Coles_FullDump_20251015.CSV
+-------------------------------------
+"store_name', 'store_state', 'store_postcode', 'producthierarchy_level1', 'producthierarchy_level2', 'producthierarchy_level3', 'promotion_price', 'promotion_type', 'promotion_description', 'multi_buy_item_count', 'multi_buy_items_price_total', 'breadcrumb', 'labelling', 'promo_limit', 'multibuy_items_pricesingle', 'retail_limit'
+
+are empty
+
+price missing in site found in data
+https://www.coles.com.au/product/freebird-mclaren-vale-nebbiolo-750ml-1-each-4962962"
+
+
+Task        : [propertyfinder-weekly]-[https://www.dubizzle.com.eg]-[qa-validation]-[validation report checking]
+Status      : doing
+ETD         : 00:10
+Assigned By : revathy
+Priority    : p1
+
+
+
+Task       : [tcs:aldi_austria-weekly]-[https://www.mueller.at]-[qa-validation]-[re qa]
+Status      : doing
+ETD         : 00:15
+Assigned By : revathy
+Priority    : p1
