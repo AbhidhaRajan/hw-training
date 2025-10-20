@@ -1,0 +1,81 @@
+
+
+
+DataHut_SI_Spar_PriceExtractions_20251020.CSV
+
+DataHut_AT_Spar_PriceExtractions_20251020.CSV
+DataHut_AT_Mueller_PriceExtractions_20251020.CSV
+-----------------------------------------------
+"previous data count :95937
+current :95276"
+
+
+DataHut_AT_Cleverleben_PriceExtractions_20251020.CSV
+DataHut_AT_Interspar_PriceExtractions_20251020.CSV
+DataHut_AT_Bipa_PriceExtractions_20251020.CSV
+DataHut_AT_Fressnapf_PriceExtractions_20251020.CSV
+DataHut_AT_Mpreis_PriceExtractions_20251020.CSV
+DataHut_AT_Dm_PriceExtractions_20251020.CSV
+DataHut_AT_Billa_PriceExtractions_20251020.CSV
+
+
+
+Task        : [tcs:aldi_austria:price-daily]-[https://billa.at]-[qa-validation]-[daily full data  testing and qa sheet updation]
+Status      : doing
+ETD         : 00:20
+Assigned By : revathy
+Priority    : p1
+
+
+
+Task        : [propertyfinder-weekly]-[https://abudhabi.dubizzle.com]-[qa-validation]-[weekly full data testing, qa sheet updation and validation sheet checking]
+Status      : doing
+ETD         : 00:30
+Assigned By : revathy
+Priority    : p1
+
+
+Task        : [propertyfinder-weekly]-[https://abudhabi.dubizzle.com]-[qa-validation]-[weekly validation report checking]
+Status      : doing
+ETD         : 00:15
+Assigned By : revathy
+Priority    : p1
+
+
+nawy_egp_2025_10_03.json
+------------------------
+
+"price and details missing in data
+found in site
+
+https://www.nawy.com/compound/1584-soma-bay-golf-town-marina-edition/property/87583-penthouse-for-sale-in-soma-bay-golf-town-marina-edition-with-2-bedrooms-in-somabay-by-abu-soma-development
+
+https://www.nawy.com/compound/1097-wadi-soma/property/72981-villa-for-sale-in-wadi-soma-with-3-bedrooms-in-somabay-by-somabay
+
+https://www.nawy.com/compound/1584-soma-bay-golf-town-marina-edition/property/84683-twinhouse-for-sale-in-soma-bay-golf-town-marina-edition-with-1-bedroom-in-somabay-by-abu-soma-development"
+
+
+dubizzle_uae_2025_10_03.json - validation report
+--------------------------
+
+number_of_photos
+
+Missing Count: previous :30 current:45
+
+
+"page not found
+
+https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/9/18/luxury-1-bhk-investor-deal-phpp-payment-2-435621/
+
+phone number found as + in data
+empty in site
+https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/8/15/fountain-and-burj-view-furnished-high-f-2-294920/
+
+https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/8/15/furnished-spacious-layout-tenanted-apt-2-133279/
+
+phone number found as +9714 in data
++9719714 in site
+https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/4/25/modern-design-handover-2027-premium-pro-2-268252/"
+
+
+DataHut_AT_Interspar_FullDump_20251023.CSV
